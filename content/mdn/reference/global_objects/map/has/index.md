@@ -1,0 +1,73 @@
+---
+title: "Reference Global_objects Map Has"
+slug: "reference-global_objects-map-has"
+path: "reference/global_objects/map/has/index.md"
+wordCount: 127
+readingTime: 1
+codeBlocks: 3
+difficulty: "advanced"
+category: "Reference"
+tags: []
+lastModified: "2025-07-06T19:32:45.650Z"
+---
+
+
+{{JSRef}}
+
+The **`has()`** method of {{jsxref("Map")}} instances returns a boolean indicating whether an element with the
+specified key exists in this map or not.
+
+{{InteractiveExample("JavaScript Demo: Map.prototype.has()")}}
+
+```js interactive-example
+const map1 = new Map();
+map1.set("bar", "foo");
+
+console.log(map1.has("bar"));
+// Expected output: true
+
+console.log(map1.has("baz"));
+// Expected output: false
+```
+
+## Syntax
+
+```js-nolint
+has(key)
+```
+
+### Parameters
+
+- `key`
+  - : The key of the element to test for presence in the `Map` object.
+
+### Return value
+
+`true` if an element with the specified key exists in the `Map` object;
+otherwise `false`.
+
+## Examples
+
+### Using has()
+
+```js
+const myMap = new Map();
+myMap.set("bar", "foo");
+
+console.log(myMap.has("bar")); // true
+console.log(myMap.has("baz")); // false
+```
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
+
+## See also
+
+- {{jsxref("Map")}}
+- {{jsxref("Map.prototype.set()")}}
+- {{jsxref("Map.prototype.get()")}}

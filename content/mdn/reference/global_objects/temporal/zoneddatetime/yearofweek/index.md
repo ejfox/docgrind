@@ -1,0 +1,42 @@
+---
+title: "Reference Global_objects Temporal Zoneddatetime Yearofweek"
+slug: "reference-global_objects-temporal-zoneddatetime-yearofweek"
+path: "reference/global_objects/temporal/zoneddatetime/yearofweek/index.md"
+wordCount: 102
+readingTime: 1
+codeBlocks: 0
+difficulty: "advanced"
+category: "Reference"
+tags: ["objects"]
+lastModified: "2025-07-06T19:32:45.846Z"
+---
+
+
+{{JSRef}}{{SeeCompatTable}}
+
+The **`yearOfWeek`** accessor property of {{jsxref("Temporal.ZonedDateTime")}} instances returns an integer representing the year to be paired with the {{jsxref("Temporal/ZonedDateTime/weekOfYear", "weekOfYear")}} of this date, or `undefined` if the calendar does not have a well-defined week system. It is [calendar](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal#calendars)-dependent.
+
+The set accessor of `yearOfWeek` is `undefined`. You cannot change this property directly.
+
+For general information and more examples, see {{jsxref("Temporal/PlainDate/yearOfWeek", "Temporal.PlainDate.prototype.yearOfWeek")}}.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
+
+## See also
+
+- {{jsxref("Temporal.ZonedDateTime")}}
+- {{jsxref("Temporal/ZonedDateTime/with", "Temporal.ZonedDateTime.prototype.with()")}}
+- {{jsxref("Temporal/ZonedDateTime/add", "Temporal.ZonedDateTime.prototype.add()")}}
+- {{jsxref("Temporal/ZonedDateTime/subtract", "Temporal.ZonedDateTime.prototype.subtract()")}}
+- {{jsxref("Temporal/ZonedDateTime/year", "Temporal.ZonedDateTime.prototype.year")}}
+- {{jsxref("Temporal/ZonedDateTime/weekOfYear", "Temporal.ZonedDateTime.prototype.weekOfYear")}}
+- {{jsxref("Temporal/ZonedDateTime/dayOfWeek", "Temporal.ZonedDateTime.prototype.dayOfWeek")}}
+- {{jsxref("Temporal/ZonedDateTime/daysInWeek", "Temporal.ZonedDateTime.prototype.daysInWeek")}}
+- {{jsxref("Temporal/ZonedDateTime/daysInYear", "Temporal.ZonedDateTime.prototype.daysInYear")}}
+- {{jsxref("Temporal/PlainDate/yearOfWeek", "Temporal.PlainDate.prototype.yearOfWeek")}}

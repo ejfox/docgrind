@@ -1,0 +1,47 @@
+---
+title: "Reference Global_objects Sharedarraybuffer Maxbytelength"
+slug: "reference-global_objects-sharedarraybuffer-maxbytelength"
+path: "reference/global_objects/sharedarraybuffer/maxbytelength/index.md"
+wordCount: 147
+readingTime: 1
+codeBlocks: 1
+difficulty: "advanced"
+category: "Reference"
+tags: []
+lastModified: "2025-07-06T19:32:45.756Z"
+---
+
+
+{{JSRef}}
+
+The **`maxByteLength`** accessor property of {{jsxref("SharedArrayBuffer")}} instances returns the maximum length (in bytes) that this `SharedArrayBuffer` can be grown to.
+
+## Description
+
+The `maxByteLength` property is an accessor property whose set accessor function is `undefined`, meaning that you can only read this property. The value is established when the shared array is constructed, set via the `maxByteLength` option of the {{jsxref("SharedArrayBuffer/SharedArrayBuffer", "SharedArrayBuffer()")}} constructor, and cannot be changed.
+
+If this `SharedArrayBuffer` was constructed without specifying a `maxByteLength` value, this property returns a value equal to the value of the `SharedArrayBuffer`'s {{jsxref("SharedArrayBuffer/byteLength", "byteLength")}}.
+
+## Examples
+
+### Using maxByteLength
+
+In this example, we create a 8-byte buffer that is resizable to a max length of 16 bytes, then return its `maxByteLength`:
+
+```js
+const buffer = new SharedArrayBuffer(8, { maxByteLength: 16 });
+
+buffer.maxByteLength; // 16
+```
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
+
+## See also
+
+- {{jsxref("SharedArrayBuffer")}}
