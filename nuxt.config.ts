@@ -2,9 +2,13 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
+  typescript: {
+    typeCheck: false // Disable TypeScript checking for faster startup
+  },
   modules: [
     '@nuxt/content',
-    '@vueuse/nuxt'
+    '@vueuse/nuxt',
+    '@nuxtjs/tailwindcss'
   ],
   content: {
     // Content configuration using pre-built MDN content
@@ -20,7 +24,16 @@ export default defineNuxtConfig({
       theme: {
         default: 'github-light',
         dark: 'github-dark'
-      }
+      },
+      preload: [
+        'javascript',
+        'typescript',
+        'json',
+        'html',
+        'css',
+        'bash',
+        'shell'
+      ]
     },
     markdown: {
       toc: {

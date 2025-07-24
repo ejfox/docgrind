@@ -119,9 +119,9 @@
             <nav class="breadcrumb-nav">
               <span v-for="(crumb, index) in breadcrumbs" :key="index">
                 <span v-if="index > 0"> / </span>
-                <a href="#" @click.prevent="navigateTo(crumb.path)">
+                <NuxtLink :to="crumb.path">
                   {{ crumb.title }}
-                </a>
+                </NuxtLink>
               </span>
             </nav>
           </div>
@@ -130,9 +130,9 @@
             <h3>Navigation</h3>
             <div class="nav-tree">
               <div v-for="item in currentNavigation.children" :key="item._path" class="nav-item">
-                <a href="#" @click.prevent="navigateTo(item._path)">
+                <NuxtLink :to="item._path">
                   {{ item.title }}
-                </a>
+                </NuxtLink>
               </div>
             </div>
           </div>
@@ -145,9 +145,9 @@
                 :key="chapter.id"
                 class="related-item"
               >
-                <a href="#" @click.prevent="navigateTo(chapter.path)">
+                <NuxtLink :to="chapter.path">
                   {{ chapter.title }}
-                </a>
+                </NuxtLink>
                 <span class="chapter-type">{{ chapter.pageType }}</span>
               </div>
             </div>
@@ -378,10 +378,6 @@ const applyFilters = () => {
   setFilters(filters);
 };
 
-const navigateTo = (path: string) => {
-  selectedContentPath.value = path;
-  fetchSelectedContent();
-};
 
 const handleNodeSelect = (node: any) => {
   selectedContentPath.value = node.path;

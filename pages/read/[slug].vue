@@ -27,12 +27,9 @@
       <div class="header-right">
         <!-- Session controls -->
         <div v-if="currentSession" class="session-controls">
-          <div class="session-timer">
-            <span class="timer-icon">⏱️</span>
-            <span class="timer-text">{{ formatTime(sessionElapsed) }}</span>
-            <span v-if="sessionTimeLeft > 0" class="timer-remaining">
-              / {{ formatTime(sessionTimeLeft) }}
-            </span>
+          <div class="session-indicator">
+            <span class="session-icon">📖</span>
+            <span class="session-text">Reading Session Active</span>
           </div>
           
           <button
@@ -96,7 +93,6 @@
       </div>
       <div class="progress-text">
         <span class="progress-percentage">{{ readingProgress }}% complete</span>
-        <span class="progress-position">{{ scrollPosition }}px scrolled</span>
       </div>
     </div>
 
@@ -161,7 +157,11 @@
 
         <!-- Article content -->
         <article class="article-content" ref="articleContent">
-          <div v-html="contentHtml" class="content-html"></div>
+          <ContentRenderer 
+            v-if="contentHtml" 
+            :value="contentHtml" 
+            class="prose prose-lg dark:prose-dark max-w-none prose-pre:bg-gray-900 dark:prose-pre:bg-gray-800"
+          />
           
           <!-- Chapter completion -->
           <div v-if="readingProgress >= 100" class="completion-section">
@@ -299,8 +299,6 @@ const {
   chapters,
   isSessionActive,
   isSessionPaused,
-  sessionElapsed,
-  sessionTimeLeft,
   startSession,
   pauseSession: pauseCurrentSession,
   resumeSession: resumeCurrentSession,
@@ -338,59 +336,6 @@ const activeSection = ref('')
 // Reading progress tracker
 const readingProgressTracker = ref<any>(null)
 
-// Mock content (in real app, this would come from MDN API)
-const mockContent = `
-<h2 id="introduction">Introduction to Variables</h2>
-<p>Variables are containers for storing data values. In JavaScript, you can declare variables using <code>var</code>, <code>let</code>, or <code>const</code>.</p>
-
-<h3 id="variable-declaration">Variable Declaration</h3>
-<p>There are three ways to declare variables in JavaScript:</p>
-<ul>
-  <li><strong>var</strong> - Function-scoped or globally-scoped</li>
-  <li><strong>let</strong> - Block-scoped</li>
-  <li><strong>const</strong> - Block-scoped and immutable</li>
-</ul>
-
-<h3 id="var-keyword">The var Keyword</h3>
-<p>The <code>var</code> statement declares a variable, optionally initializing it to a value.</p>
-<pre><code>var name = "John";
-var age = 30;
-var isStudent = false;</code></pre>
-
-<h3 id="let-keyword">The let Keyword</h3>
-<p>The <code>let</code> statement declares a block-scoped local variable, optionally initializing it to a value.</p>
-<pre><code>let count = 0;
-let message = "Hello World";
-let items = [];</code></pre>
-
-<h3 id="const-keyword">The const Keyword</h3>
-<p>The <code>const</code> declaration creates a read-only reference to a value.</p>
-<pre><code>const PI = 3.14159;
-const API_URL = "https://api.example.com";
-const CONFIG = { debug: true };</code></pre>
-
-<h2 id="variable-naming">Variable Naming Rules</h2>
-<p>JavaScript variable names must follow these rules:</p>
-<ul>
-  <li>Must begin with a letter, underscore (_), or dollar sign ($)</li>
-  <li>Subsequent characters can be letters, digits, underscores, or dollar signs</li>
-  <li>Names are case-sensitive</li>
-  <li>Cannot use reserved keywords</li>
-</ul>
-
-<h2 id="best-practices">Best Practices</h2>
-<p>Follow these best practices when working with variables:</p>
-<ol>
-  <li>Use descriptive names</li>
-  <li>Use camelCase for variable names</li>
-  <li>Declare variables at the top of their scope</li>
-  <li>Initialize variables when declaring them</li>
-  <li>Use const by default, let when you need to reassign, avoid var</li>
-</ol>
-
-<h2 id="conclusion">Conclusion</h2>
-<p>Understanding variables is fundamental to JavaScript programming. Choose the right declaration keyword based on your needs, follow naming conventions, and write clean, readable code.</p>
-`
 
 // Computed properties
 const currentReadingSpeedComputed = computed(() => {
@@ -445,16 +390,39 @@ const loadContent = async () => {
   contentError.value = null
   
   try {
-    // In a real app, this would fetch from MDN API
-    await new Promise(resolve => setTimeout(resolve, 1000)) // Simulate loading
+    const slug = route.params.slug as string
     
-    contentHtml.value = mockContent
+    // Find the chapter info first
+    const { data: mdnIndex } = await $fetch('/api/chapters')
+    const chapterData = mdnIndex.chapters.find((ch: any) => ch.slug === slug)
     
-    // Extract table of contents
-    await nextTick()
-    extractTableOfContents()
+    if (!chapterData) {
+      throw new Error('Chapter not found')
+    }
+    
+    // Use Nuxt Content to load the markdown content
+    // Convert path like "guide/indexed_collections/index.md" to "/docs/mdn/guide/indexed_collections"
+    const contentPath = `/docs/mdn/${chapterData.path.replace(/\/index\.md$/, '').replace(/\.md$/, '')}`
+    const content = await queryContent(contentPath).findOne()
+    
+    if (!content) {
+      throw new Error('Content not found')
+    }
+    
+    // Store the content object for ContentRenderer
+    contentHtml.value = content
+    
+    // Extract table of contents from Nuxt Content's built-in TOC
+    if (content.toc && content.toc.links) {
+      tableOfContents.value = content.toc.links.map((link: any) => ({
+        id: link.id,
+        text: link.text,
+        level: link.depth
+      }))
+    }
     
   } catch (error) {
+    console.error('Failed to load content:', error)
     contentError.value = error instanceof Error ? error.message : 'Failed to load content'
   } finally {
     isLoadingContent.value = false
@@ -635,15 +603,6 @@ const generateExercisesForChapter = async () => {
 }
 
 // Utility functions
-const formatTime = (minutes: number): string => {
-  const hours = Math.floor(minutes / 60)
-  const mins = minutes % 60
-  
-  if (hours > 0) {
-    return `${hours}h ${mins}m`
-  }
-  return `${mins}m`
-}
 
 // Lifecycle
 onMounted(async () => {
@@ -789,21 +748,15 @@ onUnmounted(() => {
   border: 1px solid var(--border-color);
 }
 
-.session-timer {
+.session-indicator {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   font-weight: 600;
-  font-variant-numeric: tabular-nums;
 }
 
-.timer-icon {
+.session-icon {
   font-size: 1rem;
-}
-
-.timer-remaining {
-  opacity: 0.7;
-  font-weight: 400;
 }
 
 .session-button {
@@ -1069,61 +1022,7 @@ onUnmounted(() => {
   color: var(--text-color);
 }
 
-.content-html {
-  font-size: 16px;
-  max-width: none;
-}
-
-.content-html h1,
-.content-html h2,
-.content-html h3,
-.content-html h4,
-.content-html h5,
-.content-html h6 {
-  font-weight: 600;
-  margin: 2rem 0 1rem 0;
-  color: var(--text-color);
-}
-
-.content-html h1 { font-size: 2rem; }
-.content-html h2 { font-size: 1.5rem; }
-.content-html h3 { font-size: 1.25rem; }
-
-.content-html p {
-  margin: 1rem 0;
-}
-
-.content-html ul,
-.content-html ol {
-  margin: 1rem 0;
-  padding-left: 2rem;
-}
-
-.content-html li {
-  margin: 0.5rem 0;
-}
-
-.content-html code {
-  background: var(--secondary-color);
-  padding: 0.125rem 0.25rem;
-  border-radius: 3px;
-  font-family: 'Monaco', 'Courier New', monospace;
-  font-size: 0.875em;
-}
-
-.content-html pre {
-  background: var(--secondary-color);
-  border: 1px solid var(--border-color);
-  border-radius: 8px;
-  padding: 1rem;
-  overflow-x: auto;
-  margin: 1.5rem 0;
-}
-
-.content-html pre code {
-  background: none;
-  padding: 0;
-}
+/* Content styling handled by Tailwind Typography */
 
 .completion-section {
   margin-top: 3rem;

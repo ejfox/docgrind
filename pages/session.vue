@@ -88,17 +88,13 @@
       </div>
       
       <div v-else class="chapters-grid">
-        <div 
+        <NuxtLink 
           v-for="chapter in filteredChapters" 
           :key="chapter.id"
+          :to="`/read/${chapter.id}`"
           class="chapter-card"
           :class="{ 'chapter-card--selected': selectedChapter === chapter.id }"
           @click="selectChapter(chapter.id)"
-          @keydown.enter="selectChapter(chapter.id)"
-          @keydown.space.prevent="selectChapter(chapter.id)"
-          tabindex="0"
-          role="button"
-          :aria-pressed="selectedChapter === chapter.id"
         >
           <div class="chapter-header">
             <div class="chapter-status">
@@ -136,7 +132,7 @@
           <div v-if="chapter.lastAccessed" class="chapter-last-read">
             Last read: {{ formatDate(chapter.lastAccessed) }}
           </div>
-        </div>
+        </NuxtLink>
       </div>
     </div>
 
@@ -218,131 +214,7 @@ const selectedCategory = ref('')
 const selectedStatus = ref('')
 const isLoadingChapters = ref(false)
 const error = ref<string | null>(null)
-// Mock chapter data (in real app, this would come from MDN API)
-const mockChapters: ChapterProgress[] = [
-  {
-    id: 'js-variables',
-    title: 'Variables and Constants',
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#Variables',
-    category: 'JavaScript Basics',
-    status: ChapterStatus.NOT_STARTED,
-    completionPercentage: 0,
-    lastScrollPosition: 0,
-    estimatedWordCount: 1200,
-    estimatedReadingTime: 6,
-    sessionsStarted: 0,
-    sessionsCompleted: 0,
-    totalTimeSpent: 0,
-    firstStarted: null,
-    lastAccessed: null,
-    completedAt: null,
-    exercisesGenerated: false,
-    exercisesCompleted: 0,
-    exercisesTotal: 0
-  },
-  {
-    id: 'js-functions',
-    title: 'Functions',
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions',
-    category: 'JavaScript Basics',
-    status: ChapterStatus.IN_PROGRESS,
-    completionPercentage: 35,
-    lastScrollPosition: 1200,
-    estimatedWordCount: 2400,
-    estimatedReadingTime: 12,
-    sessionsStarted: 2,
-    sessionsCompleted: 1,
-    totalTimeSpent: 15,
-    firstStarted: '2024-01-15T10:00:00Z',
-    lastAccessed: '2024-01-18T14:30:00Z',
-    completedAt: null,
-    exercisesGenerated: false,
-    exercisesCompleted: 0,
-    exercisesTotal: 0
-  },
-  {
-    id: 'js-objects',
-    title: 'Objects and Properties',
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects',
-    category: 'JavaScript Basics',
-    status: ChapterStatus.COMPLETED,
-    completionPercentage: 100,
-    lastScrollPosition: 0,
-    estimatedWordCount: 1800,
-    estimatedReadingTime: 9,
-    sessionsStarted: 3,
-    sessionsCompleted: 3,
-    totalTimeSpent: 28,
-    firstStarted: '2024-01-10T09:00:00Z',
-    lastAccessed: '2024-01-12T16:45:00Z',
-    completedAt: '2024-01-12T16:45:00Z',
-    exercisesGenerated: true,
-    exercisesCompleted: 3,
-    exercisesTotal: 3
-  },
-  {
-    id: 'js-arrays',
-    title: 'Arrays and Array Methods',
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array',
-    category: 'JavaScript Basics',
-    status: ChapterStatus.NOT_STARTED,
-    completionPercentage: 0,
-    lastScrollPosition: 0,
-    estimatedWordCount: 3200,
-    estimatedReadingTime: 16,
-    sessionsStarted: 0,
-    sessionsCompleted: 0,
-    totalTimeSpent: 0,
-    firstStarted: null,
-    lastAccessed: null,
-    completedAt: null,
-    exercisesGenerated: false,
-    exercisesCompleted: 0,
-    exercisesTotal: 0
-  },
-  {
-    id: 'js-promises',
-    title: 'Promises and Async/Await',
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises',
-    category: 'Advanced JavaScript',
-    status: ChapterStatus.NOT_STARTED,
-    completionPercentage: 0,
-    lastScrollPosition: 0,
-    estimatedWordCount: 2800,
-    estimatedReadingTime: 14,
-    sessionsStarted: 0,
-    sessionsCompleted: 0,
-    totalTimeSpent: 0,
-    firstStarted: null,
-    lastAccessed: null,
-    completedAt: null,
-    exercisesGenerated: false,
-    exercisesCompleted: 0,
-    exercisesTotal: 0
-  },
-  {
-    id: 'js-modules',
-    title: 'JavaScript Modules',
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules',
-    category: 'Advanced JavaScript',
-    status: ChapterStatus.NOT_STARTED,
-    completionPercentage: 0,
-    lastScrollPosition: 0,
-    estimatedWordCount: 2100,
-    estimatedReadingTime: 10,
-    sessionsStarted: 0,
-    sessionsCompleted: 0,
-    totalTimeSpent: 0,
-    firstStarted: null,
-    lastAccessed: null,
-    completedAt: null,
-    exercisesGenerated: false,
-    exercisesCompleted: 0,
-    exercisesTotal: 0
-  }
-]
-
-const availableChapters = ref<ChapterProgress[]>(mockChapters)
+const availableChapters = ref<ChapterProgress[]>([])
 
 // Computed properties
 const categories = computed(() => {
@@ -383,16 +255,53 @@ const loadChapters = async () => {
   error.value = null
   
   try {
-    // In a real app, this would fetch from MDN API
-    // For now, we'll use mock data and merge with existing progress
+    // Load real MDN chapters from the scraped content
+    const { data: mdnIndex } = await $fetch('/api/chapters')
     const existingChapters = chapters.value
     
-    availableChapters.value = mockChapters.map(mockChapter => {
-      const existing = existingChapters[mockChapter.id]
-      return existing || mockChapter
+    // Convert MDN chapters to ChapterProgress format
+    availableChapters.value = mdnIndex.chapters.map((mdnChapter: any) => {
+      const existing = existingChapters[mdnChapter.slug]
+      
+      // If we have existing progress, use it; otherwise create new progress entry
+      if (existing) {
+        return existing
+      }
+      
+      // Create new ChapterProgress from MDN data
+      const chapterProgress: ChapterProgress = {
+        id: mdnChapter.slug,
+        title: mdnChapter.title.replace(/^(Guide|Reference)\s+/, '').replace(/_/g, ' '),
+        url: `https://developer.mozilla.org/en-US/docs/Web/JavaScript/${mdnChapter.path}`,
+        category: mdnChapter.category,
+        status: ChapterStatus.NOT_STARTED,
+        completionPercentage: 0,
+        lastScrollPosition: 0,
+        readingProgress: 0,
+        estimatedWordCount: parseInt(mdnChapter.wordCount),
+        estimatedReadingTime: parseInt(mdnChapter.readingTime),
+        sessionsStarted: 0,
+        sessionsCompleted: 0,
+        totalTimeSpent: 0,
+        timeSpent: 0,
+        sessionsCount: 0,
+        firstStarted: null,
+        lastAccessed: null,
+        lastReadAt: new Date().toISOString(),
+        completedAt: null,
+        exercisesGenerated: false,
+        exercisesCompleted: 0,
+        exercisesTotal: 0,
+        totalExercises: 0,
+        bookmarks: [],
+        notes: []
+      }
+      
+      return chapterProgress
     })
   } catch (err) {
     error.value = err instanceof Error ? err.message : 'Failed to load chapters'
+    console.error('Failed to load MDN chapters:', err)
   } finally {
     isLoadingChapters.value = false
   }
@@ -428,6 +337,11 @@ const endCurrentSession = async () => {
 }
 
 const startRandomSession = async () => {
+  // Ensure chapters are loaded first
+  if (availableChapters.value.length === 0) {
+    await loadChapters()
+  }
+  
   const notStartedChapters = availableChapters.value.filter(
     ch => ch.status === ChapterStatus.NOT_STARTED
   )
@@ -439,7 +353,7 @@ const startRandomSession = async () => {
     )
     
     if (incompleteChapters.length === 0) {
-      error.value = 'No chapters available for random selection'
+      error.value = 'All chapters completed! 🎉'
       return
     }
     
@@ -458,6 +372,7 @@ const handleSessionStarted = (sessionId: string, mode: SessionMode) => {
 const handleModeSelected = (mode: SessionMode) => {
   // Optional: track mode selection for analytics
 }
+
 
 // Utility functions
 const getSessionModeLabel = (mode: SessionMode): string => {

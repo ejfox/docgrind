@@ -1,5 +1,5 @@
 <template>
-  <div class="app">
+  <div class="app dark">
     <NuxtRouteAnnouncer />
     <NuxtLoadingIndicator />
     <AppHeader />
@@ -22,9 +22,9 @@ useHead({
 
 // Initialize data persistence on client-side only
 const { initializeDataManager } = useDataManager()
-onMounted(async () => {
-  await initializeDataManager()
-})
+if (process.client) {
+  initializeDataManager()
+}
 </script>
 
 <style>
@@ -106,7 +106,6 @@ p {
   font-family: var(--font-sans);
   font-size: var(--text-sm);
   font-weight: 400;
-  margin: 0;
   color: var(--fg);
 }
 
@@ -128,12 +127,7 @@ a:hover {
   border-bottom-color: var(--fg-bright);
 }
 
-/* Code */
-code, pre {
-  font-family: var(--font-mono);
-  background: var(--bg-alt);
-  border: 1px solid var(--border);
-}
+/* Code handled by Tailwind Typography and Shiki */
 
 /* Lists */
 ul, ol {

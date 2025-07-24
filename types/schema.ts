@@ -159,6 +159,7 @@ export interface ChapterProgress {
   totalExercises: number; // alias for exercisesTotal
   
   // Additional metadata
+  difficulty?: string; // 'beginner', 'intermediate', 'advanced'
   bookmarks: any[];
   notes: any[];
 }
