@@ -8,7 +8,7 @@ codeBlocks: 59
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "objects", "classes", "async"]
-lastModified: "2025-08-02T14:03:23.755Z"
+lastModified: "2025-08-02T14:16:44.767Z"
 ---
 
 

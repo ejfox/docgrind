@@ -8,7 +8,7 @@ codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "async", "destructuring"]
-lastModified: "2025-08-02T14:03:23.793Z"
+lastModified: "2025-08-02T14:16:44.876Z"
 ---
 
 

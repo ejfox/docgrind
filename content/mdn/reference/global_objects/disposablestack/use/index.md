@@ -8,7 +8,7 @@ codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["dom"]
-lastModified: "2025-08-02T14:03:23.528Z"
+lastModified: "2025-08-02T14:16:44.169Z"
 ---
 
 

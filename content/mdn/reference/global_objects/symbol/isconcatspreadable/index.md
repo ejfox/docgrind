@@ -8,7 +8,7 @@ codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "spread"]
-lastModified: "2025-08-02T14:03:23.665Z"
+lastModified: "2025-08-02T14:16:44.536Z"
 ---
 
 

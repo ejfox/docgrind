@@ -8,7 +8,7 @@ codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "destructuring", "rest"]
-lastModified: "2025-08-02T14:03:23.608Z"
+lastModified: "2025-08-02T14:16:44.393Z"
 ---
 
 

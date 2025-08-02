@@ -8,7 +8,7 @@ codeBlocks: 47
 difficulty: "advanced"
 category: "Guide"
 tags: ["variables", "functions", "objects", "classes", "promises"]
-lastModified: "2025-08-02T14:03:23.429Z"
+lastModified: "2025-08-02T14:16:43.883Z"
 ---
 
 

@@ -8,7 +8,7 @@ codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
 tags: ["functions", "dom"]
-lastModified: "2025-08-02T14:03:23.453Z"
+lastModified: "2025-08-02T14:16:43.945Z"
 ---
 
 

@@ -8,7 +8,7 @@ codeBlocks: 18
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "arrays", "objects", "classes"]
-lastModified: "2025-08-02T14:03:23.471Z"
+lastModified: "2025-08-02T14:16:43.996Z"
 ---
 
 

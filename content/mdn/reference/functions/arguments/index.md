@@ -8,7 +8,7 @@ codeBlocks: 14
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "destructuring", "spread", "rest"]
-lastModified: "2025-08-02T14:03:23.469Z"
+lastModified: "2025-08-02T14:16:43.989Z"
 ---
 
 

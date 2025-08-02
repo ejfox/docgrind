@@ -8,7 +8,7 @@ codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "arrow-functions"]
-lastModified: "2025-08-02T14:03:23.469Z"
+lastModified: "2025-08-02T14:16:43.987Z"
 ---
 
 

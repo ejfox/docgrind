@@ -8,7 +8,7 @@ codeBlocks: 2
 difficulty: "advanced"
 category: "Guide"
 tags: ["variables", "functions", "objects", "classes", "events"]
-lastModified: "2025-08-02T14:03:23.416Z"
+lastModified: "2025-08-02T14:16:43.848Z"
 ---
 
 

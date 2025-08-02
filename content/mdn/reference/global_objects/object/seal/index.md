@@ -8,7 +8,7 @@ codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes", "events"]
-lastModified: "2025-08-02T14:03:23.613Z"
+lastModified: "2025-08-02T14:16:44.404Z"
 ---
 
 

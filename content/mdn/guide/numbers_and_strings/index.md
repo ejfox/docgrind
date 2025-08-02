@@ -8,7 +8,7 @@ codeBlocks: 23
 difficulty: "advanced"
 category: "Guide"
 tags: ["functions", "objects", "events", "dom"]
-lastModified: "2025-08-02T14:03:23.422Z"
+lastModified: "2025-08-02T14:16:43.865Z"
 ---
 
 

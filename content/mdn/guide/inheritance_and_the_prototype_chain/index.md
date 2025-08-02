@@ -8,7 +8,7 @@ codeBlocks: 31
 difficulty: "advanced"
 category: "Guide"
 tags: ["functions", "arrays", "objects", "classes", "rest"]
-lastModified: "2025-08-02T14:03:23.413Z"
+lastModified: "2025-08-02T14:16:43.841Z"
 ---
 
 

@@ -8,7 +8,7 @@ codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "async"]
-lastModified: "2025-08-02T14:03:23.497Z"
+lastModified: "2025-08-02T14:16:44.062Z"
 ---
 
 

@@ -8,7 +8,7 @@ codeBlocks: 11
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "dom", "spread"]
-lastModified: "2025-08-02T14:03:23.604Z"
+lastModified: "2025-08-02T14:16:44.381Z"
 ---
 
 

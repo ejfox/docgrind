@@ -8,7 +8,7 @@ codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "api"]
-lastModified: "2025-08-02T14:03:23.575Z"
+lastModified: "2025-08-02T14:16:44.304Z"
 ---
 
 

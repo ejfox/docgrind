@@ -8,7 +8,7 @@ codeBlocks: 13
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "async", "es6"]
-lastModified: "2025-08-02T14:03:23.432Z"
+lastModified: "2025-08-02T14:16:43.889Z"
 ---
 
 

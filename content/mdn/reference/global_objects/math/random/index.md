@@ -8,7 +8,7 @@ codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "dom", "api", "rest"]
-lastModified: "2025-08-02T14:03:23.593Z"
+lastModified: "2025-08-02T14:16:44.351Z"
 ---
 
 

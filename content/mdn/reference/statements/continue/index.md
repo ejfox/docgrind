@@ -8,7 +8,7 @@ codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["loops", "classes"]
-lastModified: "2025-08-02T14:03:23.791Z"
+lastModified: "2025-08-02T14:16:44.873Z"
 ---
 
 

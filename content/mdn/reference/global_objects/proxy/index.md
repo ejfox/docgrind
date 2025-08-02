@@ -8,7 +8,7 @@ codeBlocks: 14
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "arrays", "objects", "classes", "dom"]
-lastModified: "2025-08-02T14:03:23.621Z"
+lastModified: "2025-08-02T14:16:44.424Z"
 ---
 
 

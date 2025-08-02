@@ -8,7 +8,7 @@ codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "async", "events", "es6", "spread"]
-lastModified: "2025-08-02T14:03:23.665Z"
+lastModified: "2025-08-02T14:16:44.535Z"
 ---
 
 

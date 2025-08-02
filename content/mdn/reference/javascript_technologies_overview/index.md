@@ -8,7 +8,7 @@ codeBlocks: 0
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "modules", "async", "dom"]
-lastModified: "2025-08-02T14:03:23.754Z"
+lastModified: "2025-08-02T14:16:44.764Z"
 ---
 
 

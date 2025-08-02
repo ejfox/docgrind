@@ -401,8 +401,8 @@ const loadContent = async () => {
     }
     
     // Use Nuxt Content to load the markdown content
-    // Convert path like "guide/indexed_collections/index.md" to "/docs/mdn/guide/indexed_collections"
-    const contentPath = `/docs/mdn/${chapterData.path.replace(/\/index\.md$/, '').replace(/\.md$/, '')}`
+    // Convert path like "guide/indexed_collections/index.md" to "/mdn/guide/indexed_collections"
+    const contentPath = `/mdn/${chapterData.path.replace(/\/index\.md$/, '').replace(/\.md$/, '')}`
     const content = await queryContent(contentPath).findOne()
     
     if (!content) {

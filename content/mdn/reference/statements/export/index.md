@@ -8,7 +8,7 @@ codeBlocks: 28
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "classes", "modules", "dom", "es6"]
-lastModified: "2025-08-02T14:03:23.793Z"
+lastModified: "2025-08-02T14:16:44.875Z"
 ---
 
 

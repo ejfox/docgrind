@@ -8,7 +8,7 @@ codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["promises"]
-lastModified: "2025-08-02T14:03:23.473Z"
+lastModified: "2025-08-02T14:16:44.001Z"
 ---
 
 

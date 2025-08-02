@@ -8,7 +8,7 @@ codeBlocks: 0
 difficulty: "advanced"
 category: "Guide"
 tags: ["objects", "classes"]
-lastModified: "2025-08-02T14:03:23.424Z"
+lastModified: "2025-08-02T14:16:43.871Z"
 ---
 
 

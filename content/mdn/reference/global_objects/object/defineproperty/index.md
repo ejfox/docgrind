@@ -8,7 +8,7 @@ codeBlocks: 16
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "events", "spread", "rest"]
-lastModified: "2025-08-02T14:03:23.605Z"
+lastModified: "2025-08-02T14:16:44.385Z"
 ---
 
 

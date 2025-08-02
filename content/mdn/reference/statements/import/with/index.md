@@ -8,7 +8,7 @@ codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["modules", "events", "dom", "api"]
-lastModified: "2025-08-02T14:03:23.797Z"
+lastModified: "2025-08-02T14:16:44.884Z"
 ---
 
 

@@ -8,7 +8,7 @@ codeBlocks: 18
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "objects", "classes", "modules", "events"]
-lastModified: "2025-08-02T14:03:23.801Z"
+lastModified: "2025-08-02T14:16:44.892Z"
 ---
 
 

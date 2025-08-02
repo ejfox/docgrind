@@ -8,7 +8,7 @@ codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions"]
-lastModified: "2025-08-02T14:03:23.457Z"
+lastModified: "2025-08-02T14:16:43.956Z"
 ---
 
 

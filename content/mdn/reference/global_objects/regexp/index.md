@@ -8,7 +8,7 @@ codeBlocks: 13
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom", "api"]
-lastModified: "2025-08-02T14:03:23.633Z"
+lastModified: "2025-08-02T14:16:44.453Z"
 ---
 
 

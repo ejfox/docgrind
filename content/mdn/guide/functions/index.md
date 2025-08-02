@@ -8,7 +8,7 @@ codeBlocks: 36
 difficulty: "advanced"
 category: "Guide"
 tags: ["variables", "functions", "objects", "loops", "modules"]
-lastModified: "2025-08-02T14:03:23.409Z"
+lastModified: "2025-08-02T14:16:43.830Z"
 ---
 
 

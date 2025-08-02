@@ -8,7 +8,7 @@ codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "objects", "modules", "promises", "api"]
-lastModified: "2025-08-02T14:03:23.765Z"
+lastModified: "2025-08-02T14:16:44.795Z"
 ---
 
 

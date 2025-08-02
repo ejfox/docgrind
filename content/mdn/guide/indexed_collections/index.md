@@ -8,7 +8,7 @@ codeBlocks: 56
 difficulty: "advanced"
 category: "Guide"
 tags: ["functions", "arrays", "objects", "loops", "dom"]
-lastModified: "2025-08-02T14:03:23.412Z"
+lastModified: "2025-08-02T14:16:43.838Z"
 ---
 
 

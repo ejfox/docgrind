@@ -8,7 +8,7 @@ codeBlocks: 20
 difficulty: "advanced"
 category: "Guide"
 tags: ["variables", "objects", "loops", "dom", "api"]
-lastModified: "2025-08-02T14:03:23.403Z"
+lastModified: "2025-08-02T14:16:43.816Z"
 ---
 
 

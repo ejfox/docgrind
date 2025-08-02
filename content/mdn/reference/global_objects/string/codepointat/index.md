@@ -8,7 +8,7 @@ codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "loops", "spread"]
-lastModified: "2025-08-02T14:03:23.648Z"
+lastModified: "2025-08-02T14:16:44.491Z"
 ---
 
 

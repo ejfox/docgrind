@@ -8,7 +8,7 @@ codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
 tags: ["variables", "objects"]
-lastModified: "2025-08-02T14:03:23.760Z"
+lastModified: "2025-08-02T14:16:44.781Z"
 ---
 
 

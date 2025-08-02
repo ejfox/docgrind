@@ -8,7 +8,7 @@ codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes", "events", "api", "es6"]
-lastModified: "2025-08-02T14:03:23.614Z"
+lastModified: "2025-08-02T14:16:44.405Z"
 ---
 
 

@@ -8,7 +8,7 @@ codeBlocks: 10
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "classes", "destructuring"]
-lastModified: "2025-08-02T14:03:23.756Z"
+lastModified: "2025-08-02T14:16:44.770Z"
 ---
 
 
