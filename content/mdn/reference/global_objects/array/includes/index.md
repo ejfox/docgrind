@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Includes"
 slug: "reference-global_objects-array-includes"
 path: "reference/global_objects/array/includes/index.md"
-wordCount: 585
+wordCount: 584
 readingTime: 3
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.544Z"
+lastModified: "2025-08-02T14:03:23.479Z"
 ---
 
-
-{{JSRef}}
 
 The **`includes()`** method of {{jsxref("Array")}} instances determines whether an array
 includes a certain value among its entries, returning `true` or
@@ -21,9 +19,9 @@ includes a certain value among its entries, returning `true` or
 {{InteractiveExample("JavaScript Demo: Array.prototype.includes()")}}
 
 ```js interactive-example
-const array1 = [1, 2, 3];
+const array = [1, 2, 3];
 
-console.log(array1.includes(2));
+console.log(array.includes(2));
 // Expected output: true
 
 const pets = ["cat", "dog", "bat"];

@@ -2,17 +2,15 @@
 title: "Reference Errors"
 slug: "reference-errors"
 path: "reference/errors/index.md"
-wordCount: 145
+wordCount: 144
 readingTime: 1
 codeBlocks: 0
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.514Z"
+lastModified: "2025-08-02T14:03:23.449Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 Below, you'll find a list of errors which are thrown by JavaScript. These errors can be a helpful debugging aid, but the reported problem isn't always immediately clear. The pages below will provide additional details about these errors. Each error is an object based upon the {{jsxref("Error")}} object, and has a `name` and a `message`.
 

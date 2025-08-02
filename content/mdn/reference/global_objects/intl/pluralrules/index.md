@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Pluralrules"
 slug: "reference-global_objects-intl-pluralrules"
 path: "reference/global_objects/intl/pluralrules/index.md"
-wordCount: 941
+wordCount: 940
 readingTime: 5
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.629Z"
+lastModified: "2025-08-02T14:03:23.565Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.PluralRules`** object enables plural-sensitive formatting and plural-related language rules.
 

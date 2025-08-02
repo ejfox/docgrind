@@ -8,11 +8,11 @@ codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.798Z"
+lastModified: "2025-08-02T14:03:23.685Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`dayOfYear`** accessor property of {{jsxref("Temporal.PlainDate")}} instances returns a positive integer representing the 1-based day index in the year of this date. The first day of this year is `1`, and the last day is the {{jsxref("Temporal/PlainDate/daysInYear", "daysInYear")}}. It is [calendar](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal#calendars)-dependent.
 

@@ -2,17 +2,15 @@
 title: "Reference Operators Bitwise_not"
 slug: "reference-operators-bitwise_not"
 path: "reference/operators/bitwise_not/index.md"
-wordCount: 382
+wordCount: 381
 readingTime: 2
 codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.869Z"
+lastModified: "2025-08-02T14:03:23.758Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **bitwise NOT (`~`)** operator returns a number or BigInt whose binary representation has a `1` in each bit position for which the corresponding bit of the operand is `0`, and a `0` otherwise.
 

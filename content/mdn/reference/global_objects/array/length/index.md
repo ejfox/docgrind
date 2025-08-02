@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Length"
 slug: "reference-global_objects-array-length"
 path: "reference/global_objects/array/length/index.md"
-wordCount: 593
+wordCount: 592
 readingTime: 3
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.547Z"
+lastModified: "2025-08-02T14:03:23.482Z"
 ---
 
-
-{{JSRef}}
 
 The **`length`** data property of an {{jsxref("Array")}} instance represents the number of elements in that array. The value is an unsigned, 32-bit integer that is always numerically greater than the highest index in the array.
 

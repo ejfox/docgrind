@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Pluralrules Supportedlocalesof"
 slug: "reference-global_objects-intl-pluralrules-supportedlocalesof"
 path: "reference/global_objects/intl/pluralrules/supportedlocalesof/index.md"
-wordCount: 310
+wordCount: 309
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.630Z"
+lastModified: "2025-08-02T14:03:23.567Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.PluralRules.supportedLocalesOf()`** static method returns an array containing those of the provided locales that are supported in plural rules without having to fall back to the runtime's default locale.
 

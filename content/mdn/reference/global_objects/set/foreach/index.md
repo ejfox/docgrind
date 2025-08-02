@@ -2,17 +2,15 @@
 title: "Reference Global_objects Set Foreach"
 slug: "reference-global_objects-set-foreach"
 path: "reference/global_objects/set/foreach/index.md"
-wordCount: 422
+wordCount: 421
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.748Z"
+lastModified: "2025-08-02T14:03:23.641Z"
 ---
 
-
-{{JSRef}}
 
 The **`forEach()`** method of {{jsxref("Set")}} instances executes a provided function once
 for each value in this set, in insertion order.

@@ -2,17 +2,15 @@
 title: "Reference Errors Regex_invalid_decimal_escape"
 slug: "reference-errors-regex_invalid_decimal_escape"
 path: "reference/errors/regex_invalid_decimal_escape/index.md"
-wordCount: 215
+wordCount: 214
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.526Z"
+lastModified: "2025-08-02T14:03:23.461Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "invalid decimal escape in regular expression" occurs when a legacy [octal escape sequence](/en-US/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features#escape_sequences) is used in a [Unicode-aware](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode#unicode-aware_mode) regular expression pattern.
 

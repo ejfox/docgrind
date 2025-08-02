@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Touppercase"
 slug: "reference-global_objects-string-touppercase"
 path: "reference/global_objects/string/touppercase/index.md"
-wordCount: 179
+wordCount: 178
 readingTime: 1
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.773Z"
+lastModified: "2025-08-02T14:03:23.661Z"
 ---
 
-
-{{JSRef}}
 
 The **`toUpperCase()`** method of {{jsxref("String")}} values returns this string converted to uppercase.
 

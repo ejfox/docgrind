@@ -2,17 +2,15 @@
 title: "Reference Global_objects Dataview Setint16"
 slug: "reference-global_objects-dataview-setint16"
 path: "reference/global_objects/dataview/setint16/index.md"
-wordCount: 231
+wordCount: 230
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.575Z"
+lastModified: "2025-08-02T14:03:23.511Z"
 ---
 
-
-{{JSRef}}
 
 The **`setInt16()`** method of {{jsxref("DataView")}} instances takes a number and stores it as a 16-bit signed integer in the 2 bytes starting at the specified byte offset of this `DataView`. There is no alignment constraint; multi-byte values may be stored at any offset within bounds.
 

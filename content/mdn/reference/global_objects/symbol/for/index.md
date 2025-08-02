@@ -2,17 +2,15 @@
 title: "Reference Global_objects Symbol For"
 slug: "reference-global_objects-symbol-for"
 path: "reference/global_objects/symbol/for/index.md"
-wordCount: 280
+wordCount: 279
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.774Z"
+lastModified: "2025-08-02T14:03:23.664Z"
 ---
 
-
-{{JSRef}}
 
 The **`Symbol.for()`** static method searches for existing symbols
 in a runtime-wide symbol registry with the given key and returns it if found. Otherwise

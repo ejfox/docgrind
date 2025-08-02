@@ -2,32 +2,30 @@
 title: "Reference Global_objects Intl Relativetimeformat Format"
 slug: "reference-global_objects-intl-relativetimeformat-format"
 path: "reference/global_objects/intl/relativetimeformat/format/index.md"
-wordCount: 417
+wordCount: 416
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.631Z"
+lastModified: "2025-08-02T14:03:23.567Z"
 ---
 
-
-{{JSRef}}
 
 The **`format()`** method of {{jsxref("Intl.RelativeTimeFormat")}} instances formats a `value` and `unit` according to the locale and formatting options of this `Intl.RelativeTimeFormat` object.
 
 {{InteractiveExample("JavaScript Demo: Intl.RelativeTimeFormat.prototype.format()")}}
 
 ```js interactive-example
-const rtf1 = new Intl.RelativeTimeFormat("en", { style: "short" });
+const rtf = new Intl.RelativeTimeFormat("en", { style: "short" });
 
-console.log(rtf1.format(3, "quarter"));
+console.log(rtf.format(3, "quarter"));
 // Expected output: "in 3 qtrs."
 
-console.log(rtf1.format(-1, "day"));
+console.log(rtf.format(-1, "day"));
 // Expected output: "1 day ago"
 
-console.log(rtf1.format(10, "seconds"));
+console.log(rtf.format(10, "seconds"));
 // Expected output: "in 10 sec."
 ```
 

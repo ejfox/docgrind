@@ -2,17 +2,15 @@
 title: "Reference Global_objects Int8array Int8array"
 slug: "reference-global_objects-int8array-int8array"
 path: "reference/global_objects/int8array/int8array/index.md"
-wordCount: 198
+wordCount: 197
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.608Z"
+lastModified: "2025-08-02T14:03:23.543Z"
 ---
 
-
-{{JSRef}}
 
 The **`Int8Array()`** constructor creates {{jsxref("Int8Array")}} objects. The contents are initialized to `0` unless initialization data is explicitly provided.
 

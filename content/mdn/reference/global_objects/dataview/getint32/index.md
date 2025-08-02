@@ -2,17 +2,15 @@
 title: "Reference Global_objects Dataview Getint32"
 slug: "reference-global_objects-dataview-getint32"
 path: "reference/global_objects/dataview/getint32/index.md"
-wordCount: 219
+wordCount: 218
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays"]
-lastModified: "2025-07-06T19:32:45.572Z"
+lastModified: "2025-08-02T14:03:23.508Z"
 ---
 
-
-{{JSRef}}
 
 The **`getInt32()`** method of {{jsxref("DataView")}} instances reads 4 bytes starting at the specified byte offset of this `DataView` and interprets them as a 32-bit signed integer. There is no alignment constraint; multi-byte values may be fetched from any offset within bounds.
 

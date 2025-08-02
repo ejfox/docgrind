@@ -2,17 +2,15 @@
 title: "Reference Global_objects Uint8array Setfromhex"
 slug: "reference-global_objects-uint8array-setfromhex"
 path: "reference/global_objects/uint8array/setfromhex/index.md"
-wordCount: 481
+wordCount: 480
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom"]
-lastModified: "2025-07-06T19:32:45.859Z"
+lastModified: "2025-08-02T14:03:23.746Z"
 ---
 
-
-{{JSRef}}
 
 The **`setFromHex()`** method of {{jsxref("Uint8Array")}} instances populates this `Uint8Array` object with bytes from a hex-encoded string, returning an object indicating how many bytes were read and written.
 

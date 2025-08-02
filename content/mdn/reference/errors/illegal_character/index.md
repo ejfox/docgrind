@@ -2,17 +2,15 @@
 title: "Reference Errors Illegal_character"
 slug: "reference-errors-illegal_character"
 path: "reference/errors/illegal_character/index.md"
-wordCount: 384
+wordCount: 383
 readingTime: 2
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.513Z"
+lastModified: "2025-08-02T14:03:23.449Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "illegal character" occurs when the [lexer](/en-US/docs/Web/JavaScript/Reference/Lexical_grammar) reads a character that's not part of a string literal, and the character cannot constitute a valid token in the language.
 

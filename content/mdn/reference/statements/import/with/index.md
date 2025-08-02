@@ -2,17 +2,15 @@
 title: "Reference Statements Import With"
 slug: "reference-statements-import-with"
 path: "reference/statements/import/with/index.md"
-wordCount: 1127
+wordCount: 1126
 readingTime: 6
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["modules", "events", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.910Z"
+lastModified: "2025-08-02T14:03:23.797Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 > [!NOTE]
 > A previous version of this proposal used the `assert` keyword instead of `with`. The assertion feature is now non-standard. Check the [browser compatibility table](#browser_compatibility) for details.

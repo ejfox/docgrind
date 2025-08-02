@@ -2,17 +2,15 @@
 title: "Reference Global_objects Symbol Symbol.Toprimitive"
 slug: "reference-global_objects-symbol-symbol.toprimitive"
 path: "reference/global_objects/symbol/symbol.toprimitive/index.md"
-wordCount: 138
+wordCount: 137
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.778Z"
+lastModified: "2025-08-02T14:03:23.667Z"
 ---
 
-
-{{JSRef}}
 
 The **`[Symbol.toPrimitive]()`** method of {{jsxref("Symbol")}} values returns this symbol value.
 

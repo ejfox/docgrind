@@ -2,34 +2,32 @@
 title: "Reference Global_objects Symbol Unscopables"
 slug: "reference-global_objects-symbol-unscopables"
 path: "reference/global_objects/symbol/unscopables/index.md"
-wordCount: 855
+wordCount: 854
 readingTime: 5
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "objects", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.779Z"
+lastModified: "2025-08-02T14:03:23.668Z"
 ---
 
-
-{{JSRef}}
 
 The **`Symbol.unscopables`** static data property represents the [well-known symbol](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#well-known_symbols) `Symbol.unscopables`. The {{jsxref("Statements/with", "with")}} statement looks up this symbol on the scope object for a property containing a collection of properties that should not become bindings within the `with` environment.
 
 {{InteractiveExample("JavaScript Demo: Symbol.unscopables")}}
 
 ```js interactive-example
-const object1 = {
-  property1: 42,
+const object = {
+  foo: 42,
 };
 
-object1[Symbol.unscopables] = {
-  property1: true,
+object[Symbol.unscopables] = {
+  foo: true,
 };
 
-with (object1) {
-  console.log(property1);
-  // Expected output: Error: property1 is not defined
+with (object) {
+  console.log(foo);
+  // Expected output: Error: foo is not defined
 }
 ```
 

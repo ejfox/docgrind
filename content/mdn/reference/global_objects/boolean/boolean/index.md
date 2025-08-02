@@ -2,17 +2,15 @@
 title: "Reference Global_objects Boolean Boolean"
 slug: "reference-global_objects-boolean-boolean"
 path: "reference/global_objects/boolean/boolean/index.md"
-wordCount: 429
+wordCount: 428
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "api"]
-lastModified: "2025-07-06T19:32:45.569Z"
+lastModified: "2025-08-02T14:03:23.505Z"
 ---
 
-
-{{JSRef}}
 
 The **`Boolean()`** constructor creates {{jsxref("Boolean")}} objects. When called as a function, it returns primitive values of type Boolean.
 

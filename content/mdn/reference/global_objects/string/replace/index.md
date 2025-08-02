@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Replace"
 slug: "reference-global_objects-string-replace"
 path: "reference/global_objects/string/replace/index.md"
-wordCount: 1853
+wordCount: 1852
 readingTime: 10
 codeBlocks: 15
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "api", "rest"]
-lastModified: "2025-07-06T19:32:45.768Z"
+lastModified: "2025-08-02T14:03:23.656Z"
 ---
 
-
-{{JSRef}}
 
 The **`replace()`** method of {{jsxref("String")}} values returns a new string with one, some, or all matches of a `pattern` replaced by a `replacement`. The `pattern` can be a string or a {{jsxref("RegExp")}}, and the `replacement` can be a string or a function called for each match. If `pattern` is a string, only the first occurrence will be replaced. The original string is left unchanged.
 

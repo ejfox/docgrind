@@ -2,17 +2,15 @@
 title: "Reference Errors Not_a_function"
 slug: "reference-errors-not_a_function"
 path: "reference/errors/not_a_function/index.md"
-wordCount: 608
+wordCount: 607
 readingTime: 4
 codeBlocks: 11
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects"]
-lastModified: "2025-07-06T19:32:45.521Z"
+lastModified: "2025-08-02T14:03:23.457Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "is not a function" occurs when there was an attempt to call a
 value from a function, but the value is not actually a function.

@@ -2,17 +2,15 @@
 title: "Reference Operators Less_than"
 slug: "reference-operators-less_than"
 path: "reference/operators/less_than/index.md"
-wordCount: 751
+wordCount: 750
 readingTime: 4
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.881Z"
+lastModified: "2025-08-02T14:03:23.768Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **less than (`<`)** operator returns `true` if the left operand is less than the right operand, and `false` otherwise.
 

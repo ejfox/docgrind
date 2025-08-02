@@ -2,17 +2,15 @@
 title: "Reference Operators Bitwise_and"
 slug: "reference-operators-bitwise_and"
 path: "reference/operators/bitwise_and/index.md"
-wordCount: 446
+wordCount: 445
 readingTime: 3
 codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.869Z"
+lastModified: "2025-08-02T14:03:23.757Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **bitwise AND (`&`)** operator returns a number or BigInt whose binary representation has a `1` in each bit position for which the corresponding bits of both operands are `1`.
 

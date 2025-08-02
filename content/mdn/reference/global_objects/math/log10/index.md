@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Log10"
 slug: "reference-global_objects-math-log10"
 path: "reference/global_objects/math/log10/index.md"
-wordCount: 227
+wordCount: 226
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.665Z"
+lastModified: "2025-08-02T14:03:23.591Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.log10()`** static method returns the base 10 logarithm of a number. That is
 

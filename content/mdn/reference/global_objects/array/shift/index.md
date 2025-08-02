@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Shift"
 slug: "reference-global_objects-array-shift"
 path: "reference/global_objects/array/shift/index.md"
-wordCount: 495
+wordCount: 494
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "rest"]
-lastModified: "2025-07-06T19:32:45.551Z"
+lastModified: "2025-08-02T14:03:23.486Z"
 ---
 
-
-{{JSRef}}
 
 The **`shift()`** method of {{jsxref("Array")}} instances removes the **first**
 element from an array and returns that removed element. This method changes the length
@@ -21,11 +19,11 @@ of the array.
 {{InteractiveExample("JavaScript Demo: Array.prototype.shift()")}}
 
 ```js interactive-example
-const array1 = [1, 2, 3];
+const array = [1, 2, 3];
 
-const firstElement = array1.shift();
+const firstElement = array.shift();
 
-console.log(array1);
+console.log(array);
 // Expected output: Array [2, 3]
 
 console.log(firstElement);

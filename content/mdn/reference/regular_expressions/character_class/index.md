@@ -2,17 +2,15 @@
 title: "Reference Regular_expressions Character_class"
 slug: "reference-regular_expressions-character_class"
 path: "reference/regular_expressions/character_class/index.md"
-wordCount: 1983
+wordCount: 1982
 readingTime: 10
 codeBlocks: 10
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes", "rest"]
-lastModified: "2025-07-06T19:32:45.895Z"
+lastModified: "2025-08-02T14:03:23.782Z"
 ---
 
-
-{{jsSidebar}}
 
 A **character class** matches any character in or not in a custom set of characters. When the [`v`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets) flag is enabled, it can also be used to match finite-length strings.
 

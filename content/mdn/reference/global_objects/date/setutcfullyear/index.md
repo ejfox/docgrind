@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Setutcfullyear"
 slug: "reference-global_objects-date-setutcfullyear"
 path: "reference/global_objects/date/setutcfullyear/index.md"
-wordCount: 273
+wordCount: 272
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.585Z"
+lastModified: "2025-08-02T14:03:23.520Z"
 ---
 
-
-{{JSRef}}
 
 The **`setUTCFullYear()`** method of {{jsxref("Date")}} instances changes the year for this date according to universal time.
 

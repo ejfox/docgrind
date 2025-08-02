@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Datetimeformat Formattoparts"
 slug: "reference-global_objects-intl-datetimeformat-formattoparts"
 path: "reference/global_objects/intl/datetimeformat/formattoparts/index.md"
-wordCount: 993
+wordCount: 992
 readingTime: 5
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "arrow-functions"]
-lastModified: "2025-07-06T19:32:45.612Z"
+lastModified: "2025-08-02T14:03:23.547Z"
 ---
 
-
-{{JSRef}}
 
 The **`formatToParts()`** method of {{jsxref("Intl.DateTimeFormat")}} instances returns an array of objects representing each part of the formatted string that would be returned by {{jsxref("Intl/DatetimeFormat/format", "format()")}}. It is useful for building custom strings from the locale-specific tokens.
 

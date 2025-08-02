@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Tostring"
 slug: "reference-global_objects-array-tostring"
 path: "reference/global_objects/array/tostring/index.md"
-wordCount: 368
+wordCount: 367
 readingTime: 2
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.555Z"
+lastModified: "2025-08-02T14:03:23.490Z"
 ---
 
-
-{{JSRef}}
 
 The **`toString()`** method of {{jsxref("Array")}} instances returns a string representing the
 specified array and its elements.
@@ -20,9 +18,9 @@ specified array and its elements.
 {{InteractiveExample("JavaScript Demo: Array.prototype.toString()", "shorter")}}
 
 ```js interactive-example
-const array1 = [1, 2, "a", "1a"];
+const array = [1, 2, "a", "1a"];
 
-console.log(array1.toString());
+console.log(array.toString());
 // Expected output: "1,2,a,1a"
 ```
 
@@ -79,9 +77,9 @@ console.log(arr.toString()); // 1,3,,4,2
 ### Using toString()
 
 ```js
-const array1 = [1, 2, "a", "1a"];
+const array = [1, 2, "a", "1a"];
 
-console.log(array1.toString()); // "1,2,a,1a"
+console.log(array.toString()); // "1,2,a,1a"
 ```
 
 ### Using toString() on sparse arrays

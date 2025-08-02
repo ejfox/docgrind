@@ -2,17 +2,15 @@
 title: "Reference Global_objects Json Rawjson"
 slug: "reference-global_objects-json-rawjson"
 path: "reference/global_objects/json/rawjson/index.md"
-wordCount: 713
+wordCount: 712
 readingTime: 4
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "classes", "rest"]
-lastModified: "2025-07-06T19:32:45.647Z"
+lastModified: "2025-08-02T14:03:23.578Z"
 ---
 
-
-{{JSRef}}
 
 The **`JSON.rawJSON()`** static method creates a "raw JSON" object containing a piece of JSON text. When serialized to JSON, the raw JSON object is treated as if it is already a piece of JSON. This text is required to be valid JSON.
 

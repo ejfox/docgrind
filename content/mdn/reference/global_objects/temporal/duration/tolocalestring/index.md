@@ -8,11 +8,11 @@ codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "api"]
-lastModified: "2025-07-06T19:32:45.785Z"
+lastModified: "2025-08-02T14:03:23.674Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`toLocaleString()`** method of {{jsxref("Temporal.Duration")}} instances returns a string with a language-sensitive representation of this duration. In implementations with [`Intl.DurationFormat` API](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DurationFormat) support, this method delegates to `Intl.DurationFormat`.
 

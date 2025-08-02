@@ -2,17 +2,15 @@
 title: "Reference Errors Duplicate_proto"
 slug: "reference-errors-duplicate_proto"
 path: "reference/errors/duplicate_proto/index.md"
-wordCount: 280
+wordCount: 279
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "rest"]
-lastModified: "2025-07-06T19:32:45.510Z"
+lastModified: "2025-08-02T14:03:23.446Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "property name \_\_proto\_\_ appears more than once in object literal" occurs when an [object literal](/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer) contains multiple occurrences of the `__proto__` field, which is used to [set the prototype of this new object](/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer#prototype_setter).
 

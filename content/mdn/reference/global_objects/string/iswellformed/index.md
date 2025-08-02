@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Iswellformed"
 slug: "reference-global_objects-string-iswellformed"
 path: "reference/global_objects/string/iswellformed/index.md"
-wordCount: 290
+wordCount: 289
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.763Z"
+lastModified: "2025-08-02T14:03:23.652Z"
 ---
 
-
-{{JSRef}}
 
 The **`isWellFormed()`** method of {{jsxref("String")}} values returns a boolean indicating whether this string contains any [lone surrogates](/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#utf-16_characters_unicode_code_points_and_grapheme_clusters).
 

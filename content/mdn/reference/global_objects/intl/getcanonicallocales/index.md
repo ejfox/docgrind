@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Getcanonicallocales"
 slug: "reference-global_objects-intl-getcanonicallocales"
 path: "reference/global_objects/intl/getcanonicallocales/index.md"
-wordCount: 160
+wordCount: 159
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.617Z"
+lastModified: "2025-08-02T14:03:23.552Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.getCanonicalLocales()`** static method returns an array
 containing the canonical locale names. Duplicates will be omitted and elements will be

@@ -2,17 +2,15 @@
 title: "Reference Operators Nullish_coalescing_assignment"
 slug: "reference-operators-nullish_coalescing_assignment"
 path: "reference/operators/nullish_coalescing_assignment/index.md"
-wordCount: 295
+wordCount: 294
 readingTime: 2
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["destructuring"]
-lastModified: "2025-07-06T19:32:45.885Z"
+lastModified: "2025-08-02T14:03:23.772Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **nullish coalescing assignment (`??=`)** operator, also known as the **logical nullish assignment** operator, only evaluates the right operand and assigns to the left if the left operand is {{Glossary("nullish")}} (`null` or `undefined`).
 

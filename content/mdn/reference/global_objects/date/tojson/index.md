@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Tojson"
 slug: "reference-global_objects-date-tojson"
 path: "reference/global_objects/date/tojson/index.md"
-wordCount: 418
+wordCount: 417
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.588Z"
+lastModified: "2025-08-02T14:03:23.523Z"
 ---
 
-
-{{JSRef}}
 
 The **`toJSON()`** method of {{jsxref("Date")}} instances returns a string representing this date in the same ISO format as {{jsxref("Date/toISOString", "toISOString()")}}.
 

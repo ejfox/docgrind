@@ -2,17 +2,15 @@
 title: "Reference Global_objects Weakmap Set"
 slug: "reference-global_objects-weakmap-set"
 path: "reference/global_objects/weakmap/set/index.md"
-wordCount: 198
+wordCount: 197
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.863Z"
+lastModified: "2025-08-02T14:03:23.750Z"
 ---
 
-
-{{JSRef}}
 
 The **`set()`** method of {{jsxref("WeakMap")}} instances adds a new element with a specified key
 and value to this `WeakMap`.
@@ -20,17 +18,17 @@ and value to this `WeakMap`.
 {{InteractiveExample("JavaScript Demo: WeakMap.prototype.set()")}}
 
 ```js interactive-example
-const weakmap1 = new WeakMap();
+const weakmap = new WeakMap();
 const object1 = {};
 const object2 = {};
 
-weakmap1.set(object1, "foo");
-weakmap1.set(object2, "bar");
+weakmap.set(object1, "foo");
+weakmap.set(object2, "bar");
 
-console.log(weakmap1.get(object1));
+console.log(weakmap.get(object1));
 // Expected output: "foo"
 
-console.log(weakmap1.get(object2));
+console.log(weakmap.get(object2));
 // Expected output: "bar"
 ```
 

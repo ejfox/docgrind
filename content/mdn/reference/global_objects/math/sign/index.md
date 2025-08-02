@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Sign"
 slug: "reference-global_objects-math-sign"
 path: "reference/global_objects/math/sign/index.md"
-wordCount: 209
+wordCount: 208
 readingTime: 2
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.667Z"
+lastModified: "2025-08-02T14:03:23.594Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.sign()`** static method returns 1 or -1, indicating the sign of the number passed as argument. If the input is 0 or -0, it will be returned as-is.
 

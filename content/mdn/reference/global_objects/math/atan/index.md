@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Atan"
 slug: "reference-global_objects-math-atan"
 path: "reference/global_objects/math/atan/index.md"
-wordCount: 284
+wordCount: 283
 readingTime: 2
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.659Z"
+lastModified: "2025-08-02T14:03:23.585Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.atan()`** static method returns the inverse tangent (in radians) of a number, that is
 

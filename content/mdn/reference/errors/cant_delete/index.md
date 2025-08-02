@@ -2,17 +2,15 @@
 title: "Reference Errors Cant_delete"
 slug: "reference-errors-cant_delete"
 path: "reference/errors/cant_delete/index.md"
-wordCount: 229
+wordCount: 228
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.506Z"
+lastModified: "2025-08-02T14:03:23.443Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "property is non-configurable and can't be deleted" occurs
 when it was attempted to delete a property, but that property is [non-configurable](/en-US/docs/Web/JavaScript/Guide/Data_structures#properties).

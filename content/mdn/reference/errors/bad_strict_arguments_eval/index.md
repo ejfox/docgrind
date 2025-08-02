@@ -2,17 +2,15 @@
 title: "Reference Errors Bad_strict_arguments_eval"
 slug: "reference-errors-bad_strict_arguments_eval"
 path: "reference/errors/bad_strict_arguments_eval/index.md"
-wordCount: 227
+wordCount: 226
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects"]
-lastModified: "2025-07-06T19:32:45.503Z"
+lastModified: "2025-08-02T14:03:23.440Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript [strict mode](/en-US/docs/Web/JavaScript/Reference/Strict_mode)-only exception "'arguments' can't be defined or assigned to in strict mode code" or "'eval' can't be defined or assigned to in strict mode code" occurs when attempting to create a {{Glossary("binding")}} called `arguments` or `eval`, or assign to such a name.
 

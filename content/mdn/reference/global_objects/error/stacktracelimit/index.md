@@ -8,11 +8,11 @@ codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["api", "rest"]
-lastModified: "2025-07-06T19:32:45.595Z"
+lastModified: "2025-08-02T14:03:23.531Z"
 ---
 
 
-{{JSRef}}{{Non-standard_Header}}
+{{Non-standard_Header}}
 
 > [!NOTE]
 > This feature is part of the currently non-standard [V8 stack trace API](https://v8.dev/docs/stack-trace-api). However, for compatibility reasons, it is also implemented by JavaScriptCore.

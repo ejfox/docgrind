@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Normalize"
 slug: "reference-global_objects-string-normalize"
 path: "reference/global_objects/string/normalize/index.md"
-wordCount: 1019
+wordCount: 1018
 readingTime: 6
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.766Z"
+lastModified: "2025-08-02T14:03:23.655Z"
 ---
 
-
-{{JSRef}}
 
 The **`normalize()`** method of {{jsxref("String")}} values returns the Unicode Normalization
 Form of this string.

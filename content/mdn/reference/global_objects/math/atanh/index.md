@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Atanh"
 slug: "reference-global_objects-math-atanh"
 path: "reference/global_objects/math/atanh/index.md"
-wordCount: 249
+wordCount: 248
 readingTime: 2
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.659Z"
+lastModified: "2025-08-02T14:03:23.586Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.atanh()`** static method returns the inverse hyperbolic tangent of a number. That is,
 

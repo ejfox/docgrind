@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Entries"
 slug: "reference-global_objects-typedarray-entries"
 path: "reference/global_objects/typedarray/entries/index.md"
-wordCount: 202
+wordCount: 201
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.848Z"
+lastModified: "2025-08-02T14:03:23.733Z"
 ---
 
-
-{{JSRef}}
 
 The **`entries()`** method of {{jsxref("TypedArray")}} instances returns a new _[array iterator](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator)_ object that contains the key/value pairs for each index in the typed array. This method has the same algorithm as {{jsxref("Array.prototype.entries()")}}.
 

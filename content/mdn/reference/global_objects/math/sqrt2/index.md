@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Sqrt2"
 slug: "reference-global_objects-math-sqrt2"
 path: "reference/global_objects/math/sqrt2/index.md"
-wordCount: 136
+wordCount: 135
 readingTime: 1
 codeBlocks: 2
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.669Z"
+lastModified: "2025-08-02T14:03:23.595Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.SQRT2`** static data property represents the square root of 2, approximately 1.414.
 

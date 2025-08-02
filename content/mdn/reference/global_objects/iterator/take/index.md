@@ -2,17 +2,15 @@
 title: "Reference Global_objects Iterator Take"
 slug: "reference-global_objects-iterator-take"
 path: "reference/global_objects/iterator/take/index.md"
-wordCount: 463
+wordCount: 462
 readingTime: 3
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.644Z"
+lastModified: "2025-08-02T14:03:23.577Z"
 ---
 
-
-{{JSRef}}
 
 The **`take()`** method of {{jsxref("Iterator")}} instances returns a new [iterator helper object](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator#iterator_helper_objects) that yields the given number of elements in this iterator and then terminates.
 

@@ -2,17 +2,17 @@
 title: "Reference Global_objects Regexp Compile"
 slug: "reference-global_objects-regexp-compile"
 path: "reference/global_objects/regexp/compile/index.md"
-wordCount: 150
+wordCount: 149
 readingTime: 1
 codeBlocks: 2
 difficulty: "beginner"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.728Z"
+lastModified: "2025-08-02T14:03:23.631Z"
 ---
 
 
-{{JSRef}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 > [!NOTE]
 > The `compile()` method is only specified for compatibility reasons. Using `compile()` causes the otherwise immutable regex source and flags to become mutable, which may break user expectations. You can use the [`RegExp()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/RegExp) constructor to construct a new regular expression object instead.

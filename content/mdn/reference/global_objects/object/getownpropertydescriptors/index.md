@@ -2,17 +2,15 @@
 title: "Reference Global_objects Object Getownpropertydescriptors"
 slug: "reference-global_objects-object-getownpropertydescriptors"
 path: "reference/global_objects/object/getownpropertydescriptors/index.md"
-wordCount: 440
+wordCount: 439
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.682Z"
+lastModified: "2025-08-02T14:03:23.607Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object.getOwnPropertyDescriptors()`** static method returns all
 own property descriptors of a given object.
@@ -20,16 +18,16 @@ own property descriptors of a given object.
 {{InteractiveExample("JavaScript Demo: Object.getOwnPropertyDescriptors()")}}
 
 ```js interactive-example
-const object1 = {
-  property1: 42,
+const object = {
+  foo: 42,
 };
 
-const descriptors1 = Object.getOwnPropertyDescriptors(object1);
+const descriptors = Object.getOwnPropertyDescriptors(object);
 
-console.log(descriptors1.property1.writable);
+console.log(descriptors.foo.writable);
 // Expected output: true
 
-console.log(descriptors1.property1.value);
+console.log(descriptors.foo.value);
 // Expected output: 42
 ```
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Arraybuffer"
 slug: "reference-global_objects-arraybuffer"
 path: "reference/global_objects/arraybuffer/index.md"
-wordCount: 762
+wordCount: 761
 readingTime: 4
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.557Z"
+lastModified: "2025-08-02T14:03:23.492Z"
 ---
 
-
-{{JSRef}}
 
 The **`ArrayBuffer`** object is used to represent a generic raw binary data buffer.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Symbol Tostringtag"
 slug: "reference-global_objects-symbol-tostringtag"
 path: "reference/global_objects/symbol/tostringtag/index.md"
-wordCount: 377
+wordCount: 376
 readingTime: 2
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom"]
-lastModified: "2025-07-06T19:32:45.779Z"
+lastModified: "2025-08-02T14:03:23.668Z"
 ---
 
-
-{{JSRef}}
 
 The **`Symbol.toStringTag`** static data property represents the [well-known symbol](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#well-known_symbols) `Symbol.toStringTag`. {{jsxref("Object.prototype.toString()")}} looks up this symbol on the `this` value for the property containing a string that represents the type of the object.
 

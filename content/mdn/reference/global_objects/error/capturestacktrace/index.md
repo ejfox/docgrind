@@ -2,17 +2,15 @@
 title: "Reference Global_objects Error Capturestacktrace"
 slug: "reference-global_objects-error-capturestacktrace"
 path: "reference/global_objects/error/capturestacktrace/index.md"
-wordCount: 509
+wordCount: 508
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom", "api", "rest"]
-lastModified: "2025-07-06T19:32:45.593Z"
+lastModified: "2025-08-02T14:03:23.529Z"
 ---
 
-
-{{JSRef}}
 
 The **`Error.captureStackTrace()`** static method installs stack trace information on a provided object as the [`stack`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/stack) property.
 

@@ -2,17 +2,15 @@
 title: "Reference Operators Void"
 slug: "reference-operators-void"
 path: "reference/operators/void/index.md"
-wordCount: 733
+wordCount: 732
 readingTime: 4
 codeBlocks: 10
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "api", "arrow-functions"]
-lastModified: "2025-07-06T19:32:45.893Z"
+lastModified: "2025-08-02T14:03:23.780Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **`void`** operator evaluates the given
 `expression` and then returns {{jsxref("undefined")}}.

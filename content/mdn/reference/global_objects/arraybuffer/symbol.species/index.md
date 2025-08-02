@@ -2,17 +2,15 @@
 title: "Reference Global_objects Arraybuffer Symbol.Species"
 slug: "reference-global_objects-arraybuffer-symbol.species"
 path: "reference/global_objects/arraybuffer/symbol.species/index.md"
-wordCount: 325
+wordCount: 324
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.558Z"
+lastModified: "2025-08-02T14:03:23.493Z"
 ---
 
-
-{{JSRef}}
 
 The **`ArrayBuffer[Symbol.species]`** static accessor property returns the constructor used to construct return values from array buffer methods.
 

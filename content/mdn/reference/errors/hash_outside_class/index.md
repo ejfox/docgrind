@@ -2,17 +2,15 @@
 title: "Reference Errors Hash_outside_class"
 slug: "reference-errors-hash_outside_class"
 path: "reference/errors/hash_outside_class/index.md"
-wordCount: 222
+wordCount: 221
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["classes", "dom"]
-lastModified: "2025-07-06T19:32:45.512Z"
+lastModified: "2025-08-02T14:03:23.448Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "Unexpected '#' used outside of class body" occurs when a hash
 ("#") is encountered in an unexpected context, most notably

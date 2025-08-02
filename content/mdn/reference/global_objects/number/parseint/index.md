@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number Parseint"
 slug: "reference-global_objects-number-parseint"
 path: "reference/global_objects/number/parseint/index.md"
-wordCount: 245
+wordCount: 244
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.675Z"
+lastModified: "2025-08-02T14:03:23.600Z"
 ---
 
-
-{{JSRef}}
 
 The **`Number.parseInt()`** static method parses a string argument and
 returns an integer of the specified radix or base.

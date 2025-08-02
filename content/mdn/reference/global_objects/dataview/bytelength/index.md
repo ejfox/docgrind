@@ -2,17 +2,15 @@
 title: "Reference Global_objects Dataview Bytelength"
 slug: "reference-global_objects-dataview-bytelength"
 path: "reference/global_objects/dataview/bytelength/index.md"
-wordCount: 205
+wordCount: 204
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.570Z"
+lastModified: "2025-08-02T14:03:23.506Z"
 ---
 
-
-{{JSRef}}
 
 The **`byteLength`** accessor property of {{jsxref("DataView")}} instances returns the length (in bytes) of this view.
 

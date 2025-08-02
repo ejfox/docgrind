@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
+  devServer: {
+    port: 8642
+  },
   typescript: {
     typeCheck: false // Disable TypeScript checking for faster startup
   },

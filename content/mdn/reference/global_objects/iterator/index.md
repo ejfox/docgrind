@@ -2,17 +2,15 @@
 title: "Reference Global_objects Iterator"
 slug: "reference-global_objects-iterator"
 path: "reference/global_objects/iterator/index.md"
-wordCount: 1564
+wordCount: 1596
 readingTime: 8
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "api"]
-lastModified: "2025-07-06T19:32:45.640Z"
+lastModified: "2025-08-02T14:03:23.575Z"
 ---
 
-
-{{JSRef}}
 
 An **`Iterator`** object is an object that conforms to the [iterator protocol](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_iterator_protocol) by providing a `next()` method that returns an iterator result object. All built-in iterators inherit from the `Iterator` class. The `Iterator` class provides a [`[Symbol.iterator]()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator/Symbol.iterator) method that returns the iterator object itself, making the iterator also [iterable](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_iterable_protocol). It also provides some helper methods for working with iterators.
 
@@ -184,6 +182,8 @@ These properties are defined on `Iterator.prototype` and shared by all `Iterator
   - : Returns a new iterator helper object that yields the given number of elements in this iterator and then terminates.
 - {{jsxref("Iterator.prototype.toArray()")}}
   - : Creates a new {{jsxref("Array")}} instance populated with the elements yielded from the iterator.
+- [`Iterator.prototype[Symbol.dispose]()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator/Symbol.dispose)
+  - : Calls the `return()` method of `this`, if it exists. This implements the _disposable protocol_ and allows it to be disposed when used with {{jsxref("Statements/using", "using")}} or {{jsxref("Statements/await_using", "await using")}}.
 - [`Iterator.prototype[Symbol.iterator]()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator/Symbol.iterator)
   - : Returns the iterator object itself. This allows iterator objects to also be iterable.
 

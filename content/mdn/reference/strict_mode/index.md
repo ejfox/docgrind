@@ -2,17 +2,15 @@
 title: "Reference Strict_mode"
 slug: "reference-strict_mode"
 path: "reference/strict_mode/index.md"
-wordCount: 3406
+wordCount: 3405
 readingTime: 18
 codeBlocks: 22
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "objects", "classes", "modules"]
-lastModified: "2025-07-06T19:32:45.915Z"
+lastModified: "2025-08-02T14:03:23.803Z"
 ---
 
-
-{{jsSidebar("More")}}
 
 > [!NOTE]
 > Sometimes you'll see the default, non-strict mode referred to as _[sloppy mode](/en-US/docs/Glossary/Sloppy_mode)_. This isn't an official term, but be aware of it, just in case.

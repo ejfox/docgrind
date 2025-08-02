@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Numberformat Formattoparts"
 slug: "reference-global_objects-intl-numberformat-formattoparts"
 path: "reference/global_objects/intl/numberformat/formattoparts/index.md"
-wordCount: 748
+wordCount: 747
 readingTime: 4
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "arrow-functions"]
-lastModified: "2025-07-06T19:32:45.625Z"
+lastModified: "2025-08-02T14:03:23.562Z"
 ---
 
-
-{{JSRef}}
 
 The **`formatToParts()`** method of {{jsxref("Intl.NumberFormat")}} instances returns an array of objects representing each part of the formatted string that would be returned by {{jsxref("Intl/NumberFormat/format", "format()")}}. It is useful for building custom strings from the locale-specific tokens.
 

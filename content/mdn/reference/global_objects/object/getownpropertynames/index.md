@@ -2,30 +2,28 @@
 title: "Reference Global_objects Object Getownpropertynames"
 slug: "reference-global_objects-object-getownpropertynames"
 path: "reference/global_objects/object/getownpropertynames/index.md"
-wordCount: 485
+wordCount: 484
 readingTime: 3
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.682Z"
+lastModified: "2025-08-02T14:03:23.607Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object.getOwnPropertyNames()`** static method returns an array of all properties (including non-enumerable properties except for those which use Symbol) found directly in a given object.
 
 {{InteractiveExample("JavaScript Demo: Object.getOwnPropertyNames()")}}
 
 ```js interactive-example
-const object1 = {
+const object = {
   a: 1,
   b: 2,
   c: 3,
 };
 
-console.log(Object.getOwnPropertyNames(object1));
+console.log(Object.getOwnPropertyNames(object));
 // Expected output: Array ["a", "b", "c"]
 ```
 

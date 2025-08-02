@@ -8,11 +8,11 @@ codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.819Z"
+lastModified: "2025-08-02T14:03:23.705Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`toJSON()`** method of {{jsxref("Temporal.PlainMonthDay")}} instances returns a string representing this month-day in the same [RFC 9557 format](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay#rfc_9557_format) as calling {{jsxref("Temporal/PlainMonthDay/toString", "toString()")}}. It is intended to be implicitly called by {{jsxref("JSON.stringify()")}}.
 

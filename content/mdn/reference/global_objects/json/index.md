@@ -2,17 +2,15 @@
 title: "Reference Global_objects Json"
 slug: "reference-global_objects-json"
 path: "reference/global_objects/json/index.md"
-wordCount: 1635
+wordCount: 1634
 readingTime: 9
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "rest"]
-lastModified: "2025-07-06T19:32:45.646Z"
+lastModified: "2025-08-02T14:03:23.577Z"
 ---
 
-
-{{JSRef}}
 
 The **`JSON`** namespace object contains static methods for parsing values from and converting values to [JavaScript Object Notation](https://json.org/) ({{Glossary("JSON")}}).
 

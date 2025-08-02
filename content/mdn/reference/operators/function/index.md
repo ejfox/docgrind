@@ -2,17 +2,15 @@
 title: "Reference Operators Function"
 slug: "reference-operators-function"
 path: "reference/operators/function/index.md"
-wordCount: 1381
+wordCount: 1380
 readingTime: 7
 codeBlocks: 16
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "objects", "modules", "dom"]
-lastModified: "2025-07-06T19:32:45.875Z"
+lastModified: "2025-08-02T14:03:23.763Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **`function`** keyword can be used to define a function inside an expression.
 

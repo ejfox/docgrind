@@ -2,17 +2,15 @@
 title: "Reference Errors Bad_radix"
 slug: "reference-errors-bad_radix"
 path: "reference/errors/bad_radix/index.md"
-wordCount: 255
+wordCount: 254
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.502Z"
+lastModified: "2025-08-02T14:03:23.439Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "radix must be an integer at least 2 and no greater than 36"
 occurs when the optional `radix` parameter of the

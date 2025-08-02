@@ -2,17 +2,15 @@
 title: "Reference Global_objects Symbol Symbol"
 slug: "reference-global_objects-symbol-symbol"
 path: "reference/global_objects/symbol/symbol/index.md"
-wordCount: 293
+wordCount: 292
 readingTime: 2
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "events"]
-lastModified: "2025-07-06T19:32:45.778Z"
+lastModified: "2025-08-02T14:03:23.667Z"
 ---
 
-
-{{JSRef}}
 
 The **`Symbol()`** function returns primitive values of type Symbol.
 

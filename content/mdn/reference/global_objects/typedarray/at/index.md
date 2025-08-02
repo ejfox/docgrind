@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray At"
 slug: "reference-global_objects-typedarray-at"
 path: "reference/global_objects/typedarray/at/index.md"
-wordCount: 402
+wordCount: 401
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.847Z"
+lastModified: "2025-08-02T14:03:23.732Z"
 ---
 
-
-{{JSRef}}
 
 The **`at()`** method of {{jsxref("TypedArray")}} instances takes an integer value and returns the item at that index, allowing for positive and negative integers. Negative integers count back from the last item in the typed array. This method has the same algorithm as {{jsxref("Array.prototype.at()")}}.
 

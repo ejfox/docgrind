@@ -2,17 +2,15 @@
 title: "Reference Global_objects Atomics Wait"
 slug: "reference-global_objects-atomics-wait"
 path: "reference/global_objects/atomics/wait/index.md"
-wordCount: 477
+wordCount: 476
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["async"]
-lastModified: "2025-07-06T19:32:45.565Z"
+lastModified: "2025-08-02T14:03:23.501Z"
 ---
 
-
-{{JSRef}}
 
 The **`Atomics.wait()`** static method verifies that a shared memory location contains a given value and if so sleeps, awaiting a wake-up notification or a time out. It returns a string which is `"not-equal"` if the memory location does not match the given value, `"ok"` if woken by {{jsxref("Atomics.notify()")}}, or `"timed-out"` if the timeout expires.
 

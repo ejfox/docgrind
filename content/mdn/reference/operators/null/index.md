@@ -2,17 +2,15 @@
 title: "Reference Operators Null"
 slug: "reference-operators-null"
 path: "reference/operators/null/index.md"
-wordCount: 266
+wordCount: 265
 readingTime: 2
 codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
 tags: ["api"]
-lastModified: "2025-07-06T19:32:45.884Z"
+lastModified: "2025-08-02T14:03:23.771Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **`null`** value represents the intentional absence of any object value. It
 is one of JavaScript's [primitive values](/en-US/docs/Glossary/Primitive) and

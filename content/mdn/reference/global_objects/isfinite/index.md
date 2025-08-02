@@ -2,17 +2,15 @@
 title: "Reference Global_objects Isfinite"
 slug: "reference-global_objects-isfinite"
 path: "reference/global_objects/isfinite/index.md"
-wordCount: 262
+wordCount: 261
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.637Z"
+lastModified: "2025-08-02T14:03:23.572Z"
 ---
 
-
-{{jsSidebar("Objects")}}
 
 The **`isFinite()`** function determines whether a value is finite, first converting the value to a number if necessary. A finite number is one that's not {{jsxref("NaN")}} or ±{{jsxref("Infinity")}}. Because coercion inside the `isFinite()` function can be [surprising](/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN#description), you may prefer to use {{jsxref("Number.isFinite()")}}.
 

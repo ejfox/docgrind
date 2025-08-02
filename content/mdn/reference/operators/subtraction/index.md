@@ -2,17 +2,15 @@
 title: "Reference Operators Subtraction"
 slug: "reference-operators-subtraction"
 path: "reference/operators/subtraction/index.md"
-wordCount: 281
+wordCount: 280
 readingTime: 2
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.889Z"
+lastModified: "2025-08-02T14:03:23.776Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **subtraction (`-`)** operator subtracts the two operands, producing their difference.
 

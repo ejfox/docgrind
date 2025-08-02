@@ -2,17 +2,15 @@
 title: "Reference Errors Constructor_cant_be_used_directly"
 slug: "reference-errors-constructor_cant_be_used_directly"
 path: "reference/errors/constructor_cant_be_used_directly/index.md"
-wordCount: 244
+wordCount: 243
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["classes", "async"]
-lastModified: "2025-07-06T19:32:45.508Z"
+lastModified: "2025-08-02T14:03:23.444Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "Iterator constructor can't be used directly" or "AsyncIterator constructor can't be used directly" occurs when you try to use the {{jsxref("Iterator/Iterator", "Iterator()")}} or {{jsxref("AsyncIterator/AsyncIterator", "AsyncIterator()")}} constructors directly to create instances. These constructors are _abstract classes_ and should only be inherited from.
 

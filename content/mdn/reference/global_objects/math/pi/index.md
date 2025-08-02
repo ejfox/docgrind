@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Pi"
 slug: "reference-global_objects-math-pi"
 path: "reference/global_objects/math/pi/index.md"
-wordCount: 148
+wordCount: 147
 readingTime: 1
 codeBlocks: 2
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.666Z"
+lastModified: "2025-08-02T14:03:23.593Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.PI`** static data property represents the ratio of the circumference of a circle to its diameter, approximately 3.14159.
 

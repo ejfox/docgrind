@@ -2,17 +2,15 @@
 title: "Reference Global_objects Rangeerror Rangeerror"
 slug: "reference-global_objects-rangeerror-rangeerror"
 path: "reference/global_objects/rangeerror/rangeerror/index.md"
-wordCount: 271
+wordCount: 270
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.700Z"
+lastModified: "2025-08-02T14:03:23.626Z"
 ---
 
-
-{{JSRef}}
 
 The **`RangeError()`** constructor creates {{jsxref("RangeError")}} objects.
 

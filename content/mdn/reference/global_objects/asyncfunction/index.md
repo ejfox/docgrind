@@ -2,17 +2,15 @@
 title: "Reference Global_objects Asyncfunction"
 slug: "reference-global_objects-asyncfunction"
 path: "reference/global_objects/asyncfunction/index.md"
-wordCount: 181
+wordCount: 180
 readingTime: 1
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "async"]
-lastModified: "2025-07-06T19:32:45.559Z"
+lastModified: "2025-08-02T14:03:23.496Z"
 ---
 
-
-{{JSRef}}
 
 The **`AsyncFunction`** object provides methods for [async functions](/en-US/docs/Web/JavaScript/Reference/Statements/async_function). In JavaScript, every async function is actually an `AsyncFunction` object.
 

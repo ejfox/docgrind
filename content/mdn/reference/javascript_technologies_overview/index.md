@@ -2,17 +2,15 @@
 title: "Reference Javascript_technologies_overview"
 slug: "reference-javascript_technologies_overview"
 path: "reference/javascript_technologies_overview/index.md"
-wordCount: 1610
+wordCount: 1609
 readingTime: 9
 codeBlocks: 0
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "modules", "async", "dom"]
-lastModified: "2025-07-06T19:32:45.866Z"
+lastModified: "2025-08-02T14:03:23.754Z"
 ---
 
-
-{{jsSidebar("Introductory")}}
 
 Whereas [HTML](/en-US/docs/Web/HTML) defines a webpage's structure and content and [CSS](/en-US/docs/Web/CSS) sets the formatting and appearance, [JavaScript](/en-US/docs/Web/JavaScript) adds interactivity to a webpage and creates rich web applications.
 

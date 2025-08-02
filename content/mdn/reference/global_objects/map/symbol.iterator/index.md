@@ -2,17 +2,15 @@
 title: "Reference Global_objects Map Symbol.Iterator"
 slug: "reference-global_objects-map-symbol.iterator"
 path: "reference/global_objects/map/symbol.iterator/index.md"
-wordCount: 311
+wordCount: 310
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "loops", "dom", "api", "spread"]
-lastModified: "2025-07-06T19:32:45.653Z"
+lastModified: "2025-08-02T14:03:23.583Z"
 ---
 
-
-{{JSRef}}
 
 The **`[Symbol.iterator]()`** method of {{jsxref("Map")}} instances implements the [iterable protocol](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols) and allows `Map` objects to be consumed by most syntaxes expecting iterables, such as the [spread syntax](/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) and {{jsxref("Statements/for...of", "for...of")}} loops. It returns a [map iterator object](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator) that yields the key-value pairs of the map in insertion order.
 
@@ -21,14 +19,14 @@ The initial value of this property is the same function object as the initial va
 {{InteractiveExample("JavaScript Demo: Map.prototype[Symbol.iterator]()")}}
 
 ```js interactive-example
-const map1 = new Map();
+const map = new Map();
 
-map1.set("0", "foo");
-map1.set(1, "bar");
+map.set("0", "foo");
+map.set(1, "bar");
 
-const iterator1 = map1[Symbol.iterator]();
+const iterator = map[Symbol.iterator]();
 
-for (const item of iterator1) {
+for (const item of iterator) {
   console.log(item);
 }
 // Expected output: Array ["0", "foo"]

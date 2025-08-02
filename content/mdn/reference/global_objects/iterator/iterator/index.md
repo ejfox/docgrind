@@ -2,17 +2,15 @@
 title: "Reference Global_objects Iterator Iterator"
 slug: "reference-global_objects-iterator-iterator"
 path: "reference/global_objects/iterator/iterator/index.md"
-wordCount: 596
+wordCount: 595
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.641Z"
+lastModified: "2025-08-02T14:03:23.575Z"
 ---
 
-
-{{JSRef}}
 
 The **`Iterator()`** constructor is intended to be used as the [superclass](/en-US/docs/Web/JavaScript/Reference/Classes/extends) of other classes that create iterators. It throws an error when constructed by itself.
 

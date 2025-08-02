@@ -2,17 +2,15 @@
 title: "Reference Operators Instanceof"
 slug: "reference-operators-instanceof"
 path: "reference/operators/instanceof/index.md"
-wordCount: 1352
+wordCount: 1351
 readingTime: 7
 codeBlocks: 16
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "arrays", "objects", "classes", "api"]
-lastModified: "2025-07-06T19:32:45.880Z"
+lastModified: "2025-08-02T14:03:23.767Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **`instanceof`** operator tests to see if the `prototype` property of a constructor appears anywhere in the prototype chain of an object. The return value is a boolean value. Its behavior can be customized with [`Symbol.hasInstance`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/hasInstance).
 

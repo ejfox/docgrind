@@ -2,17 +2,15 @@
 title: "Reference Errors In_operator_no_object"
 slug: "reference-errors-in_operator_no_object"
 path: "reference/errors/in_operator_no_object/index.md"
-wordCount: 323
+wordCount: 322
 readingTime: 2
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.513Z"
+lastModified: "2025-08-02T14:03:23.449Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "right-hand side of 'in' should be an object" occurs when the
 [`in` operator](/en-US/docs/Web/JavaScript/Reference/Operators/in)

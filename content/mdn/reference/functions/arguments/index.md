@@ -2,17 +2,15 @@
 title: "Reference Functions Arguments"
 slug: "reference-functions-arguments"
 path: "reference/functions/arguments/index.md"
-wordCount: 1014
+wordCount: 1013
 readingTime: 6
 codeBlocks: 14
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "destructuring", "spread", "rest"]
-lastModified: "2025-07-06T19:32:45.534Z"
+lastModified: "2025-08-02T14:03:23.469Z"
 ---
 
-
-{{jsSidebar("Functions")}}
 
 **`arguments`** is an array-like object accessible inside [functions](/en-US/docs/Web/JavaScript/Guide/Functions) that contains the values of the arguments passed to that function.
 

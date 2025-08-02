@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Match"
 slug: "reference-global_objects-string-match"
 path: "reference/global_objects/string/match/index.md"
-wordCount: 876
+wordCount: 875
 readingTime: 5
 codeBlocks: 10
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "rest"]
-lastModified: "2025-07-06T19:32:45.765Z"
+lastModified: "2025-08-02T14:03:23.654Z"
 ---
 
-
-{{JSRef}}
 
 The **`match()`** method of {{jsxref("String")}} values retrieves the result of matching this string against a [regular expression](/en-US/docs/Web/JavaScript/Guide/Regular_expressions).
 

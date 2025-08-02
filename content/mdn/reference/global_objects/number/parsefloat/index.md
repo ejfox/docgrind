@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number Parsefloat"
 slug: "reference-global_objects-number-parsefloat"
 path: "reference/global_objects/number/parsefloat/index.md"
-wordCount: 173
+wordCount: 172
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.674Z"
+lastModified: "2025-08-02T14:03:23.600Z"
 ---
 
-
-{{JSRef}}
 
 The **`Number.parseFloat()`** static method parses an argument and returns a floating point number. If a number cannot be parsed from the argument, it returns {{jsxref("NaN")}}.
 

@@ -8,11 +8,11 @@ codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.831Z"
+lastModified: "2025-08-02T14:03:23.716Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`toString()`** method of {{jsxref("Temporal.PlainYearMonth")}} instances returns a string representing this year-month in the [RFC 9557 format](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth#rfc_9557_format).
 

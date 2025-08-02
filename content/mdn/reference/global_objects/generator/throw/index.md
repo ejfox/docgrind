@@ -2,17 +2,15 @@
 title: "Reference Global_objects Generator Throw"
 slug: "reference-global_objects-generator-throw"
 path: "reference/global_objects/generator/throw/index.md"
-wordCount: 377
+wordCount: 376
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.605Z"
+lastModified: "2025-08-02T14:03:23.540Z"
 ---
 
-
-{{JSRef}}
 
 The **`throw()`** method of {{jsxref("Generator")}} instances acts as if a `throw` statement is inserted in the generator's body at the current suspended position, which informs the generator of an error condition and allows it to handle the error, or perform cleanup and close itself.
 

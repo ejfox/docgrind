@@ -2,17 +2,15 @@
 title: "Reference Functions Set"
 slug: "reference-functions-set"
 path: "reference/functions/set/index.md"
-wordCount: 683
+wordCount: 682
 readingTime: 4
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "rest"]
-lastModified: "2025-07-06T19:32:45.537Z"
+lastModified: "2025-08-02T14:03:23.472Z"
 ---
 
-
-{{jsSidebar("Functions")}}
 
 The **`set`** syntax binds an object property to a function to be called when there is an attempt to set that property. It can also be used in [classes](/en-US/docs/Web/JavaScript/Reference/Classes).
 

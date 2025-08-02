@@ -2,17 +2,15 @@
 title: "Reference Errors Bigint_division_by_zero"
 slug: "reference-errors-bigint_division_by_zero"
 path: "reference/errors/bigint_division_by_zero/index.md"
-wordCount: 177
+wordCount: 176
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.504Z"
+lastModified: "2025-08-02T14:03:23.440Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "BigInt division by zero" occurs when a {{jsxref("BigInt")}} is divided by `0n`.
 

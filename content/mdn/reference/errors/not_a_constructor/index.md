@@ -2,17 +2,15 @@
 title: "Reference Errors Not_a_constructor"
 slug: "reference-errors-not_a_constructor"
 path: "reference/errors/not_a_constructor/index.md"
-wordCount: 394
+wordCount: 393
 readingTime: 2
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "promises"]
-lastModified: "2025-07-06T19:32:45.521Z"
+lastModified: "2025-08-02T14:03:23.456Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "is not a constructor" occurs when there was an attempt to use
 an object or a variable as a constructor, but that object or variable is not a

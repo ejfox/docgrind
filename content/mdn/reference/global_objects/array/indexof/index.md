@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Indexof"
 slug: "reference-global_objects-array-indexof"
 path: "reference/global_objects/array/indexof/index.md"
-wordCount: 553
+wordCount: 552
 readingTime: 3
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.546Z"
+lastModified: "2025-08-02T14:03:23.481Z"
 ---
 
-
-{{JSRef}}
 
 The **`indexOf()`** method of {{jsxref("Array")}} instances returns the first index at which a
 given element can be found in the array, or -1 if it is not present.

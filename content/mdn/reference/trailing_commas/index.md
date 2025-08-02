@@ -2,17 +2,15 @@
 title: "Reference Trailing_commas"
 slug: "reference-trailing_commas"
 path: "reference/trailing_commas/index.md"
-wordCount: 880
+wordCount: 879
 readingTime: 5
 codeBlocks: 16
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "arrays", "objects", "classes", "destructuring"]
-lastModified: "2025-07-06T19:32:45.916Z"
+lastModified: "2025-08-02T14:03:23.804Z"
 ---
 
-
-{{jsSidebar("More")}}
 
 **Trailing commas** (sometimes called "final commas") can be useful when adding new elements, parameters, or properties to JavaScript code. If you want to add a new property, you can add a new line without modifying the previously last line if that line already uses a trailing comma. This makes version-control diffs cleaner and editing code might be less troublesome.
 

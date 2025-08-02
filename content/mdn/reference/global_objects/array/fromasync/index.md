@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Fromasync"
 slug: "reference-global_objects-array-fromasync"
 path: "reference/global_objects/array/fromasync/index.md"
-wordCount: 1041
+wordCount: 1040
 readingTime: 6
 codeBlocks: 13
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "async", "promises", "dom"]
-lastModified: "2025-07-06T19:32:45.544Z"
+lastModified: "2025-08-02T14:03:23.479Z"
 ---
 
-
-{{JSRef}}
 
 The **`Array.fromAsync()`** static method creates a new, shallow-copied `Array` instance from an [async iterable](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_async_iterator_and_async_iterable_protocols), [iterable](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_iterable_protocol), or [array-like](/en-US/docs/Web/JavaScript/Guide/Indexed_collections#working_with_array-like_objects) object.
 

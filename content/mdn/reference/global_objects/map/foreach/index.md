@@ -2,17 +2,15 @@
 title: "Reference Global_objects Map Foreach"
 slug: "reference-global_objects-map-foreach"
 path: "reference/global_objects/map/foreach/index.md"
-wordCount: 372
+wordCount: 371
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.649Z"
+lastModified: "2025-08-02T14:03:23.580Z"
 ---
 
-
-{{JSRef}}
 
 The **`forEach()`** method of {{jsxref("Map")}} instances executes a provided function once per each key/value
 pair in this map, in insertion order.

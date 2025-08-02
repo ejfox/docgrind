@@ -2,17 +2,15 @@
 title: "Guide Regular_expressions Assertions"
 slug: "guide-regular_expressions-assertions"
 path: "guide/regular_expressions/assertions/index.md"
-wordCount: 1472
+wordCount: 1470
 readingTime: 8
 codeBlocks: 9
 difficulty: "advanced"
 category: "Guide"
 tags: ["functions", "objects", "classes"]
-lastModified: "2025-07-06T19:32:45.486Z"
+lastModified: "2025-08-02T14:03:23.423Z"
 ---
 
-
-{{jsSidebar("JavaScript Guide")}}
 
 Assertions include boundaries, which indicate the beginnings and endings of lines and words, and other patterns indicating in some way that a match is possible (including look-ahead, look-behind, and conditional expressions).
 

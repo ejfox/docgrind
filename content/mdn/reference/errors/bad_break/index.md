@@ -2,17 +2,15 @@
 title: "Reference Errors Bad_break"
 slug: "reference-errors-bad_break"
 path: "reference/errors/bad_break/index.md"
-wordCount: 464
+wordCount: 463
 readingTime: 3
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["loops"]
-lastModified: "2025-07-06T19:32:45.501Z"
+lastModified: "2025-08-02T14:03:23.438Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "unlabeled break must be inside loop or switch" occurs when a {{jsxref("Statements/break", "break")}} statement is not inside a loop or a {{jsxref("Statements/switch", "switch")}} statement.
 

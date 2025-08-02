@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Collator"
 slug: "reference-global_objects-intl-collator"
 path: "reference/global_objects/intl/collator/index.md"
-wordCount: 457
+wordCount: 456
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.609Z"
+lastModified: "2025-08-02T14:03:23.545Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.Collator`** object enables language-sensitive string comparison.
 

@@ -2,27 +2,25 @@
 title: "Reference Global_objects Typedarray Slice"
 slug: "reference-global_objects-typedarray-slice"
 path: "reference/global_objects/typedarray/slice/index.md"
-wordCount: 251
+wordCount: 250
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.854Z"
+lastModified: "2025-08-02T14:03:23.740Z"
 ---
 
-
-{{JSRef}}
 
 The **`slice()`** method of {{jsxref("TypedArray")}} instances returns a copy of a portion of a typed array into a new typed array object selected from `start` to `end` (`end` not included) where `start` and `end` represent the index of items in that typed array. The original typed array will not be modified. This method has the same algorithm as {{jsxref("Array.prototype.slice()")}}.
 
 {{InteractiveExample("JavaScript Demo: TypedArray.prototype.slice()", "shorter")}}
 
 ```js interactive-example
-const uint8 = new Uint8Array([10, 20, 30, 40, 50]);
-const array1 = uint8.slice(1, 3);
+const bytes = new Uint8Array([10, 20, 30, 40, 50]);
+const byteSlice = bytes.slice(1, 3);
 
-console.log(array1);
+console.log(byteSlice);
 // Expected output: Uint8Array [20, 30]
 ```
 
@@ -54,11 +52,11 @@ See {{jsxref("Array.prototype.slice()")}} for more details. This method is not g
 ### Return a portion of an existing typed array
 
 ```js
-const uint8 = new Uint8Array([1, 2, 3]);
-uint8.slice(1); // Uint8Array [ 2, 3 ]
-uint8.slice(2); // Uint8Array [ 3 ]
-uint8.slice(-2); // Uint8Array [ 2, 3 ]
-uint8.slice(0, 1); // Uint8Array [ 1 ]
+const bytes = new Uint8Array([1, 2, 3]);
+bytes.slice(1); // Uint8Array [ 2, 3 ]
+bytes.slice(2); // Uint8Array [ 3 ]
+bytes.slice(-2); // Uint8Array [ 2, 3 ]
+bytes.slice(0, 1); // Uint8Array [ 1 ]
 ```
 
 ## Specifications

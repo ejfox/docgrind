@@ -2,17 +2,15 @@
 title: "Reference Errors Bad_return"
 slug: "reference-errors-bad_return"
 path: "reference/errors/bad_return/index.md"
-wordCount: 180
+wordCount: 179
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions"]
-lastModified: "2025-07-06T19:32:45.503Z"
+lastModified: "2025-08-02T14:03:23.439Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "return not in function" occurs when a [`return`](/en-US/docs/Web/JavaScript/Reference/Statements/return) statement is called outside of a [function](/en-US/docs/Web/JavaScript/Guide/Functions).
 

@@ -8,11 +8,11 @@ codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.826Z"
+lastModified: "2025-08-02T14:03:23.712Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`daysInYear`** accessor property of {{jsxref("Temporal.PlainYearMonth")}} instances returns a positive integer representing the number of days in the year of this date. It is [calendar](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal#calendars)-dependent.
 

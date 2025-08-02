@@ -8,11 +8,11 @@ codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.792Z"
+lastModified: "2025-08-02T14:03:23.679Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`round()`** method of {{jsxref("Temporal.Instant")}} instances returns a new `Temporal.Instant` object representing this instant rounded to the given unit.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Map"
 slug: "reference-global_objects-typedarray-map"
 path: "reference/global_objects/typedarray/map/index.md"
-wordCount: 389
+wordCount: 388
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "loops"]
-lastModified: "2025-07-06T19:32:45.853Z"
+lastModified: "2025-08-02T14:03:23.738Z"
 ---
 
-
-{{JSRef}}
 
 The **`map()`** method of {{jsxref("TypedArray")}} instances creates a new typed array populated with the results of calling a provided function on every element in the calling typed array. This method has the same algorithm as {{jsxref("Array.prototype.map()")}}.
 

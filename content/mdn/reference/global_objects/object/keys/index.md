@@ -2,30 +2,28 @@
 title: "Reference Global_objects Object Keys"
 slug: "reference-global_objects-object-keys"
 path: "reference/global_objects/object/keys/index.md"
-wordCount: 382
+wordCount: 381
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom"]
-lastModified: "2025-07-06T19:32:45.686Z"
+lastModified: "2025-08-02T14:03:23.611Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object.keys()`** static method returns an array of a given object's own enumerable string-keyed property names.
 
 {{InteractiveExample("JavaScript Demo: Object.keys()")}}
 
 ```js interactive-example
-const object1 = {
+const object = {
   a: "some string",
   b: 42,
   c: false,
 };
 
-console.log(Object.keys(object1));
+console.log(Object.keys(object));
 // Expected output: Array ["a", "b", "c"]
 ```
 

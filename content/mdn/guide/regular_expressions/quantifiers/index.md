@@ -2,17 +2,15 @@
 title: "Guide Regular_expressions Quantifiers"
 slug: "guide-regular_expressions-quantifiers"
 path: "guide/regular_expressions/quantifiers/index.md"
-wordCount: 875
+wordCount: 873
 readingTime: 5
 codeBlocks: 5
 difficulty: "advanced"
 category: "Guide"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.490Z"
+lastModified: "2025-08-02T14:03:23.426Z"
 ---
 
-
-{{jsSidebar("JavaScript Guide")}}
 
 Quantifiers indicate numbers of characters or expressions to match.
 

@@ -2,17 +2,15 @@
 title: "Reference Functions"
 slug: "reference-functions"
 path: "reference/functions/index.md"
-wordCount: 2392
+wordCount: 2391
 readingTime: 12
 codeBlocks: 18
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "arrays", "objects", "classes"]
-lastModified: "2025-07-06T19:32:45.536Z"
+lastModified: "2025-08-02T14:03:23.471Z"
 ---
 
-
-{{jsSidebar("Functions")}}
 
 Generally speaking, a function is a "subprogram" that can be _called_ by code external (or internal, in the case of recursion) to the function. Like the program itself, a function is composed of a sequence of statements called the _function body_. Values can be _passed_ to a function as parameters, and the function will _return_ a value.
 

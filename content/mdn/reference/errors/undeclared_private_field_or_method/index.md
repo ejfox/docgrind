@@ -2,17 +2,15 @@
 title: "Reference Errors Undeclared_private_field_or_method"
 slug: "reference-errors-undeclared_private_field_or_method"
 path: "reference/errors/undeclared_private_field_or_method/index.md"
-wordCount: 269
+wordCount: 268
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.531Z"
+lastModified: "2025-08-02T14:03:23.466Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "reference to undeclared private field or method #x" occurs when a [private name](/en-US/docs/Web/JavaScript/Reference/Classes/Private_elements) is used, but this private name is not declared in the class scope.
 

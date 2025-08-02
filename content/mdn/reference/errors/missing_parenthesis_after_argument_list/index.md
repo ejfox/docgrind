@@ -2,17 +2,15 @@
 title: "Reference Errors Missing_parenthesis_after_argument_list"
 slug: "reference-errors-missing_parenthesis_after_argument_list"
 path: "reference/errors/missing_parenthesis_after_argument_list/index.md"
-wordCount: 277
+wordCount: 276
 readingTime: 2
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "api"]
-lastModified: "2025-07-06T19:32:45.519Z"
+lastModified: "2025-08-02T14:03:23.455Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "missing ) after argument list" occurs when there is an error
 with how a function is called. This might be a typo, a missing operator, or an unescaped

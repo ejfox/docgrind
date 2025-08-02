@@ -2,17 +2,15 @@
 title: "Reference Operators Super"
 slug: "reference-operators-super"
 path: "reference/operators/super/index.md"
-wordCount: 1535
+wordCount: 1534
 readingTime: 8
 codeBlocks: 16
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "es6"]
-lastModified: "2025-07-06T19:32:45.890Z"
+lastModified: "2025-08-02T14:03:23.777Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **`super`** keyword is used to access properties on an object literal or class's [[Prototype]], or invoke a superclass's constructor.
 

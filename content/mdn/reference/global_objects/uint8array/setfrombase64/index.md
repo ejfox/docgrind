@@ -2,17 +2,15 @@
 title: "Reference Global_objects Uint8array Setfrombase64"
 slug: "reference-global_objects-uint8array-setfrombase64"
 path: "reference/global_objects/uint8array/setfrombase64/index.md"
-wordCount: 821
+wordCount: 820
 readingTime: 5
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.859Z"
+lastModified: "2025-08-02T14:03:23.746Z"
 ---
 
-
-{{JSRef}}
 
 The **`setFromBase64()`** method of {{jsxref("Uint8Array")}} instances populates this `Uint8Array` object with bytes from a [base64](/en-US/docs/Glossary/Base64)-encoded string, returning an object indicating how many bytes were read and written.
 

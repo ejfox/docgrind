@@ -2,17 +2,15 @@
 title: "Reference Statements Async_function"
 slug: "reference-statements-async_function"
 path: "reference/statements/async_function/index.md"
-wordCount: 1823
+wordCount: 1822
 readingTime: 10
 codeBlocks: 13
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "modules", "async", "promises", "api"]
-lastModified: "2025-07-06T19:32:45.902Z"
+lastModified: "2025-08-02T14:03:23.789Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 The **`async function`** declaration creates a {{Glossary("binding")}} of a new async function to a given name. The `await` keyword is permitted within the function body, enabling asynchronous, promise-based behavior to be written in a cleaner style and avoiding the need to explicitly configure promise chains.
 

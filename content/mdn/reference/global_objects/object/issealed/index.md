@@ -2,33 +2,31 @@
 title: "Reference Global_objects Object Issealed"
 slug: "reference-global_objects-object-issealed"
 path: "reference/global_objects/object/issealed/index.md"
-wordCount: 365
+wordCount: 364
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.686Z"
+lastModified: "2025-08-02T14:03:23.611Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object.isSealed()`** static method determines if an object is [sealed](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal).
 
 {{InteractiveExample("JavaScript Demo: Object.isSealed()")}}
 
 ```js interactive-example
-const object1 = {
-  property1: 42,
+const object = {
+  foo: 42,
 };
 
-console.log(Object.isSealed(object1));
+console.log(Object.isSealed(object));
 // Expected output: false
 
-Object.seal(object1);
+Object.seal(object);
 
-console.log(Object.isSealed(object1));
+console.log(Object.isSealed(object));
 // Expected output: true
 ```
 

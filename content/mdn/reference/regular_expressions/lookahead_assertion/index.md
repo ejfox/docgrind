@@ -2,17 +2,15 @@
 title: "Reference Regular_expressions Lookahead_assertion"
 slug: "reference-regular_expressions-lookahead_assertion"
 path: "reference/regular_expressions/lookahead_assertion/index.md"
-wordCount: 958
+wordCount: 957
 readingTime: 5
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "rest"]
-lastModified: "2025-07-06T19:32:45.898Z"
+lastModified: "2025-08-02T14:03:23.785Z"
 ---
 
-
-{{jsSidebar}}
 
 A **lookahead assertion** "looks ahead": it attempts to match the subsequent input with the given pattern, but it does not consume any of the input — if the match is successful, the current position in the input stays the same.
 

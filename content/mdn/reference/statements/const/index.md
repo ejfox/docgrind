@@ -2,17 +2,15 @@
 title: "Reference Statements Const"
 slug: "reference-statements-const"
 path: "reference/statements/const/index.md"
-wordCount: 867
+wordCount: 866
 readingTime: 5
 codeBlocks: 12
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "arrays", "objects", "destructuring"]
-lastModified: "2025-07-06T19:32:45.904Z"
+lastModified: "2025-08-02T14:03:23.791Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 The **`const`** declaration declares block-scoped local variables. The value of a constant can't be changed through reassignment using the [assignment operator](/en-US/docs/Web/JavaScript/Reference/Operators/Assignment), but if a constant is an [object](/en-US/docs/Web/JavaScript/Guide/Data_structures#objects), its properties can be added, updated, or removed.
 

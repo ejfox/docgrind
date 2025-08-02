@@ -8,11 +8,11 @@ codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "events"]
-lastModified: "2025-07-06T19:32:45.821Z"
+lastModified: "2025-08-02T14:03:23.708Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`Temporal.PlainTime`** object represents a time without a date or time zone; for example, a recurring event that happens at the same time every day. It is fundamentally represented as a combination of hour, minute, second, millisecond, microsecond, and nanosecond values.
 

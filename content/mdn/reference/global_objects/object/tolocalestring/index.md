@@ -2,31 +2,29 @@
 title: "Reference Global_objects Object Tolocalestring"
 slug: "reference-global_objects-object-tolocalestring"
 path: "reference/global_objects/object/tolocalestring/index.md"
-wordCount: 378
+wordCount: 377
 readingTime: 2
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.688Z"
+lastModified: "2025-08-02T14:03:23.614Z"
 ---
 
-
-{{JSRef}}
 
 The **`toLocaleString()`** method of {{jsxref("Object")}} instances returns a string representing this object. This method is meant to be overridden by derived objects for locale-specific purposes.
 
 {{InteractiveExample("JavaScript Demo: Object.prototype.toLocaleString()")}}
 
 ```js interactive-example
-const date1 = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
+const date = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
 
-console.log(date1.toLocaleString("ar-EG"));
+console.log(date.toLocaleString("ar-EG"));
 // Expected output: "٢٠‏/١٢‏/٢٠١٢ ٤:٠٠:٠٠ ص"
 
-const number1 = 123456.789;
+const number = 123456.789;
 
-console.log(number1.toLocaleString("de-DE"));
+console.log(number.toLocaleString("de-DE"));
 // Expected output: "123.456,789"
 ```
 

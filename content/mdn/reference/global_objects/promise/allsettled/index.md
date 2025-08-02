@@ -2,17 +2,15 @@
 title: "Reference Global_objects Promise Allsettled"
 slug: "reference-global_objects-promise-allsettled"
 path: "reference/global_objects/promise/allsettled/index.md"
-wordCount: 420
+wordCount: 419
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "async", "promises"]
-lastModified: "2025-07-06T19:32:45.691Z"
+lastModified: "2025-08-02T14:03:23.616Z"
 ---
 
-
-{{JSRef}}
 
 The **`Promise.allSettled()`** static method takes an iterable of promises as input and returns a single {{jsxref("Promise")}}. This returned promise fulfills when all of the input's promises settle (including when an empty iterable is passed), with an array of objects that describe the outcome of each promise.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Regexp Symbol.Matchall"
 slug: "reference-global_objects-regexp-symbol.matchall"
 path: "reference/global_objects/regexp/symbol.matchall/index.md"
-wordCount: 522
+wordCount: 521
 readingTime: 3
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes", "rest"]
-lastModified: "2025-07-06T19:32:45.744Z"
+lastModified: "2025-08-02T14:03:23.637Z"
 ---
 
-
-{{JSRef}}
 
 The **`[Symbol.matchAll]()`** method of {{jsxref("RegExp")}} instances specifies how [`String.prototype.matchAll`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll) should behave.
 

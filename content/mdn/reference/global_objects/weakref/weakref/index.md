@@ -2,17 +2,15 @@
 title: "Reference Global_objects Weakref Weakref"
 slug: "reference-global_objects-weakref-weakref"
 path: "reference/global_objects/weakref/weakref/index.md"
-wordCount: 142
+wordCount: 141
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom"]
-lastModified: "2025-07-06T19:32:45.863Z"
+lastModified: "2025-08-02T14:03:23.751Z"
 ---
 
-
-{{JSRef}}
 
 The **`WeakRef()`** constructor creates {{jsxref("WeakRef")}} objects.
 

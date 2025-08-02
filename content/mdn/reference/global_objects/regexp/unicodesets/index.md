@@ -2,17 +2,15 @@
 title: "Reference Global_objects Regexp Unicodesets"
 slug: "reference-global_objects-regexp-unicodesets"
 path: "reference/global_objects/regexp/unicodesets/index.md"
-wordCount: 322
+wordCount: 321
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.747Z"
+lastModified: "2025-08-02T14:03:23.639Z"
 ---
 
-
-{{JSRef}}
 
 The **`unicodeSets`** accessor property of {{jsxref("RegExp")}} instances returns whether or not the `v` flag is used with this regular expression.
 

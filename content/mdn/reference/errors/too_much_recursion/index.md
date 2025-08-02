@@ -2,17 +2,15 @@
 title: "Reference Errors Too_much_recursion"
 slug: "reference-errors-too_much_recursion"
 path: "reference/errors/too_much_recursion/index.md"
-wordCount: 475
+wordCount: 474
 readingTime: 3
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions"]
-lastModified: "2025-07-06T19:32:45.531Z"
+lastModified: "2025-08-02T14:03:23.466Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "too much recursion" or "Maximum call stack size exceeded"
 occurs when there are too many function calls, or a function is missing a base case.

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number Isinteger"
 slug: "reference-global_objects-number-isinteger"
 path: "reference/global_objects/number/isinteger/index.md"
-wordCount: 360
+wordCount: 359
 readingTime: 2
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.672Z"
+lastModified: "2025-08-02T14:03:23.598Z"
 ---
 
-
-{{JSRef}}
 
 The **`Number.isInteger()`** static method determines whether the passed value is an integer.
 

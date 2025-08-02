@@ -2,17 +2,15 @@
 title: "Reference Global_objects Error Iserror"
 slug: "reference-global_objects-error-iserror"
 path: "reference/global_objects/error/iserror/index.md"
-wordCount: 425
+wordCount: 424
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom"]
-lastModified: "2025-07-06T19:32:45.594Z"
+lastModified: "2025-08-02T14:03:23.530Z"
 ---
 
-
-{{JSRef}}
 
 The **`Error.isError()`** static method determines whether the passed value is an {{jsxref("Error")}}.
 

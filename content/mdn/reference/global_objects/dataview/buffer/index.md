@@ -2,17 +2,15 @@
 title: "Reference Global_objects Dataview Buffer"
 slug: "reference-global_objects-dataview-buffer"
 path: "reference/global_objects/dataview/buffer/index.md"
-wordCount: 129
+wordCount: 128
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.570Z"
+lastModified: "2025-08-02T14:03:23.506Z"
 ---
 
-
-{{JSRef}}
 
 The **`buffer`** accessor property of {{jsxref("DataView")}} instances returns the {{jsxref("ArrayBuffer")}} or {{jsxref("SharedArrayBuffer")}} referenced by this view at construction time.
 

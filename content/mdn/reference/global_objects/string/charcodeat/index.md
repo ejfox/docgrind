@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Charcodeat"
 slug: "reference-global_objects-string-charcodeat"
 path: "reference/global_objects/string/charcodeat/index.md"
-wordCount: 524
+wordCount: 523
 readingTime: 3
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.759Z"
+lastModified: "2025-08-02T14:03:23.648Z"
 ---
 
-
-{{JSRef}}
 
 The **`charCodeAt()`** method of {{jsxref("String")}} values returns an integer between `0` and `65535` representing the UTF-16 code unit at the given index.
 

@@ -2,17 +2,15 @@
 title: "Reference Operators Exponentiation"
 slug: "reference-operators-exponentiation"
 path: "reference/operators/exponentiation/index.md"
-wordCount: 738
+wordCount: 737
 readingTime: 4
 codeBlocks: 10
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.874Z"
+lastModified: "2025-08-02T14:03:23.762Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **exponentiation (`**`)** operator returns the result of raising the first operand to the power of the second operand. It is equivalent to {{jsxref("Math.pow()")}}, except it also accepts [BigInts](/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt) as operands.
 

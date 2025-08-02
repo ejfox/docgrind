@@ -2,32 +2,30 @@
 title: "Reference Global_objects Set Set"
 slug: "reference-global_objects-set-set"
 path: "reference/global_objects/set/set/index.md"
-wordCount: 191
+wordCount: 190
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.751Z"
+lastModified: "2025-08-02T14:03:23.643Z"
 ---
 
-
-{{JSRef}}
 
 The **`Set()`** constructor creates {{jsxref("Set")}} objects.
 
 {{InteractiveExample("JavaScript Demo: Set() constructor")}}
 
 ```js interactive-example
-const set1 = new Set([1, 2, 3, 4, 5]);
+const set = new Set([1, 2, 3, 4, 5]);
 
-console.log(set1.has(1));
+console.log(set.has(1));
 // Expected output: true
 
-console.log(set1.has(5));
+console.log(set.has(5));
 // Expected output: true
 
-console.log(set1.has(6));
+console.log(set.has(6));
 // Expected output: false
 ```
 

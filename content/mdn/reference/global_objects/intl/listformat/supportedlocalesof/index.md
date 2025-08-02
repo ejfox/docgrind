@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Listformat Supportedlocalesof"
 slug: "reference-global_objects-intl-listformat-supportedlocalesof"
 path: "reference/global_objects/intl/listformat/supportedlocalesof/index.md"
-wordCount: 280
+wordCount: 279
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.619Z"
+lastModified: "2025-08-02T14:03:23.554Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.ListFormat.supportedLocalesOf()`** static method returns an array containing those of the provided locales that are supported in list formatting without having to fall back to the runtime's default locale.
 

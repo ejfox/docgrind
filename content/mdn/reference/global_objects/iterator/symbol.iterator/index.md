@@ -2,17 +2,15 @@
 title: "Reference Global_objects Iterator Symbol.Iterator"
 slug: "reference-global_objects-iterator-symbol.iterator"
 path: "reference/global_objects/iterator/symbol.iterator/index.md"
-wordCount: 150
+wordCount: 149
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["loops", "dom", "spread"]
-lastModified: "2025-07-06T19:32:45.643Z"
+lastModified: "2025-08-02T14:03:23.576Z"
 ---
 
-
-{{JSRef}}
 
 The **`[Symbol.iterator]()`** method of {{jsxref("Iterator")}} instances implements the [iterable protocol](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols) and allows built-in iterators to be consumed by most syntaxes expecting iterables, such as the [spread syntax](/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) and {{jsxref("Statements/for...of", "for...of")}} loops. It returns the value of [`this`](/en-US/docs/Web/JavaScript/Reference/Operators/this), which is the iterator object itself.
 

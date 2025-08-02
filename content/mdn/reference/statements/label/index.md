@@ -2,17 +2,15 @@
 title: "Reference Statements Label"
 slug: "reference-statements-label"
 path: "reference/statements/label/index.md"
-wordCount: 1285
+wordCount: 1284
 readingTime: 7
 codeBlocks: 12
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "loops", "async", "rest"]
-lastModified: "2025-07-06T19:32:45.911Z"
+lastModified: "2025-08-02T14:03:23.798Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 A **labeled statement** is any [statement](/en-US/docs/Web/JavaScript/Reference/Statements) that is prefixed with an identifier. You can jump to this label using a {{jsxref("Statements/break", "break")}} or {{jsxref("Statements/continue", "continue")}} statement nested within the labeled statement.
 

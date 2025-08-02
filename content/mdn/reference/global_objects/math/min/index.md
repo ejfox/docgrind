@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Min"
 slug: "reference-global_objects-math-min"
 path: "reference/global_objects/math/min/index.md"
-wordCount: 286
+wordCount: 285
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.666Z"
+lastModified: "2025-08-02T14:03:23.592Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.min()`** static method returns the smallest of the numbers given as input parameters, or {{jsxref("Infinity")}} if there are no parameters.
 
@@ -25,9 +23,9 @@ console.log(Math.min(2, 3, 1));
 console.log(Math.min(-2, -3, -1));
 // Expected output: -3
 
-const array1 = [2, 3, 1];
+const array = [2, 3, 1];
 
-console.log(Math.min(...array1));
+console.log(Math.min(...array));
 // Expected output: 1
 ```
 

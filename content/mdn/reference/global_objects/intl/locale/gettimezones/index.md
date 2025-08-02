@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Locale Gettimezones"
 slug: "reference-global_objects-intl-locale-gettimezones"
 path: "reference/global_objects/intl/locale/gettimezones/index.md"
-wordCount: 220
+wordCount: 219
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.621Z"
+lastModified: "2025-08-02T14:03:23.557Z"
 ---
 
-
-{{JSRef}}
 
 The **`getTimeZones()`** method of {{jsxref("Intl.Locale")}} instances returns a list of supported time zones for this locale.
 

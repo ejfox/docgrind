@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Findlastindex"
 slug: "reference-global_objects-typedarray-findlastindex"
 path: "reference/global_objects/typedarray/findlastindex/index.md"
-wordCount: 426
+wordCount: 425
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.850Z"
+lastModified: "2025-08-02T14:03:23.734Z"
 ---
 
-
-{{JSRef}}
 
 The **`findLastIndex()`** method of {{jsxref("TypedArray")}} instances iterates the typed array in reverse order and returns the index of the first element that satisfies the provided testing function. If no elements satisfy the testing function, -1 is returned. This method has the same algorithm as {{jsxref("Array.prototype.findLastIndex()")}}.
 

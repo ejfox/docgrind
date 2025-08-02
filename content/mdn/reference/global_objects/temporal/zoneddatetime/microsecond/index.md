@@ -8,11 +8,11 @@ codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.839Z"
+lastModified: "2025-08-02T14:03:23.724Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`microsecond`** accessor property of {{jsxref("Temporal.ZonedDateTime")}} instances returns a integer from 0 to 999 representing the microsecond (10<sup>-6</sup> second) component of this time.
 

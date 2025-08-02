@@ -2,17 +2,15 @@
 title: "Reference Errors Property_access_denied"
 slug: "reference-errors-property_access_denied"
 path: "reference/errors/property_access_denied/index.md"
-wordCount: 159
+wordCount: 158
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["dom"]
-lastModified: "2025-07-06T19:32:45.523Z"
+lastModified: "2025-08-02T14:03:23.458Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "Permission denied to access property" occurs when there was
 an attempt to access an object for which you have no permission.

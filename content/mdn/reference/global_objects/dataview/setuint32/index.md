@@ -2,17 +2,15 @@
 title: "Reference Global_objects Dataview Setuint32"
 slug: "reference-global_objects-dataview-setuint32"
 path: "reference/global_objects/dataview/setuint32/index.md"
-wordCount: 231
+wordCount: 230
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.576Z"
+lastModified: "2025-08-02T14:03:23.512Z"
 ---
 
-
-{{JSRef}}
 
 The **`setUint32()`** method of {{jsxref("DataView")}} instances takes a number and stores it as a 32-bit unsigned integer in the 4 bytes starting at the specified byte offset of this `DataView`. There is no alignment constraint; multi-byte values may be stored at any offset within bounds.
 

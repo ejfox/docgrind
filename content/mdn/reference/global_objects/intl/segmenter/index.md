@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Segmenter"
 slug: "reference-global_objects-intl-segmenter"
 path: "reference/global_objects/intl/segmenter/index.md"
-wordCount: 340
+wordCount: 339
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.632Z"
+lastModified: "2025-08-02T14:03:23.569Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.Segmenter`** object enables locale-sensitive text segmentation, enabling you to get meaningful items (graphemes, words or sentences) from a string.
 
@@ -20,14 +18,14 @@ The **`Intl.Segmenter`** object enables locale-sensitive text segmentation, enab
 
 ```js interactive-example
 const segmenterFr = new Intl.Segmenter("fr", { granularity: "word" });
-const string1 = "Que ma joie demeure";
+const string = "Que ma joie demeure";
 
-const iterator1 = segmenterFr.segment(string1)[Symbol.iterator]();
+const iterator = segmenterFr.segment(string)[Symbol.iterator]();
 
-console.log(iterator1.next().value.segment);
+console.log(iterator.next().value.segment);
 // Expected output: 'Que'
 
-console.log(iterator1.next().value.segment);
+console.log(iterator.next().value.segment);
 // Expected output: ' '
 ```
 

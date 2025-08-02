@@ -2,17 +2,15 @@
 title: "Reference Errors Missing_name_after_dot_operator"
 slug: "reference-errors-missing_name_after_dot_operator"
 path: "reference/errors/missing_name_after_dot_operator/index.md"
-wordCount: 302
+wordCount: 301
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.519Z"
+lastModified: "2025-08-02T14:03:23.454Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "missing name after . operator" occurs when there is a problem
 with how the dot operator (`.`) is used

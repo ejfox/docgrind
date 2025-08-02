@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Log10e"
 slug: "reference-global_objects-math-log10e"
 path: "reference/global_objects/math/log10e/index.md"
-wordCount: 134
+wordCount: 133
 readingTime: 1
 codeBlocks: 2
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.665Z"
+lastModified: "2025-08-02T14:03:23.591Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.LOG10E`** static data property represents the base 10 logarithm of [e](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/E), approximately 0.434.
 

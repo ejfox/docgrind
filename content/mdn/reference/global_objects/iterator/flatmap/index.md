@@ -2,17 +2,15 @@
 title: "Reference Global_objects Iterator Flatmap"
 slug: "reference-global_objects-iterator-flatmap"
 path: "reference/global_objects/iterator/flatmap/index.md"
-wordCount: 640
+wordCount: 639
 readingTime: 4
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.639Z"
+lastModified: "2025-08-02T14:03:23.574Z"
 ---
 
-
-{{JSRef}}
 
 The **`flatMap()`** method of {{jsxref("Iterator")}} instances returns a new [iterator helper object](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator#iterator_helper_objects) that takes each element in the original iterator, runs it through a mapping function, and yields elements returned by the mapping function (which are contained in another iterator or iterable).
 

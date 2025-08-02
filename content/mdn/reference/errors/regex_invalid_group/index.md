@@ -2,17 +2,15 @@
 title: "Reference Errors Regex_invalid_group"
 slug: "reference-errors-regex_invalid_group"
 path: "reference/errors/regex_invalid_group/index.md"
-wordCount: 262
+wordCount: 261
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.526Z"
+lastModified: "2025-08-02T14:03:23.461Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "invalid regexp group" occurs when the sequence `(?` does not start a valid group syntax. Recognized group syntaxes that start with `(?` include:
 

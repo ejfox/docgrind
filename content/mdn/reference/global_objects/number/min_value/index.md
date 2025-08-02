@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number Min_value"
 slug: "reference-global_objects-number-min_value"
 path: "reference/global_objects/number/min_value/index.md"
-wordCount: 266
+wordCount: 265
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.673Z"
+lastModified: "2025-08-02T14:03:23.599Z"
 ---
 
-
-{{JSRef}}
 
 The **`Number.MIN_VALUE`** static data property represents the smallest positive numeric value representable in JavaScript.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Trim"
 slug: "reference-global_objects-string-trim"
 path: "reference/global_objects/string/trim/index.md"
-wordCount: 169
+wordCount: 168
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.773Z"
+lastModified: "2025-08-02T14:03:23.662Z"
 ---
 
-
-{{JSRef}}
 
 The **`trim()`** method of {{jsxref("String")}} values removes whitespace from both ends of this string and returns a new string, without modifying the original string.
 

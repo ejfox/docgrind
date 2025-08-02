@@ -8,11 +8,11 @@ codeBlocks: 0
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.846Z"
+lastModified: "2025-08-02T14:03:23.731Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`yearOfWeek`** accessor property of {{jsxref("Temporal.ZonedDateTime")}} instances returns an integer representing the year to be paired with the {{jsxref("Temporal/ZonedDateTime/weekOfYear", "weekOfYear")}} of this date, or `undefined` if the calendar does not have a well-defined week system. It is [calendar](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal#calendars)-dependent.
 

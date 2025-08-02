@@ -2,17 +2,15 @@
 title: "Reference Regular_expressions Modifier"
 slug: "reference-regular_expressions-modifier"
 path: "reference/regular_expressions/modifier/index.md"
-wordCount: 687
+wordCount: 686
 readingTime: 4
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.899Z"
+lastModified: "2025-08-02T14:03:23.786Z"
 ---
 
-
-{{jsSidebar}}
 
 A **modifier** overrides [flag](/en-US/docs/Web/JavaScript/Reference/Regular_expressions#regex_flags) settings in a specific part of a regular expression. It can be used to enable or disable flags that change the meanings of certain regex syntax elements. These flags are [`i`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/ignoreCase), [`m`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/multiline), and [`s`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/dotAll).
 

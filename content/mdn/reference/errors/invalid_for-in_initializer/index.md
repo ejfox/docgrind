@@ -2,17 +2,15 @@
 title: "Reference Errors Invalid_for In_initializer"
 slug: "reference-errors-invalid_for-in_initializer"
 path: "reference/errors/invalid_for-in_initializer/index.md"
-wordCount: 363
+wordCount: 362
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["loops"]
-lastModified: "2025-07-06T19:32:45.515Z"
+lastModified: "2025-08-02T14:03:23.451Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript [strict mode](/en-US/docs/Web/JavaScript/Reference/Strict_mode)-only exception
 "for-in loop head declarations may not have initializers"

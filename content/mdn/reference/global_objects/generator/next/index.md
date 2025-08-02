@@ -2,17 +2,15 @@
 title: "Reference Global_objects Generator Next"
 slug: "reference-global_objects-generator-next"
 path: "reference/global_objects/generator/next/index.md"
-wordCount: 456
+wordCount: 455
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.604Z"
+lastModified: "2025-08-02T14:03:23.540Z"
 ---
 
-
-{{JSRef}}
 
 The **`next()`** method of {{jsxref("Generator")}} instances returns an
 object with two properties `done` and `value`. You can also

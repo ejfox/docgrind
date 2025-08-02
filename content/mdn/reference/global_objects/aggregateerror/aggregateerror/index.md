@@ -2,17 +2,15 @@
 title: "Reference Global_objects Aggregateerror Aggregateerror"
 slug: "reference-global_objects-aggregateerror-aggregateerror"
 path: "reference/global_objects/aggregateerror/aggregateerror/index.md"
-wordCount: 185
+wordCount: 184
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.537Z"
+lastModified: "2025-08-02T14:03:23.473Z"
 ---
 
-
-{{JSRef}}
 
 The **`AggregateError()`** constructor creates {{jsxref("AggregateError")}} objects.
 

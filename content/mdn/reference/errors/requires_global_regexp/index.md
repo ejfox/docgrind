@@ -2,17 +2,15 @@
 title: "Reference Errors Requires_global_regexp"
 slug: "reference-errors-requires_global_regexp"
 path: "reference/errors/requires_global_regexp/index.md"
-wordCount: 361
+wordCount: 360
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.528Z"
+lastModified: "2025-08-02T14:03:23.464Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "TypeError: matchAll/replaceAll must be called with a global RegExp" occurs when the {{jsxref("String.prototype.matchAll()")}} or {{jsxref("String.prototype.replaceAll()")}} method is used with a {{jsxref("RegExp")}} object that does not have the {{jsxref("RegExp/global", "global")}} flag set.
 

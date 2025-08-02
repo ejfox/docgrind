@@ -2,17 +2,15 @@
 title: "Reference Errors Import_decl_module_top_level"
 slug: "reference-errors-import_decl_module_top_level"
 path: "reference/errors/import_decl_module_top_level/index.md"
-wordCount: 466
+wordCount: 465
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "modules", "async", "api"]
-lastModified: "2025-07-06T19:32:45.513Z"
+lastModified: "2025-08-02T14:03:23.449Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "import declarations may only appear at top level of a module" occurs when an import declaration is not at the top level of a module. This might be because the import declaration is nested in other constructs (functions, blocks, etc.), or more often because the current file is not treated as a module.
 

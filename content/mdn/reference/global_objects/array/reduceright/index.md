@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Reduceright"
 slug: "reference-global_objects-array-reduceright"
 path: "reference/global_objects/array/reduceright/index.md"
-wordCount: 1396
+wordCount: 1395
 readingTime: 7
 codeBlocks: 11
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "arrays", "objects", "async", "dom"]
-lastModified: "2025-07-06T19:32:45.550Z"
+lastModified: "2025-08-02T14:03:23.485Z"
 ---
 
-
-{{JSRef}}
 
 The **`reduceRight()`** method of {{jsxref("Array")}} instances applies a function against an accumulator and each value of the array (from right-to-left) to reduce it to a single value.
 
@@ -21,13 +19,13 @@ See also {{jsxref("Array.prototype.reduce()")}} for left-to-right.
 {{InteractiveExample("JavaScript Demo: Array.prototype.reduceRight()")}}
 
 ```js interactive-example
-const array1 = [
+const array = [
   [0, 1],
   [2, 3],
   [4, 5],
 ];
 
-const result = array1.reduceRight((accumulator, currentValue) =>
+const result = array.reduceRight((accumulator, currentValue) =>
   accumulator.concat(currentValue),
 );
 

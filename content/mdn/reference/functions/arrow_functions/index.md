@@ -2,17 +2,15 @@
 title: "Reference Functions Arrow_functions"
 slug: "reference-functions-arrow_functions"
 path: "reference/functions/arrow_functions/index.md"
-wordCount: 2123
+wordCount: 2122
 readingTime: 11
 codeBlocks: 27
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "async", "dom"]
-lastModified: "2025-07-06T19:32:45.535Z"
+lastModified: "2025-08-02T14:03:23.470Z"
 ---
 
-
-{{jsSidebar("Functions")}}
 
 An **arrow function expression** is a compact alternative to a traditional [function expression](/en-US/docs/Web/JavaScript/Reference/Operators/function), with some semantic differences and deliberate limitations in usage:
 

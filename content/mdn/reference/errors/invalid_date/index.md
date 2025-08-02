@@ -2,17 +2,15 @@
 title: "Reference Errors Invalid_date"
 slug: "reference-errors-invalid_date"
 path: "reference/errors/invalid_date/index.md"
-wordCount: 234
+wordCount: 233
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.515Z"
+lastModified: "2025-08-02T14:03:23.451Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "invalid date" occurs when an invalid date is attempted to be converted to an ISO date string.
 

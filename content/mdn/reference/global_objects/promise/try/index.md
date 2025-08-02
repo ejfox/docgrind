@@ -2,17 +2,15 @@
 title: "Reference Global_objects Promise Try"
 slug: "reference-global_objects-promise-try"
 path: "reference/global_objects/promise/try/index.md"
-wordCount: 713
+wordCount: 712
 readingTime: 4
 codeBlocks: 10
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "async", "promises", "dom"]
-lastModified: "2025-07-06T19:32:45.694Z"
+lastModified: "2025-08-02T14:03:23.620Z"
 ---
 
-
-{{JSRef}}
 
 The **`Promise.try()`** static method takes a callback of any kind (returns or throws, synchronously or asynchronously) and wraps its result in a {{jsxref("Promise")}}.
 

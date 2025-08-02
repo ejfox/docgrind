@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number Valueof"
 slug: "reference-global_objects-number-valueof"
 path: "reference/global_objects/number/valueof/index.md"
-wordCount: 124
+wordCount: 123
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.677Z"
+lastModified: "2025-08-02T14:03:23.602Z"
 ---
 
-
-{{JSRef}}
 
 The **`valueOf()`** method of {{jsxref("Number")}} values returns the value of this number.
 

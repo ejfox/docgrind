@@ -2,17 +2,15 @@
 title: "Reference Global_objects Set Symmetricdifference"
 slug: "reference-global_objects-set-symmetricdifference"
 path: "reference/global_objects/set/symmetricdifference/index.md"
-wordCount: 323
+wordCount: 322
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.753Z"
+lastModified: "2025-08-02T14:03:23.644Z"
 ---
 
-
-{{JSRef}}
 
 The **`symmetricDifference()`** method of {{jsxref("Set")}} instances takes a set and returns a new set containing elements which are in either this set or the given set, but not in both.
 

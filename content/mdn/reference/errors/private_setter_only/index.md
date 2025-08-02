@@ -2,17 +2,15 @@
 title: "Reference Errors Private_setter_only"
 slug: "reference-errors-private_setter_only"
 path: "reference/errors/private_setter_only/index.md"
-wordCount: 185
+wordCount: 184
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes"]
-lastModified: "2025-07-06T19:32:45.522Z"
+lastModified: "2025-08-02T14:03:23.458Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "getting private setter-only property" occurs when reading the value of a [private element](/en-US/docs/Web/JavaScript/Reference/Classes/Private_elements) for which only a [setter](/en-US/docs/Web/JavaScript/Reference/Functions/set) is defined.
 

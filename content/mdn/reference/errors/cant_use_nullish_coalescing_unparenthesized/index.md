@@ -2,17 +2,15 @@
 title: "Reference Errors Cant_use_nullish_coalescing_unparenthesized"
 slug: "reference-errors-cant_use_nullish_coalescing_unparenthesized"
 path: "reference/errors/cant_use_nullish_coalescing_unparenthesized/index.md"
-wordCount: 310
+wordCount: 309
 readingTime: 2
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.507Z"
+lastModified: "2025-08-02T14:03:23.444Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "cannot use `??` unparenthesized within `||` and `&&` expressions" occurs when an [nullish coalescing operator](/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing) is used with a [logical OR](/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR) or [logical AND](/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND) in the same expression without parentheses.
 

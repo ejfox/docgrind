@@ -2,17 +2,15 @@
 title: "Reference Global_objects Iterator Toarray"
 slug: "reference-global_objects-iterator-toarray"
 path: "reference/global_objects/iterator/toarray/index.md"
-wordCount: 207
+wordCount: 206
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.645Z"
+lastModified: "2025-08-02T14:03:23.577Z"
 ---
 
-
-{{JSRef}}
 
 The **`toArray()`** method of {{jsxref("Iterator")}} instances creates a new {{jsxref("Array")}} instance populated with the elements yielded from the iterator.
 

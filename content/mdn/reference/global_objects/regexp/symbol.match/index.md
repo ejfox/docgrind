@@ -2,17 +2,15 @@
 title: "Reference Global_objects Regexp Symbol.Match"
 slug: "reference-global_objects-regexp-symbol.match"
 path: "reference/global_objects/regexp/symbol.match/index.md"
-wordCount: 591
+wordCount: 590
 readingTime: 3
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.744Z"
+lastModified: "2025-08-02T14:03:23.637Z"
 ---
 
-
-{{JSRef}}
 
 The **`[Symbol.match]()`** method of {{jsxref("RegExp")}} instances specifies how [`String.prototype.match()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match) should behave. In addition, its presence (or absence) can influence whether an object is regarded as a regular expression.
 

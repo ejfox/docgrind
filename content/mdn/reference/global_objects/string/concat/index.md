@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Concat"
 slug: "reference-global_objects-string-concat"
 path: "reference/global_objects/string/concat/index.md"
-wordCount: 295
+wordCount: 294
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "spread"]
-lastModified: "2025-07-06T19:32:45.759Z"
+lastModified: "2025-08-02T14:03:23.649Z"
 ---
 
-
-{{JSRef}}
 
 The **`concat()`** method of {{jsxref("String")}} values concatenates
 the string arguments to this string and returns a new string.

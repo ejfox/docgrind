@@ -2,17 +2,15 @@
 title: "Reference Execution_model"
 slug: "reference-execution_model"
 path: "reference/execution_model/index.md"
-wordCount: 3366
+wordCount: 3365
 readingTime: 17
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "arrays", "objects", "loops"]
-lastModified: "2025-07-06T19:32:45.533Z"
+lastModified: "2025-08-02T14:03:23.468Z"
 ---
 
-
-{{jsSidebar("More")}}
 
 This page introduces the basic infrastructure of the JavaScript runtime environment. The model is largely theoretical and abstract, without any platform-specific or implementation-specific details. Modern JavaScript engines heavily optimize the described semantics.
 

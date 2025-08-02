@@ -8,11 +8,11 @@ codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.608Z"
+lastModified: "2025-08-02T14:03:23.544Z"
 ---
 
 
-{{JSRef}}{{Non-standard_Header}}
+{{Non-standard_Header}}
 
 The **`InternalError`** object indicates an error that occurred internally in the JavaScript engine.
 

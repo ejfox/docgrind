@@ -2,17 +2,15 @@
 title: "Reference Global_objects Iterator Reduce"
 slug: "reference-global_objects-iterator-reduce"
 path: "reference/global_objects/iterator/reduce/index.md"
-wordCount: 442
+wordCount: 441
 readingTime: 3
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.642Z"
+lastModified: "2025-08-02T14:03:23.576Z"
 ---
 
-
-{{JSRef}}
 
 The **`reduce()`** method of {{jsxref("Iterator")}} instances is similar to {{jsxref("Array.prototype.reduce")}}: it executes a user-supplied "reducer" callback function on each element produced by the iterator, passing in the return value from the calculation on the preceding element. The final result of running the reducer across all elements is a single value.
 

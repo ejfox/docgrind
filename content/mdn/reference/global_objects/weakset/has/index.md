@@ -2,17 +2,15 @@
 title: "Reference Global_objects Weakset Has"
 slug: "reference-global_objects-weakset-has"
 path: "reference/global_objects/weakset/has/index.md"
-wordCount: 158
+wordCount: 157
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.864Z"
+lastModified: "2025-08-02T14:03:23.752Z"
 ---
 
-
-{{JSRef}}
 
 The **`has()`** method of {{jsxref("WeakSet")}} instances returns a boolean indicating whether an
 object exists in this `WeakSet` or not.
@@ -20,16 +18,16 @@ object exists in this `WeakSet` or not.
 {{InteractiveExample("JavaScript Demo: WeakSet.Prototype.has()")}}
 
 ```js interactive-example
-const weakset1 = new WeakSet();
+const weakset = new WeakSet();
 const object1 = {};
 const object2 = {};
 
-weakset1.add(object1);
+weakset.add(object1);
 
-console.log(weakset1.has(object1));
+console.log(weakset.has(object1));
 // Expected output: true
 
-console.log(weakset1.has(object2));
+console.log(weakset.has(object2));
 // Expected output: false
 ```
 

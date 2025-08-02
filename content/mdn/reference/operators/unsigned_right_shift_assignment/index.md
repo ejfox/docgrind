@@ -2,17 +2,15 @@
 title: "Reference Operators Unsigned_right_shift_assignment"
 slug: "reference-operators-unsigned_right_shift_assignment"
 path: "reference/operators/unsigned_right_shift_assignment/index.md"
-wordCount: 163
+wordCount: 162
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.892Z"
+lastModified: "2025-08-02T14:03:23.779Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **unsigned right shift assignment (`>>>=`)** operator performs [unsigned right shift](/en-US/docs/Web/JavaScript/Reference/Operators/Unsigned_right_shift) on the two operands and assigns the result to the left operand.
 

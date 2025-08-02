@@ -2,26 +2,24 @@
 title: "Reference Global_objects String Padstart"
 slug: "reference-global_objects-string-padstart"
 path: "reference/global_objects/string/padstart/index.md"
-wordCount: 250
+wordCount: 249
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.767Z"
+lastModified: "2025-08-02T14:03:23.655Z"
 ---
 
-
-{{JSRef}}
 
 The **`padStart()`** method of {{jsxref("String")}} values pads this string with a given string (repeated and/or truncated, if needed) so that the resulting string has a given length. The padding is applied from the start of this string.
 
 {{InteractiveExample("JavaScript Demo: String.prototype.padStart()")}}
 
 ```js interactive-example
-const str1 = "5";
+const str = "5";
 
-console.log(str1.padStart(2, "0"));
+console.log(str.padStart(2, "0"));
 // Expected output: "05"
 
 const fullNumber = "2034399002125581";

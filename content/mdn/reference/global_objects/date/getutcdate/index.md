@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Getutcdate"
 slug: "reference-global_objects-date-getutcdate"
 path: "reference/global_objects/date/getutcdate/index.md"
-wordCount: 140
+wordCount: 139
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.579Z"
+lastModified: "2025-08-02T14:03:23.514Z"
 ---
 
-
-{{JSRef}}
 
 The **`getUTCDate()`** method of {{jsxref("Date")}} instances returns the day of the month for this date according to universal time.
 

@@ -2,17 +2,17 @@
 title: "Reference Global_objects String Substr"
 slug: "reference-global_objects-string-substr"
 path: "reference/global_objects/string/substr/index.md"
-wordCount: 428
+wordCount: 427
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.771Z"
+lastModified: "2025-08-02T14:03:23.659Z"
 ---
 
 
-{{JSRef}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`substr()`** method of {{jsxref("String")}} values returns a portion of this string, starting at the specified index and extending for a given number of characters afterwards.
 

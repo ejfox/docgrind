@@ -2,17 +2,15 @@
 title: "Reference Regular_expressions"
 slug: "reference-regular_expressions"
 path: "reference/regular_expressions/index.md"
-wordCount: 1606
+wordCount: 1605
 readingTime: 9
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes", "api"]
-lastModified: "2025-07-06T19:32:45.897Z"
+lastModified: "2025-08-02T14:03:23.784Z"
 ---
 
-
-{{jsSidebar}}
 
 A **regular expression** (_regex_ for short) allow developers to match strings against a pattern, extract submatch information, or simply test if the string conforms to that pattern. Regular expressions are used in many programming languages, and JavaScript's syntax is inspired by [Perl](https://www.perl.org/).
 

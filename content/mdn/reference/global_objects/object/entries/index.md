@@ -2,29 +2,27 @@
 title: "Reference Global_objects Object Entries"
 slug: "reference-global_objects-object-entries"
 path: "reference/global_objects/object/entries/index.md"
-wordCount: 526
+wordCount: 525
 readingTime: 3
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "dom", "destructuring"]
-lastModified: "2025-07-06T19:32:45.681Z"
+lastModified: "2025-08-02T14:03:23.606Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object.entries()`** static method returns an array of a given object's own enumerable string-keyed property key-value pairs.
 
 {{InteractiveExample("JavaScript Demo: Object.entries()")}}
 
 ```js interactive-example
-const object1 = {
+const object = {
   a: "some string",
   b: 42,
 };
 
-for (const [key, value] of Object.entries(object1)) {
+for (const [key, value] of Object.entries(object)) {
   console.log(`${key}: ${value}`);
 }
 

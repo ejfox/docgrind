@@ -2,17 +2,15 @@
 title: "Reference Operators Bitwise_xor"
 slug: "reference-operators-bitwise_xor"
 path: "reference/operators/bitwise_xor/index.md"
-wordCount: 449
+wordCount: 448
 readingTime: 3
 codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.870Z"
+lastModified: "2025-08-02T14:03:23.758Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **bitwise XOR (`^`)** operator returns a number or BigInt whose binary representation has a `1` in each bit position for which the corresponding bits of either but not both operands are `1`.
 

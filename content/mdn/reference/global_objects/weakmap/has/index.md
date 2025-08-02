@@ -2,17 +2,15 @@
 title: "Reference Global_objects Weakmap Has"
 slug: "reference-global_objects-weakmap-has"
 path: "reference/global_objects/weakmap/has/index.md"
-wordCount: 153
+wordCount: 152
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.862Z"
+lastModified: "2025-08-02T14:03:23.749Z"
 ---
 
-
-{{JSRef}}
 
 The **`has()`** method of {{jsxref("WeakMap")}} instances returns a boolean indicating whether an
 element with the specified key exists in this `WeakMap` or not.
@@ -20,16 +18,16 @@ element with the specified key exists in this `WeakMap` or not.
 {{InteractiveExample("JavaScript Demo: WeakMap.prototype.has()")}}
 
 ```js interactive-example
-const weakmap1 = new WeakMap();
+const weakmap = new WeakMap();
 const object1 = {};
 const object2 = {};
 
-weakmap1.set(object1, "foo");
+weakmap.set(object1, "foo");
 
-console.log(weakmap1.has(object1));
+console.log(weakmap.has(object1));
 // Expected output: true
 
-console.log(weakmap1.has(object2));
+console.log(weakmap.has(object2));
 // Expected output: false
 ```
 

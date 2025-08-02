@@ -2,17 +2,15 @@
 title: "Reference Global_objects Regexp"
 slug: "reference-global_objects-regexp"
 path: "reference/global_objects/regexp/index.md"
-wordCount: 2041
+wordCount: 2040
 readingTime: 11
 codeBlocks: 13
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.740Z"
+lastModified: "2025-08-02T14:03:23.633Z"
 ---
 
-
-{{JSRef}}
 
 The **`RegExp`** object is used for matching text with a pattern.
 

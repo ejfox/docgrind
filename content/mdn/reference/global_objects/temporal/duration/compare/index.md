@@ -8,11 +8,11 @@ codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects"]
-lastModified: "2025-07-06T19:32:45.781Z"
+lastModified: "2025-08-02T14:03:23.670Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`Temporal.Duration.compare()`** static method returns a number (-1, 0, or 1) indicating whether the first duration is shorter, equal to, or longer than the second duration.
 

@@ -2,17 +2,15 @@
 title: "Reference Operators Import.Meta"
 slug: "reference-operators-import.meta"
 path: "reference/operators/import.meta/index.md"
-wordCount: 489
+wordCount: 488
 readingTime: 3
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "objects", "modules", "promises", "api"]
-lastModified: "2025-07-06T19:32:45.877Z"
+lastModified: "2025-08-02T14:03:23.765Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **`import.meta`** meta-property exposes context-specific metadata to a JavaScript module. It contains information about the module, such as the module's URL.
 

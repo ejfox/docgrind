@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Lastindexof"
 slug: "reference-global_objects-array-lastindexof"
 path: "reference/global_objects/array/lastindexof/index.md"
-wordCount: 636
+wordCount: 635
 readingTime: 4
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.547Z"
+lastModified: "2025-08-02T14:03:23.482Z"
 ---
 
-
-{{JSRef}}
 
 The **`lastIndexOf()`** method of {{jsxref("Array")}} instances returns the last index at which
 a given element can be found in the array, or -1 if it is not present. The array is

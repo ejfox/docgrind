@@ -2,17 +2,17 @@
 title: "Guide Modules"
 slug: "guide-modules"
 path: "guide/modules/index.md"
-wordCount: 7268
+wordCount: 7267
 readingTime: 37
 codeBlocks: 68
 difficulty: "advanced"
 category: "Guide"
 tags: ["variables", "functions", "objects", "classes", "modules"]
-lastModified: "2025-07-06T19:32:45.484Z"
+lastModified: "2025-08-02T14:03:23.421Z"
 ---
 
 
-{{jsSidebar("JavaScript Guide")}}{{Previous("Web/JavaScript/Guide/Internationalization")}}
+{{Previous("Web/JavaScript/Guide/Internationalization")}}
 
 This guide gives you all you need to get started with JavaScript module syntax.
 
@@ -143,9 +143,9 @@ Once you've imported the features into your script, you can use them just like t
 const myCanvas = create("myCanvas", document.body, 480, 320);
 const reportList = createReportList(myCanvas.id);
 
-const square1 = draw(myCanvas.ctx, 50, 50, 100, "blue");
-reportArea(square1.length, reportList);
-reportPerimeter(square1.length, reportList);
+const square = draw(myCanvas.ctx, 50, 50, 100, "blue");
+reportArea(square.length, reportList);
+reportPerimeter(square.length, reportList);
 ```
 
 > [!NOTE]
@@ -618,9 +618,9 @@ import * as Triangle from "./modules/triangle.js";
 In each case, you can now access the module's imports underneath the specified object name, for example:
 
 ```js
-const square1 = Square.draw(myCanvas.ctx, 50, 50, 100, "blue");
-Square.reportArea(square1.length, reportList);
-Square.reportPerimeter(square1.length, reportList);
+const square = Square.draw(myCanvas.ctx, 50, 50, 100, "blue");
+Square.reportArea(square.length, reportList);
+Square.reportPerimeter(square.length, reportList);
 ```
 
 So you can now write the code just the same as before (as long as you include the object names where needed), and the imports are much neater.
@@ -660,10 +660,10 @@ import { Square } from "./modules/square.js";
 And then use the class to draw our square:
 
 ```js
-const square1 = new Square(myCanvas.ctx, myCanvas.listId, 50, 50, 100, "blue");
-square1.draw();
-square1.reportArea();
-square1.reportPerimeter();
+const square = new Square(myCanvas.ctx, myCanvas.listId, 50, 50, 100, "blue");
+square.draw();
+square.reportArea();
+square.reportPerimeter();
 ```
 
 ## Aggregating modules
@@ -753,7 +753,7 @@ We then attach an event listener to each button so that when pressed, the releva
 ```js
 squareBtn.addEventListener("click", () => {
   import("./modules/square.js").then((Module) => {
-    const square1 = new Module.Square(
+    const square = new Module.Square(
       myCanvas.ctx,
       myCanvas.listId,
       50,
@@ -761,9 +761,9 @@ squareBtn.addEventListener("click", () => {
       100,
       "blue",
     );
-    square1.draw();
-    square1.reportArea();
-    square1.reportPerimeter();
+    square.draw();
+    square.reportArea();
+    square.reportPerimeter();
   });
 });
 ```
@@ -828,7 +828,7 @@ const circleBtn = document.querySelector(".circle");
 We'll use `colors` instead of the previously used strings when calling our shape functions:
 
 ```js
-const square1 = new Module.Square(
+const square = new Module.Square(
   myCanvas.ctx,
   myCanvas.listId,
   50,
@@ -837,7 +837,7 @@ const square1 = new Module.Square(
   colors.blue,
 );
 
-const circle1 = new Module.Circle(
+const circle = new Module.Circle(
   myCanvas.ctx,
   myCanvas.listId,
   75,
@@ -846,7 +846,7 @@ const circle1 = new Module.Circle(
   colors.green,
 );
 
-const triangle1 = new Module.Triangle(
+const triangle = new Module.Triangle(
   myCanvas.ctx,
   myCanvas.listId,
   100,

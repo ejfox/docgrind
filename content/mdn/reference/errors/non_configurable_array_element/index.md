@@ -2,17 +2,15 @@
 title: "Reference Errors Non_configurable_array_element"
 slug: "reference-errors-non_configurable_array_element"
 path: "reference/errors/non_configurable_array_element/index.md"
-wordCount: 356
+wordCount: 355
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.521Z"
+lastModified: "2025-08-02T14:03:23.456Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "can't delete non-configurable array element" occurs when it
 was attempted to [shorten the length](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length#shortening_an_array)

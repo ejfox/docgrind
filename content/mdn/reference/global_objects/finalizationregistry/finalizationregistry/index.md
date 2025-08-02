@@ -2,17 +2,15 @@
 title: "Reference Global_objects Finalizationregistry Finalizationregistry"
 slug: "reference-global_objects-finalizationregistry-finalizationregistry"
 path: "reference/global_objects/finalizationregistry/finalizationregistry/index.md"
-wordCount: 130
+wordCount: 129
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.597Z"
+lastModified: "2025-08-02T14:03:23.533Z"
 ---
 
-
-{{JSRef}}
 
 The **`FinalizationRegistry()`** constructor creates {{jsxref("FinalizationRegistry")}} objects.
 

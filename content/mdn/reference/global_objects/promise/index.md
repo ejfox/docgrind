@@ -2,17 +2,15 @@
 title: "Reference Global_objects Promise"
 slug: "reference-global_objects-promise"
 path: "reference/global_objects/promise/index.md"
-wordCount: 3825
+wordCount: 3824
 readingTime: 20
 codeBlocks: 17
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "async", "promises"]
-lastModified: "2025-07-06T19:32:45.692Z"
+lastModified: "2025-08-02T14:03:23.618Z"
 ---
 
-
-{{JSRef}}
 
 The **`Promise`** object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
 

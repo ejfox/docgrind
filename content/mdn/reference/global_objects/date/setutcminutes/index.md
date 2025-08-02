@@ -2,31 +2,29 @@
 title: "Reference Global_objects Date Setutcminutes"
 slug: "reference-global_objects-date-setutcminutes"
 path: "reference/global_objects/date/setutcminutes/index.md"
-wordCount: 258
+wordCount: 257
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.586Z"
+lastModified: "2025-08-02T14:03:23.521Z"
 ---
 
-
-{{JSRef}}
 
 The **`setUTCMinutes()`** method of {{jsxref("Date")}} instances changes the minutes for this date according to universal time.
 
 {{InteractiveExample("JavaScript Demo: Date.prototype.setUTCMinutes()")}}
 
 ```js interactive-example
-const date1 = new Date("December 31, 1975, 23:15:30 GMT+11:00");
+const date = new Date("December 31, 1975, 23:15:30 GMT+11:00");
 
-console.log(date1.getUTCMinutes());
+console.log(date.getUTCMinutes());
 // Expected output: 15
 
-date1.setUTCMinutes(25);
+date.setUTCMinutes(25);
 
-console.log(date1.getUTCMinutes());
+console.log(date.getUTCMinutes());
 // Expected output: 25
 ```
 

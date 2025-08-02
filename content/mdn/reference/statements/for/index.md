@@ -2,17 +2,15 @@
 title: "Reference Statements For"
 slug: "reference-statements-for"
 path: "reference/statements/for/index.md"
-wordCount: 1660
+wordCount: 1659
 readingTime: 9
 codeBlocks: 18
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "loops", "async", "dom"]
-lastModified: "2025-07-06T19:32:45.906Z"
+lastModified: "2025-08-02T14:03:23.793Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 The **`for`** statement creates a loop that consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement (usually a [block statement](/en-US/docs/Web/JavaScript/Reference/Statements/block)) to be executed in the loop.
 

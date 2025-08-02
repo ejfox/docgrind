@@ -2,17 +2,15 @@
 title: "Reference Global_objects Asyncgenerator Throw"
 slug: "reference-global_objects-asyncgenerator-throw"
 path: "reference/global_objects/asyncgenerator/throw/index.md"
-wordCount: 303
+wordCount: 302
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["async"]
-lastModified: "2025-07-06T19:32:45.561Z"
+lastModified: "2025-08-02T14:03:23.497Z"
 ---
 
-
-{{JSRef}}
 
 The **`throw()`** method of {{jsxref("AsyncGenerator")}} instances acts as if a `throw` statement is inserted in the generator's body at the current suspended position, which informs the generator of an error condition and allows it to handle the error, or perform cleanup and close itself.
 

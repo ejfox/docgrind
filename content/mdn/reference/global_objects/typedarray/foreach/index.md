@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Foreach"
 slug: "reference-global_objects-typedarray-foreach"
 path: "reference/global_objects/typedarray/foreach/index.md"
-wordCount: 271
+wordCount: 270
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.850Z"
+lastModified: "2025-08-02T14:03:23.735Z"
 ---
 
-
-{{JSRef}}
 
 The **`forEach()`** method of {{jsxref("TypedArray")}} instances executes a provided function once for each typed array element. This method has the same algorithm as {{jsxref("Array.prototype.forEach()")}}.
 

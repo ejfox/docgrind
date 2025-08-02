@@ -2,17 +2,15 @@
 title: "Reference Operators Division"
 slug: "reference-operators-division"
 path: "reference/operators/division/index.md"
-wordCount: 376
+wordCount: 375
 readingTime: 2
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.873Z"
+lastModified: "2025-08-02T14:03:23.761Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **division (`/`)** operator produces the quotient of its operands where the left operand is the dividend and the right operand is the divisor.
 

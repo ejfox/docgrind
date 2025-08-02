@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Toreversed"
 slug: "reference-global_objects-typedarray-toreversed"
 path: "reference/global_objects/typedarray/toreversed/index.md"
-wordCount: 139
+wordCount: 138
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.856Z"
+lastModified: "2025-08-02T14:03:23.742Z"
 ---
 
-
-{{JSRef}}
 
 The **`toReversed()`** method of {{jsxref("TypedArray")}} instances is the [copying](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#copying_methods_and_mutating_methods) counterpart of the {{jsxref("TypedArray/reverse", "reverse()")}} method. It returns a new typed array with the elements in reversed order. This method has the same algorithm as {{jsxref("Array.prototype.toReversed()")}}.
 

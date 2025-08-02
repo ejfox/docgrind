@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number Tolocalestring"
 slug: "reference-global_objects-number-tolocalestring"
 path: "reference/global_objects/number/tolocalestring/index.md"
-wordCount: 799
+wordCount: 798
 readingTime: 4
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "api"]
-lastModified: "2025-07-06T19:32:45.676Z"
+lastModified: "2025-08-02T14:03:23.601Z"
 ---
 
-
-{{JSRef}}
 
 The **`toLocaleString()`** method of {{jsxref("Number")}} values returns a string with a language-sensitive representation of this number. In implementations with [`Intl.NumberFormat` API](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat) support, this method delegates to `Intl.NumberFormat`.
 

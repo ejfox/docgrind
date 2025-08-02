@@ -2,17 +2,15 @@
 title: "Reference Global_objects Symbol Matchall"
 slug: "reference-global_objects-symbol-matchall"
 path: "reference/global_objects/symbol/matchall/index.md"
-wordCount: 156
+wordCount: 155
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.777Z"
+lastModified: "2025-08-02T14:03:23.666Z"
 ---
 
-
-{{JSRef}}
 
 The **`Symbol.matchAll`** static data property represents the [well-known symbol](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#well-known_symbols) `Symbol.matchAll`. The {{jsxref("String.prototype.matchAll()")}} method looks up this symbol on its first argument for the method that returns an iterator, that yields matches of the current object against a string.
 

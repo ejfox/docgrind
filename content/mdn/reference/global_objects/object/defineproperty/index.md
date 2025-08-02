@@ -2,34 +2,32 @@
 title: "Reference Global_objects Object Defineproperty"
 slug: "reference-global_objects-object-defineproperty"
 path: "reference/global_objects/object/defineproperty/index.md"
-wordCount: 2484
+wordCount: 2483
 readingTime: 13
 codeBlocks: 16
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "events", "spread", "rest"]
-lastModified: "2025-07-06T19:32:45.680Z"
+lastModified: "2025-08-02T14:03:23.605Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object.defineProperty()`** static method defines a new property directly on an object, or modifies an existing property on an object, and returns the object.
 
 {{InteractiveExample("JavaScript Demo: Object.defineProperty()")}}
 
 ```js interactive-example
-const object1 = {};
+const object = {};
 
-Object.defineProperty(object1, "property1", {
+Object.defineProperty(object, "foo", {
   value: 42,
   writable: false,
 });
 
-object1.property1 = 77;
+object.foo = 77;
 // Throws an error in strict mode
 
-console.log(object1.property1);
+console.log(object.foo);
 // Expected output: 42
 ```
 

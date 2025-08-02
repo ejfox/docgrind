@@ -2,34 +2,32 @@
 title: "Reference Global_objects Weakset Delete"
 slug: "reference-global_objects-weakset-delete"
 path: "reference/global_objects/weakset/delete/index.md"
-wordCount: 164
+wordCount: 163
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.864Z"
+lastModified: "2025-08-02T14:03:23.751Z"
 ---
 
-
-{{JSRef}}
 
 The **`delete()`** method of {{jsxref("WeakSet")}} instances removes the specified element from this `WeakSet`.
 
 {{InteractiveExample("JavaScript Demo: WeakSet.Prototype.delete()")}}
 
 ```js interactive-example
-const weakset1 = new WeakSet();
-const object1 = {};
+const weakset = new WeakSet();
+const object = {};
 
-weakset1.add(object1);
+weakset.add(object);
 
-console.log(weakset1.has(object1));
+console.log(weakset.has(object));
 // Expected output: true
 
-weakset1.delete(object1);
+weakset.delete(object);
 
-console.log(weakset1.has(object1));
+console.log(weakset.has(object));
 // Expected output: false
 ```
 

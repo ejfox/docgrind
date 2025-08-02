@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Buffer"
 slug: "reference-global_objects-typedarray-buffer"
 path: "reference/global_objects/typedarray/buffer/index.md"
-wordCount: 196
+wordCount: 195
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.847Z"
+lastModified: "2025-08-02T14:03:23.732Z"
 ---
 
-
-{{JSRef}}
 
 The **`buffer`** accessor property of {{jsxref("TypedArray")}} instances returns the {{jsxref("ArrayBuffer")}} or {{jsxref("SharedArrayBuffer")}} referenced by this typed array at construction time.
 

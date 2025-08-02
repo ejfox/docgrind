@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Segmenter Segment Segments"
 slug: "reference-global_objects-intl-segmenter-segment-segments"
 path: "reference/global_objects/intl/segmenter/segment/segments/index.md"
-wordCount: 83
+wordCount: 82
 readingTime: 1
 codeBlocks: 0
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.633Z"
+lastModified: "2025-08-02T14:03:23.570Z"
 ---
 
-
-{{JSRef}}
 
 A **`Segments`** object is an iterable collection of the segments of a text string. It is returned by a call to the [`segment()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter/segment) method of an [`Intl.Segmenter`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter) object.
 

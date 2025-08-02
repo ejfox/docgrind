@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Join"
 slug: "reference-global_objects-typedarray-join"
 path: "reference/global_objects/typedarray/join/index.md"
-wordCount: 226
+wordCount: 225
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays"]
-lastModified: "2025-07-06T19:32:45.852Z"
+lastModified: "2025-08-02T14:03:23.737Z"
 ---
 
-
-{{JSRef}}
 
 The **`join()`** method of {{jsxref("TypedArray")}} instances creates and returns a new string by concatenating all of the elements in this typed array, separated by commas or a specified separator string. If the typed array has only one item, then that item will be returned without using the separator. This method has the same algorithm as {{jsxref("Array.prototype.join()")}}.
 

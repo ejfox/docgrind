@@ -2,25 +2,23 @@
 title: "Reference Global_objects Array Keys"
 slug: "reference-global_objects-array-keys"
 path: "reference/global_objects/array/keys/index.md"
-wordCount: 263
+wordCount: 262
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.547Z"
+lastModified: "2025-08-02T14:03:23.482Z"
 ---
 
-
-{{JSRef}}
 
 The **`keys()`** method of {{jsxref("Array")}} instances returns a new _[array iterator](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator)_ object that contains the keys for each index in the array.
 
 {{InteractiveExample("JavaScript Demo: Array.prototype.keys()")}}
 
 ```js interactive-example
-const array1 = ["a", "b", "c"];
-const iterator = array1.keys();
+const array = ["a", "b", "c"];
+const iterator = array.keys();
 
 for (const key of iterator) {
   console.log(key);

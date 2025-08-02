@@ -2,17 +2,15 @@
 title: "Reference Global_objects Json Israwjson"
 slug: "reference-global_objects-json-israwjson"
 path: "reference/global_objects/json/israwjson/index.md"
-wordCount: 360
+wordCount: 359
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.646Z"
+lastModified: "2025-08-02T14:03:23.578Z"
 ---
 
-
-{{JSRef}}
 
 The **`JSON.isRawJSON()`** static method tests whether a value is an object returned by {{jsxref("JSON.rawJSON()")}}.
 

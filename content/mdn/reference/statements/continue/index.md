@@ -2,17 +2,15 @@
 title: "Reference Statements Continue"
 slug: "reference-statements-continue"
 path: "reference/statements/continue/index.md"
-wordCount: 624
+wordCount: 623
 readingTime: 4
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["loops", "classes"]
-lastModified: "2025-07-06T19:32:45.904Z"
+lastModified: "2025-08-02T14:03:23.791Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 The **`continue`** statement terminates execution of the statements in the current iteration of the current or labeled loop, and continues execution of the loop with the next iteration.
 

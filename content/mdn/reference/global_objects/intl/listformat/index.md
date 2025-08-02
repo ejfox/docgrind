@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Listformat"
 slug: "reference-global_objects-intl-listformat"
 path: "reference/global_objects/intl/listformat/index.md"
-wordCount: 422
+wordCount: 421
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.618Z"
+lastModified: "2025-08-02T14:03:23.553Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.ListFormat`** object enables language-sensitive list formatting.
 

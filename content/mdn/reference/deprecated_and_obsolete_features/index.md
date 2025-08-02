@@ -2,17 +2,15 @@
 title: "Reference Deprecated_and_obsolete_features"
 slug: "reference-deprecated_and_obsolete_features"
 path: "reference/deprecated_and_obsolete_features/index.md"
-wordCount: 2008
+wordCount: 2007
 readingTime: 11
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "arrays", "objects", "loops"]
-lastModified: "2025-07-06T19:32:45.499Z"
+lastModified: "2025-08-02T14:03:23.436Z"
 ---
 
-
-{{jsSidebar("More")}}
 
 This page lists features of JavaScript that are deprecated (that is, still available but planned for removal) and obsolete (that is, no longer usable).
 

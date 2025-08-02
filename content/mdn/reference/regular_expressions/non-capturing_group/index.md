@@ -2,17 +2,15 @@
 title: "Reference Regular_expressions Non Capturing_group"
 slug: "reference-regular_expressions-non-capturing_group"
 path: "reference/regular_expressions/non-capturing_group/index.md"
-wordCount: 565
+wordCount: 564
 readingTime: 3
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.900Z"
+lastModified: "2025-08-02T14:03:23.787Z"
 ---
 
-
-{{jsSidebar}}
 
 A **non-capturing group** groups a subpattern, allowing you to apply a [quantifier](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Quantifier) to the entire group or use [disjunctions](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Disjunction) within it. It acts like the [grouping operator](/en-US/docs/Web/JavaScript/Reference/Operators/Grouping) in JavaScript expressions, and unlike [capturing groups](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Capturing_group), it does not memorize the matched text, allowing for better performance and avoiding confusion when the pattern also contains useful capturing groups.
 

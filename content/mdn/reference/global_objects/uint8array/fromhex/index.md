@@ -2,17 +2,15 @@
 title: "Reference Global_objects Uint8array Fromhex"
 slug: "reference-global_objects-uint8array-fromhex"
 path: "reference/global_objects/uint8array/fromhex/index.md"
-wordCount: 240
+wordCount: 239
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.858Z"
+lastModified: "2025-08-02T14:03:23.745Z"
 ---
 
-
-{{JSRef}}
 
 The **`Uint8Array.fromHex()`** static method creates a new {{jsxref("Uint8Array")}} object from a hexadecimal string.
 

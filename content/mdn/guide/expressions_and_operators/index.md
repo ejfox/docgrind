@@ -2,17 +2,17 @@
 title: "Guide Expressions_and_operators"
 slug: "guide-expressions_and_operators"
 path: "guide/expressions_and_operators/index.md"
-wordCount: 6461
+wordCount: 6459
 readingTime: 33
 codeBlocks: 50
 difficulty: "advanced"
 category: "Guide"
 tags: ["variables", "functions", "arrays", "objects", "classes"]
-lastModified: "2025-07-06T19:32:45.470Z"
+lastModified: "2025-08-02T14:03:23.408Z"
 ---
 
 
-{{jsSidebar("JavaScript Guide")}} {{PreviousNext("Web/JavaScript/Guide/Functions", "Web/JavaScript/Guide/Numbers_and_strings")}}
+{{PreviousNext("Web/JavaScript/Guide/Functions", "Web/JavaScript/Guide/Numbers_and_strings")}}
 
 This chapter describes JavaScript's expressions and operators, including assignment, comparison, arithmetic, bitwise, logical, string, ternary and more.
 

@@ -8,11 +8,11 @@ codeBlocks: 2
 difficulty: "beginner"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.795Z"
+lastModified: "2025-08-02T14:03:23.682Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`Temporal.Now.instant()`** static method returns the current time as a {{jsxref("Temporal.Instant")}} object.
 

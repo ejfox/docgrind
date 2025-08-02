@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Sinh"
 slug: "reference-global_objects-math-sinh"
 path: "reference/global_objects/math/sinh/index.md"
-wordCount: 170
+wordCount: 169
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.668Z"
+lastModified: "2025-08-02T14:03:23.594Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.sinh()`** static method returns the hyperbolic sine of a number. That is,
 

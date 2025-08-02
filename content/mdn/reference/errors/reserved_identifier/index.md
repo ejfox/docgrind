@@ -2,17 +2,15 @@
 title: "Reference Errors Reserved_identifier"
 slug: "reference-errors-reserved_identifier"
 path: "reference/errors/reserved_identifier/index.md"
-wordCount: 262
+wordCount: 261
 readingTime: 2
 codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
 tags: ["variables"]
-lastModified: "2025-07-06T19:32:45.529Z"
+lastModified: "2025-08-02T14:03:23.464Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "_variable_ is a reserved identifier" occurs
 when [reserved keywords](/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords) are used as identifiers.

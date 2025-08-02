@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Concat"
 slug: "reference-global_objects-array-concat"
 path: "reference/global_objects/array/concat/index.md"
-wordCount: 771
+wordCount: 770
 readingTime: 4
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "spread"]
-lastModified: "2025-07-06T19:32:45.539Z"
+lastModified: "2025-08-02T14:03:23.474Z"
 ---
 
-
-{{JSRef}}
 
 The **`concat()`** method of {{jsxref("Array")}} instances is used to merge two or more arrays.
 This method does not change the existing arrays, but instead returns a new array.

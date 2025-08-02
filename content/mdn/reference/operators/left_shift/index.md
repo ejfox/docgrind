@@ -2,17 +2,15 @@
 title: "Reference Operators Left_shift"
 slug: "reference-operators-left_shift"
 path: "reference/operators/left_shift/index.md"
-wordCount: 468
+wordCount: 467
 readingTime: 3
 codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.880Z"
+lastModified: "2025-08-02T14:03:23.767Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **left shift (`<<`)** operator returns a number or BigInt whose binary representation is the first operand shifted by the specified number of bits to the left. Excess bits shifted off to the left are discarded, and zero bits are shifted in from the right.
 

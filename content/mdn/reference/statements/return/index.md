@@ -2,17 +2,15 @@
 title: "Reference Statements Return"
 slug: "reference-statements-return"
 path: "reference/statements/return/index.md"
-wordCount: 427
+wordCount: 426
 readingTime: 3
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "async"]
-lastModified: "2025-07-06T19:32:45.911Z"
+lastModified: "2025-08-02T14:03:23.799Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 The **`return`** statement ends function execution and specifies a value to be returned to the function caller.
 

@@ -2,17 +2,15 @@
 title: "Reference Operators Increment"
 slug: "reference-operators-increment"
 path: "reference/operators/increment/index.md"
-wordCount: 319
+wordCount: 318
 readingTime: 2
 codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
 tags: ["variables", "objects"]
-lastModified: "2025-07-06T19:32:45.879Z"
+lastModified: "2025-08-02T14:03:23.766Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **increment (`++`)** operator increments (adds one to) its operand and returns the value before or after the increment, depending on where the operator is placed.
 

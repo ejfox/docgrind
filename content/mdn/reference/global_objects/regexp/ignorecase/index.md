@@ -2,17 +2,15 @@
 title: "Reference Global_objects Regexp Ignorecase"
 slug: "reference-global_objects-regexp-ignorecase"
 path: "reference/global_objects/regexp/ignorecase/index.md"
-wordCount: 405
+wordCount: 404
 readingTime: 3
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "events", "api"]
-lastModified: "2025-07-06T19:32:45.739Z"
+lastModified: "2025-08-02T14:03:23.633Z"
 ---
 
-
-{{JSRef}}
 
 The **`ignoreCase`** accessor property of {{jsxref("RegExp")}} instances returns whether or not the `i` flag is used with this regular expression.
 

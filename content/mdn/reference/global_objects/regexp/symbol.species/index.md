@@ -2,17 +2,15 @@
 title: "Reference Global_objects Regexp Symbol.Species"
 slug: "reference-global_objects-regexp-symbol.species"
 path: "reference/global_objects/regexp/symbol.species/index.md"
-wordCount: 433
+wordCount: 432
 readingTime: 3
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.745Z"
+lastModified: "2025-08-02T14:03:23.638Z"
 ---
 
-
-{{JSRef}}
 
 The **`RegExp[Symbol.species]`** static accessor property returns the constructor used to construct copied regular expressions in certain `RegExp` methods.
 

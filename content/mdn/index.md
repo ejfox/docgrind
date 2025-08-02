@@ -2,17 +2,15 @@
 title: "Index.Md"
 slug: "index.md"
 path: "index.md"
-wordCount: 861
+wordCount: 860
 readingTime: 5
 codeBlocks: 0
 difficulty: "advanced"
 category: "General"
 tags: ["variables", "functions", "objects", "classes", "async"]
-lastModified: "2025-07-06T19:32:45.495Z"
+lastModified: "2025-08-02T14:03:23.431Z"
 ---
 
-
-{{jsSidebar}}
 
 **JavaScript** (**JS**) is a lightweight interpreted (or {{Glossary("Just_In_Time_Compilation", "just-in-time compiled")}}) programming language with {{Glossary("First-class Function", "first-class functions")}}. While it is most well-known as the scripting language for Web pages, [many non-browser environments](https://en.wikipedia.org/wiki/JavaScript#Other_usage) also use it, such as {{Glossary("Node.js")}}, [Apache CouchDB](https://couchdb.apache.org/) and [Adobe Acrobat](https://opensource.adobe.com/dc-acrobat-sdk-docs/acrobatsdk/). JavaScript is a [prototype-based](/en-US/docs/Glossary/Prototype-based_programming), [garbage-collected](/en-US/docs/Glossary/Garbage_collection), [dynamic](/en-US/docs/Glossary/Dynamic_typing) language, supporting multiple paradigms such as imperative, functional, and object-oriented.
 

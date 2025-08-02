@@ -2,17 +2,15 @@
 title: "Reference Operators Function_star_"
 slug: "reference-operators-function_star_"
 path: "reference/operators/function_star_/index.md"
-wordCount: 367
+wordCount: 366
 readingTime: 2
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: ["functions"]
-lastModified: "2025-07-06T19:32:45.876Z"
+lastModified: "2025-08-02T14:03:23.763Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **`function*`** keyword can be used to define a generator function inside an expression.
 

@@ -2,17 +2,15 @@
 title: "Reference Statements If...Else"
 slug: "reference-statements-if...else"
 path: "reference/statements/if...else/index.md"
-wordCount: 724
+wordCount: 723
 readingTime: 4
 codeBlocks: 13
 difficulty: "advanced"
 category: "Reference"
 tags: ["loops"]
-lastModified: "2025-07-06T19:32:45.909Z"
+lastModified: "2025-08-02T14:03:23.796Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 The **`if...else`** statement executes a statement if a specified condition is {{Glossary("truthy")}}. If the condition is {{Glossary("falsy")}}, another statement in the optional `else` clause will be executed.
 

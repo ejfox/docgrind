@@ -2,17 +2,15 @@
 title: "Reference Regular_expressions Character_class_escape"
 slug: "reference-regular_expressions-character_class_escape"
 path: "reference/regular_expressions/character_class_escape/index.md"
-wordCount: 323
+wordCount: 322
 readingTime: 2
 codeBlocks: 2
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.895Z"
+lastModified: "2025-08-02T14:03:23.782Z"
 ---
 
-
-{{jsSidebar}}
 
 A **character class escape** is an escape sequence that represents a set of characters.
 

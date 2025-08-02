@@ -2,29 +2,27 @@
 title: "Reference Global_objects Proxy Proxy Get"
 slug: "reference-global_objects-proxy-proxy-get"
 path: "reference/global_objects/proxy/proxy/get/index.md"
-wordCount: 431
+wordCount: 430
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.697Z"
+lastModified: "2025-08-02T14:03:23.623Z"
 ---
 
-
-{{JSRef}}
 
 The **`handler.get()`** method is a trap for the `[[Get]]` [object internal method](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#object_internal_methods), which is used by operations such as [property accessors](/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors).
 
 {{InteractiveExample("JavaScript Demo: handler.get()", "taller")}}
 
 ```js interactive-example
-const monster1 = {
+const monster = {
   secret: "easily scared",
   eyeCount: 4,
 };
 
-const handler1 = {
+const handler = {
   get(target, prop, receiver) {
     if (prop === "secret") {
       return `${target.secret.substring(0, 4)} ... shhhh!`;
@@ -33,12 +31,12 @@ const handler1 = {
   },
 };
 
-const proxy1 = new Proxy(monster1, handler1);
+const proxy = new Proxy(monster, handler);
 
-console.log(proxy1.eyeCount);
+console.log(proxy.eyeCount);
 // Expected output: 4
 
-console.log(proxy1.secret);
+console.log(proxy.secret);
 // Expected output: "easi ... shhhh!"
 ```
 

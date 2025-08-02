@@ -8,11 +8,11 @@ codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.785Z"
+lastModified: "2025-08-02T14:03:23.674Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`toString()`** method of {{jsxref("Temporal.Duration")}} instances returns a string representing this duration in the [ISO 8601 format](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration#iso_8601_duration_format).
 

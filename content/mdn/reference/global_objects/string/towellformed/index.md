@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Towellformed"
 slug: "reference-global_objects-string-towellformed"
 path: "reference/global_objects/string/towellformed/index.md"
-wordCount: 340
+wordCount: 339
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "dom"]
-lastModified: "2025-07-06T19:32:45.773Z"
+lastModified: "2025-08-02T14:03:23.661Z"
 ---
 
-
-{{JSRef}}
 
 The **`toWellFormed()`** method of {{jsxref("String")}} values returns a string where all [lone surrogates](/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#utf-16_characters_unicode_code_points_and_grapheme_clusters) of this string are replaced with the Unicode replacement character U+FFFD.
 

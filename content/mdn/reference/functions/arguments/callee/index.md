@@ -8,11 +8,11 @@ codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "arrow-functions"]
-lastModified: "2025-07-06T19:32:45.533Z"
+lastModified: "2025-08-02T14:03:23.469Z"
 ---
 
 
-{{jsSidebar("Functions")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 > [!NOTE]
 > Accessing `arguments.callee` in [strict mode](/en-US/docs/Web/JavaScript/Reference/Strict_mode) will throw a {{jsxref("TypeError")}}. If a function must reference itself, either give the [function expression](/en-US/docs/Web/JavaScript/Reference/Operators/function) a name or use a [function declaration](/en-US/docs/Web/JavaScript/Reference/Statements/function).

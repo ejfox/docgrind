@@ -8,11 +8,11 @@ codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes", "events", "api"]
-lastModified: "2025-07-06T19:32:45.789Z"
+lastModified: "2025-08-02T14:03:23.676Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`Temporal`** object enables date and time management in various scenarios, including built-in time zone and calendar representation, wall-clock time conversions, arithmetics, formatting, and more. It is designed as a full replacement for the {{jsxref("Date")}} object.
 

@@ -8,11 +8,11 @@ codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "api"]
-lastModified: "2025-07-06T19:32:45.803Z"
+lastModified: "2025-08-02T14:03:23.690Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`toLocaleString()`** method of {{jsxref("Temporal.PlainDate")}} instances returns a string with a language-sensitive representation of this date. In implementations with [`Intl.DateTimeFormat` API](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat) support, this method delegates to `Intl.DateTimeFormat`.
 

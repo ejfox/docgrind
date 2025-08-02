@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Datetimeformat Formatrange"
 slug: "reference-global_objects-intl-datetimeformat-formatrange"
 path: "reference/global_objects/intl/datetimeformat/formatrange/index.md"
-wordCount: 417
+wordCount: 416
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.611Z"
+lastModified: "2025-08-02T14:03:23.547Z"
 ---
 
-
-{{JSRef}}
 
 The **`formatRange()`** method of {{jsxref("Intl.DateTimeFormat")}} instances formats a
 date range in the most concise way based on the locales and

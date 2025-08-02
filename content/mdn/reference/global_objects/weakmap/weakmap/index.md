@@ -2,17 +2,15 @@
 title: "Reference Global_objects Weakmap Weakmap"
 slug: "reference-global_objects-weakmap-weakmap"
 path: "reference/global_objects/weakmap/weakmap/index.md"
-wordCount: 251
+wordCount: 242
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.863Z"
+lastModified: "2025-08-02T14:03:23.750Z"
 ---
 
-
-{{JSRef}}
 
 The **`WeakMap()`** constructor creates {{jsxref("WeakMap")}} objects.
 
@@ -77,7 +75,6 @@ wm1.has(o1); // false
 
 - [Polyfill of `WeakMap` in `core-js`](https://github.com/zloirock/core-js#weakmap)
 - [`WeakMap` in the JavaScript guide](/en-US/docs/Web/JavaScript/Guide/Keyed_collections#weakmap_object)
-- [Hiding Implementation Details with ECMAScript 6 WeakMaps](https://fitzgen.com/2014/01/13/hiding-implementation-details-with-e6-weakmaps.html)
 - {{jsxref("Map")}}
 - {{jsxref("Set")}}
 - {{jsxref("WeakSet")}}

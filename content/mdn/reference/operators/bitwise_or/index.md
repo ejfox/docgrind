@@ -2,17 +2,15 @@
 title: "Reference Operators Bitwise_or"
 slug: "reference-operators-bitwise_or"
 path: "reference/operators/bitwise_or/index.md"
-wordCount: 448
+wordCount: 447
 readingTime: 3
 codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.870Z"
+lastModified: "2025-08-02T14:03:23.758Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **bitwise OR (`|`)** operator returns a number or BigInt whose binary representation has a `1` in each bit position for which the corresponding bits of either or both operands are `1`.
 

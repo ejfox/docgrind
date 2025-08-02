@@ -2,28 +2,26 @@
 title: "Reference Global_objects Proxy Proxy Isextensible"
 slug: "reference-global_objects-proxy-proxy-isextensible"
 path: "reference/global_objects/proxy/proxy/isextensible/index.md"
-wordCount: 281
+wordCount: 280
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.698Z"
+lastModified: "2025-08-02T14:03:23.624Z"
 ---
 
-
-{{JSRef}}
 
 The **`handler.isExtensible()`** method is a trap for the `[[IsExtensible]]` [object internal method](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#object_internal_methods), which is used by operations such as {{jsxref("Object.isExtensible()")}}.
 
 {{InteractiveExample("JavaScript Demo: handler.isExtensible()", "taller")}}
 
 ```js interactive-example
-const monster1 = {
+const monster = {
   canEvolve: true,
 };
 
-const handler1 = {
+const handler = {
   isExtensible(target) {
     return Reflect.isExtensible(target);
   },
@@ -33,20 +31,20 @@ const handler1 = {
   },
 };
 
-const proxy1 = new Proxy(monster1, handler1);
+const proxy = new Proxy(monster, handler);
 
-console.log(Object.isExtensible(proxy1));
+console.log(Object.isExtensible(proxy));
 // Expected output: true
 
-console.log(monster1.canEvolve);
+console.log(monster.canEvolve);
 // Expected output: true
 
-Object.preventExtensions(proxy1);
+Object.preventExtensions(proxy);
 
-console.log(Object.isExtensible(proxy1));
+console.log(Object.isExtensible(proxy));
 // Expected output: false
 
-console.log(monster1.canEvolve);
+console.log(monster.canEvolve);
 // Expected output: false
 ```
 

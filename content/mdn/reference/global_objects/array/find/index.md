@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Find"
 slug: "reference-global_objects-array-find"
 path: "reference/global_objects/array/find/index.md"
-wordCount: 1111
+wordCount: 1110
 readingTime: 6
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "destructuring"]
-lastModified: "2025-07-06T19:32:45.541Z"
+lastModified: "2025-08-02T14:03:23.476Z"
 ---
 
-
-{{JSRef}}
 
 The **`find()`** method of {{jsxref("Array")}} instances returns the first element in the provided array that satisfies the provided testing function.
 If no values satisfy the testing function, {{jsxref("undefined")}} is returned.
@@ -28,9 +26,9 @@ If no values satisfy the testing function, {{jsxref("undefined")}} is returned.
 {{InteractiveExample("JavaScript Demo: Array.prototype.find()", "shorter")}}
 
 ```js interactive-example
-const array1 = [5, 12, 8, 130, 44];
+const array = [5, 12, 8, 130, 44];
 
-const found = array1.find((element) => element > 10);
+const found = array.find((element) => element > 10);
 
 console.log(found);
 // Expected output: 12

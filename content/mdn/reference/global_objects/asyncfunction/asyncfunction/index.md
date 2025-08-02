@@ -2,17 +2,15 @@
 title: "Reference Global_objects Asyncfunction Asyncfunction"
 slug: "reference-global_objects-asyncfunction-asyncfunction"
 path: "reference/global_objects/asyncfunction/asyncfunction/index.md"
-wordCount: 194
+wordCount: 193
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "async"]
-lastModified: "2025-07-06T19:32:45.559Z"
+lastModified: "2025-08-02T14:03:23.496Z"
 ---
 
-
-{{JSRef}}
 
 The **`AsyncFunction()`** constructor creates {{jsxref("AsyncFunction")}} objects.
 

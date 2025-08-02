@@ -2,17 +2,15 @@
 title: "Reference Global_objects Uint8clampedarray"
 slug: "reference-global_objects-uint8clampedarray"
 path: "reference/global_objects/uint8clampedarray/index.md"
-wordCount: 327
+wordCount: 326
 readingTime: 2
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays"]
-lastModified: "2025-07-06T19:32:45.860Z"
+lastModified: "2025-08-02T14:03:23.747Z"
 ---
 
-
-{{JSRef}}
 
 The **`Uint8ClampedArray`** typed array represents an array of 8-bit unsigned integers clamped to 0–255. The contents are initialized to `0` unless initialization data is explicitly provided. Once established, you can reference elements in the array using the object's methods, or using standard array index syntax (that is, using bracket notation).
 

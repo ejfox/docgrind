@@ -2,17 +2,15 @@
 title: "Reference Operators Import.Meta Resolve"
 slug: "reference-operators-import.meta-resolve"
 path: "reference/operators/import.meta/resolve/index.md"
-wordCount: 810
+wordCount: 809
 readingTime: 5
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["modules", "api"]
-lastModified: "2025-07-06T19:32:45.878Z"
+lastModified: "2025-08-02T14:03:23.765Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 **`import.meta.resolve()`** is a built-in function defined on the [`import.meta`](/en-US/docs/Web/JavaScript/Reference/Operators/import.meta) object of a JavaScript module that resolves a module specifier to a URL using the current module's URL as base.
 

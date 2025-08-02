@@ -2,17 +2,15 @@
 title: "Reference Global_objects Atomics And"
 slug: "reference-global_objects-atomics-and"
 path: "reference/global_objects/atomics/and/index.md"
-wordCount: 335
+wordCount: 334
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.562Z"
+lastModified: "2025-08-02T14:03:23.499Z"
 ---
 
-
-{{JSRef}}
 
 The **`Atomics.and()`** static
 method computes a bitwise AND with a given value at a given position in the array, and

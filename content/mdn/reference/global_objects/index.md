@@ -2,17 +2,15 @@
 title: "Reference Global_objects"
 slug: "reference-global_objects"
 path: "reference/global_objects/index.md"
-wordCount: 509
+wordCount: 514
 readingTime: 3
 codeBlocks: 0
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "arrays", "objects", "async", "dom"]
-lastModified: "2025-07-06T19:32:45.606Z"
+lastModified: "2025-08-02T14:03:23.542Z"
 ---
 
-
-{{jsSidebar("Objects")}}
 
 This chapter documents all of JavaScript's standard, built-in objects, including their methods and properties.
 
@@ -69,6 +67,7 @@ Error objects are a special type of fundamental object. They include the basic {
 - {{jsxref("EvalError")}}
 - {{jsxref("RangeError")}}
 - {{jsxref("ReferenceError")}}
+- {{jsxref("SuppressedError")}}
 - {{jsxref("SyntaxError")}}
 - {{jsxref("TypeError")}}
 - {{jsxref("URIError")}}
@@ -148,6 +147,8 @@ Control abstractions can help to structure code, especially async code (without 
 - {{jsxref("Generator")}}
 - {{jsxref("AsyncGenerator")}}
 - {{jsxref("AsyncFunction")}}
+- {{jsxref("DisposableStack")}}
+- {{jsxref("AsyncDisposableStack")}}
 
 ### Reflection
 

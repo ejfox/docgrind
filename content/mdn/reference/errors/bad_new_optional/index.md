@@ -2,17 +2,15 @@
 title: "Reference Errors Bad_new_optional"
 slug: "reference-errors-bad_new_optional"
 path: "reference/errors/bad_new_optional/index.md"
-wordCount: 382
+wordCount: 381
 readingTime: 2
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["events"]
-lastModified: "2025-07-06T19:32:45.502Z"
+lastModified: "2025-08-02T14:03:23.438Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "new keyword cannot be used with an optional chain" occurs when the constructor of a {{jsxref("Operators/new", "new")}} expression is an [optional chain](/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining), or if there's an optional chain between the constructor and the parenthesized list of arguments.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Atomics"
 slug: "reference-global_objects-atomics"
 path: "reference/global_objects/atomics/index.md"
-wordCount: 855
+wordCount: 854
 readingTime: 5
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "async", "api"]
-lastModified: "2025-07-06T19:32:45.563Z"
+lastModified: "2025-08-02T14:03:23.499Z"
 ---
 
-
-{{JSRef}}
 
 The **`Atomics`** namespace object contains static methods for carrying out atomic operations. They are used with {{jsxref("SharedArrayBuffer")}} and {{jsxref("ArrayBuffer")}} objects.
 

@@ -8,11 +8,11 @@ codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.791Z"
+lastModified: "2025-08-02T14:03:23.678Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`equals()`** method of {{jsxref("Temporal.Instant")}} instances returns `true` if this instant is equivalent in value to another instant (in a form convertible by {{jsxref("Temporal/Instant/from", "Temporal.Instant.from()")}}), and `false` otherwise. They are compared by their {{jsxref("Temporal/Instant/epochNanoseconds", "epochNanoseconds")}}. It is equivalent to `Temporal.Instant.compare(this, other) === 0`.
 

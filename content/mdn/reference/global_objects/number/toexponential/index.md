@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number Toexponential"
 slug: "reference-global_objects-number-toexponential"
 path: "reference/global_objects/number/toexponential/index.md"
-wordCount: 314
+wordCount: 313
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["rest"]
-lastModified: "2025-07-06T19:32:45.675Z"
+lastModified: "2025-08-02T14:03:23.601Z"
 ---
 
-
-{{JSRef}}
 
 The **`toExponential()`** method of {{jsxref("Number")}} values returns a string representing
 this number in exponential notation.

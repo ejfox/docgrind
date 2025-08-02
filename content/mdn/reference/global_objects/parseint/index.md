@@ -2,17 +2,15 @@
 title: "Reference Global_objects Parseint"
 slug: "reference-global_objects-parseint"
 path: "reference/global_objects/parseint/index.md"
-wordCount: 1309
+wordCount: 1308
 readingTime: 7
 codeBlocks: 12
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "rest"]
-lastModified: "2025-07-06T19:32:45.690Z"
+lastModified: "2025-08-02T14:03:23.616Z"
 ---
 
-
-{{jsSidebar("Objects")}}
 
 The **`parseInt()`** function parses a string argument and returns an integer of the specified [radix](https://en.wikipedia.org/wiki/Radix) (the base in mathematical numeral systems).
 

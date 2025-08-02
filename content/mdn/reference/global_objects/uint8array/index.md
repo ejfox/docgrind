@@ -2,17 +2,15 @@
 title: "Reference Global_objects Uint8array"
 slug: "reference-global_objects-uint8array"
 path: "reference/global_objects/uint8array/index.md"
-wordCount: 545
+wordCount: 544
 readingTime: 3
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays"]
-lastModified: "2025-07-06T19:32:45.859Z"
+lastModified: "2025-08-02T14:03:23.745Z"
 ---
 
-
-{{JSRef}}
 
 The **`Uint8Array`** typed array represents an array of 8-bit unsigned integers. The contents are initialized to `0` unless initialization data is explicitly provided. Once established, you can reference elements in the array using the object's methods, or using standard array index syntax (that is, using bracket notation).
 

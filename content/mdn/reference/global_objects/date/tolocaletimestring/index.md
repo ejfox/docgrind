@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Tolocaletimestring"
 slug: "reference-global_objects-date-tolocaletimestring"
 path: "reference/global_objects/date/tolocaletimestring/index.md"
-wordCount: 879
+wordCount: 878
 readingTime: 5
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "api"]
-lastModified: "2025-07-06T19:32:45.589Z"
+lastModified: "2025-08-02T14:03:23.524Z"
 ---
 
-
-{{JSRef}}
 
 The **`toLocaleTimeString()`** method of {{jsxref("Date")}} instances returns a string with a language-sensitive representation of the time portion of this date in the local timezone. In implementations with [`Intl.DateTimeFormat` API](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat) support, this method delegates to `Intl.DateTimeFormat`.
 

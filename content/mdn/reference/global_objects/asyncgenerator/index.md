@@ -2,17 +2,15 @@
 title: "Reference Global_objects Asyncgenerator"
 slug: "reference-global_objects-asyncgenerator"
 path: "reference/global_objects/asyncgenerator/index.md"
-wordCount: 507
+wordCount: 506
 readingTime: 3
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "async"]
-lastModified: "2025-07-06T19:32:45.560Z"
+lastModified: "2025-08-02T14:03:23.496Z"
 ---
 
-
-{{JSRef}}
 
 The **`AsyncGenerator`** object is returned by an {{jsxref("Statements/async_function*", "async generator function", "", 1)}} and it conforms to both the [async iterable protocol and the async iterator protocol](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_async_iterator_and_async_iterable_protocols).
 

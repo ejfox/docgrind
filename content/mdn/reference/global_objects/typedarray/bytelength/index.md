@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Bytelength"
 slug: "reference-global_objects-typedarray-bytelength"
 path: "reference/global_objects/typedarray/bytelength/index.md"
-wordCount: 192
+wordCount: 191
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.847Z"
+lastModified: "2025-08-02T14:03:23.732Z"
 ---
 
-
-{{JSRef}}
 
 The **`byteLength`** accessor property of {{jsxref("TypedArray")}} instances returns the length (in bytes) of this typed array.
 

@@ -2,17 +2,15 @@
 title: "Wildcard: ."
 slug: "reference-regular_expressions-wildcard"
 path: "reference/regular_expressions/wildcard/index.md"
-wordCount: 378
+wordCount: 377
 readingTime: 2
 codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects", "classes", "rest"]
-lastModified: "2025-07-06T19:32:45.901Z"
+lastModified: "2025-08-02T14:03:23.788Z"
 ---
 
-
-{{jsSidebar}}
 
 A **wildcard** matches all characters except line terminators. It also matches line terminators if the `s` flag is set.
 

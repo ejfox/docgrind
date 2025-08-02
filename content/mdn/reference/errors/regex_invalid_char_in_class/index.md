@@ -2,17 +2,15 @@
 title: "Reference Errors Regex_invalid_char_in_class"
 slug: "reference-errors-regex_invalid_char_in_class"
 path: "reference/errors/regex_invalid_char_in_class/index.md"
-wordCount: 176
+wordCount: 175
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: ["classes"]
-lastModified: "2025-07-06T19:32:45.525Z"
+lastModified: "2025-08-02T14:03:23.460Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "invalid character in class in regular expression" occurs when a character appears in a [`v`-mode character class](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Character_class#v-mode_character_class) but it's not allowed to appear literally.
 

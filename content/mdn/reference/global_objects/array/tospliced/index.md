@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Tospliced"
 slug: "reference-global_objects-array-tospliced"
 path: "reference/global_objects/array/tospliced/index.md"
-wordCount: 646
+wordCount: 645
 readingTime: 4
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.554Z"
+lastModified: "2025-08-02T14:03:23.490Z"
 ---
 
-
-{{JSRef}}
 
 The **`toSpliced()`** method of {{jsxref("Array")}} instances is the [copying](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#copying_methods_and_mutating_methods) version of the {{jsxref("Array/splice", "splice()")}} method. It returns a new array with some elements removed and/or replaced at a given index.
 

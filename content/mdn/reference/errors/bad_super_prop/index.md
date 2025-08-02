@@ -2,17 +2,15 @@
 title: "Reference Errors Bad_super_prop"
 slug: "reference-errors-bad_super_prop"
 path: "reference/errors/bad_super_prop/index.md"
-wordCount: 330
+wordCount: 329
 readingTime: 2
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "classes"]
-lastModified: "2025-07-06T19:32:45.503Z"
+lastModified: "2025-08-02T14:03:23.440Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "use of super property/member accesses only valid within methods or eval code within methods" occurs when the {{jsxref("Operators/super", "super.x")}} or `super[x]` syntax is used outside of a [method](/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions).
 

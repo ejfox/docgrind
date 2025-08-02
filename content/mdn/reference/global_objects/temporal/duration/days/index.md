@@ -8,11 +8,11 @@ codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.781Z"
+lastModified: "2025-08-02T14:03:23.670Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`days`** accessor property of {{jsxref("Temporal.Duration")}} instances returns an integer representing the number of days in the duration.
 

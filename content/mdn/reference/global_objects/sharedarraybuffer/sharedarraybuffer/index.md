@@ -2,17 +2,15 @@
 title: "Reference Global_objects Sharedarraybuffer Sharedarraybuffer"
 slug: "reference-global_objects-sharedarraybuffer-sharedarraybuffer"
 path: "reference/global_objects/sharedarraybuffer/sharedarraybuffer/index.md"
-wordCount: 318
+wordCount: 317
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.756Z"
+lastModified: "2025-08-02T14:03:23.646Z"
 ---
 
-
-{{JSRef}}
 
 > [!NOTE]
 > The `SharedArrayBuffer` constructor may not always be globally available unless certain [security requirements](/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer#security_requirements) are met.

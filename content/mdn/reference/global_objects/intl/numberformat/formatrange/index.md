@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Numberformat Formatrange"
 slug: "reference-global_objects-intl-numberformat-formatrange"
 path: "reference/global_objects/intl/numberformat/formatrange/index.md"
-wordCount: 318
+wordCount: 317
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.625Z"
+lastModified: "2025-08-02T14:03:23.561Z"
 ---
 
-
-{{JSRef}}
 
 The **`formatRange()`** method of {{jsxref("Intl.NumberFormat")}} instances formats a range of numbers according to the locale and formatting options of this `Intl.NumberFormat` object.
 

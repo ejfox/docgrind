@@ -2,17 +2,15 @@
 title: "Reference Global_objects Dataview Byteoffset"
 slug: "reference-global_objects-dataview-byteoffset"
 path: "reference/global_objects/dataview/byteoffset/index.md"
-wordCount: 159
+wordCount: 158
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.570Z"
+lastModified: "2025-08-02T14:03:23.506Z"
 ---
 
-
-{{JSRef}}
 
 The **`byteOffset`** accessor property of {{jsxref("DataView")}} instances returns the offset (in bytes) of this view from the start of its {{jsxref("ArrayBuffer")}} or {{jsxref("SharedArrayBuffer")}}.
 

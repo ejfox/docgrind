@@ -2,17 +2,15 @@
 title: "Reference Functions Method_definitions"
 slug: "reference-functions-method_definitions"
 path: "reference/functions/method_definitions/index.md"
-wordCount: 794
+wordCount: 793
 readingTime: 4
 codeBlocks: 13
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "async"]
-lastModified: "2025-07-06T19:32:45.536Z"
+lastModified: "2025-08-02T14:03:23.472Z"
 ---
 
-
-{{jsSidebar("Functions")}}
 
 **Method definition** is a shorter syntax for defining a function property in an object initializer. It can also be used in [classes](/en-US/docs/Web/JavaScript/Reference/Classes).
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Weakref Deref"
 slug: "reference-global_objects-weakref-deref"
 path: "reference/global_objects/weakref/deref/index.md"
-wordCount: 151
+wordCount: 150
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.863Z"
+lastModified: "2025-08-02T14:03:23.750Z"
 ---
 
-
-{{JSRef}}
 
 The **`deref()`** method of {{jsxref("WeakRef")}} instances returns this `WeakRef`'s target value, or `undefined` if the target value has been garbage-collected.
 

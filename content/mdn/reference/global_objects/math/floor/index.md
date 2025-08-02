@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Floor"
 slug: "reference-global_objects-math-floor"
 path: "reference/global_objects/math/floor/index.md"
-wordCount: 555
+wordCount: 554
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "rest"]
-lastModified: "2025-07-06T19:32:45.662Z"
+lastModified: "2025-08-02T14:03:23.589Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.floor()`** static method always rounds down and returns the largest integer less than or equal to a given number.
 

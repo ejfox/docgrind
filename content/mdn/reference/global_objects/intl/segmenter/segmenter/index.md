@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Segmenter Segmenter"
 slug: "reference-global_objects-intl-segmenter-segmenter"
 path: "reference/global_objects/intl/segmenter/segmenter/index.md"
-wordCount: 356
+wordCount: 355
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.635Z"
+lastModified: "2025-08-02T14:03:23.571Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.Segmenter()`** constructor creates {{jsxref("Intl.Segmenter")}} objects.
 
@@ -20,14 +18,14 @@ The **`Intl.Segmenter()`** constructor creates {{jsxref("Intl.Segmenter")}} obje
 
 ```js interactive-example
 const segmenterFr = new Intl.Segmenter("fr", { granularity: "word" });
-const string1 = "Que ma joie demeure";
+const string = "Que ma joie demeure";
 
-const iterator1 = segmenterFr.segment(string1)[Symbol.iterator]();
+const iterator = segmenterFr.segment(string)[Symbol.iterator]();
 
-console.log(iterator1.next().value.segment);
+console.log(iterator.next().value.segment);
 // Expected output: 'Que'
 
-console.log(iterator1.next().value.segment);
+console.log(iterator.next().value.segment);
 // Expected output: ' '
 ```
 

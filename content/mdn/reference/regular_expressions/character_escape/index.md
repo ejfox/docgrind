@@ -2,17 +2,15 @@
 title: "Reference Regular_expressions Character_escape"
 slug: "reference-regular_expressions-character_escape"
 path: "reference/regular_expressions/character_escape/index.md"
-wordCount: 731
+wordCount: 730
 readingTime: 4
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes", "api"]
-lastModified: "2025-07-06T19:32:45.896Z"
+lastModified: "2025-08-02T14:03:23.783Z"
 ---
 
-
-{{jsSidebar}}
 
 A **character escape** represents a character that may not be able to be conveniently represented in its literal form.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Symbol.Iterator"
 slug: "reference-global_objects-typedarray-symbol.iterator"
 path: "reference/global_objects/typedarray/symbol.iterator/index.md"
-wordCount: 294
+wordCount: 293
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "loops", "dom", "spread"]
-lastModified: "2025-07-06T19:32:45.855Z"
+lastModified: "2025-08-02T14:03:23.741Z"
 ---
 
-
-{{JSRef}}
 
 The **`[Symbol.iterator]()`** method of {{jsxref("TypedArray")}} instances implements the [iterable protocol](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols) and allows typed arrays to be consumed by most syntaxes expecting iterables, such as the [spread syntax](/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) and {{jsxref("Statements/for...of", "for...of")}} loops. It returns an [array iterator object](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator) that yields the value of each index in the typed array.
 
@@ -22,9 +20,9 @@ The initial value of this property is the same function object as the initial va
 
 ```js interactive-example
 const uint8 = new Uint8Array([10, 20, 30]);
-const iterator1 = uint8[Symbol.iterator]();
+const iterator = uint8[Symbol.iterator]();
 
-for (const value of iterator1) {
+for (const value of iterator) {
   console.log(value);
 }
 

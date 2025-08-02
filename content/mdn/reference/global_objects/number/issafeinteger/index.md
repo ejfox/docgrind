@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number Issafeinteger"
 slug: "reference-global_objects-number-issafeinteger"
 path: "reference/global_objects/number/issafeinteger/index.md"
-wordCount: 335
+wordCount: 334
 readingTime: 2
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: ["rest"]
-lastModified: "2025-07-06T19:32:45.672Z"
+lastModified: "2025-08-02T14:03:23.598Z"
 ---
 
-
-{{JSRef}}
 
 The **`Number.isSafeInteger()`** static method determines whether the provided value is a number that is a _safe integer_.
 

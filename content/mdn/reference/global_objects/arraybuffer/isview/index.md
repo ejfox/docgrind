@@ -2,17 +2,15 @@
 title: "Reference Global_objects Arraybuffer Isview"
 slug: "reference-global_objects-arraybuffer-isview"
 path: "reference/global_objects/arraybuffer/isview/index.md"
-wordCount: 152
+wordCount: 151
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.557Z"
+lastModified: "2025-08-02T14:03:23.492Z"
 ---
 
-
-{{JSRef}}
 
 The **`ArrayBuffer.isView()`** static method determines whether the
 passed value is one of the `ArrayBuffer` views,

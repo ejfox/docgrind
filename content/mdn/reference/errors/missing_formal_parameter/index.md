@@ -2,17 +2,15 @@
 title: "Reference Errors Missing_formal_parameter"
 slug: "reference-errors-missing_formal_parameter"
 path: "reference/errors/missing_formal_parameter/index.md"
-wordCount: 308
+wordCount: 307
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects"]
-lastModified: "2025-07-06T19:32:45.518Z"
+lastModified: "2025-08-02T14:03:23.454Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "missing formal parameter" occurs when your function
 declaration is missing valid parameters.

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Displaynames Supportedlocalesof"
 slug: "reference-global_objects-intl-displaynames-supportedlocalesof"
 path: "reference/global_objects/intl/displaynames/supportedlocalesof/index.md"
-wordCount: 280
+wordCount: 279
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.614Z"
+lastModified: "2025-08-02T14:03:23.550Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.DisplayNames.supportedLocalesOf()`** static method returns an array containing those of the provided locales that are supported in display names without having to fall back to the runtime's default locale.
 

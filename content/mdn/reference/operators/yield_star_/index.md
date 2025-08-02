@@ -2,17 +2,15 @@
 title: "Reference Operators Yield_star_"
 slug: "reference-operators-yield_star_"
 path: "reference/operators/yield_star_/index.md"
-wordCount: 1119
+wordCount: 1118
 readingTime: 6
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "arrays", "objects", "async"]
-lastModified: "2025-07-06T19:32:45.893Z"
+lastModified: "2025-08-02T14:03:23.780Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **`yield*`** operator can be used within generator (sync or async) functions to delegate to another [iterable](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_iterable_protocol) object, such as a {{jsxref("Generator")}}. Inside async generator functions, it can additionally be used to delegate to another async iterable object, such as an {{jsxref("AsyncGenerator")}}.
 

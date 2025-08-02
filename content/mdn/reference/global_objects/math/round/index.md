@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Round"
 slug: "reference-global_objects-math-round"
 path: "reference/global_objects/math/round/index.md"
-wordCount: 302
+wordCount: 301
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "rest"]
-lastModified: "2025-07-06T19:32:45.667Z"
+lastModified: "2025-08-02T14:03:23.593Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.round()`** static method returns the value of a number rounded to the nearest integer.
 

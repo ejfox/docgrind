@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math"
 slug: "reference-global_objects-math"
 path: "reference/global_objects/math/index.md"
-wordCount: 953
+wordCount: 952
 readingTime: 5
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "dom", "rest"]
-lastModified: "2025-07-06T19:32:45.664Z"
+lastModified: "2025-08-02T14:03:23.590Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math`** namespace object contains static properties and methods for mathematical constants and functions.
 

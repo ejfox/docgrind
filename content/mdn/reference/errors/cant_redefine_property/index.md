@@ -2,17 +2,15 @@
 title: "Reference Errors Cant_redefine_property"
 slug: "reference-errors-cant_redefine_property"
 path: "reference/errors/cant_redefine_property/index.md"
-wordCount: 214
+wordCount: 213
 readingTime: 2
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.507Z"
+lastModified: "2025-08-02T14:03:23.443Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "can't redefine non-configurable property" occurs when it was
 attempted to redefine a property, but that property is [non-configurable](/en-US/docs/Web/JavaScript/Guide/Data_structures#properties).

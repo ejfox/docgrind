@@ -2,17 +2,15 @@
 title: "Reference Classes Static_initialization_blocks"
 slug: "reference-classes-static_initialization_blocks"
 path: "reference/classes/static_initialization_blocks/index.md"
-wordCount: 862
+wordCount: 861
 readingTime: 5
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "classes"]
-lastModified: "2025-07-06T19:32:45.499Z"
+lastModified: "2025-08-02T14:03:23.435Z"
 ---
 
-
-{{jsSidebar("Classes")}}
 
 **Static initialization blocks** are declared within a {{jsxref("Statements/class", "class")}}. It contains statements to be evaluated during class initialization. This permits more flexible initialization logic than {{jsxref("Classes/static", "static")}} properties, such as using `try...catch` or setting multiple fields from a single value. Initialization is performed in the context of the current class declaration, with access to private state, which allows the class to share information of its private elements with other classes or functions declared in the same scope (analogous to "friend" classes in C++).
 

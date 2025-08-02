@@ -2,17 +2,15 @@
 title: "Reference Operators Greater_than_or_equal"
 slug: "reference-operators-greater_than_or_equal"
 path: "reference/operators/greater_than_or_equal/index.md"
-wordCount: 532
+wordCount: 531
 readingTime: 3
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.876Z"
+lastModified: "2025-08-02T14:03:23.764Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **greater than or equal (`>=`)** operator returns `true` if
 the left operand is greater than or equal to the right operand, and `false`

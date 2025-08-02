@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Abs"
 slug: "reference-global_objects-math-abs"
 path: "reference/global_objects/math/abs/index.md"
-wordCount: 227
+wordCount: 226
 readingTime: 2
 codeBlocks: 4
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.654Z"
+lastModified: "2025-08-02T14:03:23.584Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.abs()`** static method returns the absolute value of a number.
 

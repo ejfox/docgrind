@@ -2,17 +2,15 @@
 title: "Reference Global_objects Bigint Tolocalestring"
 slug: "reference-global_objects-bigint-tolocalestring"
 path: "reference/global_objects/bigint/tolocalestring/index.md"
-wordCount: 755
+wordCount: 754
 readingTime: 4
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "api"]
-lastModified: "2025-07-06T19:32:45.567Z"
+lastModified: "2025-08-02T14:03:23.503Z"
 ---
 
-
-{{JSRef}}
 
 The **`toLocaleString()`** method of {{jsxref("BigInt")}} values returns a string with a language-sensitive representation of this BigInt. In implementations with [`Intl.NumberFormat` API](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat) support, this method delegates to `Intl.NumberFormat`.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Pow"
 slug: "reference-global_objects-math-pow"
 path: "reference/global_objects/math/pow/index.md"
-wordCount: 561
+wordCount: 560
 readingTime: 3
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.667Z"
+lastModified: "2025-08-02T14:03:23.593Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.pow()`** static method returns the value of a base raised to a power. That is
 

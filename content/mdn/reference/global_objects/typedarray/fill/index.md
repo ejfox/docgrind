@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Fill"
 slug: "reference-global_objects-typedarray-fill"
 path: "reference/global_objects/typedarray/fill/index.md"
-wordCount: 250
+wordCount: 249
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.849Z"
+lastModified: "2025-08-02T14:03:23.733Z"
 ---
 
-
-{{JSRef}}
 
 The **`fill()`** method of {{jsxref("TypedArray")}} instances changes all elements within a range of indices in a typed array to a static value. It returns the modified typed array. This method has the same algorithm as {{jsxref("Array.prototype.fill()")}}.
 

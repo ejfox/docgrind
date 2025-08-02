@@ -2,17 +2,15 @@
 title: "Reference Errors Label_not_found"
 slug: "reference-errors-label_not_found"
 path: "reference/errors/label_not_found/index.md"
-wordCount: 175
+wordCount: 174
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["dom"]
-lastModified: "2025-07-06T19:32:45.517Z"
+lastModified: "2025-08-02T14:03:23.453Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "label not found" occurs when a {{jsxref("Statements/break", "break")}} or {{jsxref("Statements/continue", "continue")}} statement references a label that does not exist on any statement that contains the `break` or `continue` statement.
 

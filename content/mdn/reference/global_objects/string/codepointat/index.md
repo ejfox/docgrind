@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Codepointat"
 slug: "reference-global_objects-string-codepointat"
 path: "reference/global_objects/string/codepointat/index.md"
-wordCount: 443
+wordCount: 442
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "loops", "spread"]
-lastModified: "2025-07-06T19:32:45.759Z"
+lastModified: "2025-08-02T14:03:23.648Z"
 ---
 
-
-{{JSRef}}
 
 The **`codePointAt()`** method of {{jsxref("String")}} values returns a non-negative integer that is the Unicode code point value of the character starting at the given index. Note that the index is still based on UTF-16 code units, not Unicode code points.
 

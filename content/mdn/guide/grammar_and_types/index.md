@@ -2,17 +2,17 @@
 title: "Guide Grammar_and_types"
 slug: "guide-grammar_and_types"
 path: "guide/grammar_and_types/index.md"
-wordCount: 4547
+wordCount: 4545
 readingTime: 23
 codeBlocks: 49
 difficulty: "advanced"
 category: "Guide"
 tags: ["variables", "functions", "arrays", "objects", "loops"]
-lastModified: "2025-07-06T19:32:45.473Z"
+lastModified: "2025-08-02T14:03:23.410Z"
 ---
 
 
-{{jsSidebar("JavaScript Guide")}} {{PreviousNext("Web/JavaScript/Guide/Introduction", "Web/JavaScript/Guide/Control_flow_and_error_handling")}}
+{{PreviousNext("Web/JavaScript/Guide/Introduction", "Web/JavaScript/Guide/Control_flow_and_error_handling")}}
 
 This chapter discusses JavaScript's basic grammar, variable declarations, data types and literals.
 

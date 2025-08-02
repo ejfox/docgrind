@@ -2,17 +2,15 @@
 title: "Reference Errors Unexpected_type"
 slug: "reference-errors-unexpected_type"
 path: "reference/errors/unexpected_type/index.md"
-wordCount: 301
+wordCount: 300
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.532Z"
+lastModified: "2025-08-02T14:03:23.467Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "_x_ is (not) _y_" occurs when there was an
 unexpected type. Oftentimes, unexpected {{jsxref("undefined")}} or [`null`](/en-US/docs/Web/JavaScript/Reference/Operators/null)

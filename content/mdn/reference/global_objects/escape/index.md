@@ -7,12 +7,12 @@ readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
-tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.596Z"
+tags: []
+lastModified: "2025-08-02T14:03:23.532Z"
 ---
 
 
-{{jsSidebar("Objects")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 > [!NOTE]
 > `escape()` is a non-standard function implemented by browsers and was only standardized for cross-engine compatibility. It is not required to be implemented by all JavaScript engines and may not work everywhere. Use {{jsxref("encodeURIComponent()")}} or {{jsxref("encodeURI()")}} if possible.

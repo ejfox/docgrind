@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Pop"
 slug: "reference-global_objects-array-pop"
 path: "reference/global_objects/array/pop/index.md"
-wordCount: 531
+wordCount: 530
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.548Z"
+lastModified: "2025-08-02T14:03:23.484Z"
 ---
 
-
-{{JSRef}}
 
 The **`pop()`** method of {{jsxref("Array")}} instances removes the **last**
 element from an array and returns that element. This method changes the length of the

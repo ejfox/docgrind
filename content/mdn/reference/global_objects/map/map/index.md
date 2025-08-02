@@ -2,17 +2,15 @@
 title: "Reference Global_objects Map Map"
 slug: "reference-global_objects-map-map"
 path: "reference/global_objects/map/map/index.md"
-wordCount: 126
+wordCount: 125
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.651Z"
+lastModified: "2025-08-02T14:03:23.582Z"
 ---
 
-
-{{JSRef}}
 
 The **`Map()`** constructor creates {{jsxref("Map")}} objects.
 

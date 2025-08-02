@@ -2,17 +2,15 @@
 title: "Reference Global_objects Dataview Setuint8"
 slug: "reference-global_objects-dataview-setuint8"
 path: "reference/global_objects/dataview/setuint8/index.md"
-wordCount: 186
+wordCount: 185
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.576Z"
+lastModified: "2025-08-02T14:03:23.512Z"
 ---
 
-
-{{JSRef}}
 
 The **`setUint8()`** method of {{jsxref("DataView")}} instances takes a number and stores it as an 8-bit unsigned integer in the byte at the specified byte offset of this `DataView`.
 

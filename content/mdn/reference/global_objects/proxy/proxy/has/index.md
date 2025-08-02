@@ -2,24 +2,22 @@
 title: "Reference Global_objects Proxy Proxy Has"
 slug: "reference-global_objects-proxy-proxy-has"
 path: "reference/global_objects/proxy/proxy/has/index.md"
-wordCount: 403
+wordCount: 402
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.698Z"
+lastModified: "2025-08-02T14:03:23.624Z"
 ---
 
-
-{{JSRef}}
 
 The **`handler.has()`** method is a trap for the `[[HasProperty]]` [object internal method](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#object_internal_methods), which is used by operations such as the {{jsxref("Operators/in", "in")}} operator.
 
 {{InteractiveExample("JavaScript Demo: handler.has()", "taller")}}
 
 ```js interactive-example
-const handler1 = {
+const handler = {
   has(target, key) {
     if (key[0] === "_") {
       return false;
@@ -28,19 +26,19 @@ const handler1 = {
   },
 };
 
-const monster1 = {
+const monster = {
   _secret: "easily scared",
   eyeCount: 4,
 };
 
-const proxy1 = new Proxy(monster1, handler1);
-console.log("eyeCount" in proxy1);
+const proxy = new Proxy(monster, handler);
+console.log("eyeCount" in proxy);
 // Expected output: true
 
-console.log("_secret" in proxy1);
+console.log("_secret" in proxy);
 // Expected output: false
 
-console.log("_secret" in monster1);
+console.log("_secret" in monster);
 // Expected output: true
 ```
 

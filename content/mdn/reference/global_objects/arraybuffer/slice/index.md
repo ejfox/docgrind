@@ -2,17 +2,15 @@
 title: "Reference Global_objects Arraybuffer Slice"
 slug: "reference-global_objects-arraybuffer-slice"
 path: "reference/global_objects/arraybuffer/slice/index.md"
-wordCount: 322
+wordCount: 321
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.558Z"
+lastModified: "2025-08-02T14:03:23.493Z"
 ---
 
-
-{{JSRef}}
 
 The **`slice()`** method of {{jsxref("ArrayBuffer")}} instances returns a new `ArrayBuffer` whose contents are a copy of this `ArrayBuffer`'s bytes from `start`, inclusive, up to `end`, exclusive. If either `start` or `end` is negative, it refers to an index from the end of the array, as opposed to from the beginning.
 

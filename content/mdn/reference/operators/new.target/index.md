@@ -2,17 +2,15 @@
 title: "Reference Operators New.Target"
 slug: "reference-operators-new.target"
 path: "reference/operators/new.target/index.md"
-wordCount: 880
+wordCount: 879
 readingTime: 5
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "es6", "arrow-functions"]
-lastModified: "2025-07-06T19:32:45.884Z"
+lastModified: "2025-08-02T14:03:23.771Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **`new.target`** meta-property lets you detect whether a function or constructor was called using the [`new`](/en-US/docs/Web/JavaScript/Reference/Operators/new) operator. In constructors and functions invoked using the [`new`](/en-US/docs/Web/JavaScript/Reference/Operators/new) operator, `new.target` returns a reference to the constructor or function that `new` was called upon. In normal function calls, `new.target` is {{jsxref("undefined")}}.
 

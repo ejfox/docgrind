@@ -2,17 +2,15 @@
 title: "Reference Global_objects Function Symbol.Hasinstance"
 slug: "reference-global_objects-function-symbol.hasinstance"
 path: "reference/global_objects/function/symbol.hasinstance/index.md"
-wordCount: 358
+wordCount: 357
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "es6"]
-lastModified: "2025-07-06T19:32:45.603Z"
+lastModified: "2025-08-02T14:03:23.539Z"
 ---
 
-
-{{JSRef}}
 
 The **`[Symbol.hasInstance]()`** method of {{jsxref("Function")}} instances specifies the default procedure for determining if a constructor function recognizes an object as one of the constructor's instances. It is called by the [`instanceof`](/en-US/docs/Web/JavaScript/Reference/Operators/instanceof) operator.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Undefined"
 slug: "reference-global_objects-undefined"
 path: "reference/global_objects/undefined/index.md"
-wordCount: 595
+wordCount: 594
 readingTime: 3
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
-tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.861Z"
+tags: []
+lastModified: "2025-08-02T14:03:23.748Z"
 ---
 
-
-{{jsSidebar("Objects")}}
 
 The **`undefined`** global property represents the primitive
 value [`undefined`](/en-US/docs/Web/JavaScript/Guide/Data_structures#undefined_type). It is one of JavaScript's

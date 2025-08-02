@@ -2,17 +2,17 @@
 title: "Guide Typed_arrays"
 slug: "guide-typed_arrays"
 path: "guide/typed_arrays/index.md"
-wordCount: 2566
+wordCount: 2564
 readingTime: 13
 codeBlocks: 17
 difficulty: "advanced"
 category: "Guide"
 tags: ["arrays", "objects", "promises", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.491Z"
+lastModified: "2025-08-02T14:03:23.428Z"
 ---
 
 
-{{jsSidebar("JavaScript Guide")}} {{PreviousNext("Web/JavaScript/Guide/Using_promises", "Web/JavaScript/Guide/Iterators_and_generators")}}
+{{PreviousNext("Web/JavaScript/Guide/Using_promises", "Web/JavaScript/Guide/Iterators_and_generators")}}
 
 JavaScript typed arrays are array-like objects that provide a mechanism for reading and writing raw binary data in memory buffers.
 

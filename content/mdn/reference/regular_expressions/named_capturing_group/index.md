@@ -2,17 +2,15 @@
 title: "Reference Regular_expressions Named_capturing_group"
 slug: "reference-regular_expressions-named_capturing_group"
 path: "reference/regular_expressions/named_capturing_group/index.md"
-wordCount: 532
+wordCount: 531
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "rest"]
-lastModified: "2025-07-06T19:32:45.899Z"
+lastModified: "2025-08-02T14:03:23.786Z"
 ---
 
-
-{{jsSidebar}}
 
 A **named capturing group** is a particular kind of [capturing group](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Capturing_group) that allows to give a name to the group. The group's matching result can later be identified by this name instead of by its index in the pattern.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Durationformat Formattoparts"
 slug: "reference-global_objects-intl-durationformat-formattoparts"
 path: "reference/global_objects/intl/durationformat/formattoparts/index.md"
-wordCount: 502
+wordCount: 501
 readingTime: 3
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.616Z"
+lastModified: "2025-08-02T14:03:23.551Z"
 ---
 
-
-{{JSRef}}
 
 The **`formatToParts()`** method of {{jsxref("Intl.DurationFormat")}} instances returns an array of objects representing each part of the formatted string that would be returned by {{jsxref("Intl/DurationFormat/format", "format()")}}. It is useful for building custom strings from the locale-specific tokens.
 

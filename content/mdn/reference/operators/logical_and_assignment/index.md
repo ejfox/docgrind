@@ -2,17 +2,15 @@
 title: "Reference Operators Logical_and_assignment"
 slug: "reference-operators-logical_and_assignment"
 path: "reference/operators/logical_and_assignment/index.md"
-wordCount: 255
+wordCount: 254
 readingTime: 2
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.882Z"
+lastModified: "2025-08-02T14:03:23.769Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **logical AND assignment (`&&=`)** operator only evaluates the right operand and assigns to the left if the left operand is {{Glossary("truthy")}}.
 

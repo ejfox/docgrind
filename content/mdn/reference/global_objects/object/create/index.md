@@ -2,17 +2,15 @@
 title: "Reference Global_objects Object Create"
 slug: "reference-global_objects-object-create"
 path: "reference/global_objects/object/create/index.md"
-wordCount: 784
+wordCount: 783
 readingTime: 4
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.679Z"
+lastModified: "2025-08-02T14:03:23.604Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object.create()`** static method creates a new object, using an existing object as the prototype of the newly created object.
 

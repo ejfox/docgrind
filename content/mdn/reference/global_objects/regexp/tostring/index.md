@@ -2,17 +2,15 @@
 title: "Reference Global_objects Regexp Tostring"
 slug: "reference-global_objects-regexp-tostring"
 path: "reference/global_objects/regexp/tostring/index.md"
-wordCount: 261
+wordCount: 260
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "api"]
-lastModified: "2025-07-06T19:32:45.746Z"
+lastModified: "2025-08-02T14:03:23.639Z"
 ---
 
-
-{{JSRef}}
 
 The **`toString()`** method of {{jsxref("RegExp")}} instances returns a string representing this regular expression.
 

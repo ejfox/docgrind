@@ -2,17 +2,15 @@
 title: "Reference Global_objects Object Valueof"
 slug: "reference-global_objects-object-valueof"
 path: "reference/global_objects/object/valueof/index.md"
-wordCount: 662
+wordCount: 661
 readingTime: 4
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.689Z"
+lastModified: "2025-08-02T14:03:23.614Z"
 ---
 
-
-{{JSRef}}
 
 The **`valueOf()`** method of {{jsxref("Object")}} instances converts the `this` value [to an object](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#object_coercion). This method is meant to be overridden by derived objects for custom [type conversion](/en-US/docs/Web/JavaScript/Guide/Data_structures#type_coercion) logic.
 
@@ -27,9 +25,9 @@ MyNumberType.prototype.valueOf = function () {
   return this.number;
 };
 
-const object1 = new MyNumberType(4);
+const object = new MyNumberType(4);
 
-console.log(object1 + 3);
+console.log(object + 3);
 // Expected output: 7
 ```
 

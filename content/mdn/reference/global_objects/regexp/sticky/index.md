@@ -2,35 +2,33 @@
 title: "Reference Global_objects Regexp Sticky"
 slug: "reference-global_objects-regexp-sticky"
 path: "reference/global_objects/regexp/sticky/index.md"
-wordCount: 794
+wordCount: 793
 readingTime: 4
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.743Z"
+lastModified: "2025-08-02T14:03:23.636Z"
 ---
 
-
-{{JSRef}}
 
 The **`sticky`** accessor property of {{jsxref("RegExp")}} instances returns whether or not the `y` flag is used with this regular expression.
 
 {{InteractiveExample("JavaScript Demo: RegExp.prototype.sticky", "taller")}}
 
 ```js interactive-example
-const str1 = "table football";
-const regex1 = /foo/y;
+const str = "table football";
+const regex = /foo/y;
 
-regex1.lastIndex = 6;
+regex.lastIndex = 6;
 
-console.log(regex1.sticky);
+console.log(regex.sticky);
 // Expected output: true
 
-console.log(regex1.test(str1));
+console.log(regex.test(str));
 // Expected output: true
 
-console.log(regex1.test(str1));
+console.log(regex.test(str));
 // Expected output: false
 ```
 
@@ -94,9 +92,9 @@ For several versions, Firefox's SpiderMonkey engine had [a bug](https://bugzil.l
 Examples of correct behavior:
 
 ```js
-const regex = /^foo/y;
-regex.lastIndex = 2;
-regex.test("..foo"); // false - index 2 is not the beginning of the string
+const regex1 = /^foo/y;
+regex1.lastIndex = 2;
+regex1.test("..foo"); // false - index 2 is not the beginning of the string
 
 const regex2 = /^foo/my;
 regex2.lastIndex = 2;

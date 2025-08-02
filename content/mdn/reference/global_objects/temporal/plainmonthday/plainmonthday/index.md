@@ -8,11 +8,11 @@ codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.818Z"
+lastModified: "2025-08-02T14:03:23.705Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`Temporal.PlainMonthDay()`** constructor creates {{jsxref("Temporal.PlainMonthDay")}} objects.
 

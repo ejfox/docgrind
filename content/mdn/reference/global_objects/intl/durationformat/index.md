@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Durationformat"
 slug: "reference-global_objects-intl-durationformat"
 path: "reference/global_objects/intl/durationformat/index.md"
-wordCount: 300
+wordCount: 299
 readingTime: 2
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.616Z"
+lastModified: "2025-08-02T14:03:23.551Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.DurationFormat`** object enables language-sensitive duration formatting.
 

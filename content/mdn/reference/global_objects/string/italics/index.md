@@ -2,17 +2,17 @@
 title: "Reference Global_objects String Italics"
 slug: "reference-global_objects-string-italics"
 path: "reference/global_objects/string/italics/index.md"
-wordCount: 183
+wordCount: 182
 readingTime: 1
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.764Z"
+lastModified: "2025-08-02T14:03:23.652Z"
 ---
 
 
-{{JSRef}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`italics()`** method of {{jsxref("String")}} values creates a string that embeds this string in an {{HTMLElement("i")}} element (`<i>str</i>`), which causes this string to be displayed as italic.
 

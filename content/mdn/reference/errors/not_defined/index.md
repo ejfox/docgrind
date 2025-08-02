@@ -2,17 +2,15 @@
 title: "Reference Errors Not_defined"
 slug: "reference-errors-not_defined"
 path: "reference/errors/not_defined/index.md"
-wordCount: 302
+wordCount: 301
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions"]
-lastModified: "2025-07-06T19:32:45.522Z"
+lastModified: "2025-08-02T14:03:23.457Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "_variable_ is not defined" occurs when there is a
 non-existent variable referenced somewhere.

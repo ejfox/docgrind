@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Includes"
 slug: "reference-global_objects-string-includes"
 path: "reference/global_objects/string/includes/index.md"
-wordCount: 329
+wordCount: 328
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.762Z"
+lastModified: "2025-08-02T14:03:23.651Z"
 ---
 
-
-{{JSRef}}
 
 The **`includes()`** method of {{jsxref("String")}} values performs a case-sensitive search to determine whether a given string may be found within this string, returning `true` or `false` as appropriate.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Setutchours"
 slug: "reference-global_objects-date-setutchours"
 path: "reference/global_objects/date/setutchours/index.md"
-wordCount: 299
+wordCount: 298
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.585Z"
+lastModified: "2025-08-02T14:03:23.520Z"
 ---
 
-
-{{JSRef}}
 
 The **`setUTCHours()`** method of {{jsxref("Date")}} instances changes the hours, minutes, seconds, and/or milliseconds for this date according to universal time.
 

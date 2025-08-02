@@ -2,17 +2,15 @@
 title: "Reference Functions Default_parameters"
 slug: "reference-functions-default_parameters"
 path: "reference/functions/default_parameters/index.md"
-wordCount: 1132
+wordCount: 1131
 readingTime: 6
 codeBlocks: 15
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "objects", "async", "destructuring"]
-lastModified: "2025-07-06T19:32:45.535Z"
+lastModified: "2025-08-02T14:03:23.470Z"
 ---
 
-
-{{jsSidebar("Functions")}}
 
 **Default function parameters** allow named parameters to be initialized with default values if no value or `undefined` is passed.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Error Message"
 slug: "reference-global_objects-error-message"
 path: "reference/global_objects/error/message/index.md"
-wordCount: 151
+wordCount: 150
 readingTime: 1
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.595Z"
+lastModified: "2025-08-02T14:03:23.531Z"
 ---
 
-
-{{JSRef}}
 
 The **`message`** data property of an {{jsxref("Error")}} instance is a human-readable description of the error.
 

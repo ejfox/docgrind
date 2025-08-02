@@ -2,17 +2,15 @@
 title: "Reference Errors Invalid_right_hand_side_instanceof_operand"
 slug: "reference-errors-invalid_right_hand_side_instanceof_operand"
 path: "reference/errors/invalid_right_hand_side_instanceof_operand/index.md"
-wordCount: 369
+wordCount: 368
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "arrow-functions"]
-lastModified: "2025-07-06T19:32:45.516Z"
+lastModified: "2025-08-02T14:03:23.452Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "invalid 'instanceof' operand" occurs when the right-hand side
 operands of the [`instanceof` operator](/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)

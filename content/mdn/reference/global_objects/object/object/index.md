@@ -2,17 +2,15 @@
 title: "Reference Global_objects Object Object"
 slug: "reference-global_objects-object-object"
 path: "reference/global_objects/object/object/index.md"
-wordCount: 361
+wordCount: 360
 readingTime: 2
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.686Z"
+lastModified: "2025-08-02T14:03:23.612Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object()`** constructor turns the input into an object. Its behavior depends on the input's type.
 

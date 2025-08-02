@@ -2,17 +2,15 @@
 title: "Reference Global_objects Function Length"
 slug: "reference-global_objects-function-length"
 path: "reference/global_objects/function/length/index.md"
-wordCount: 246
+wordCount: 245
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "destructuring", "rest"]
-lastModified: "2025-07-06T19:32:45.602Z"
+lastModified: "2025-08-02T14:03:23.538Z"
 ---
 
-
-{{JSRef}}
 
 The **`length`** data property of a {{jsxref("Function")}} instance indicates the number of parameters expected by the function.
 

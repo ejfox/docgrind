@@ -2,17 +2,15 @@
 title: "Reference Global_objects Object Hasown"
 slug: "reference-global_objects-object-hasown"
 path: "reference/global_objects/object/hasown/index.md"
-wordCount: 683
+wordCount: 682
 readingTime: 4
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.683Z"
+lastModified: "2025-08-02T14:03:23.609Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object.hasOwn()`** static method returns `true` if the specified object has the indicated property as its _own_ property. If the property is inherited, or does not exist, the method returns `false`.
 
@@ -22,17 +20,17 @@ The **`Object.hasOwn()`** static method returns `true` if the specified object h
 {{InteractiveExample("JavaScript Demo: Object.hasOwn()")}}
 
 ```js interactive-example
-const object1 = {
+const object = {
   prop: "exists",
 };
 
-console.log(Object.hasOwn(object1, "prop"));
+console.log(Object.hasOwn(object, "prop"));
 // Expected output: true
 
-console.log(Object.hasOwn(object1, "toString"));
+console.log(Object.hasOwn(object, "toString"));
 // Expected output: false
 
-console.log(Object.hasOwn(object1, "undeclaredPropertyValue"));
+console.log(Object.hasOwn(object, "undeclaredPropertyValue"));
 // Expected output: false
 ```
 

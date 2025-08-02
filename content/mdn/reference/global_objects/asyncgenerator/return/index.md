@@ -2,17 +2,15 @@
 title: "Reference Global_objects Asyncgenerator Return"
 slug: "reference-global_objects-asyncgenerator-return"
 path: "reference/global_objects/asyncgenerator/return/index.md"
-wordCount: 537
+wordCount: 536
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "async"]
-lastModified: "2025-07-06T19:32:45.560Z"
+lastModified: "2025-08-02T14:03:23.497Z"
 ---
 
-
-{{JSRef}}
 
 The **`return()`** method of {{jsxref("AsyncGenerator")}} instances acts as if a `return` statement is inserted in the generator's body at the current suspended position, which finishes the generator and allows the generator to perform any cleanup tasks when combined with a [`try...finally`](/en-US/docs/Web/JavaScript/Reference/Statements/try...catch#the_finally_block) block.
 

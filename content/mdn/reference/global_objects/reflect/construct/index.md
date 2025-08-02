@@ -2,17 +2,15 @@
 title: "Reference Global_objects Reflect Construct"
 slug: "reference-global_objects-reflect-construct"
 path: "reference/global_objects/reflect/construct/index.md"
-wordCount: 897
+wordCount: 896
 readingTime: 5
 codeBlocks: 11
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "spread"]
-lastModified: "2025-07-06T19:32:45.714Z"
+lastModified: "2025-08-02T14:03:23.627Z"
 ---
 
-
-{{JSRef}}
 
 The **`Reflect.construct()`** static method is like the {{jsxref("Operators/new", "new")}} operator, but as a function. It is equivalent to calling `new target(...args)`. It additionally allows to specify a different [`new.target`](/en-US/docs/Web/JavaScript/Reference/Operators/new.target) value.
 

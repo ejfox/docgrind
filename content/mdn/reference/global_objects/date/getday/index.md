@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Getday"
 slug: "reference-global_objects-date-getday"
 path: "reference/global_objects/date/getday/index.md"
-wordCount: 252
+wordCount: 251
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.577Z"
+lastModified: "2025-08-02T14:03:23.513Z"
 ---
 
-
-{{JSRef}}
 
 The **`getDay()`** method of {{jsxref("Date")}} instances returns the day of the week for this date according to local time, where 0 represents Sunday. For the day of the month, see {{jsxref("Date.prototype.getDate()")}}.
 

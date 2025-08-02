@@ -2,17 +2,15 @@
 title: "Reference Operators Await"
 slug: "reference-operators-await"
 path: "reference/operators/await/index.md"
-wordCount: 1664
+wordCount: 1663
 readingTime: 9
 codeBlocks: 17
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "modules", "async", "promises"]
-lastModified: "2025-07-06T19:32:45.869Z"
+lastModified: "2025-08-02T14:03:23.757Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **`await`** operator is used to wait for a {{jsxref("Promise")}} and get its fulfillment value. It can only be used inside an [async function](/en-US/docs/Web/JavaScript/Reference/Statements/async_function) or at the top level of a [module](/en-US/docs/Web/JavaScript/Guide/Modules).
 

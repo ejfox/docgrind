@@ -2,17 +2,15 @@
 title: "Reference Global_objects Evalerror Evalerror"
 slug: "reference-global_objects-evalerror-evalerror"
 path: "reference/global_objects/evalerror/evalerror/index.md"
-wordCount: 230
+wordCount: 229
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.597Z"
+lastModified: "2025-08-02T14:03:23.533Z"
 ---
 
-
-{{JSRef}}
 
 The **`EvalError()`** constructor creates {{jsxref("EvalError")}} objects.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Asynciterator Symbol.Asynciterator"
 slug: "reference-global_objects-asynciterator-symbol.asynciterator"
 path: "reference/global_objects/asynciterator/symbol.asynciterator/index.md"
-wordCount: 167
+wordCount: 166
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["loops", "async", "dom"]
-lastModified: "2025-07-06T19:32:45.562Z"
+lastModified: "2025-08-02T14:03:23.498Z"
 ---
 
-
-{{JSRef}}
 
 The **`[Symbol.asyncIterator]()`** method of {{jsxref("AsyncIterator")}} instances implements the [async iterable protocol](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_async_iterator_and_async_iterable_protocols) and allows built-in async iterators to be consumed by most syntaxes expecting async iterables, such as [`for await...of`](/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of) loops. It returns the value of [`this`](/en-US/docs/Web/JavaScript/Reference/Operators/this), which is the async iterator object itself.
 

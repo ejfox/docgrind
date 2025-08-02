@@ -2,17 +2,15 @@
 title: "Reference Global_objects Int16array"
 slug: "reference-global_objects-int16array"
 path: "reference/global_objects/int16array/index.md"
-wordCount: 332
+wordCount: 331
 readingTime: 2
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays"]
-lastModified: "2025-07-06T19:32:45.606Z"
+lastModified: "2025-08-02T14:03:23.542Z"
 ---
 
-
-{{JSRef}}
 
 The **`Int16Array`** typed array represents an array of 16-bit signed integers in the platform byte order. If control over byte order is needed, use {{jsxref("DataView")}} instead. The contents are initialized to `0` unless initialization data is explicitly provided. Once established, you can reference elements in the array using the object's methods, or using standard array index syntax (that is, using bracket notation).
 

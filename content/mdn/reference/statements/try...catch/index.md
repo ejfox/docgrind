@@ -2,17 +2,15 @@
 title: "Reference Statements Try...Catch"
 slug: "reference-statements-try...catch"
 path: "reference/statements/try...catch/index.md"
-wordCount: 1566
+wordCount: 1565
 readingTime: 8
 codeBlocks: 17
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "destructuring", "rest"]
-lastModified: "2025-07-06T19:32:45.913Z"
+lastModified: "2025-08-02T14:03:23.800Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 The **`try...catch`** statement is comprised of a `try` block and either a `catch` block, a `finally` block, or both. The code in the `try` block is executed first, and if it throws an exception, the code in the `catch` block will be executed. The code in the `finally` block will always be executed before control flow exits the entire construct.
 

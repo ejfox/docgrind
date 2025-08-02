@@ -2,17 +2,17 @@
 title: "Reference Global_objects Date Setyear"
 slug: "reference-global_objects-date-setyear"
 path: "reference/global_objects/date/setyear/index.md"
-wordCount: 337
+wordCount: 336
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.587Z"
+lastModified: "2025-08-02T14:03:23.522Z"
 ---
 
 
-{{JSRef}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`setYear()`** method of {{jsxref("Date")}} instances sets the year for a specified date according to local time.
 

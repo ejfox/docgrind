@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typeerror Typeerror"
 slug: "reference-global_objects-typeerror-typeerror"
 path: "reference/global_objects/typeerror/typeerror/index.md"
-wordCount: 229
+wordCount: 228
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.857Z"
+lastModified: "2025-08-02T14:03:23.743Z"
 ---
 
-
-{{JSRef}}
 
 The **`TypeError()`** constructor creates {{jsxref("TypeError")}} objects.
 

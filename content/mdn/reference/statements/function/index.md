@@ -2,17 +2,15 @@
 title: "Reference Statements Function"
 slug: "reference-statements-function"
 path: "reference/statements/function/index.md"
-wordCount: 1000
+wordCount: 999
 readingTime: 5
 codeBlocks: 14
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "async"]
-lastModified: "2025-07-06T19:32:45.908Z"
+lastModified: "2025-08-02T14:03:23.795Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 The **`function`** declaration creates a {{Glossary("binding")}} of a new function to a given name.
 

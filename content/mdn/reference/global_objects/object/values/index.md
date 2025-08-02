@@ -2,30 +2,28 @@
 title: "Reference Global_objects Object Values"
 slug: "reference-global_objects-object-values"
 path: "reference/global_objects/object/values/index.md"
-wordCount: 366
+wordCount: 365
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom"]
-lastModified: "2025-07-06T19:32:45.689Z"
+lastModified: "2025-08-02T14:03:23.615Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object.values()`** static method returns an array of a given object's own enumerable string-keyed property values.
 
 {{InteractiveExample("JavaScript Demo: Object.values()")}}
 
 ```js interactive-example
-const object1 = {
+const object = {
   a: "some string",
   b: 42,
   c: false,
 };
 
-console.log(Object.values(object1));
+console.log(Object.values(object));
 // Expected output: Array ["some string", 42, false]
 ```
 

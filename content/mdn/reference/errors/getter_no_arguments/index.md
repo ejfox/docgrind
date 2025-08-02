@@ -2,17 +2,15 @@
 title: "Reference Errors Getter_no_arguments"
 slug: "reference-errors-getter_no_arguments"
 path: "reference/errors/getter_no_arguments/index.md"
-wordCount: 228
+wordCount: 227
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "dom"]
-lastModified: "2025-07-06T19:32:45.511Z"
+lastModified: "2025-08-02T14:03:23.448Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "getter functions must have no arguments" occurs when a [getter](/en-US/docs/Web/JavaScript/Reference/Functions/get) is declared and the parameter list is non-empty.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Split"
 slug: "reference-global_objects-string-split"
 path: "reference/global_objects/string/split/index.md"
-wordCount: 1609
+wordCount: 1608
 readingTime: 9
 codeBlocks: 12
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.770Z"
+lastModified: "2025-08-02T14:03:23.658Z"
 ---
 
-
-{{JSRef}}
 
 The **`split()`** method of {{jsxref("String")}} values takes a pattern and divides this string into an ordered list of substrings by searching for the pattern, puts these substrings into an array, and returns the array.
 

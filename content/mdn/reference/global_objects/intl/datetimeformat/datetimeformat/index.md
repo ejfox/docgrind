@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Datetimeformat Datetimeformat"
 slug: "reference-global_objects-intl-datetimeformat-datetimeformat"
 path: "reference/global_objects/intl/datetimeformat/datetimeformat/index.md"
-wordCount: 2160
+wordCount: 2159
 readingTime: 11
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom"]
-lastModified: "2025-07-06T19:32:45.610Z"
+lastModified: "2025-08-02T14:03:23.546Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.DateTimeFormat()`** constructor creates {{jsxref("Intl.DateTimeFormat")}} objects.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Now"
 slug: "reference-global_objects-date-now"
 path: "reference/global_objects/date/now/index.md"
-wordCount: 311
+wordCount: 310
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.582Z"
+lastModified: "2025-08-02T14:03:23.517Z"
 ---
 
-
-{{JSRef}}
 
 The **`Date.now()`** static method returns the number of milliseconds elapsed since the [epoch](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date#the_epoch_timestamps_and_invalid_date), which is defined as the midnight at the beginning of January 1, 1970, UTC.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Getfullyear"
 slug: "reference-global_objects-date-getfullyear"
 path: "reference/global_objects/date/getfullyear/index.md"
-wordCount: 173
+wordCount: 172
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.577Z"
+lastModified: "2025-08-02T14:03:23.513Z"
 ---
 
-
-{{JSRef}}
 
 The **`getFullYear()`** method of {{jsxref("Date")}} instances returns the year for this date according to local time.
 

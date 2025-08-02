@@ -2,17 +2,15 @@
 title: "Reference Errors Regex_nothing_to_repeat"
 slug: "reference-errors-regex_nothing_to_repeat"
 path: "reference/errors/regex_nothing_to_repeat/index.md"
-wordCount: 249
+wordCount: 248
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.527Z"
+lastModified: "2025-08-02T14:03:23.463Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "nothing to repeat" or "invalid quantifier in regular expression" occurs when a [quantifier](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Quantifier) in a regular expression is applied to nothing or applied to an [assertion](/en-US/docs/Web/JavaScript/Reference/Regular_expressions#assertions).
 

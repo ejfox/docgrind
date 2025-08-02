@@ -2,17 +2,15 @@
 title: "Reference Global_objects Regexp Symbol.Split"
 slug: "reference-global_objects-regexp-symbol.split"
 path: "reference/global_objects/regexp/symbol.split/index.md"
-wordCount: 597
+wordCount: 596
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.746Z"
+lastModified: "2025-08-02T14:03:23.638Z"
 ---
 
-
-{{JSRef}}
 
 The **`[Symbol.split]()`** method of {{jsxref("RegExp")}} instances specifies how [`String.prototype.split`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) should behave when the regular expression is passed in as the separator.
 

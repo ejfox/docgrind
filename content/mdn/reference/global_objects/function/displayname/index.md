@@ -2,17 +2,17 @@
 title: "Reference Global_objects Function Displayname"
 slug: "reference-global_objects-function-displayname"
 path: "reference/global_objects/function/displayname/index.md"
-wordCount: 395
+wordCount: 394
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions"]
-lastModified: "2025-07-06T19:32:45.602Z"
+lastModified: "2025-08-02T14:03:23.537Z"
 ---
 
 
-{{JSRef}} {{Non-standard_Header}}
+{{Non-standard_Header}}
 
 The optional **`displayName`** property of a {{jsxref("Function")}} instance specifies the display name of the function.
 

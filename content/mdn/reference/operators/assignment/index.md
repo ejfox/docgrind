@@ -2,17 +2,15 @@
 title: "Reference Operators Assignment"
 slug: "reference-operators-assignment"
 path: "reference/operators/assignment/index.md"
-wordCount: 761
+wordCount: 760
 readingTime: 4
 codeBlocks: 10
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "classes", "destructuring"]
-lastModified: "2025-07-06T19:32:45.868Z"
+lastModified: "2025-08-02T14:03:23.756Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **assignment (`=`)** operator is used to assign a value to a variable or property. The assignment expression itself has a value, which is the assigned value. This allows multiple assignments to be chained in order to assign a single value to multiple variables.
 

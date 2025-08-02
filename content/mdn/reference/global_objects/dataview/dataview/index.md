@@ -2,17 +2,15 @@
 title: "Reference Global_objects Dataview Dataview"
 slug: "reference-global_objects-dataview-dataview"
 path: "reference/global_objects/dataview/dataview/index.md"
-wordCount: 265
+wordCount: 264
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.571Z"
+lastModified: "2025-08-02T14:03:23.507Z"
 ---
 
-
-{{JSRef}}
 
 The **`DataView()`** constructor creates {{jsxref("DataView")}} objects.
 

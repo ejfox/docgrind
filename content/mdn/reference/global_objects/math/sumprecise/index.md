@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Sumprecise"
 slug: "reference-global_objects-math-sumprecise"
 path: "reference/global_objects/math/sumprecise/index.md"
-wordCount: 373
+wordCount: 372
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["rest"]
-lastModified: "2025-07-06T19:32:45.669Z"
+lastModified: "2025-08-02T14:03:23.595Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.sumPrecise()`** static method takes an iterable of numbers and returns the sum of them. It is more precise than summing them up in a loop, because it avoids floating point precision loss in intermediate results.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Every"
 slug: "reference-global_objects-array-every"
 path: "reference/global_objects/array/every/index.md"
-wordCount: 689
+wordCount: 688
 readingTime: 4
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.540Z"
+lastModified: "2025-08-02T14:03:23.475Z"
 ---
 
-
-{{JSRef}}
 
 The **`every()`** method of {{jsxref("Array")}} instances tests whether
 all elements in the array pass the test implemented by the provided function. It

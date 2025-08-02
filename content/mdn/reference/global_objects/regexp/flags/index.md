@@ -2,17 +2,15 @@
 title: "Reference Global_objects Regexp Flags"
 slug: "reference-global_objects-regexp-flags"
 path: "reference/global_objects/regexp/flags/index.md"
-wordCount: 150
+wordCount: 149
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects"]
-lastModified: "2025-07-06T19:32:45.738Z"
+lastModified: "2025-08-02T14:03:23.632Z"
 ---
 
-
-{{JSRef}}
 
 The **`flags`** accessor property of {{jsxref("RegExp")}} instances returns the [flags](/en-US/docs/Web/JavaScript/Guide/Regular_expressions#advanced_searching_with_flags) of this regular expression.
 

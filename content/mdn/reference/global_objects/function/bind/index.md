@@ -2,17 +2,15 @@
 title: "Reference Global_objects Function Bind"
 slug: "reference-global_objects-function-bind"
 path: "reference/global_objects/function/bind/index.md"
-wordCount: 1953
+wordCount: 1952
 readingTime: 10
 codeBlocks: 15
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "arrays", "objects", "classes", "dom"]
-lastModified: "2025-07-06T19:32:45.601Z"
+lastModified: "2025-08-02T14:03:23.536Z"
 ---
 
-
-{{JSRef}}
 
 The **`bind()`** method of {{jsxref("Function")}} instances creates a new function that, when called, calls this function with its `this` keyword set to the provided value, and a given sequence of arguments preceding any provided when the new function is called.
 

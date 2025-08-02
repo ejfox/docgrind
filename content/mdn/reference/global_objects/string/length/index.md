@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Length"
 slug: "reference-global_objects-string-length"
 path: "reference/global_objects/string/length/index.md"
-wordCount: 694
+wordCount: 693
 readingTime: 4
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.764Z"
+lastModified: "2025-08-02T14:03:23.653Z"
 ---
 
-
-{{JSRef}}
 
 The **`length`** data property of a {{jsxref("String")}} value contains the length of the string in UTF-16 code units.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Subarray"
 slug: "reference-global_objects-typedarray-subarray"
 path: "reference/global_objects/typedarray/subarray/index.md"
-wordCount: 314
+wordCount: 313
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays"]
-lastModified: "2025-07-06T19:32:45.855Z"
+lastModified: "2025-08-02T14:03:23.741Z"
 ---
 
-
-{{JSRef}}
 
 The **`subarray()`** method of {{jsxref("TypedArray")}} instances returns a new typed array
 on the same {{jsxref("ArrayBuffer")}} store and with the same element types as for this

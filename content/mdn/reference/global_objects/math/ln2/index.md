@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Ln2"
 slug: "reference-global_objects-math-ln2"
 path: "reference/global_objects/math/ln2/index.md"
-wordCount: 131
+wordCount: 130
 readingTime: 1
 codeBlocks: 2
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.664Z"
+lastModified: "2025-08-02T14:03:23.590Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.LN2`** static data property represents the natural logarithm of 2, approximately 0.693:
 

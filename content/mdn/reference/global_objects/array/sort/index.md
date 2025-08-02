@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Sort"
 slug: "reference-global_objects-array-sort"
 path: "reference/global_objects/array/sort/index.md"
-wordCount: 2142
+wordCount: 2141
 readingTime: 11
 codeBlocks: 18
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "spread"]
-lastModified: "2025-07-06T19:32:45.552Z"
+lastModified: "2025-08-02T14:03:23.487Z"
 ---
 
-
-{{JSRef}}
 
 The **`sort()`** method of {{jsxref("Array")}} instances sorts the elements of an array _[in place](https://en.wikipedia.org/wiki/In-place_algorithm)_ and returns the reference to the same array, now sorted. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code unit values.
 
@@ -29,9 +27,9 @@ months.sort();
 console.log(months);
 // Expected output: Array ["Dec", "Feb", "Jan", "March"]
 
-const array1 = [1, 30, 4, 21, 100000];
-array1.sort();
-console.log(array1);
+const array = [1, 30, 4, 21, 100000];
+array.sort();
+console.log(array);
 // Expected output: Array [1, 100000, 21, 30, 4]
 ```
 

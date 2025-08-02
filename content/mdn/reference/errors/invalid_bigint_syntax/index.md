@@ -2,17 +2,15 @@
 title: "Reference Errors Invalid_bigint_syntax"
 slug: "reference-errors-invalid_bigint_syntax"
 path: "reference/errors/invalid_bigint_syntax/index.md"
-wordCount: 147
+wordCount: 146
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.514Z"
+lastModified: "2025-08-02T14:03:23.450Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "invalid BigInt syntax" occurs when a string value is being coerced to a {{jsxref("BigInt")}} but it failed to be parsed as an integer.
 

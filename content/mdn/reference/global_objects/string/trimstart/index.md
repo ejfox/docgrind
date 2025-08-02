@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Trimstart"
 slug: "reference-global_objects-string-trimstart"
 path: "reference/global_objects/string/trimstart/index.md"
-wordCount: 243
+wordCount: 242
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.774Z"
+lastModified: "2025-08-02T14:03:23.662Z"
 ---
 
-
-{{JSRef}}
 
 The **`trimStart()`** method of {{jsxref("String")}} values removes whitespace from the beginning of this string and returns a new string, without modifying the original string. `trimLeft()` is an alias of this method.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Atomics Load"
 slug: "reference-global_objects-atomics-load"
 path: "reference/global_objects/atomics/load/index.md"
-wordCount: 182
+wordCount: 181
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.564Z"
+lastModified: "2025-08-02T14:03:23.500Z"
 ---
 
-
-{{JSRef}}
 
 The **`Atomics.load()`** static
 method returns a value at a given position in the array.

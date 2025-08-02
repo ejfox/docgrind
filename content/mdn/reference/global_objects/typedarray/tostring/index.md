@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Tostring"
 slug: "reference-global_objects-typedarray-tostring"
 path: "reference/global_objects/typedarray/tostring/index.md"
-wordCount: 150
+wordCount: 149
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays"]
-lastModified: "2025-07-06T19:32:45.856Z"
+lastModified: "2025-08-02T14:03:23.742Z"
 ---
 
-
-{{JSRef}}
 
 The **`toString()`** method of {{jsxref("TypedArray")}} instances returns a string representing the specified typed array and its elements. This method has the same algorithm as {{jsxref("Array.prototype.toString()")}}.
 

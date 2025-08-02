@@ -2,17 +2,15 @@
 title: "Reference Operators Addition_assignment"
 slug: "reference-operators-addition_assignment"
 path: "reference/operators/addition_assignment/index.md"
-wordCount: 218
+wordCount: 217
 readingTime: 2
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.868Z"
+lastModified: "2025-08-02T14:03:23.756Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **addition assignment (`+=`)** operator performs [addition](/en-US/docs/Web/JavaScript/Reference/Operators/Addition) (which is either numeric addition or string concatenation) on the two operands and assigns the result to the left operand.
 

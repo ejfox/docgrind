@@ -8,11 +8,11 @@ codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.800Z"
+lastModified: "2025-08-02T14:03:23.687Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`Temporal.PlainDate.from()`** static method creates a new `Temporal.PlainDate` object from another `Temporal.PlainDate` object, an object with date properties, or an [RFC 9557](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate#rfc_9557_format) string.
 

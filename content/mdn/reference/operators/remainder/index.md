@@ -2,17 +2,15 @@
 title: "Reference Operators Remainder"
 slug: "reference-operators-remainder"
 path: "reference/operators/remainder/index.md"
-wordCount: 571
+wordCount: 570
 readingTime: 3
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.887Z"
+lastModified: "2025-08-02T14:03:23.774Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **remainder (`%`)** operator returns the remainder left over when one operand is divided by a second operand. It always takes the sign of the dividend.
 

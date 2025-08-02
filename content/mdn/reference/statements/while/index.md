@@ -2,17 +2,15 @@
 title: "Reference Statements While"
 slug: "reference-statements-while"
 path: "reference/statements/while/index.md"
-wordCount: 756
+wordCount: 755
 readingTime: 4
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.914Z"
+lastModified: "2025-08-02T14:03:23.802Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 The **`while`** statement creates a loop that executes a specified statement as long as the test condition evaluates to true. The condition is evaluated before executing the statement.
 

@@ -2,17 +2,15 @@
 title: "Reference Classes Static"
 slug: "reference-classes-static"
 path: "reference/classes/static/index.md"
-wordCount: 1023
+wordCount: 1022
 readingTime: 6
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "rest"]
-lastModified: "2025-07-06T19:32:45.498Z"
+lastModified: "2025-08-02T14:03:23.435Z"
 ---
 
-
-{{jsSidebar("Classes")}}
 
 The **`static`** keyword defines a [static method or field](/en-US/docs/Web/JavaScript/Reference/Classes#static_methods_and_fields) for a class, or a [static initialization block](/en-US/docs/Web/JavaScript/Reference/Classes/Static_initialization_blocks) (see the link for more information about this usage). Static properties cannot be directly accessed on instances of the class. Instead, they're accessed on the class itself.
 

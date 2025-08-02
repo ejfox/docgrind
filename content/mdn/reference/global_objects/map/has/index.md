@@ -2,17 +2,15 @@
 title: "Reference Global_objects Map Has"
 slug: "reference-global_objects-map-has"
 path: "reference/global_objects/map/has/index.md"
-wordCount: 127
+wordCount: 126
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.650Z"
+lastModified: "2025-08-02T14:03:23.581Z"
 ---
 
-
-{{JSRef}}
 
 The **`has()`** method of {{jsxref("Map")}} instances returns a boolean indicating whether an element with the
 specified key exists in this map or not.
@@ -20,13 +18,13 @@ specified key exists in this map or not.
 {{InteractiveExample("JavaScript Demo: Map.prototype.has()")}}
 
 ```js interactive-example
-const map1 = new Map();
-map1.set("bar", "foo");
+const map = new Map();
+map.set("bar", "foo");
 
-console.log(map1.has("bar"));
+console.log(map.has("bar"));
 // Expected output: true
 
-console.log(map1.has("baz"));
+console.log(map.has("baz"));
 // Expected output: false
 ```
 

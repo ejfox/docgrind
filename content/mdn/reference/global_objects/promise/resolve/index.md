@@ -2,17 +2,15 @@
 title: "Reference Global_objects Promise Resolve"
 slug: "reference-global_objects-promise-resolve"
 path: "reference/global_objects/promise/resolve/index.md"
-wordCount: 993
+wordCount: 992
 readingTime: 5
 codeBlocks: 10
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "async", "promises"]
-lastModified: "2025-07-06T19:32:45.693Z"
+lastModified: "2025-08-02T14:03:23.619Z"
 ---
 
-
-{{JSRef}}
 
 The **`Promise.resolve()`** static method "resolves" a given value to a {{jsxref("Promise")}}. If the value is a promise, that promise is returned; if the value is a [thenable](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#thenables), `Promise.resolve()` will call the `then()` method with two callbacks it prepared; otherwise the returned promise will be fulfilled with the value.
 

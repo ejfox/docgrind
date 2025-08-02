@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Tan"
 slug: "reference-global_objects-math-tan"
 path: "reference/global_objects/math/tan/index.md"
-wordCount: 269
+wordCount: 268
 readingTime: 2
 codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.669Z"
+lastModified: "2025-08-02T14:03:23.595Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.tan()`** static method returns the tangent of a number in radians.
 

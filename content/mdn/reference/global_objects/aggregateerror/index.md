@@ -2,17 +2,15 @@
 title: "Reference Global_objects Aggregateerror"
 slug: "reference-global_objects-aggregateerror"
 path: "reference/global_objects/aggregateerror/index.md"
-wordCount: 257
+wordCount: 256
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["promises"]
-lastModified: "2025-07-06T19:32:45.538Z"
+lastModified: "2025-08-02T14:03:23.473Z"
 ---
 
-
-{{JSRef}}
 
 The **`AggregateError`** object represents an error when several errors need to be wrapped in a single error. It is thrown when multiple errors need to be reported by an operation, for example by {{jsxref("Promise.any()")}}, when all promises passed to it reject.
 

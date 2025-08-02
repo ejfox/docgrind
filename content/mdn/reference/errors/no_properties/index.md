@@ -2,17 +2,15 @@
 title: "Reference Errors No_properties"
 slug: "reference-errors-no_properties"
 path: "reference/errors/no_properties/index.md"
-wordCount: 153
+wordCount: 152
 readingTime: 1
 codeBlocks: 2
 difficulty: "intermediate"
 category: "Reference"
 tags: ["destructuring"]
-lastModified: "2025-07-06T19:32:45.520Z"
+lastModified: "2025-08-02T14:03:23.456Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "null (or undefined) has no properties" occurs when you
 attempt to access properties of [`null`](/en-US/docs/Web/JavaScript/Reference/Operators/null) and {{jsxref("undefined")}}. They

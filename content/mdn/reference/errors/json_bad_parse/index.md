@@ -2,17 +2,15 @@
 title: "Reference Errors Json_bad_parse"
 slug: "reference-errors-json_bad_parse"
 path: "reference/errors/json_bad_parse/index.md"
-wordCount: 484
+wordCount: 483
 readingTime: 3
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.516Z"
+lastModified: "2025-08-02T14:03:23.452Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exceptions thrown by {{jsxref("JSON.parse()")}} occur when string failed
 to be parsed as JSON.

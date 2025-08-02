@@ -2,17 +2,15 @@
 title: "Reference Global_objects Promise Withresolvers"
 slug: "reference-global_objects-promise-withresolvers"
 path: "reference/global_objects/promise/withresolvers/index.md"
-wordCount: 556
+wordCount: 555
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "async", "promises"]
-lastModified: "2025-07-06T19:32:45.695Z"
+lastModified: "2025-08-02T14:03:23.621Z"
 ---
 
-
-{{JSRef}}
 
 The **`Promise.withResolvers()`** static method returns an object containing a new {{jsxref("Promise")}} object and two functions to resolve or reject it, corresponding to the two parameters passed to the executor of the {{jsxref("Promise/Promise", "Promise()")}} constructor.
 

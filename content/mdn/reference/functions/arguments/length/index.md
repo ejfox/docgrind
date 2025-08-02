@@ -2,17 +2,15 @@
 title: "Reference Functions Arguments Length"
 slug: "reference-functions-arguments-length"
 path: "reference/functions/arguments/length/index.md"
-wordCount: 173
+wordCount: 172
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects"]
-lastModified: "2025-07-06T19:32:45.534Z"
+lastModified: "2025-08-02T14:03:23.469Z"
 ---
 
-
-{{jsSidebar("Functions")}}
 
 The **`arguments.length`** data property contains the number of arguments passed to the function.
 

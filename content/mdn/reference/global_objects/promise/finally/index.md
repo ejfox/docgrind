@@ -2,17 +2,15 @@
 title: "Reference Global_objects Promise Finally"
 slug: "reference-global_objects-promise-finally"
 path: "reference/global_objects/promise/finally/index.md"
-wordCount: 656
+wordCount: 655
 readingTime: 4
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "async", "promises", "dom"]
-lastModified: "2025-07-06T19:32:45.691Z"
+lastModified: "2025-08-02T14:03:23.617Z"
 ---
 
-
-{{JSRef}}
 
 The **`finally()`** method of {{jsxref("Promise")}} instances schedules a function to be called when the promise is settled (either fulfilled or rejected). It immediately returns another {{jsxref("Promise")}} object, allowing you to [chain](/en-US/docs/Web/JavaScript/Guide/Using_promises#chaining) calls to other promise methods.
 

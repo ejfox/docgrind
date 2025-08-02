@@ -2,17 +2,15 @@
 title: "Reference Global_objects Arraybuffer Arraybuffer"
 slug: "reference-global_objects-arraybuffer-arraybuffer"
 path: "reference/global_objects/arraybuffer/arraybuffer/index.md"
-wordCount: 304
+wordCount: 303
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.556Z"
+lastModified: "2025-08-02T14:03:23.491Z"
 ---
 
-
-{{JSRef}}
 
 The **`ArrayBuffer()`** constructor creates {{jsxref("ArrayBuffer")}} objects.
 

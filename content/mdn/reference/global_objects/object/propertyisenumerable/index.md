@@ -2,35 +2,33 @@
 title: "Reference Global_objects Object Propertyisenumerable"
 slug: "reference-global_objects-object-propertyisenumerable"
 path: "reference/global_objects/object/propertyisenumerable/index.md"
-wordCount: 518
+wordCount: 517
 readingTime: 3
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "dom", "spread"]
-lastModified: "2025-07-06T19:32:45.687Z"
+lastModified: "2025-08-02T14:03:23.612Z"
 ---
 
-
-{{JSRef}}
 
 The **`propertyIsEnumerable()`** method of {{jsxref("Object")}} instances returns a boolean indicating whether the specified property is this object's [enumerable own](/en-US/docs/Web/JavaScript/Guide/Enumerability_and_ownership_of_properties) property.
 
 {{InteractiveExample("JavaScript Demo: Object.prototype.propertyIsEnumerable()", "taller")}}
 
 ```js interactive-example
-const object1 = {};
-const array1 = [];
-object1.property1 = 42;
-array1[0] = 42;
+const object = {};
+const array = [];
+object.foo = 42;
+array[0] = 42;
 
-console.log(object1.propertyIsEnumerable("property1"));
+console.log(object.propertyIsEnumerable("foo"));
 // Expected output: true
 
-console.log(array1.propertyIsEnumerable(0));
+console.log(array.propertyIsEnumerable(0));
 // Expected output: true
 
-console.log(array1.propertyIsEnumerable("length"));
+console.log(array.propertyIsEnumerable("length"));
 // Expected output: false
 ```
 

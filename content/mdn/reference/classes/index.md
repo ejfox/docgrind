@@ -2,17 +2,15 @@
 title: "Reference Classes"
 slug: "reference-classes"
 path: "reference/classes/index.md"
-wordCount: 1813
+wordCount: 1812
 readingTime: 10
 codeBlocks: 10
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "objects", "classes", "async"]
-lastModified: "2025-07-06T19:32:45.497Z"
+lastModified: "2025-08-02T14:03:23.433Z"
 ---
 
-
-{{jsSidebar("Classes")}}
 
 Classes are a template for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on [prototypes](/en-US/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain) but also have some syntax and semantics that are unique to classes.
 

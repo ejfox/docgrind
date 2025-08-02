@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Tosorted"
 slug: "reference-global_objects-typedarray-tosorted"
 path: "reference/global_objects/typedarray/tosorted/index.md"
-wordCount: 218
+wordCount: 217
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.856Z"
+lastModified: "2025-08-02T14:03:23.742Z"
 ---
 
-
-{{JSRef}}
 
 The **`toSorted()`** method of {{jsxref("TypedArray")}} instances is the [copying](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#copying_methods_and_mutating_methods) version of the {{jsxref("TypedArray/sort", "sort()")}} method. It returns a new typed array with the elements sorted in ascending order. This method has the same algorithm as {{jsxref("Array.prototype.toSorted()")}}, except that it sorts the values numerically instead of as strings by default.
 

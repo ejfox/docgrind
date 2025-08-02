@@ -2,17 +2,15 @@
 title: "Reference Global_objects Object Groupby"
 slug: "reference-global_objects-object-groupby"
 path: "reference/global_objects/object/groupby/index.md"
-wordCount: 781
+wordCount: 780
 readingTime: 4
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "destructuring", "rest"]
-lastModified: "2025-07-06T19:32:45.683Z"
+lastModified: "2025-08-02T14:03:23.608Z"
 ---
 
-
-{{JSRef}}
 
 > [!NOTE]
 > In some versions of some browsers, this method was implemented as the method `Array.prototype.group()`. Due to web compatibility issues, it is now implemented as a static method. Check the [browser compatibility table](#browser_compatibility) for details.

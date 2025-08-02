@@ -2,17 +2,15 @@
 title: "Reference Global_objects Function"
 slug: "reference-global_objects-function"
 path: "reference/global_objects/function/index.md"
-wordCount: 578
+wordCount: 577
 readingTime: 3
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "objects", "async"]
-lastModified: "2025-07-06T19:32:45.602Z"
+lastModified: "2025-08-02T14:03:23.538Z"
 ---
 
-
-{{JSRef}}
 
 The **`Function`** object provides methods for [functions](/en-US/docs/Web/JavaScript/Reference/Functions). In JavaScript, every function is actually a `Function` object.
 

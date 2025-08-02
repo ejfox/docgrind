@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Symbol.Unscopables"
 slug: "reference-global_objects-array-symbol.unscopables"
 path: "reference/global_objects/array/symbol.unscopables/index.md"
-wordCount: 312
+wordCount: 311
 readingTime: 2
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.553Z"
+lastModified: "2025-08-02T14:03:23.488Z"
 ---
 
-
-{{JSRef}}
 
 The **`[Symbol.unscopables]`** data property of `Array.prototype` is shared by all {{jsxref("Array")}} instances. It contains property names that were not included in the ECMAScript standard prior to the ES2015 version and that are ignored for [`with`](/en-US/docs/Web/JavaScript/Reference/Statements/with) statement-binding purposes.
 

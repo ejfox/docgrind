@@ -2,17 +2,15 @@
 title: "Reference Errors Bad_continue"
 slug: "reference-errors-bad_continue"
 path: "reference/errors/bad_continue/index.md"
-wordCount: 267
+wordCount: 266
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.501Z"
+lastModified: "2025-08-02T14:03:23.438Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "continue must be inside loop" occurs when a {{jsxref("Statements/continue", "continue")}} statement is not inside a loop statement.
 

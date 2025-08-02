@@ -2,17 +2,15 @@
 title: "Reference Global_objects Set Issubsetof"
 slug: "reference-global_objects-set-issubsetof"
 path: "reference/global_objects/set/issubsetof/index.md"
-wordCount: 385
+wordCount: 384
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.751Z"
+lastModified: "2025-08-02T14:03:23.642Z"
 ---
 
-
-{{JSRef}}
 
 The **`isSubsetOf()`** method of {{jsxref("Set")}} instances takes a set and returns a boolean indicating if all elements of this set are in the given set.
 

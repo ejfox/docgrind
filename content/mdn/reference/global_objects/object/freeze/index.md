@@ -2,17 +2,15 @@
 title: "Reference Global_objects Object Freeze"
 slug: "reference-global_objects-object-freeze"
 path: "reference/global_objects/object/freeze/index.md"
-wordCount: 1209
+wordCount: 1208
 readingTime: 7
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "arrays", "objects", "classes", "events"]
-lastModified: "2025-07-06T19:32:45.681Z"
+lastModified: "2025-08-02T14:03:23.606Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object.freeze()`** static method _freezes_ an object. Freezing an object [prevents extensions](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions) and makes existing properties non-writable and non-configurable. A frozen object can no longer be changed: new properties cannot be added, existing properties cannot be removed, their enumerability, configurability, writability, or value cannot be changed, and the object's prototype cannot be re-assigned. `freeze()` returns the same object that was passed in.
 

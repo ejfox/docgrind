@@ -2,17 +2,15 @@
 title: "Reference Global_objects Bigint Asintn"
 slug: "reference-global_objects-bigint-asintn"
 path: "reference/global_objects/bigint/asintn/index.md"
-wordCount: 398
+wordCount: 397
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["api"]
-lastModified: "2025-07-06T19:32:45.566Z"
+lastModified: "2025-08-02T14:03:23.502Z"
 ---
 
-
-{{JSRef}}
 
 The **`BigInt.asIntN()`** static method truncates a `BigInt` value to the given number of least significant bits and returns that value as a signed integer.
 

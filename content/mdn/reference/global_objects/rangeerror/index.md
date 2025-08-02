@@ -2,17 +2,15 @@
 title: "Reference Global_objects Rangeerror"
 slug: "reference-global_objects-rangeerror"
 path: "reference/global_objects/rangeerror/index.md"
-wordCount: 338
+wordCount: 337
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["dom", "api"]
-lastModified: "2025-07-06T19:32:45.700Z"
+lastModified: "2025-08-02T14:03:23.626Z"
 ---
 
-
-{{JSRef}}
 
 The **`RangeError`** object indicates an error when a value is not in the set or range of allowed values.
 

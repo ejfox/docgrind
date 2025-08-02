@@ -2,17 +2,15 @@
 title: "Reference Errors Cant_be_converted_to_bigint_because_it_isnt_an_integer"
 slug: "reference-errors-cant_be_converted_to_bigint_because_it_isnt_an_integer"
 path: "reference/errors/cant_be_converted_to_bigint_because_it_isnt_an_integer/index.md"
-wordCount: 156
+wordCount: 155
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.505Z"
+lastModified: "2025-08-02T14:03:23.442Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "x can't be converted to BigInt because it isn't an integer" occurs when the [`BigInt()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt/BigInt) function is used on a number that isn't an integer.
 

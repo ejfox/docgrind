@@ -2,32 +2,30 @@
 title: "Reference Global_objects Set Size"
 slug: "reference-global_objects-set-size"
 path: "reference/global_objects/set/size/index.md"
-wordCount: 106
+wordCount: 105
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.752Z"
+lastModified: "2025-08-02T14:03:23.643Z"
 ---
 
-
-{{JSRef}}
 
 The **`size`** accessor property of {{jsxref("Set")}} instances returns the number of (unique) elements in this set.
 
 {{InteractiveExample("JavaScript Demo: Set.prototype.size")}}
 
 ```js interactive-example
-const set1 = new Set();
-const object1 = {};
+const set = new Set();
+const object = {};
 
-set1.add(42);
-set1.add("forty two");
-set1.add("forty two");
-set1.add(object1);
+set.add(42);
+set.add("forty two");
+set.add("forty two");
+set.add(object);
 
-console.log(set1.size);
+console.log(set.size);
 // Expected output: 3
 ```
 

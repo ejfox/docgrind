@@ -2,17 +2,15 @@
 title: "Guide Enumerability_and_ownership_of_properties"
 slug: "guide-enumerability_and_ownership_of_properties"
 path: "guide/enumerability_and_ownership_of_properties/index.md"
-wordCount: 726
+wordCount: 725
 readingTime: 4
 codeBlocks: 1
 difficulty: "advanced"
 category: "Guide"
 tags: ["objects", "loops", "spread"]
-lastModified: "2025-07-06T19:32:45.467Z"
+lastModified: "2025-08-02T14:03:23.405Z"
 ---
 
-
-{{jsSidebar("More")}}
 
 Every property in JavaScript objects can be classified by three factors:
 

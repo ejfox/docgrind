@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array From"
 slug: "reference-global_objects-array-from"
 path: "reference/global_objects/array/from/index.md"
-wordCount: 988
+wordCount: 987
 readingTime: 5
 codeBlocks: 11
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "arrays", "objects", "async", "dom"]
-lastModified: "2025-07-06T19:32:45.543Z"
+lastModified: "2025-08-02T14:03:23.479Z"
 ---
 
-
-{{JSRef}}
 
 The **`Array.from()`** static method creates a new, shallow-copied `Array` instance from an [iterable](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_iterable_protocol) or [array-like](/en-US/docs/Web/JavaScript/Guide/Indexed_collections#working_with_array-like_objects) object.
 

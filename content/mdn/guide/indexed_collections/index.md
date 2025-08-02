@@ -2,17 +2,17 @@
 title: "Guide Indexed_collections"
 slug: "guide-indexed_collections"
 path: "guide/indexed_collections/index.md"
-wordCount: 3971
+wordCount: 3969
 readingTime: 20
 codeBlocks: 56
 difficulty: "advanced"
 category: "Guide"
 tags: ["functions", "arrays", "objects", "loops", "dom"]
-lastModified: "2025-07-06T19:32:45.475Z"
+lastModified: "2025-08-02T14:03:23.412Z"
 ---
 
 
-{{jsSidebar("JavaScript Guide")}} {{PreviousNext("Web/JavaScript/Guide/Regular_expressions", "Web/JavaScript/Guide/Keyed_collections")}}
+{{PreviousNext("Web/JavaScript/Guide/Regular_expressions", "Web/JavaScript/Guide/Keyed_collections")}}
 
 This chapter introduces collections of data which are ordered by an index value. This includes arrays and array-like constructs such as {{jsxref("Array")}} objects and {{jsxref("TypedArray")}} objects.
 

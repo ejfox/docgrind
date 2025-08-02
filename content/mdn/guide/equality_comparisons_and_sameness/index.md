@@ -2,17 +2,15 @@
 title: "Guide Equality_comparisons_and_sameness"
 slug: "guide-equality_comparisons_and_sameness"
 path: "guide/equality_comparisons_and_sameness/index.md"
-wordCount: 2655
+wordCount: 2654
 readingTime: 14
 codeBlocks: 7
 difficulty: "advanced"
 category: "Guide"
 tags: ["arrays", "objects", "api", "rest"]
-lastModified: "2025-07-06T19:32:45.468Z"
+lastModified: "2025-08-02T14:03:23.406Z"
 ---
 
-
-{{jsSidebar("Intermediate")}}
 
 JavaScript provides three different value-comparison operations:
 

@@ -2,17 +2,15 @@
 title: "Reference Errors Redeclared_parameter"
 slug: "reference-errors-redeclared_parameter"
 path: "reference/errors/redeclared_parameter/index.md"
-wordCount: 236
+wordCount: 235
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.523Z"
+lastModified: "2025-08-02T14:03:23.459Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "redeclaration of formal parameter" occurs when the same
 variable name occurs as a function parameter and is then redeclared using a

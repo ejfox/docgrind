@@ -2,17 +2,15 @@
 title: "Reference Errors Delete_in_strict_mode"
 slug: "reference-errors-delete_in_strict_mode"
 path: "reference/errors/delete_in_strict_mode/index.md"
-wordCount: 271
+wordCount: 270
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables"]
-lastModified: "2025-07-06T19:32:45.509Z"
+lastModified: "2025-08-02T14:03:23.445Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript [strict mode](/en-US/docs/Web/JavaScript/Reference/Strict_mode)-only exception "applying the 'delete' operator to an unqualified name is deprecated" occurs when variables are attempted to be deleted using the [`delete`](/en-US/docs/Web/JavaScript/Reference/Operators/delete) operator.
 

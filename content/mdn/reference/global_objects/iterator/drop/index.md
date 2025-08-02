@@ -2,17 +2,15 @@
 title: "Reference Global_objects Iterator Drop"
 slug: "reference-global_objects-iterator-drop"
 path: "reference/global_objects/iterator/drop/index.md"
-wordCount: 500
+wordCount: 499
 readingTime: 3
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.638Z"
+lastModified: "2025-08-02T14:03:23.573Z"
 ---
 
-
-{{JSRef}}
 
 The **`drop()`** method of {{jsxref("Iterator")}} instances returns a new [iterator helper object](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator#iterator_helper_objects) that skips the given number of elements at the start of this iterator.
 

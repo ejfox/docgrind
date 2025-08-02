@@ -2,17 +2,15 @@
 title: "Reference Global_objects Nan"
 slug: "reference-global_objects-nan"
 path: "reference/global_objects/nan/index.md"
-wordCount: 820
+wordCount: 819
 readingTime: 5
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "api"]
-lastModified: "2025-07-06T19:32:45.670Z"
+lastModified: "2025-08-02T14:03:23.596Z"
 ---
 
-
-{{jsSidebar("Objects")}}
 
 The **`NaN`** global property is a value representing Not-A-Number.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Bigint Bigint"
 slug: "reference-global_objects-bigint-bigint"
 path: "reference/global_objects/bigint/bigint/index.md"
-wordCount: 300
+wordCount: 299
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.566Z"
+lastModified: "2025-08-02T14:03:23.502Z"
 ---
 
-
-{{JSRef}}
 
 The **`BigInt()`** function returns primitive values of type BigInt.
 

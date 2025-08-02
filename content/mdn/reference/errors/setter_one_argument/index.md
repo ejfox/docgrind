@@ -2,17 +2,15 @@
 title: "Reference Errors Setter_one_argument"
 slug: "reference-errors-setter_one_argument"
 path: "reference/errors/setter_one_argument/index.md"
-wordCount: 283
+wordCount: 282
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "dom", "destructuring", "rest"]
-lastModified: "2025-07-06T19:32:45.529Z"
+lastModified: "2025-08-02T14:03:23.465Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "setter functions must have one argument" occurs when a [setter](/en-US/docs/Web/JavaScript/Reference/Functions/get) is declared and the parameter list is not consisted of exactly one formal parameter.
 

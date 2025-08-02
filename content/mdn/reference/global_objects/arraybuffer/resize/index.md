@@ -2,17 +2,15 @@
 title: "Reference Global_objects Arraybuffer Resize"
 slug: "reference-global_objects-arraybuffer-resize"
 path: "reference/global_objects/arraybuffer/resize/index.md"
-wordCount: 244
+wordCount: 243
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.558Z"
+lastModified: "2025-08-02T14:03:23.493Z"
 ---
 
-
-{{JSRef}}
 
 The **`resize()`** method of {{jsxref("ArrayBuffer")}} instances resizes the `ArrayBuffer` to the specified size, in bytes.
 

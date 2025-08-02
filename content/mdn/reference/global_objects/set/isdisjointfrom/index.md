@@ -2,17 +2,15 @@
 title: "Reference Global_objects Set Isdisjointfrom"
 slug: "reference-global_objects-set-isdisjointfrom"
 path: "reference/global_objects/set/isdisjointfrom/index.md"
-wordCount: 430
+wordCount: 429
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.750Z"
+lastModified: "2025-08-02T14:03:23.642Z"
 ---
 
-
-{{JSRef}}
 
 The **`isDisjointFrom()`** method of {{jsxref("Set")}} instances takes a set and returns a boolean indicating if this set has no elements in common with the given set.
 

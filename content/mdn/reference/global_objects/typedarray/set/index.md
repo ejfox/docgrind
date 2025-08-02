@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Set"
 slug: "reference-global_objects-typedarray-set"
 path: "reference/global_objects/typedarray/set/index.md"
-wordCount: 326
+wordCount: 325
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays"]
-lastModified: "2025-07-06T19:32:45.854Z"
+lastModified: "2025-08-02T14:03:23.739Z"
 ---
 
-
-{{JSRef}}
 
 The **`set()`** method of {{jsxref("TypedArray")}} instances stores multiple values in the typed
 array, reading input values from a specified array.

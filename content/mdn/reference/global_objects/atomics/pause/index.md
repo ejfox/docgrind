@@ -2,17 +2,15 @@
 title: "Reference Global_objects Atomics Pause"
 slug: "reference-global_objects-atomics-pause"
 path: "reference/global_objects/atomics/pause/index.md"
-wordCount: 633
+wordCount: 632
 readingTime: 4
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["async"]
-lastModified: "2025-07-06T19:32:45.564Z"
+lastModified: "2025-08-02T14:03:23.501Z"
 ---
 
-
-{{JSRef}}
 
 The **`Atomics.pause()`** static method provides a micro-wait primitive that hints to the CPU that the caller is spinning while waiting on access to a shared resource. This allows the system to reduce the resources allocated to the core (such as power) or thread, without yielding the current thread.
 

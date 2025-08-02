@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Segmenter Segment Segments Containing"
 slug: "reference-global_objects-intl-segmenter-segment-segments-containing"
 path: "reference/global_objects/intl/segmenter/segment/segments/containing/index.md"
-wordCount: 337
+wordCount: 336
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.633Z"
+lastModified: "2025-08-02T14:03:23.570Z"
 ---
 
-
-{{JSRef}}
 
 The **`containing()`** method of [`Segments`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter/segment/Segments) instances returns an object describing the segment in the string that includes the code unit at the specified index.
 
@@ -20,9 +18,9 @@ The **`containing()`** method of [`Segments`](/en-US/docs/Web/JavaScript/Referen
 
 ```js interactive-example
 const segmenterFr = new Intl.Segmenter("fr", { granularity: "word" });
-const string1 = "Que ma joie demeure";
+const string = "Que ma joie demeure";
 
-const segments = segmenterFr.segment(string1);
+const segments = segmenterFr.segment(string);
 
 console.log(segments.containing(5));
 // Expected output:

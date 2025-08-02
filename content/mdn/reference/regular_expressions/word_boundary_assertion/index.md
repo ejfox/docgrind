@@ -2,17 +2,15 @@
 title: "Reference Regular_expressions Word_boundary_assertion"
 slug: "reference-regular_expressions-word_boundary_assertion"
 path: "reference/regular_expressions/word_boundary_assertion/index.md"
-wordCount: 306
+wordCount: 305
 readingTime: 2
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.901Z"
+lastModified: "2025-08-02T14:03:23.788Z"
 ---
 
-
-{{jsSidebar}}
 
 A **word boundary assertion** checks if the current position in the string is a word boundary. A word boundary is where the next character is a word character and the previous character is not a word character, or vice versa.
 

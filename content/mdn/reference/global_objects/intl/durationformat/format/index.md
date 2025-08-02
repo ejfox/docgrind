@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Durationformat Format"
 slug: "reference-global_objects-intl-durationformat-format"
 path: "reference/global_objects/intl/durationformat/format/index.md"
-wordCount: 521
+wordCount: 520
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.615Z"
+lastModified: "2025-08-02T14:03:23.551Z"
 ---
 
-
-{{JSRef}}
 
 The **`format()`** method of {{jsxref("Intl.DurationFormat")}} instances formats a duration according to the locale and formatting options of this {{jsxref("Intl.DurationFormat")}} object.
 

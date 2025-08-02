@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Matchall"
 slug: "reference-global_objects-string-matchall"
 path: "reference/global_objects/string/matchall/index.md"
-wordCount: 684
+wordCount: 683
 readingTime: 4
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "spread", "rest"]
-lastModified: "2025-07-06T19:32:45.766Z"
+lastModified: "2025-08-02T14:03:23.654Z"
 ---
 
-
-{{JSRef}}
 
 The **`matchAll()`** method of {{jsxref("String")}} values returns an iterator of all results matching this string against a [regular expression](/en-US/docs/Web/JavaScript/Guide/Regular_expressions), including [capturing groups](/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Groups_and_backreferences).
 

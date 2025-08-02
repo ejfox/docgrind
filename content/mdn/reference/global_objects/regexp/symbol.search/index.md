@@ -2,17 +2,15 @@
 title: "Reference Global_objects Regexp Symbol.Search"
 slug: "reference-global_objects-regexp-symbol.search"
 path: "reference/global_objects/regexp/symbol.search/index.md"
-wordCount: 392
+wordCount: 391
 readingTime: 2
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes", "rest"]
-lastModified: "2025-07-06T19:32:45.745Z"
+lastModified: "2025-08-02T14:03:23.638Z"
 ---
 
-
-{{JSRef}}
 
 The **`[Symbol.search]()`** method of {{jsxref("RegExp")}} instances specifies how [`String.prototype.search`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search) should behave.
 

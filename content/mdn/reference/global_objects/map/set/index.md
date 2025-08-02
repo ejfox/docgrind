@@ -2,30 +2,28 @@
 title: "Reference Global_objects Map Set"
 slug: "reference-global_objects-map-set"
 path: "reference/global_objects/map/set/index.md"
-wordCount: 210
+wordCount: 209
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.652Z"
+lastModified: "2025-08-02T14:03:23.582Z"
 ---
 
-
-{{JSRef}}
 
 The **`set()`** method of {{jsxref("Map")}} instances adds or updates an entry in this map with a specified key and a value.
 
 {{InteractiveExample("JavaScript Demo: Map.prototype.set()")}}
 
 ```js interactive-example
-const map1 = new Map();
-map1.set("bar", "foo");
+const map = new Map();
+map.set("bar", "foo");
 
-console.log(map1.get("bar"));
+console.log(map.get("bar"));
 // Expected output: "foo"
 
-console.log(map1.get("baz"));
+console.log(map.get("baz"));
 // Expected output: undefined
 ```
 

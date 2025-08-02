@@ -2,17 +2,15 @@
 title: "Reference Errors Parameter_after_rest_parameter"
 slug: "reference-errors-parameter_after_rest_parameter"
 path: "reference/errors/parameter_after_rest_parameter/index.md"
-wordCount: 186
+wordCount: 185
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "rest"]
-lastModified: "2025-07-06T19:32:45.522Z"
+lastModified: "2025-08-02T14:03:23.457Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "parameter after rest parameter" occurs when a [rest parameter](/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters) is followed by anything else in a parameter list, including another rest parameter, a formal parameter, or a [trailing comma](/en-US/docs/Web/JavaScript/Reference/Trailing_commas).
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Includes"
 slug: "reference-global_objects-typedarray-includes"
 path: "reference/global_objects/typedarray/includes/index.md"
-wordCount: 239
+wordCount: 238
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.851Z"
+lastModified: "2025-08-02T14:03:23.736Z"
 ---
 
-
-{{JSRef}}
 
 The **`includes()`** method of {{jsxref("TypedArray")}} instances determines whether a typed array includes a certain value among its entries, returning `true` or `false` as appropriate. This method has the same algorithm as {{jsxref("Array.prototype.includes()")}}.
 

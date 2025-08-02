@@ -2,17 +2,17 @@
 title: "Reference Global_objects Error Filename"
 slug: "reference-global_objects-error-filename"
 path: "reference/global_objects/error/filename/index.md"
-wordCount: 104
+wordCount: 103
 readingTime: 1
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.594Z"
+lastModified: "2025-08-02T14:03:23.530Z"
 ---
 
 
-{{JSRef}} {{Non-standard_Header}}
+{{Non-standard_Header}}
 
 The **`fileName`** data property of an {{jsxref("Error")}} instance contains the path to the file that raised this error.
 

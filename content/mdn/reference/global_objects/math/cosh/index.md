@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Cosh"
 slug: "reference-global_objects-math-cosh"
 path: "reference/global_objects/math/cosh/index.md"
-wordCount: 180
+wordCount: 179
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.661Z"
+lastModified: "2025-08-02T14:03:23.587Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.cosh()`** static method returns the hyperbolic cosine of a number. That is,
 

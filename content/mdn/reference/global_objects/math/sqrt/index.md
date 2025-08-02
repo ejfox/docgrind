@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Sqrt"
 slug: "reference-global_objects-math-sqrt"
 path: "reference/global_objects/math/sqrt/index.md"
-wordCount: 204
+wordCount: 203
 readingTime: 2
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.668Z"
+lastModified: "2025-08-02T14:03:23.594Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.sqrt()`** static method returns the square root of a number. That is
 

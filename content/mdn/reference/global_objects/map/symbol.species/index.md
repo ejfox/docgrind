@@ -2,17 +2,15 @@
 title: "Reference Global_objects Map Symbol.Species"
 slug: "reference-global_objects-map-symbol.species"
 path: "reference/global_objects/map/symbol.species/index.md"
-wordCount: 192
+wordCount: 191
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.653Z"
+lastModified: "2025-08-02T14:03:23.583Z"
 ---
 
-
-{{JSRef}}
 
 The **`Map[Symbol.species]`** static accessor property is an unused accessor property specifying how to copy `Map` objects.
 

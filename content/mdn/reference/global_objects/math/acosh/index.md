@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Acosh"
 slug: "reference-global_objects-math-acosh"
 path: "reference/global_objects/math/acosh/index.md"
-wordCount: 224
+wordCount: 223
 readingTime: 2
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.656Z"
+lastModified: "2025-08-02T14:03:23.584Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.acosh()`** static method returns the inverse hyperbolic cosine of a number. That is,
 

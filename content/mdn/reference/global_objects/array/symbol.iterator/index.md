@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Symbol.Iterator"
 slug: "reference-global_objects-array-symbol.iterator"
 path: "reference/global_objects/array/symbol.iterator/index.md"
-wordCount: 423
+wordCount: 422
 readingTime: 3
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "loops", "dom", "spread"]
-lastModified: "2025-07-06T19:32:45.553Z"
+lastModified: "2025-08-02T14:03:23.488Z"
 ---
 
-
-{{JSRef}}
 
 The **`[Symbol.iterator]()`** method of {{jsxref("Array")}} instances implements the [iterable protocol](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols) and allows arrays to be consumed by most syntaxes expecting iterables, such as the [spread syntax](/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) and {{jsxref("Statements/for...of", "for...of")}} loops. It returns an [array iterator object](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator) that yields the value of each index in the array.
 
@@ -21,10 +19,10 @@ The initial value of this property is the same function object as the initial va
 {{InteractiveExample("JavaScript Demo: Array.prototype[Symbol.iterator]()")}}
 
 ```js interactive-example
-const array1 = ["a", "b", "c"];
-const iterator1 = array1[Symbol.iterator]();
+const array = ["a", "b", "c"];
+const iterator = array[Symbol.iterator]();
 
-for (const value of iterator1) {
+for (const value of iterator) {
   console.log(value);
 }
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Set Intersection"
 slug: "reference-global_objects-set-intersection"
 path: "reference/global_objects/set/intersection/index.md"
-wordCount: 375
+wordCount: 374
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.750Z"
+lastModified: "2025-08-02T14:03:23.642Z"
 ---
 
-
-{{JSRef}}
 
 The **`intersection()`** method of {{jsxref("Set")}} instances takes a set and returns a new set containing elements in both this set and the given set.
 

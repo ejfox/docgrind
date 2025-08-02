@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Indexof"
 slug: "reference-global_objects-typedarray-indexof"
 path: "reference/global_objects/typedarray/indexof/index.md"
-wordCount: 213
+wordCount: 212
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.852Z"
+lastModified: "2025-08-02T14:03:23.737Z"
 ---
 
-
-{{JSRef}}
 
 The **`indexOf()`** method of {{jsxref("TypedArray")}} instances returns the first index at which a given element can be found in the typed array, or -1 if it is not present. This method has the same algorithm as {{jsxref("Array.prototype.indexOf()")}}.
 

@@ -2,27 +2,25 @@
 title: "Reference Operators Grouping"
 slug: "reference-operators-grouping"
 path: "reference/operators/grouping/index.md"
-wordCount: 806
+wordCount: 805
 readingTime: 5
 codeBlocks: 13
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions"]
-lastModified: "2025-07-06T19:32:45.877Z"
+lastModified: "2025-08-02T14:03:23.764Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **grouping `( )`** operator controls the precedence of evaluation in expressions. It also acts as a container for arbitrary expressions in certain syntactic constructs, where ambiguity or syntax errors would otherwise occur.
 
 {{InteractiveExample("JavaScript Demo: Grouping operator")}}
 
-```js interactive-example
+```js-nolint interactive-example
 console.log(1 + 2 * 3); // 1 + 6
 // Expected output: 7
 
-console.log(1 + 2 * 3); // 1 + 6
+console.log(1 + (2 * 3)); // 1 + 6
 // Expected output: 7
 
 console.log((1 + 2) * 3); // 3 * 3

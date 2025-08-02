@@ -8,11 +8,11 @@ codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions"]
-lastModified: "2025-07-06T19:32:45.790Z"
+lastModified: "2025-08-02T14:03:23.677Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`Temporal.Instant.compare()`** static method returns a number (-1, 0, or 1) indicating whether the first instant comes before, is the same as, or comes after the second instant. It is equivalent to comparing the {{jsxref("Temporal/Instant/epochNanoseconds", "epochNanoseconds")}} of the two instants.
 

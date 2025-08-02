@@ -2,17 +2,15 @@
 title: "Reference Global_objects Generator"
 slug: "reference-global_objects-generator"
 path: "reference/global_objects/generator/index.md"
-wordCount: 409
+wordCount: 408
 readingTime: 3
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects"]
-lastModified: "2025-07-06T19:32:45.604Z"
+lastModified: "2025-08-02T14:03:23.540Z"
 ---
 
-
-{{JSRef}}
 
 The **`Generator`** object is returned by a {{jsxref("Statements/function*", "generator function", "", 1)}} and it conforms to both the [iterable protocol](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_iterable_protocol) and the [iterator protocol](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_iterator_protocol).
 

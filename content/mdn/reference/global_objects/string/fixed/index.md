@@ -2,17 +2,17 @@
 title: "Reference Global_objects String Fixed"
 slug: "reference-global_objects-string-fixed"
 path: "reference/global_objects/string/fixed/index.md"
-wordCount: 219
+wordCount: 218
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom"]
-lastModified: "2025-07-06T19:32:45.760Z"
+lastModified: "2025-08-02T14:03:23.649Z"
 ---
 
 
-{{JSRef}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`fixed()`** method of {{jsxref("String")}} values creates a string that embeds this string in a {{HTMLElement("tt")}} element (`<tt>str</tt>`), which causes this string to be displayed in a fixed-width font.
 

@@ -2,17 +2,17 @@
 title: "Reference Global_objects String Bold"
 slug: "reference-global_objects-string-bold"
 path: "reference/global_objects/string/bold/index.md"
-wordCount: 183
+wordCount: 182
 readingTime: 1
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.758Z"
+lastModified: "2025-08-02T14:03:23.648Z"
 ---
 
 
-{{JSRef}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`bold()`** method of {{jsxref("String")}} values creates a string that embeds this string in a {{HTMLElement("b")}} element (`<b>str</b>`), which causes this string to be displayed as bold.
 

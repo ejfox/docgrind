@@ -2,17 +2,15 @@
 title: "Reference Global_objects Symbol Isconcatspreadable"
 slug: "reference-global_objects-symbol-isconcatspreadable"
 path: "reference/global_objects/symbol/isconcatspreadable/index.md"
-wordCount: 353
+wordCount: 352
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "spread"]
-lastModified: "2025-07-06T19:32:45.776Z"
+lastModified: "2025-08-02T14:03:23.665Z"
 ---
 
-
-{{JSRef}}
 
 The **`Symbol.isConcatSpreadable`** static data property represents the [well-known symbol](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#well-known_symbols) `Symbol.isConcatSpreadable`. The {{jsxref("Array.prototype.concat()")}} method looks up this symbol on each object being concatenated to determine if it should be treated as an array-like object and flattened to its array elements.
 

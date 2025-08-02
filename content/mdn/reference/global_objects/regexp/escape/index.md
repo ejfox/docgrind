@@ -2,17 +2,15 @@
 title: "Reference Global_objects Regexp Escape"
 slug: "reference-global_objects-regexp-escape"
 path: "reference/global_objects/regexp/escape/index.md"
-wordCount: 719
+wordCount: 718
 readingTime: 4
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.731Z"
+lastModified: "2025-08-02T14:03:23.631Z"
 ---
 
-
-{{JSRef}}
 
 The **`RegExp.escape()`** static method [escapes](/en-US/docs/Web/JavaScript/Reference/Regular_expressions#escape_sequences) any potential regex syntax characters in a string, and returns a new string that can be safely used as a [literal](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Literal_character) pattern for the {{jsxref("RegExp/RegExp", "RegExp()")}} constructor.
 

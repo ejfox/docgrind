@@ -2,17 +2,15 @@
 title: "Reference Global_objects Weakset Weakset"
 slug: "reference-global_objects-weakset-weakset"
 path: "reference/global_objects/weakset/weakset/index.md"
-wordCount: 158
+wordCount: 157
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.864Z"
+lastModified: "2025-08-02T14:03:23.752Z"
 ---
 
-
-{{JSRef}}
 
 The **`WeakSet()`** constructor creates {{jsxref("WeakSet")}} objects.
 

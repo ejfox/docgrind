@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Log1p"
 slug: "reference-global_objects-math-log1p"
 path: "reference/global_objects/math/log1p/index.md"
-wordCount: 387
+wordCount: 386
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.665Z"
+lastModified: "2025-08-02T14:03:23.592Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.log1p()`** static method returns the natural logarithm (base [e](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/E)) of `1 + x`, where `x` is the argument. That is:
 

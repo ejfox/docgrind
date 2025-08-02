@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Clz32"
 slug: "reference-global_objects-math-clz32"
 path: "reference/global_objects/math/clz32/index.md"
-wordCount: 722
+wordCount: 721
 readingTime: 4
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects"]
-lastModified: "2025-07-06T19:32:45.660Z"
+lastModified: "2025-08-02T14:03:23.587Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.clz32()`** static method returns the number of leading zero bits in the 32-bit binary representation of a number.
 

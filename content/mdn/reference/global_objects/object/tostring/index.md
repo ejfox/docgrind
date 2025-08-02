@@ -2,17 +2,15 @@
 title: "Reference Global_objects Object Tostring"
 slug: "reference-global_objects-object-tostring"
 path: "reference/global_objects/object/tostring/index.md"
-wordCount: 831
+wordCount: 830
 readingTime: 5
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "es6"]
-lastModified: "2025-07-06T19:32:45.688Z"
+lastModified: "2025-08-02T14:03:23.614Z"
 ---
 
-
-{{JSRef}}
 
 The **`toString()`** method of {{jsxref("Object")}} instances returns a string representing this object. This method is meant to be overridden by derived objects for custom [type coercion](/en-US/docs/Web/JavaScript/Guide/Data_structures#type_coercion) logic.
 

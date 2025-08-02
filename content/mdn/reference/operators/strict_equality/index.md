@@ -2,17 +2,15 @@
 title: "Reference Operators Strict_equality"
 slug: "reference-operators-strict_equality"
 path: "reference/operators/strict_equality/index.md"
-wordCount: 343
+wordCount: 342
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.889Z"
+lastModified: "2025-08-02T14:03:23.776Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **strict equality (`===`)** operator checks whether its two operands are
 equal, returning a Boolean result. Unlike the [equality](/en-US/docs/Web/JavaScript/Reference/Operators/Equality) operator,

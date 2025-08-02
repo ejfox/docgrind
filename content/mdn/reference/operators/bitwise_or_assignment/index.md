@@ -2,17 +2,15 @@
 title: "Reference Operators Bitwise_or_assignment"
 slug: "reference-operators-bitwise_or_assignment"
 path: "reference/operators/bitwise_or_assignment/index.md"
-wordCount: 146
+wordCount: 145
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.870Z"
+lastModified: "2025-08-02T14:03:23.758Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **bitwise OR assignment (`|=`)** operator performs [bitwise OR](/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_OR) on the two operands and assigns the result to the left operand.
 

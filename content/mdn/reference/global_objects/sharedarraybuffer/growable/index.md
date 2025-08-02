@@ -2,17 +2,15 @@
 title: "Reference Global_objects Sharedarraybuffer Growable"
 slug: "reference-global_objects-sharedarraybuffer-growable"
 path: "reference/global_objects/sharedarraybuffer/growable/index.md"
-wordCount: 139
+wordCount: 138
 readingTime: 1
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.755Z"
+lastModified: "2025-08-02T14:03:23.645Z"
 ---
 
-
-{{JSRef}}
 
 The **`growable`** accessor property of {{jsxref("SharedArrayBuffer")}} instances returns whether this `SharedArrayBuffer` can be grow or not.
 

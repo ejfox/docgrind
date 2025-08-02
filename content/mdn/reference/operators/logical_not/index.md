@@ -2,17 +2,15 @@
 title: "Reference Operators Logical_not"
 slug: "reference-operators-logical_not"
 path: "reference/operators/logical_not/index.md"
-wordCount: 383
+wordCount: 382
 readingTime: 2
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.882Z"
+lastModified: "2025-08-02T14:03:23.769Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **logical NOT (`!`)** (logical complement, negation) operator takes truth to
 falsity and vice versa. It is typically used with boolean (logical)

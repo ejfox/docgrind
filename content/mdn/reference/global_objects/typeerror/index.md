@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typeerror"
 slug: "reference-global_objects-typeerror"
 path: "reference/global_objects/typeerror/index.md"
-wordCount: 275
+wordCount: 274
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["dom", "api"]
-lastModified: "2025-07-06T19:32:45.857Z"
+lastModified: "2025-08-02T14:03:23.743Z"
 ---
 
-
-{{JSRef}}
 
 The **`TypeError`** object represents an error when an operation could not be performed, typically (but not exclusively) when a value is not of the expected type.
 

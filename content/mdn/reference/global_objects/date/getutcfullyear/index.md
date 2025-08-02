@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Getutcfullyear"
 slug: "reference-global_objects-date-getutcfullyear"
 path: "reference/global_objects/date/getutcfullyear/index.md"
-wordCount: 173
+wordCount: 172
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.579Z"
+lastModified: "2025-08-02T14:03:23.515Z"
 ---
 
-
-{{JSRef}}
 
 The **`getUTCFullYear()`** method of {{jsxref("Date")}} instances returns the year for this date according to universal time.
 

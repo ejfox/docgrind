@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Collator Compare"
 slug: "reference-global_objects-intl-collator-compare"
 path: "reference/global_objects/intl/collator/compare/index.md"
-wordCount: 259
+wordCount: 258
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays"]
-lastModified: "2025-07-06T19:32:45.609Z"
+lastModified: "2025-08-02T14:03:23.544Z"
 ---
 
-
-{{JSRef}}
 
 The **`compare()`** method of {{jsxref("Intl.Collator")}} instances compares two
 strings according to the sort order of this collator object.

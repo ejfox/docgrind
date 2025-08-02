@@ -2,17 +2,15 @@
 title: "Reference Regular_expressions Input_boundary_assertion"
 slug: "reference-regular_expressions-input_boundary_assertion"
 path: "reference/regular_expressions/input_boundary_assertion/index.md"
-wordCount: 463
+wordCount: 462
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "objects"]
-lastModified: "2025-07-06T19:32:45.897Z"
+lastModified: "2025-08-02T14:03:23.784Z"
 ---
 
-
-{{jsSidebar}}
 
 An **input boundary assertion** checks if the current position in the string is an input boundary. An input boundary is the start or end of the string; or, if the `m` flag is set, the start or end of a line.
 

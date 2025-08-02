@@ -2,17 +2,15 @@
 title: "Reference Global_objects Proxy Proxy"
 slug: "reference-global_objects-proxy-proxy"
 path: "reference/global_objects/proxy/proxy/index.md"
-wordCount: 452
+wordCount: 451
 readingTime: 3
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects"]
-lastModified: "2025-07-06T19:32:45.698Z"
+lastModified: "2025-08-02T14:03:23.624Z"
 ---
 
-
-{{JSRef}}
 
 The **`Proxy()`** constructor creates {{jsxref("Proxy")}} objects.
 

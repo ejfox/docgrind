@@ -2,17 +2,15 @@
 title: "Reference Errors Regex_raw_bracket"
 slug: "reference-errors-regex_raw_bracket"
 path: "reference/errors/regex_raw_bracket/index.md"
-wordCount: 261
+wordCount: 260
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.528Z"
+lastModified: "2025-08-02T14:03:23.463Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "raw bracket is not allowed in regular expression with unicode flag" occurs when a [Unicode-aware](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode#unicode-aware_mode) regular expression pattern contains a raw bracket (`{`, `}`, `]`) that is not part of a [quantifier](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Quantifier) or [character class](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Character_class).
 

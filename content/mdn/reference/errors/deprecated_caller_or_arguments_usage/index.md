@@ -2,17 +2,15 @@
 title: "Reference Errors Deprecated_caller_or_arguments_usage"
 slug: "reference-errors-deprecated_caller_or_arguments_usage"
 path: "reference/errors/deprecated_caller_or_arguments_usage/index.md"
-wordCount: 282
+wordCount: 281
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects"]
-lastModified: "2025-07-06T19:32:45.509Z"
+lastModified: "2025-08-02T14:03:23.445Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript [strict mode](/en-US/docs/Web/JavaScript/Reference/Strict_mode)-only exception
 "'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them" occurs when the

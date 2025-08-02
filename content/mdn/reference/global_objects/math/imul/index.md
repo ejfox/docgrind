@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Imul"
 slug: "reference-global_objects-math-imul"
 path: "reference/global_objects/math/imul/index.md"
-wordCount: 261
+wordCount: 260
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.663Z"
+lastModified: "2025-08-02T14:03:23.590Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.imul()`** static method returns the result of the C-like 32-bit multiplication of the two parameters.
 

@@ -2,17 +2,15 @@
 title: "Reference Errors Promise_any_all_rejected"
 slug: "reference-errors-promise_any_all_rejected"
 path: "reference/errors/promise_any_all_rejected/index.md"
-wordCount: 197
+wordCount: 196
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["async", "promises"]
-lastModified: "2025-07-06T19:32:45.523Z"
+lastModified: "2025-08-02T14:03:23.458Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "No Promise in Promise.any was resolved" occurs when all promises passed to {{jsxref("Promise.any()")}} are rejected. It is the only built-in usage of {{jsxref("AggregateError")}}.
 

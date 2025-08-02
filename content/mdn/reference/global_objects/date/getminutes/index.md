@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Getminutes"
 slug: "reference-global_objects-date-getminutes"
 path: "reference/global_objects/date/getminutes/index.md"
-wordCount: 122
+wordCount: 121
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.578Z"
+lastModified: "2025-08-02T14:03:23.513Z"
 ---
 
-
-{{JSRef}}
 
 The **`getMinutes()`** method of {{jsxref("Date")}} instances returns the minutes for this date according to local time.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Asyncgeneratorfunction"
 slug: "reference-global_objects-asyncgeneratorfunction"
 path: "reference/global_objects/asyncgeneratorfunction/index.md"
-wordCount: 320
+wordCount: 319
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "async"]
-lastModified: "2025-07-06T19:32:45.561Z"
+lastModified: "2025-08-02T14:03:23.497Z"
 ---
 
-
-{{JSRef}}
 
 The **`AsyncGeneratorFunction`** object provides methods for [async generator functions](/en-US/docs/Web/JavaScript/Reference/Statements/async_function*). In JavaScript, every async generator function is actually an `AsyncGeneratorFunction` object.
 

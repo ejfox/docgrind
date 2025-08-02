@@ -2,17 +2,15 @@
 title: "Reference Global_objects Dataview Getuint8"
 slug: "reference-global_objects-dataview-getuint8"
 path: "reference/global_objects/dataview/getuint8/index.md"
-wordCount: 176
+wordCount: 175
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays"]
-lastModified: "2025-07-06T19:32:45.573Z"
+lastModified: "2025-08-02T14:03:23.509Z"
 ---
 
-
-{{JSRef}}
 
 The **`getUint8()`** method of {{jsxref("DataView")}} instances reads 1 byte at the specified byte offset of this `DataView` and interprets it as an 8-bit unsigned integer.
 

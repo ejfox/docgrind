@@ -2,17 +2,17 @@
 title: "Reference Global_objects Regexp Lastmatch"
 slug: "reference-global_objects-regexp-lastmatch"
 path: "reference/global_objects/regexp/lastmatch/index.md"
-wordCount: 214
+wordCount: 213
 readingTime: 2
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.741Z"
+lastModified: "2025-08-02T14:03:23.634Z"
 ---
 
 
-{{JSRef}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 > [!NOTE]
 > All `RegExp` static properties that expose the last match state globally are deprecated. See [deprecated RegExp features](/en-US/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features#regexp) for more information.

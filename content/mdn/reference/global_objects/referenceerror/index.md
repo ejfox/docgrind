@@ -2,17 +2,15 @@
 title: "Reference Global_objects Referenceerror"
 slug: "reference-global_objects-referenceerror"
 path: "reference/global_objects/referenceerror/index.md"
-wordCount: 225
+wordCount: 224
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["dom", "api"]
-lastModified: "2025-07-06T19:32:45.700Z"
+lastModified: "2025-08-02T14:03:23.626Z"
 ---
 
-
-{{JSRef}}
 
 The **`ReferenceError`** object represents an error when a variable that doesn't exist (or hasn't yet been initialized) in the current scope is referenced.
 

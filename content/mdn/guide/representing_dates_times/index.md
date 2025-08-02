@@ -2,17 +2,17 @@
 title: "Guide Representing_dates_times"
 slug: "guide-representing_dates_times"
 path: "guide/representing_dates_times/index.md"
-wordCount: 986
+wordCount: 984
 readingTime: 5
 codeBlocks: 5
 difficulty: "advanced"
 category: "Guide"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.491Z"
+lastModified: "2025-08-02T14:03:23.427Z"
 ---
 
 
-{{jsSidebar("JavaScript Guide")}} {{PreviousNext("Web/JavaScript/Guide/Numbers_and_strings", "Web/JavaScript/Guide/Regular_expressions")}}
+{{PreviousNext("Web/JavaScript/Guide/Numbers_and_strings", "Web/JavaScript/Guide/Regular_expressions")}}
 
 > [!NOTE]
 > The `Date` object is now considered legacy and should be avoided in new code. We will update this page with modern alternatives soon.

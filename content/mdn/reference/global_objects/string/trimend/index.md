@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Trimend"
 slug: "reference-global_objects-string-trimend"
 path: "reference/global_objects/string/trimend/index.md"
-wordCount: 243
+wordCount: 242
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.773Z"
+lastModified: "2025-08-02T14:03:23.662Z"
 ---
 
-
-{{JSRef}}
 
 The **`trimEnd()`** method of {{jsxref("String")}} values removes whitespace from the end of this string and returns a new string, without modifying the original string. `trimRight()` is an alias of this method.
 

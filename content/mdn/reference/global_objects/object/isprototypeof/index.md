@@ -2,17 +2,15 @@
 title: "Reference Global_objects Object Isprototypeof"
 slug: "reference-global_objects-object-isprototypeof"
 path: "reference/global_objects/object/isprototypeof/index.md"
-wordCount: 596
+wordCount: 595
 readingTime: 3
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.686Z"
+lastModified: "2025-08-02T14:03:23.611Z"
 ---
 
-
-{{JSRef}}
 
 The **`isPrototypeOf()`** method of {{jsxref("Object")}} instances checks if this object exists in another object's prototype chain.
 

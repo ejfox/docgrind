@@ -2,17 +2,15 @@
 title: "Reference Global_objects Int8array"
 slug: "reference-global_objects-int8array"
 path: "reference/global_objects/int8array/index.md"
-wordCount: 317
+wordCount: 316
 readingTime: 2
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays"]
-lastModified: "2025-07-06T19:32:45.607Z"
+lastModified: "2025-08-02T14:03:23.543Z"
 ---
 
-
-{{JSRef}}
 
 The **`Int8Array`** typed array represents an array of 8-bit signed integers. The contents are initialized to `0` unless initialization data is explicitly provided. Once established, you can reference elements in the array using the object's methods, or using standard array index syntax (that is, using bracket notation).
 

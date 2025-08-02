@@ -2,32 +2,30 @@
 title: "Reference Global_objects Symbol Iterator"
 slug: "reference-global_objects-symbol-iterator"
 path: "reference/global_objects/symbol/iterator/index.md"
-wordCount: 338
+wordCount: 337
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects"]
-lastModified: "2025-07-06T19:32:45.776Z"
+lastModified: "2025-08-02T14:03:23.665Z"
 ---
 
-
-{{JSRef}}
 
 The **`Symbol.iterator`** static data property represents the [well-known symbol](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#well-known_symbols) `Symbol.iterator`. The [iterable protocol](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_iterable_protocol) looks up this symbol for the method that returns the iterator for an object. In order for an object to be iterable, it must have an `[Symbol.iterator]` key.
 
 {{InteractiveExample("JavaScript Demo: Symbol.iterator")}}
 
 ```js interactive-example
-const iterable1 = {};
+const iterable = {};
 
-iterable1[Symbol.iterator] = function* () {
+iterable[Symbol.iterator] = function* () {
   yield 1;
   yield 2;
   yield 3;
 };
 
-console.log([...iterable1]);
+console.log([...iterable]);
 // Expected output: Array [1, 2, 3]
 ```
 

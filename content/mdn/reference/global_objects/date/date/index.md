@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Date"
 slug: "reference-global_objects-date-date"
 path: "reference/global_objects/date/date/index.md"
-wordCount: 1171
+wordCount: 1170
 readingTime: 6
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.577Z"
+lastModified: "2025-08-02T14:03:23.512Z"
 ---
 
-
-{{JSRef}}
 
 The **`Date()`** constructor creates {{jsxref("Date")}} objects. When called as a function, it returns a string representing the current time.
 

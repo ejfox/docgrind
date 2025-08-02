@@ -2,34 +2,32 @@
 title: "Reference Global_objects Reflect Getownpropertydescriptor"
 slug: "reference-global_objects-reflect-getownpropertydescriptor"
 path: "reference/global_objects/reflect/getownpropertydescriptor/index.md"
-wordCount: 303
+wordCount: 302
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.724Z"
+lastModified: "2025-08-02T14:03:23.628Z"
 ---
 
-
-{{JSRef}}
 
 The **`Reflect.getOwnPropertyDescriptor()`** static method is like {{jsxref("Object.getOwnPropertyDescriptor()")}}. It returns a property descriptor of the given property if it exists on the object, {{jsxref("undefined")}} otherwise.
 
 {{InteractiveExample("JavaScript Demo: Reflect.getOwnPropertyDescriptor()")}}
 
 ```js interactive-example
-const object1 = {
+const object = {
   property1: 42,
 };
 
-console.log(Reflect.getOwnPropertyDescriptor(object1, "property1").value);
+console.log(Reflect.getOwnPropertyDescriptor(object, "property1").value);
 // Expected output: 42
 
-console.log(Reflect.getOwnPropertyDescriptor(object1, "property2"));
+console.log(Reflect.getOwnPropertyDescriptor(object, "property2"));
 // Expected output: undefined
 
-console.log(Reflect.getOwnPropertyDescriptor(object1, "property1").writable);
+console.log(Reflect.getOwnPropertyDescriptor(object, "property1").writable);
 // Expected output: true
 ```
 

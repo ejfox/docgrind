@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Atan2"
 slug: "reference-global_objects-math-atan2"
 path: "reference/global_objects/math/atan2/index.md"
-wordCount: 813
+wordCount: 812
 readingTime: 5
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.659Z"
+lastModified: "2025-08-02T14:03:23.586Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.atan2()`** static method returns the angle in the plane (in radians) between the positive x-axis and the ray from (0, 0) to the point (x, y), for `Math.atan2(y, x)`.
 

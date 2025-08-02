@@ -2,17 +2,15 @@
 title: "Reference Global_objects Arraybuffer Transfer"
 slug: "reference-global_objects-arraybuffer-transfer"
 path: "reference/global_objects/arraybuffer/transfer/index.md"
-wordCount: 542
+wordCount: 571
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
-tags: ["objects", "api"]
-lastModified: "2025-07-06T19:32:45.559Z"
+tags: ["objects", "dom", "api"]
+lastModified: "2025-08-02T14:03:23.493Z"
 ---
 
-
-{{JSRef}}
 
 The **`transfer()`** method of {{jsxref("ArrayBuffer")}} instances creates a new `ArrayBuffer` with the same byte content as this buffer, then detaches this buffer.
 
@@ -40,7 +38,7 @@ A new {{jsxref("ArrayBuffer")}} object. Its contents are initialized to the cont
 - {{jsxref("RangeError")}}
   - : Thrown if this `ArrayBuffer` is resizable and `newByteLength` is greater than the {{jsxref("ArrayBuffer/maxByteLength", "maxByteLength")}} of this `ArrayBuffer`.
 - {{jsxref("TypeError")}}
-  - : Thrown if this `ArrayBuffer` is already detached.
+  - : Thrown if this `ArrayBuffer` is already detached, or if it can only be detached by designated operations. Currently, only certain web APIs are capable of creating `ArrayBuffer` objects with designated detaching methods, such as {{domxref("GPUBuffer.getMappedRange()")}} and [`WebAssembly.Memory.buffer`](/en-US/docs/WebAssembly/Reference/JavaScript_interface/Memory/buffer).
 
 ## Description
 

@@ -2,17 +2,15 @@
 title: "Reference Operators Operator_precedence"
 slug: "reference-operators-operator_precedence"
 path: "reference/operators/operator_precedence/index.md"
-wordCount: 3147
+wordCount: 3146
 readingTime: 16
 codeBlocks: 21
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "classes", "async", "dom"]
-lastModified: "2025-07-06T19:32:45.886Z"
+lastModified: "2025-08-02T14:03:23.773Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 **Operator precedence** determines how operators are parsed concerning each other. Operators with higher precedence become the operands of operators with lower precedence.
 

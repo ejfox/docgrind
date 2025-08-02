@@ -2,17 +2,15 @@
 title: "Reference Errors Unparenthesized_unary_expr_lhs_exponentiation"
 slug: "reference-errors-unparenthesized_unary_expr_lhs_exponentiation"
 path: "reference/errors/unparenthesized_unary_expr_lhs_exponentiation/index.md"
-wordCount: 359
+wordCount: 358
 readingTime: 2
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.532Z"
+lastModified: "2025-08-02T14:03:23.467Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "unparenthesized unary expression can't appear on the left-hand side of '\*\*'" occurs when a unary operator (one of `typeof`, `void`, `delete`, `await`, `!`, `~`, `+`, `-`) is used on the left operand of the [exponentiation operator](/en-US/docs/Web/JavaScript/Reference/Operators/Exponentiation) without parentheses.
 

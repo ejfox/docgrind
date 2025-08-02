@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Log"
 slug: "reference-global_objects-math-log"
 path: "reference/global_objects/math/log/index.md"
-wordCount: 370
+wordCount: 369
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.664Z"
+lastModified: "2025-08-02T14:03:23.591Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.log()`** static method returns the natural logarithm (base [e](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/E)) of a number. That is
 

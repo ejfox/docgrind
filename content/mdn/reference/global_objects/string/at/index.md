@@ -2,17 +2,15 @@
 title: "Reference Global_objects String At"
 slug: "reference-global_objects-string-at"
 path: "reference/global_objects/string/at/index.md"
-wordCount: 368
+wordCount: 367
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.757Z"
+lastModified: "2025-08-02T14:03:23.647Z"
 ---
 
-
-{{JSRef}}
 
 The **`at()`** method of {{jsxref("String")}} values takes an integer value and returns a new {{jsxref("String")}} consisting of the single UTF-16 code unit located at the specified offset. This method allows for positive and negative integers. Negative integers count back from the last string character.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl"
 slug: "reference-global_objects-intl"
 path: "reference/global_objects/intl/index.md"
-wordCount: 1500
+wordCount: 1499
 readingTime: 8
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.617Z"
+lastModified: "2025-08-02T14:03:23.553Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl`** namespace object contains several constructors as well as functionality common to the internationalization constructors and other language sensitive functions. Collectively, they comprise the ECMAScript Internationalization API, which provides language sensitive string comparison, number formatting, date and time formatting, and more.
 

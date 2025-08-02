@@ -2,17 +2,15 @@
 title: "Reference Operators Unary_plus"
 slug: "reference-operators-unary_plus"
 path: "reference/operators/unary_plus/index.md"
-wordCount: 300
+wordCount: 299
 readingTime: 2
 codeBlocks: 4
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.892Z"
+lastModified: "2025-08-02T14:03:23.779Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **unary plus (`+`)** operator precedes its operand and evaluates to its
 operand but attempts to [convert it into a number](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#number_coercion), if it isn't already.

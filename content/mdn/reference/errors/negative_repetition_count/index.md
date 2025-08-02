@@ -2,17 +2,15 @@
 title: "Reference Errors Negative_repetition_count"
 slug: "reference-errors-negative_repetition_count"
 path: "reference/errors/negative_repetition_count/index.md"
-wordCount: 156
+wordCount: 155
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.519Z"
+lastModified: "2025-08-02T14:03:23.455Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "repeat count must be non-negative" occurs when the
 {{jsxref("String.prototype.repeat()")}} method is used with a `count`

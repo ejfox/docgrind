@@ -2,17 +2,15 @@
 title: "Reference Global_objects Sharedarraybuffer Grow"
 slug: "reference-global_objects-sharedarraybuffer-grow"
 path: "reference/global_objects/sharedarraybuffer/grow/index.md"
-wordCount: 193
+wordCount: 192
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.755Z"
+lastModified: "2025-08-02T14:03:23.645Z"
 ---
 
-
-{{JSRef}}
 
 The **`grow()`** method of {{jsxref("SharedArrayBuffer")}} instances grows the `SharedArrayBuffer` to the specified size, in bytes.
 

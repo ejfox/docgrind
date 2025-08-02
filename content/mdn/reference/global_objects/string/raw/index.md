@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Raw"
 slug: "reference-global_objects-string-raw"
 path: "reference/global_objects/string/raw/index.md"
-wordCount: 920
+wordCount: 919
 readingTime: 5
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "api", "rest"]
-lastModified: "2025-07-06T19:32:45.767Z"
+lastModified: "2025-08-02T14:03:23.656Z"
 ---
 
-
-{{JSRef}}
 
 The **`String.raw()`** static method is a tag function of [template literals](/en-US/docs/Web/JavaScript/Reference/Template_literals). This is similar to the `r` prefix in Python, or the `@` prefix in C# for string literals. It's used to get the raw string form of template literals — that is, substitutions (e.g., `${foo}`) are processed, but escape sequences (e.g., `\n`) are not.
 

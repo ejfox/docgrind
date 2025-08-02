@@ -2,17 +2,15 @@
 title: "Reference Operators Greater_than"
 slug: "reference-operators-greater_than"
 path: "reference/operators/greater_than/index.md"
-wordCount: 328
+wordCount: 327
 readingTime: 2
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.876Z"
+lastModified: "2025-08-02T14:03:23.763Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **greater than (`>`)** operator returns `true` if the left
 operand is greater than the right operand, and `false` otherwise.

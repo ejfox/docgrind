@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number Toprecision"
 slug: "reference-global_objects-number-toprecision"
 path: "reference/global_objects/number/toprecision/index.md"
-wordCount: 282
+wordCount: 281
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.676Z"
+lastModified: "2025-08-02T14:03:23.601Z"
 ---
 
-
-{{JSRef}}
 
 The **`toPrecision()`** method of {{jsxref("Number")}} values returns a string representing this number to the specified number of significant digits.
 

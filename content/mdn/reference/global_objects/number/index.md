@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number"
 slug: "reference-global_objects-number"
 path: "reference/global_objects/number/index.md"
-wordCount: 1658
+wordCount: 1657
 readingTime: 9
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "objects"]
-lastModified: "2025-07-06T19:32:45.671Z"
+lastModified: "2025-08-02T14:03:23.597Z"
 ---
 
-
-{{JSRef}}
 
 **`Number`** values represent floating-point numbers like `37` or `-9.25`.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Tolocalestring"
 slug: "reference-global_objects-array-tolocalestring"
 path: "reference/global_objects/array/tolocalestring/index.md"
-wordCount: 536
+wordCount: 535
 readingTime: 3
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.553Z"
+lastModified: "2025-08-02T14:03:23.489Z"
 ---
 
-
-{{JSRef}}
 
 The **`toLocaleString()`** method of {{jsxref("Array")}} instances returns a string representing
 the elements of the array. The elements are converted to strings using their
@@ -22,8 +20,8 @@ string (such as a comma ",").
 {{InteractiveExample("JavaScript Demo: Array.prototype.toLocaleString()", "shorter")}}
 
 ```js interactive-example
-const array1 = [1, "a", new Date("21 Dec 1997 14:12:00 UTC")];
-const localeString = array1.toLocaleString("en", { timeZone: "UTC" });
+const array = [1, "a", new Date("21 Dec 1997 14:12:00 UTC")];
+const localeString = array.toLocaleString("en", { timeZone: "UTC" });
 
 console.log(localeString);
 // Expected output: "1,a,12/21/1997, 2:12:00 PM",

@@ -2,17 +2,15 @@
 title: "Reference Errors Cyclic_object_value"
 slug: "reference-errors-cyclic_object_value"
 path: "reference/errors/cyclic_object_value/index.md"
-wordCount: 264
+wordCount: 263
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.508Z"
+lastModified: "2025-08-02T14:03:23.444Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "cyclic object value" occurs when object references were found
 in [JSON](https://www.json.org/). {{jsxref("JSON.stringify()")}} doesn't try

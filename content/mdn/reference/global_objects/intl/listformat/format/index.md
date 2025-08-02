@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Listformat Format"
 slug: "reference-global_objects-intl-listformat-format"
 path: "reference/global_objects/intl/listformat/format/index.md"
-wordCount: 302
+wordCount: 301
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.617Z"
+lastModified: "2025-08-02T14:03:23.553Z"
 ---
 
-
-{{JSRef}}
 
 The **`format()`** method of {{jsxref("Intl.ListFormat")}} instances returns a string with a
 language-specific representation of the list.

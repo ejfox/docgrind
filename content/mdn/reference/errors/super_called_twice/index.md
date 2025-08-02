@@ -2,17 +2,15 @@
 title: "Reference Errors Super_called_twice"
 slug: "reference-errors-super_called_twice"
 path: "reference/errors/super_called_twice/index.md"
-wordCount: 324
+wordCount: 323
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["classes"]
-lastModified: "2025-07-06T19:32:45.530Z"
+lastModified: "2025-08-02T14:03:23.465Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "super() called twice in derived class constructor" occurs when the {{jsxref("Operators/super", "super()")}} is called a second time for a given derived class constructor.
 

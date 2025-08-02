@@ -2,17 +2,15 @@
 title: "Reference Operators Subtraction_assignment"
 slug: "reference-operators-subtraction_assignment"
 path: "reference/operators/subtraction_assignment/index.md"
-wordCount: 160
+wordCount: 159
 readingTime: 1
 codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.889Z"
+lastModified: "2025-08-02T14:03:23.776Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **subtraction assignment (`-=`)** operator performs [subtraction](/en-US/docs/Web/JavaScript/Reference/Operators/Subtraction) on the two operands and assigns the result to the left operand.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Dataview"
 slug: "reference-global_objects-dataview"
 path: "reference/global_objects/dataview/index.md"
-wordCount: 888
+wordCount: 887
 readingTime: 5
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.573Z"
+lastModified: "2025-08-02T14:03:23.509Z"
 ---
 
-
-{{JSRef}}
 
 The **`DataView`** view provides a low-level interface for reading and writing multiple number types in a binary {{jsxref("ArrayBuffer")}}, without having to care about the platform's [endianness](/en-US/docs/Glossary/Endianness).
 

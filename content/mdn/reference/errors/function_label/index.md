@@ -2,17 +2,15 @@
 title: "Reference Errors Function_label"
 slug: "reference-errors-function_label"
 path: "reference/errors/function_label/index.md"
-wordCount: 542
+wordCount: 541
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "async"]
-lastModified: "2025-07-06T19:32:45.511Z"
+lastModified: "2025-08-02T14:03:23.447Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "functions cannot be labelled" occurs when a {{jsxref("Statements/function", "function")}} declaration has a [label](/en-US/docs/Web/JavaScript/Reference/Statements/label) before it.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Parse"
 slug: "reference-global_objects-date-parse"
 path: "reference/global_objects/date/parse/index.md"
-wordCount: 894
+wordCount: 893
 readingTime: 5
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "api"]
-lastModified: "2025-07-06T19:32:45.583Z"
+lastModified: "2025-08-02T14:03:23.518Z"
 ---
 
-
-{{JSRef}}
 
 The **`Date.parse()`** static method parses a string representation of a date, and returns the date's [timestamp](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date#the_epoch_timestamps_and_invalid_date).
 

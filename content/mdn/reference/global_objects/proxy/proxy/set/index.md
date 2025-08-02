@@ -2,26 +2,24 @@
 title: "Reference Global_objects Proxy Proxy Set"
 slug: "reference-global_objects-proxy-proxy-set"
 path: "reference/global_objects/proxy/proxy/set/index.md"
-wordCount: 492
+wordCount: 491
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.699Z"
+lastModified: "2025-08-02T14:03:23.625Z"
 ---
 
-
-{{JSRef}}
 
 The **`handler.set()`** method is a trap for the `[[Set]]` [object internal method](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#object_internal_methods), which is used by operations such as using [property accessors](/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors) to set a property's value.
 
 {{InteractiveExample("JavaScript Demo: handler.set()", "taller")}}
 
 ```js interactive-example
-const monster1 = { eyeCount: 4 };
+const monster = { eyeCount: 4 };
 
-const handler1 = {
+const handler = {
   set(obj, prop, value) {
     if (prop === "eyeCount" && value % 2 !== 0) {
       console.log("Monsters must have an even number of eyes");
@@ -31,16 +29,16 @@ const handler1 = {
   },
 };
 
-const proxy1 = new Proxy(monster1, handler1);
+const proxy = new Proxy(monster, handler);
 
-proxy1.eyeCount = 1;
+proxy.eyeCount = 1;
 // Expected output: "Monsters must have an even number of eyes"
 
-console.log(proxy1.eyeCount);
+console.log(proxy.eyeCount);
 // Expected output: 4
 
-proxy1.eyeCount = 2;
-console.log(proxy1.eyeCount);
+proxy.eyeCount = 2;
+console.log(proxy.eyeCount);
 // Expected output: 2
 ```
 

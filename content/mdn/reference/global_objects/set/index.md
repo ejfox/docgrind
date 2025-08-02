@@ -2,17 +2,15 @@
 title: "Reference Global_objects Set"
 slug: "reference-global_objects-set"
 path: "reference/global_objects/set/index.md"
-wordCount: 2312
+wordCount: 2311
 readingTime: 12
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "dom", "api", "spread"]
-lastModified: "2025-07-06T19:32:45.749Z"
+lastModified: "2025-08-02T14:03:23.641Z"
 ---
 
-
-{{JSRef}}
 
 The **`Set`** object lets you store unique values of any type, whether {{Glossary("Primitive", "primitive values")}} or object references.
 

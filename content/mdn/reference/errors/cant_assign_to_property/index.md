@@ -2,17 +2,15 @@
 title: "Reference Errors Cant_assign_to_property"
 slug: "reference-errors-cant_assign_to_property"
 path: "reference/errors/cant_assign_to_property/index.md"
-wordCount: 232
+wordCount: 231
 readingTime: 2
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.505Z"
+lastModified: "2025-08-02T14:03:23.442Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript strict mode exception "can't assign to property" occurs when attempting
 to create a property on [primitive](/en-US/docs/Glossary/Primitive) value

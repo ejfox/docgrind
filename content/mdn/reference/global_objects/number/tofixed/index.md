@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number Tofixed"
 slug: "reference-global_objects-number-tofixed"
 path: "reference/global_objects/number/tofixed/index.md"
-wordCount: 482
+wordCount: 481
 readingTime: 3
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.676Z"
+lastModified: "2025-08-02T14:03:23.601Z"
 ---
 
-
-{{JSRef}}
 
 The **`toFixed()`** method of {{jsxref("Number")}} values returns a string representing this number using [fixed-point notation](https://en.wikipedia.org/wiki/Fixed-point_arithmetic) with the specified number of decimal places.
 

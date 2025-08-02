@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Numberformat Numberformat"
 slug: "reference-global_objects-intl-numberformat-numberformat"
 path: "reference/global_objects/intl/numberformat/numberformat/index.md"
-wordCount: 4511
+wordCount: 4510
 readingTime: 23
 codeBlocks: 25
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "rest"]
-lastModified: "2025-07-06T19:32:45.627Z"
+lastModified: "2025-08-02T14:03:23.564Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.NumberFormat()`** constructor creates {{jsxref("Intl.NumberFormat")}} objects.
 

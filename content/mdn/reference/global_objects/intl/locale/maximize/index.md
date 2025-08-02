@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Locale Maximize"
 slug: "reference-global_objects-intl-locale-maximize"
 path: "reference/global_objects/intl/locale/maximize/index.md"
-wordCount: 329
+wordCount: 328
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.623Z"
+lastModified: "2025-08-02T14:03:23.558Z"
 ---
 
-
-{{JSRef}}
 
 The **`maximize()`** method of {{jsxref("Intl.Locale")}} instances gets the
 most likely values for the language, script, and region of this locale based on

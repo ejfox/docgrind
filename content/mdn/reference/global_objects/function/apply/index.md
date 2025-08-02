@@ -2,17 +2,15 @@
 title: "Reference Global_objects Function Apply"
 slug: "reference-global_objects-function-apply"
 path: "reference/global_objects/function/apply/index.md"
-wordCount: 984
+wordCount: 983
 readingTime: 5
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "dom", "spread"]
-lastModified: "2025-07-06T19:32:45.600Z"
+lastModified: "2025-08-02T14:03:23.536Z"
 ---
 
-
-{{JSRef}}
 
 The **`apply()`** method of {{jsxref("Function")}} instances calls this function with a given `this` value, and `arguments` provided as an array (or an [array-like object](/en-US/docs/Web/JavaScript/Guide/Indexed_collections#working_with_array-like_objects)).
 

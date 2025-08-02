@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Relativetimeformat Relativetimeformat"
 slug: "reference-global_objects-intl-relativetimeformat-relativetimeformat"
 path: "reference/global_objects/intl/relativetimeformat/relativetimeformat/index.md"
-wordCount: 590
+wordCount: 589
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.631Z"
+lastModified: "2025-08-02T14:03:23.568Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.RelativeTimeFormat()`** constructor creates {{jsxref("Intl.RelativeTimeFormat")}} objects.
 

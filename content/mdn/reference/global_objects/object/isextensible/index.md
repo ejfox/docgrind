@@ -2,17 +2,15 @@
 title: "Reference Global_objects Object Isextensible"
 slug: "reference-global_objects-object-isextensible"
 path: "reference/global_objects/object/isextensible/index.md"
-wordCount: 251
+wordCount: 250
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.685Z"
+lastModified: "2025-08-02T14:03:23.610Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object.isExtensible()`** static method determines if an object
 is extensible (whether it can have new properties added to it).
@@ -20,14 +18,14 @@ is extensible (whether it can have new properties added to it).
 {{InteractiveExample("JavaScript Demo: Object.isExtensible()")}}
 
 ```js interactive-example
-const object1 = {};
+const object = {};
 
-console.log(Object.isExtensible(object1));
+console.log(Object.isExtensible(object));
 // Expected output: true
 
-Object.preventExtensions(object1);
+Object.preventExtensions(object);
 
-console.log(Object.isExtensible(object1));
+console.log(Object.isExtensible(object));
 // Expected output: false
 ```
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Unshift"
 slug: "reference-global_objects-array-unshift"
 path: "reference/global_objects/array/unshift/index.md"
-wordCount: 528
+wordCount: 527
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.555Z"
+lastModified: "2025-08-02T14:03:23.490Z"
 ---
 
-
-{{JSRef}}
 
 The **`unshift()`** method of {{jsxref("Array")}} instances adds the specified elements to the
 beginning of an array and returns the new length of the array.
@@ -20,12 +18,12 @@ beginning of an array and returns the new length of the array.
 {{InteractiveExample("JavaScript Demo: Array.prototype.unshift()")}}
 
 ```js interactive-example
-const array1 = [1, 2, 3];
+const array = [1, 2, 3];
 
-console.log(array1.unshift(4, 5));
+console.log(array.unshift(4, 5));
 // Expected output: 5
 
-console.log(array1);
+console.log(array);
 // Expected output: Array [4, 5, 1, 2, 3]
 ```
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Referenceerror Referenceerror"
 slug: "reference-global_objects-referenceerror-referenceerror"
 path: "reference/global_objects/referenceerror/referenceerror/index.md"
-wordCount: 232
+wordCount: 231
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.701Z"
+lastModified: "2025-08-02T14:03:23.627Z"
 ---
 
-
-{{JSRef}}
 
 The **`ReferenceError()`** constructor creates {{jsxref("ReferenceError")}} objects.
 

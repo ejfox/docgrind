@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Getmonth"
 slug: "reference-global_objects-date-getmonth"
 path: "reference/global_objects/date/getmonth/index.md"
-wordCount: 227
+wordCount: 226
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.578Z"
+lastModified: "2025-08-02T14:03:23.514Z"
 ---
 
-
-{{JSRef}}
 
 The **`getMonth()`** method of {{jsxref("Date")}} instances returns the month for this date according to local time, as a zero-based value (where zero indicates the first month of the year).
 

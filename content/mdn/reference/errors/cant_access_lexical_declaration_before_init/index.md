@@ -2,17 +2,15 @@
 title: "Reference Errors Cant_access_lexical_declaration_before_init"
 slug: "reference-errors-cant_access_lexical_declaration_before_init"
 path: "reference/errors/cant_access_lexical_declaration_before_init/index.md"
-wordCount: 465
+wordCount: 464
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "modules", "async"]
-lastModified: "2025-07-06T19:32:45.505Z"
+lastModified: "2025-08-02T14:03:23.441Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "can't access lexical declaration 'X' before initialization" occurs when a lexical variable was accessed before it was initialized.
 This happens within any scope (global, module, function, or block) when [`let`](/en-US/docs/Web/JavaScript/Reference/Statements/let) or [`const`](/en-US/docs/Web/JavaScript/Reference/Statements/const) variables are accessed before the place where they are declared is executed.

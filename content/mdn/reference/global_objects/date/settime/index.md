@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Settime"
 slug: "reference-global_objects-date-settime"
 path: "reference/global_objects/date/settime/index.md"
-wordCount: 201
-readingTime: 2
+wordCount: 200
+readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.585Z"
+lastModified: "2025-08-02T14:03:23.520Z"
 ---
 
-
-{{JSRef}}
 
 The **`setTime()`** method of {{jsxref("Date")}} instances changes the [timestamp](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date#the_epoch_timestamps_and_invalid_date) for this date, which is the number of milliseconds since the [epoch](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date#the_epoch_timestamps_and_invalid_date), defined as the midnight at the beginning of January 1, 1970, UTC.
 

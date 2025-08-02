@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Log2e"
 slug: "reference-global_objects-math-log2e"
 path: "reference/global_objects/math/log2e/index.md"
-wordCount: 134
+wordCount: 133
 readingTime: 1
 codeBlocks: 2
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.666Z"
+lastModified: "2025-08-02T14:03:23.592Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.LOG2E`** static data property represents the base 2 logarithm of [e](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/E), approximately 1.443.
 

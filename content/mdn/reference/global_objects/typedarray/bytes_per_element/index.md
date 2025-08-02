@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Bytes_per_element"
 slug: "reference-global_objects-typedarray-bytes_per_element"
 path: "reference/global_objects/typedarray/bytes_per_element/index.md"
-wordCount: 250
+wordCount: 249
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.848Z"
+lastModified: "2025-08-02T14:03:23.732Z"
 ---
 
-
-{{JSRef}}
 
 The **`TypedArray.BYTES_PER_ELEMENT`** static data property represents the size in bytes of each element in a typed array.
 

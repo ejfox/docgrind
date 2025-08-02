@@ -2,17 +2,15 @@
 title: "Reference Global_objects Proxy Revocable"
 slug: "reference-global_objects-proxy-revocable"
 path: "reference/global_objects/proxy/revocable/index.md"
-wordCount: 482
+wordCount: 481
 readingTime: 3
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes"]
-lastModified: "2025-07-06T19:32:45.700Z"
+lastModified: "2025-08-02T14:03:23.626Z"
 ---
 
-
-{{JSRef}}
 
 The **`Proxy.revocable()`** static method creates a revocable {{jsxref("Proxy")}} object.
 

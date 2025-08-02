@@ -2,17 +2,15 @@
 title: "Reference Global_objects Finalizationregistry Unregister"
 slug: "reference-global_objects-finalizationregistry-unregister"
 path: "reference/global_objects/finalizationregistry/unregister/index.md"
-wordCount: 399
+wordCount: 398
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.598Z"
+lastModified: "2025-08-02T14:03:23.534Z"
 ---
 
-
-{{JSRef}}
 
 The **`unregister()`** method of {{jsxref("FinalizationRegistry")}} instances unregisters a target value from this `FinalizationRegistry`.
 

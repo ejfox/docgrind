@@ -2,17 +2,15 @@
 title: "Reference Errors Regex_invalid_identity_escape"
 slug: "reference-errors-regex_invalid_identity_escape"
 path: "reference/errors/regex_invalid_identity_escape/index.md"
-wordCount: 224
+wordCount: 223
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.526Z"
+lastModified: "2025-08-02T14:03:23.461Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "invalid identity escape in regular expression" occurs when a [Unicode-aware](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode#unicode-aware_mode) regular expression pattern contains an [escape sequence](/en-US/docs/Web/JavaScript/Reference/Regular_expressions#escape_sequences) that does not represent a recognized escape sequence.
 

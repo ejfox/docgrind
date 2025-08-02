@@ -2,17 +2,15 @@
 title: "Reference Errors Read Only"
 slug: "reference-errors-read-only"
 path: "reference/errors/read-only/index.md"
-wordCount: 278
+wordCount: 277
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.523Z"
+lastModified: "2025-08-02T14:03:23.459Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript [strict mode](/en-US/docs/Web/JavaScript/Reference/Strict_mode)-only exception
 "is read-only" occurs when a global variable or object

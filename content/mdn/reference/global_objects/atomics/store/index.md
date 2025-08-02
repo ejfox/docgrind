@@ -2,17 +2,15 @@
 title: "Reference Global_objects Atomics Store"
 slug: "reference-global_objects-atomics-store"
 path: "reference/global_objects/atomics/store/index.md"
-wordCount: 189
+wordCount: 188
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.565Z"
+lastModified: "2025-08-02T14:03:23.501Z"
 ---
 
-
-{{JSRef}}
 
 The **`Atomics.store()`** static
 method stores a given value at the given position in the array and returns that value.

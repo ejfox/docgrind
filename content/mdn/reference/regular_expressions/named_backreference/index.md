@@ -2,17 +2,15 @@
 title: "Reference Regular_expressions Named_backreference"
 slug: "reference-regular_expressions-named_backreference"
 path: "reference/regular_expressions/named_backreference/index.md"
-wordCount: 276
+wordCount: 275
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.899Z"
+lastModified: "2025-08-02T14:03:23.786Z"
 ---
 
-
-{{jsSidebar}}
 
 A **named backreference** refers to the submatch of a previous [named capturing group](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Named_capturing_group) and matches the same text as that group. For [unnamed capturing groups](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Capturing_group), you need to use the normal [backreference](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Backreference) syntax.
 

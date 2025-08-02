@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Relativetimeformat"
 slug: "reference-global_objects-intl-relativetimeformat"
 path: "reference/global_objects/intl/relativetimeformat/index.md"
-wordCount: 427
+wordCount: 426
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.631Z"
+lastModified: "2025-08-02T14:03:23.568Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.RelativeTimeFormat`** object enables language-sensitive relative time formatting.
 

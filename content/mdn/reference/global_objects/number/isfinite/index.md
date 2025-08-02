@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number Isfinite"
 slug: "reference-global_objects-number-isfinite"
 path: "reference/global_objects/number/isfinite/index.md"
-wordCount: 212
+wordCount: 211
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.671Z"
+lastModified: "2025-08-02T14:03:23.597Z"
 ---
 
-
-{{JSRef}}
 
 The **`Number.isFinite()`** static method determines whether the passed value is a finite number — that is, it checks that a given value is a number, and the number is neither positive {{jsxref("Infinity")}}, negative `Infinity`, nor {{jsxref("NaN")}}.
 

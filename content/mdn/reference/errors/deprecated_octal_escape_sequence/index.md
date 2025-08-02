@@ -2,17 +2,15 @@
 title: "Reference Errors Deprecated_octal_escape_sequence"
 slug: "reference-errors-deprecated_octal_escape_sequence"
 path: "reference/errors/deprecated_octal_escape_sequence/index.md"
-wordCount: 313
+wordCount: 312
 readingTime: 2
 codeBlocks: 4
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.509Z"
+lastModified: "2025-08-02T14:03:23.445Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "octal escape sequences can't be used in untagged template literals or in strict mode code" occurs when octal escape sequences are used in [strict mode](/en-US/docs/Web/JavaScript/Reference/Strict_mode) string literals or untagged template literals.
 

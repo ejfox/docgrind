@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math E"
 slug: "reference-global_objects-math-e"
 path: "reference/global_objects/math/e/index.md"
-wordCount: 150
+wordCount: 149
 readingTime: 1
 codeBlocks: 2
 difficulty: "intermediate"
 category: "Reference"
 tags: ["api", "rest"]
-lastModified: "2025-07-06T19:32:45.661Z"
+lastModified: "2025-08-02T14:03:23.588Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.E`** static data property represents Euler's number, the base of natural logarithms, e, which is approximately 2.718.
 

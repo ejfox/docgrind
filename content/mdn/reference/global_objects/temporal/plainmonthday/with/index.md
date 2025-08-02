@@ -8,11 +8,11 @@ codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "rest"]
-lastModified: "2025-07-06T19:32:45.820Z"
+lastModified: "2025-08-02T14:03:23.706Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`with()`** method of {{jsxref("Temporal.PlainMonthDay")}} instances returns a new `Temporal.PlainMonthDay` object representing this month-day with some fields replaced by new values. Because all `Temporal` objects are designed to be immutable, this method essentially functions as the setter for the month-day's fields.
 

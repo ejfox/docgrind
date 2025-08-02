@@ -2,17 +2,15 @@
 title: "Reference Errors Duplicate_parameter"
 slug: "reference-errors-duplicate_parameter"
 path: "reference/errors/duplicate_parameter/index.md"
-wordCount: 310
+wordCount: 309
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "destructuring", "rest"]
-lastModified: "2025-07-06T19:32:45.510Z"
+lastModified: "2025-08-02T14:03:23.446Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "duplicate formal argument x" or "duplicate argument names not allowed in this context" occurs when a function creates two or more parameter {{Glossary("binding", "bindings")}} with the same name, and the function is not a [non-strict](/en-US/docs/Web/JavaScript/Reference/Strict_mode) function with only simple parameters.
 

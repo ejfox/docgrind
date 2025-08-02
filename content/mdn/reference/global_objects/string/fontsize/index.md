@@ -2,17 +2,17 @@
 title: "Reference Global_objects String Fontsize"
 slug: "reference-global_objects-string-fontsize"
 path: "reference/global_objects/string/fontsize/index.md"
-wordCount: 320
+wordCount: 319
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom"]
-lastModified: "2025-07-06T19:32:45.760Z"
+lastModified: "2025-08-02T14:03:23.650Z"
 ---
 
 
-{{JSRef}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`fontsize()`** method of {{jsxref("String")}} values creates a string that embeds this string in a {{HTMLElement("font")}} element (`<font size="...">str</font>`), which causes this string to be displayed in the specified font size.
 

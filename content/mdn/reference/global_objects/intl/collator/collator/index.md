@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Collator Collator"
 slug: "reference-global_objects-intl-collator-collator"
 path: "reference/global_objects/intl/collator/collator/index.md"
-wordCount: 907
+wordCount: 906
 readingTime: 5
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.609Z"
+lastModified: "2025-08-02T14:03:23.544Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.Collator()`** constructor creates {{jsxref("Intl.Collator")}} objects.
 

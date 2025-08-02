@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Some"
 slug: "reference-global_objects-typedarray-some"
 path: "reference/global_objects/typedarray/some/index.md"
-wordCount: 344
+wordCount: 343
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.854Z"
+lastModified: "2025-08-02T14:03:23.740Z"
 ---
 
-
-{{JSRef}}
 
 The **`some()`** method of {{jsxref("TypedArray")}} instances tests whether at least one element in the typed array passes the test implemented by the provided function. It returns true if, in the typed array, it finds an element for which the provided function returns true; otherwise it returns false. It doesn't modify the typed array. This method has the same algorithm as {{jsxref("Array.prototype.some()")}}.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Numberformat"
 slug: "reference-global_objects-intl-numberformat"
 path: "reference/global_objects/intl/numberformat/index.md"
-wordCount: 627
+wordCount: 626
 readingTime: 4
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.626Z"
+lastModified: "2025-08-02T14:03:23.562Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.NumberFormat`** object enables language-sensitive number formatting.
 

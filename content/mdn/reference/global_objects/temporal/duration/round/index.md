@@ -8,11 +8,11 @@ codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.784Z"
+lastModified: "2025-08-02T14:03:23.673Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`round()`** method of {{jsxref("Temporal.Duration")}} instances returns a new `Temporal.Duration` object with the duration rounded to the given smallest unit and/or [balanced](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration#duration_balancing) to the given largest unit.
 

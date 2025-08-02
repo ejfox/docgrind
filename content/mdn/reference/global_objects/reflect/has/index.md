@@ -2,17 +2,15 @@
 title: "Reference Global_objects Reflect Has"
 slug: "reference-global_objects-reflect-has"
 path: "reference/global_objects/reflect/has/index.md"
-wordCount: 278
+wordCount: 277
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.725Z"
+lastModified: "2025-08-02T14:03:23.629Z"
 ---
 
-
-{{JSRef}}
 
 The **`Reflect.has()`** static method is like the [`in`](/en-US/docs/Web/JavaScript/Reference/Operators/in) operator, but
 as a function.
@@ -20,17 +18,17 @@ as a function.
 {{InteractiveExample("JavaScript Demo: Reflect.has()")}}
 
 ```js interactive-example
-const object1 = {
+const object = {
   property1: 42,
 };
 
-console.log(Reflect.has(object1, "property1"));
+console.log(Reflect.has(object, "property1"));
 // Expected output: true
 
-console.log(Reflect.has(object1, "property2"));
+console.log(Reflect.has(object, "property2"));
 // Expected output: false
 
-console.log(Reflect.has(object1, "toString"));
+console.log(Reflect.has(object, "toString"));
 // Expected output: true
 ```
 

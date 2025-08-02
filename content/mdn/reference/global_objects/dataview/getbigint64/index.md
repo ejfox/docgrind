@@ -2,17 +2,15 @@
 title: "Reference Global_objects Dataview Getbigint64"
 slug: "reference-global_objects-dataview-getbigint64"
 path: "reference/global_objects/dataview/getbigint64/index.md"
-wordCount: 236
+wordCount: 235
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays"]
-lastModified: "2025-07-06T19:32:45.571Z"
+lastModified: "2025-08-02T14:03:23.507Z"
 ---
 
-
-{{JSRef}}
 
 The **`getBigInt64()`** method of {{jsxref("DataView")}} instances reads 8 bytes starting at the specified byte offset of this `DataView` and interprets them as a 64-bit signed integer. There is no alignment constraint; multi-byte values may be fetched from any offset within bounds.
 

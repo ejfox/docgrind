@@ -2,17 +2,15 @@
 title: "Reference Operators Less_than_or_equal"
 slug: "reference-operators-less_than_or_equal"
 path: "reference/operators/less_than_or_equal/index.md"
-wordCount: 572
+wordCount: 571
 readingTime: 3
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.881Z"
+lastModified: "2025-08-02T14:03:23.768Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **less than or equal (`<=`)** operator returns `true` if the left operand is less than or equal to the right operand, and `false` otherwise.
 

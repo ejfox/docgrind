@@ -2,17 +2,15 @@
 title: "Reference Global_objects Symbol Species"
 slug: "reference-global_objects-symbol-species"
 path: "reference/global_objects/symbol/species/index.md"
-wordCount: 364
+wordCount: 363
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "classes"]
-lastModified: "2025-07-06T19:32:45.777Z"
+lastModified: "2025-08-02T14:03:23.666Z"
 ---
 
-
-{{JSRef}}
 
 The **`Symbol.species`** static data property represents the [well-known symbol](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#well-known_symbols) `Symbol.species`. Methods that create copies of an object may look up this symbol on the object for the constructor function to use when creating the copy.
 

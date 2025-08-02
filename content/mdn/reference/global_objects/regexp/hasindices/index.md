@@ -2,17 +2,15 @@
 title: "Reference Global_objects Regexp Hasindices"
 slug: "reference-global_objects-regexp-hasindices"
 path: "reference/global_objects/regexp/hasindices/index.md"
-wordCount: 268
+wordCount: 267
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.739Z"
+lastModified: "2025-08-02T14:03:23.632Z"
 ---
 
-
-{{JSRef}}
 
 The **`hasIndices`** accessor property of {{jsxref("RegExp")}} instances returns whether or not the `d` flag is used with this regular expression.
 

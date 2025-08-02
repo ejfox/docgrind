@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Reduce"
 slug: "reference-global_objects-typedarray-reduce"
 path: "reference/global_objects/typedarray/reduce/index.md"
-wordCount: 458
+wordCount: 457
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays"]
-lastModified: "2025-07-06T19:32:45.853Z"
+lastModified: "2025-08-02T14:03:23.739Z"
 ---
 
-
-{{JSRef}}
 
 The **`reduce()`** method of {{jsxref("TypedArray")}} instances executes a user-supplied "reducer" callback function on each element of the typed array, in order, passing in the return value from the calculation on the preceding element. The final result of running the reducer across all elements of the typed array is a single value. This method has the same algorithm as {{jsxref("Array.prototype.reduce()")}}.
 

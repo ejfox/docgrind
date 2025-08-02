@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Utc"
 slug: "reference-global_objects-date-utc"
 path: "reference/global_objects/date/utc/index.md"
-wordCount: 536
+wordCount: 535
 readingTime: 3
 codeBlocks: 4
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.591Z"
+lastModified: "2025-08-02T14:03:23.525Z"
 ---
 
-
-{{JSRef}}
 
 The **`Date.UTC()`** static method accepts parameters representing the date and time components similar to the {{jsxref("Date")}} constructor, but treats them as UTC. It returns the number of milliseconds since January 1, 1970, 00:00:00 UTC.
 

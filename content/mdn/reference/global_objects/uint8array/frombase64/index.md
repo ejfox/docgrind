@@ -2,17 +2,15 @@
 title: "Reference Global_objects Uint8array Frombase64"
 slug: "reference-global_objects-uint8array-frombase64"
 path: "reference/global_objects/uint8array/frombase64/index.md"
-wordCount: 1039
+wordCount: 1038
 readingTime: 6
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["dom"]
-lastModified: "2025-07-06T19:32:45.858Z"
+lastModified: "2025-08-02T14:03:23.745Z"
 ---
 
-
-{{JSRef}}
 
 The **`Uint8Array.fromBase64()`** static method creates a new {{jsxref("Uint8Array")}} object from a [base64](/en-US/docs/Glossary/Base64)-encoded string.
 

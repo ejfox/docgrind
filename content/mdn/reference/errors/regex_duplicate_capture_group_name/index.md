@@ -2,17 +2,15 @@
 title: "Reference Errors Regex_duplicate_capture_group_name"
 slug: "reference-errors-regex_duplicate_capture_group_name"
 path: "reference/errors/regex_duplicate_capture_group_name/index.md"
-wordCount: 190
+wordCount: 189
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.524Z"
+lastModified: "2025-08-02T14:03:23.460Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "duplicate capture group name in regular expression" occurs when a regular expression pattern contains two or more [named capturing groups](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Named_capturing_group) with the same name, and these capture groups could be matched at the same time.
 

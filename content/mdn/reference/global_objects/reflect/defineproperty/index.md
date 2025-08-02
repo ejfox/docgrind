@@ -2,33 +2,31 @@
 title: "Reference Global_objects Reflect Defineproperty"
 slug: "reference-global_objects-reflect-defineproperty"
 path: "reference/global_objects/reflect/defineproperty/index.md"
-wordCount: 370
+wordCount: 369
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes"]
-lastModified: "2025-07-06T19:32:45.723Z"
+lastModified: "2025-08-02T14:03:23.628Z"
 ---
 
-
-{{JSRef}}
 
 The **`Reflect.defineProperty()`** static method is like {{jsxref("Object.defineProperty()")}} but returns a {{jsxref("Boolean")}}.
 
 {{InteractiveExample("JavaScript Demo: Reflect.defineProperty()")}}
 
 ```js interactive-example
-const object1 = {};
+const object = {};
 
-if (Reflect.defineProperty(object1, "property1", { value: 42 })) {
-  console.log("property1 created!");
-  // Expected output: "property1 created!"
+if (Reflect.defineProperty(object, "foo", { value: 42 })) {
+  console.log("foo created!");
+  // Expected output: "foo created!"
 } else {
-  console.log("problem creating property1");
+  console.log("problem creating foo");
 }
 
-console.log(object1.property1);
+console.log(object.foo);
 // Expected output: 42
 ```
 

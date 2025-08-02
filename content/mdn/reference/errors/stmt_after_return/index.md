@@ -2,17 +2,15 @@
 title: "Reference Errors Stmt_after_return"
 slug: "reference-errors-stmt_after_return"
 path: "reference/errors/stmt_after_return/index.md"
-wordCount: 314
+wordCount: 313
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.529Z"
+lastModified: "2025-08-02T14:03:23.465Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript warning "unreachable code after return statement" occurs when using an
 expression after a {{jsxref("Statements/return", "return")}} statement, or when using a

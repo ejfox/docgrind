@@ -2,17 +2,15 @@
 title: "Reference Errors Invalid_array_length"
 slug: "reference-errors-invalid_array_length"
 path: "reference/errors/invalid_array_length/index.md"
-wordCount: 548
+wordCount: 547
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays"]
-lastModified: "2025-07-06T19:32:45.514Z"
+lastModified: "2025-08-02T14:03:23.450Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "Invalid array length" occurs when specifying an array length that is either negative, a floating number or exceeds the maximum supported by the platform (i.e., when creating an {{jsxref("Array")}} or {{jsxref("ArrayBuffer")}}, or when setting the {{jsxref("Array/length", "length")}} property).
 

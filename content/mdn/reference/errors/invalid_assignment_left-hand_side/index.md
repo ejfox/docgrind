@@ -2,17 +2,15 @@
 title: "Reference Errors Invalid_assignment_left Hand_side"
 slug: "reference-errors-invalid_assignment_left-hand_side"
 path: "reference/errors/invalid_assignment_left-hand_side/index.md"
-wordCount: 459
+wordCount: 458
 readingTime: 3
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.514Z"
+lastModified: "2025-08-02T14:03:23.450Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "invalid assignment left-hand side" occurs when there was an unexpected assignment somewhere. It may be triggered when a single `=` sign was used instead of `==` or `===`.
 

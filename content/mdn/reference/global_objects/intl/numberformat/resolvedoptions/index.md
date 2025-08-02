@@ -2,34 +2,32 @@
 title: "Reference Global_objects Intl Numberformat Resolvedoptions"
 slug: "reference-global_objects-intl-numberformat-resolvedoptions"
 path: "reference/global_objects/intl/numberformat/resolvedoptions/index.md"
-wordCount: 940
+wordCount: 939
 readingTime: 5
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.628Z"
+lastModified: "2025-08-02T14:03:23.565Z"
 ---
 
-
-{{JSRef}}
 
 The **`resolvedOptions()`** method of {{jsxref("Intl.NumberFormat")}} instances returns a new object with properties reflecting the options computed during initialization of this `NumberFormat` object.
 
 {{InteractiveExample("JavaScript Demo: Intl.NumberFormat.prototype.resolvedOptions()")}}
 
 ```js interactive-example
-const numberFormat1 = new Intl.NumberFormat("de-DE");
-const options1 = numberFormat1.resolvedOptions();
+const numberFormat = new Intl.NumberFormat("de-DE");
+const options = numberFormat.resolvedOptions();
 
-console.log(options1.locale);
+console.log(options.locale);
 // Expected output (Firefox / Safari): "de-DE"
 // Expected output (Chrome): "de"
 
-console.log(options1.numberingSystem);
+console.log(options.numberingSystem);
 // Expected output: "latn"
 
-console.log(options1.style);
+console.log(options.style);
 // Expected output: "decimal"
 ```
 

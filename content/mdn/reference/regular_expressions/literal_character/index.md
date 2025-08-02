@@ -2,17 +2,15 @@
 title: "Reference Regular_expressions Literal_character"
 slug: "reference-regular_expressions-literal_character"
 path: "reference/regular_expressions/literal_character/index.md"
-wordCount: 958
+wordCount: 957
 readingTime: 5
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes", "api", "rest"]
-lastModified: "2025-07-06T19:32:45.897Z"
+lastModified: "2025-08-02T14:03:23.785Z"
 ---
 
-
-{{jsSidebar}}
 
 A **literal character** specifies exactly itself to be matched in the input text.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Generator Return"
 slug: "reference-global_objects-generator-return"
 path: "reference/global_objects/generator/return/index.md"
-wordCount: 739
+wordCount: 738
 readingTime: 4
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.605Z"
+lastModified: "2025-08-02T14:03:23.540Z"
 ---
 
-
-{{JSRef}}
 
 The **`return()`** method of {{jsxref("Generator")}} instances acts as if a `return` statement is inserted in the generator's body at the current suspended position, which finishes the generator and allows the generator to perform any cleanup tasks when combined with a [`try...finally`](/en-US/docs/Web/JavaScript/Reference/Statements/try...catch#the_finally_block) block.
 
@@ -138,9 +136,9 @@ function* gen() {
   }
 }
 
-const g1 = gen();
-g1.next(); // { value: 1, done: false }
-g1.return("early return"); // { value: 'cleanup', done: true }
+const generator = gen();
+generator.next(); // { value: 1, done: false }
+generator.return("early return"); // { value: 'cleanup', done: true }
 ```
 
 ## Specifications

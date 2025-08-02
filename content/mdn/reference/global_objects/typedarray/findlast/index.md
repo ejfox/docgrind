@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Findlast"
 slug: "reference-global_objects-typedarray-findlast"
 path: "reference/global_objects/typedarray/findlast/index.md"
-wordCount: 424
+wordCount: 423
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.850Z"
+lastModified: "2025-08-02T14:03:23.734Z"
 ---
 
-
-{{JSRef}}
 
 The **`findLast()`** method of {{jsxref("TypedArray")}} instances iterates the typed array in reverse order and returns the value of the first element that satisfies the provided testing function. If no elements satisfy the testing function, {{jsxref("undefined")}} is returned. This method has the same algorithm as {{jsxref("Array.prototype.findLast()")}}.
 

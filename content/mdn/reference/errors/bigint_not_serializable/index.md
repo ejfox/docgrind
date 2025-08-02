@@ -2,17 +2,15 @@
 title: "Reference Errors Bigint_not_serializable"
 slug: "reference-errors-bigint_not_serializable"
 path: "reference/errors/bigint_not_serializable/index.md"
-wordCount: 408
+wordCount: 407
 readingTime: 3
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.504Z"
+lastModified: "2025-08-02T14:03:23.441Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "BigInt value can't be serialized in JSON" occurs when a {{jsxref("BigInt")}} is encountered in {{jsxref("JSON.stringify")}} with no custom serialization method provided.
 

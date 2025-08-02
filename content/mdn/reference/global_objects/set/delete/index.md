@@ -2,34 +2,32 @@
 title: "Reference Global_objects Set Delete"
 slug: "reference-global_objects-set-delete"
 path: "reference/global_objects/set/delete/index.md"
-wordCount: 239
+wordCount: 238
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.748Z"
+lastModified: "2025-08-02T14:03:23.640Z"
 ---
 
-
-{{JSRef}}
 
 The **`delete()`** method of {{jsxref("Set")}} instances removes a specified value from this set, if it is in the set.
 
 {{InteractiveExample("JavaScript Demo: Set.prototype.delete()")}}
 
 ```js interactive-example
-const set1 = new Set();
-set1.add({ x: 10, y: 20 }).add({ x: 20, y: 30 });
+const set = new Set();
+set.add({ x: 10, y: 20 }).add({ x: 20, y: 30 });
 
 // Delete any point with `x > 10`.
-set1.forEach((point) => {
+set.forEach((point) => {
   if (point.x > 10) {
-    set1.delete(point);
+    set.delete(point);
   }
 });
 
-console.log(set1.size);
+console.log(set.size);
 // Expected output: 1
 ```
 

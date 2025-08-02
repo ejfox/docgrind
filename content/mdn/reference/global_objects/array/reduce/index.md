@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Reduce"
 slug: "reference-global_objects-array-reduce"
 path: "reference/global_objects/array/reduce/index.md"
-wordCount: 2502
+wordCount: 2501
 readingTime: 13
 codeBlocks: 27
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "arrays", "objects", "async", "promises"]
-lastModified: "2025-07-06T19:32:45.549Z"
+lastModified: "2025-08-02T14:03:23.485Z"
 ---
 
-
-{{JSRef}}
 
 The **`reduce()`** method of {{jsxref("Array")}} instances executes a user-supplied "reducer" callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element. The final result of running the reducer across all elements of the array is a single value.
 
@@ -21,11 +19,11 @@ The first time that the callback is run there is no "return value of the previou
 {{InteractiveExample("JavaScript Demo: Array.prototype.reduce()")}}
 
 ```js interactive-example
-const array1 = [1, 2, 3, 4];
+const array = [1, 2, 3, 4];
 
 // 0 + 1 + 2 + 3 + 4
 const initialValue = 0;
-const sumWithInitial = array1.reduce(
+const sumWithInitial = array.reduce(
   (accumulator, currentValue) => accumulator + currentValue,
   initialValue,
 );

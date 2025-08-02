@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Findindex"
 slug: "reference-global_objects-typedarray-findindex"
 path: "reference/global_objects/typedarray/findindex/index.md"
-wordCount: 409
+wordCount: 408
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.850Z"
+lastModified: "2025-08-02T14:03:23.734Z"
 ---
 
-
-{{JSRef}}
 
 The **`findIndex()`** method of {{jsxref("TypedArray")}} instances returns the index of the first element in a typed array that satisfies the provided testing function. If no elements satisfy the testing function, -1 is returned. This method has the same algorithm as {{jsxref("Array.prototype.findIndex()")}}.
 

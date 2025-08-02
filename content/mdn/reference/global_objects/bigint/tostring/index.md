@@ -2,17 +2,15 @@
 title: "Reference Global_objects Bigint Tostring"
 slug: "reference-global_objects-bigint-tostring"
 path: "reference/global_objects/bigint/tostring/index.md"
-wordCount: 394
+wordCount: 393
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.567Z"
+lastModified: "2025-08-02T14:03:23.504Z"
 ---
 
-
-{{JSRef}}
 
 The **`toString()`** method of {{jsxref("BigInt")}} values returns a string representing the specified {{jsxref("BigInt")}} value. The trailing "n" is not part of the string.
 

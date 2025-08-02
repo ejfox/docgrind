@@ -2,17 +2,15 @@
 title: "Reference Global_objects Symbol Replace"
 slug: "reference-global_objects-symbol-replace"
 path: "reference/global_objects/symbol/replace/index.md"
-wordCount: 142
+wordCount: 141
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.777Z"
+lastModified: "2025-08-02T14:03:23.666Z"
 ---
 
-
-{{JSRef}}
 
 The **`Symbol.replace`** static data property represents the [well-known symbol](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#well-known_symbols) `Symbol.replace`. The {{jsxref("String.prototype.replace()")}} and {{jsxref("String.prototype.replaceAll()")}} methods look up this symbol on their first argument for the method that replaces substrings matched by the current object.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Iterator Filter"
 slug: "reference-global_objects-iterator-filter"
 path: "reference/global_objects/iterator/filter/index.md"
-wordCount: 401
-readingTime: 3
+wordCount: 400
+readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.639Z"
+lastModified: "2025-08-02T14:03:23.574Z"
 ---
 
-
-{{JSRef}}
 
 The **`filter()`** method of {{jsxref("Iterator")}} instances returns a new [iterator helper object](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator#iterator_helper_objects) that yields only those elements of the iterator for which the provided callback function returns `true`.
 

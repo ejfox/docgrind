@@ -2,17 +2,15 @@
 title: "Reference Operators Object_initializer"
 slug: "reference-operators-object_initializer"
 path: "reference/operators/object_initializer/index.md"
-wordCount: 1495
+wordCount: 1494
 readingTime: 8
 codeBlocks: 17
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "arrays", "objects", "classes"]
-lastModified: "2025-07-06T19:32:45.885Z"
+lastModified: "2025-08-02T14:03:23.772Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 An **object initializer** is a comma-delimited list of zero or more pairs of property names and associated values of an object, enclosed in curly braces (`{}`). Objects can also be initialized using [`Object.create()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) or [by invoking a constructor function](/en-US/docs/Web/JavaScript/Guide/Working_with_objects#using_a_constructor_function) with the [`new`](/en-US/docs/Web/JavaScript/Reference/Operators/new) operator.
 

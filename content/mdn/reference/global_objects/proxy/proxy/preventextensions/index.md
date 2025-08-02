@@ -2,28 +2,26 @@
 title: "Reference Global_objects Proxy Proxy Preventextensions"
 slug: "reference-global_objects-proxy-proxy-preventextensions"
 path: "reference/global_objects/proxy/proxy/preventextensions/index.md"
-wordCount: 287
+wordCount: 286
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.699Z"
+lastModified: "2025-08-02T14:03:23.625Z"
 ---
 
-
-{{JSRef}}
 
 The **`handler.preventExtensions()`** method is a trap for the `[[PreventExtensions]]` [object internal method](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#object_internal_methods), which is used by operations such as {{jsxref("Object.preventExtensions()")}}.
 
 {{InteractiveExample("JavaScript Demo: handler.preventExtensions()", "taller")}}
 
 ```js interactive-example
-const monster1 = {
+const monster = {
   canEvolve: true,
 };
 
-const handler1 = {
+const handler = {
   preventExtensions(target) {
     target.canEvolve = false;
     Object.preventExtensions(target);
@@ -31,14 +29,14 @@ const handler1 = {
   },
 };
 
-const proxy1 = new Proxy(monster1, handler1);
+const proxy = new Proxy(monster, handler);
 
-console.log(monster1.canEvolve);
+console.log(monster.canEvolve);
 // Expected output: true
 
-Object.preventExtensions(proxy1);
+Object.preventExtensions(proxy);
 
-console.log(monster1.canEvolve);
+console.log(monster.canEvolve);
 // Expected output: false
 ```
 

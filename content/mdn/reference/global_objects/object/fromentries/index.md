@@ -2,17 +2,15 @@
 title: "Reference Global_objects Object Fromentries"
 slug: "reference-global_objects-object-fromentries"
 path: "reference/global_objects/object/fromentries/index.md"
-wordCount: 436
+wordCount: 435
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.681Z"
+lastModified: "2025-08-02T14:03:23.606Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object.fromEntries()`** static method transforms a list of key-value pairs into an object.
 

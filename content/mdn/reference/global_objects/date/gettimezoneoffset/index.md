@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Gettimezoneoffset"
 slug: "reference-global_objects-date-gettimezoneoffset"
 path: "reference/global_objects/date/gettimezoneoffset/index.md"
-wordCount: 688
+wordCount: 687
 readingTime: 4
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.579Z"
+lastModified: "2025-08-02T14:03:23.514Z"
 ---
 
-
-{{JSRef}}
 
 The **`getTimezoneOffset()`** method of {{jsxref("Date")}} instances returns the difference, in minutes, between this date as evaluated in the UTC time zone, and the same date as evaluated in the local time zone.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Search"
 slug: "reference-global_objects-string-search"
 path: "reference/global_objects/string/search/index.md"
-wordCount: 364
+wordCount: 363
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "api"]
-lastModified: "2025-07-06T19:32:45.769Z"
+lastModified: "2025-08-02T14:03:23.657Z"
 ---
 
-
-{{JSRef}}
 
 The **`search()`** method of {{jsxref("String")}} values executes a search for a match between a regular expression and this string, returning the index of the first match in the string.
 

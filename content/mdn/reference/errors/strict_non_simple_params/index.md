@@ -2,17 +2,15 @@
 title: "Reference Errors Strict_non_simple_params"
 slug: "reference-errors-strict_non_simple_params"
 path: "reference/errors/strict_non_simple_params/index.md"
-wordCount: 447
+wordCount: 446
 readingTime: 3
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "destructuring", "rest"]
-lastModified: "2025-07-06T19:32:45.530Z"
+lastModified: "2025-08-02T14:03:23.465Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "`"use strict"` not allowed in function" occurs
 when a `"use strict"` directive is used at the top of a function with

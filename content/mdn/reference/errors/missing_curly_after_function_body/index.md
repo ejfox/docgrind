@@ -2,17 +2,15 @@
 title: "Reference Errors Missing_curly_after_function_body"
 slug: "reference-errors-missing_curly_after_function_body"
 path: "reference/errors/missing_curly_after_function_body/index.md"
-wordCount: 217
+wordCount: 216
 readingTime: 2
 codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
 tags: ["functions", "dom"]
-lastModified: "2025-07-06T19:32:45.518Z"
+lastModified: "2025-08-02T14:03:23.453Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "missing } after function body" occurs when there is a syntax
 mistake when creating a function somewhere. Check if any closing curly braces or

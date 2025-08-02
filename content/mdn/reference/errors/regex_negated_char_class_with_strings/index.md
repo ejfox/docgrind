@@ -2,17 +2,15 @@
 title: "Reference Errors Regex_negated_char_class_with_strings"
 slug: "reference-errors-regex_negated_char_class_with_strings"
 path: "reference/errors/regex_negated_char_class_with_strings/index.md"
-wordCount: 190
+wordCount: 189
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: ["classes"]
-lastModified: "2025-07-06T19:32:45.527Z"
+lastModified: "2025-08-02T14:03:23.463Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "negated character class with strings in regular expression" occurs when a [`v`-mode character class](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Character_class#v-mode_character_class) is negated and may be able to match a string (more than one character).
 

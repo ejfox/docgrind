@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Pluralrules Pluralrules"
 slug: "reference-global_objects-intl-pluralrules-pluralrules"
 path: "reference/global_objects/intl/pluralrules/pluralrules/index.md"
-wordCount: 457
+wordCount: 456
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.629Z"
+lastModified: "2025-08-02T14:03:23.566Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.PluralRules()`** constructor creates {{jsxref("Intl.PluralRules")}} objects.
 

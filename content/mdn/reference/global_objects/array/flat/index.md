@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Flat"
 slug: "reference-global_objects-array-flat"
 path: "reference/global_objects/array/flat/index.md"
-wordCount: 555
+wordCount: 554
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.542Z"
+lastModified: "2025-08-02T14:03:23.477Z"
 ---
 
-
-{{JSRef}}
 
 The **`flat()`** method of {{jsxref("Array")}} instances creates a new array with all sub-array
 elements concatenated into it recursively up to the specified depth.

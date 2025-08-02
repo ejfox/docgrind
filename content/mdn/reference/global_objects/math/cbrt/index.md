@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Cbrt"
 slug: "reference-global_objects-math-cbrt"
 path: "reference/global_objects/math/cbrt/index.md"
-wordCount: 179
+wordCount: 178
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.660Z"
+lastModified: "2025-08-02T14:03:23.586Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.cbrt()`** static method returns the cube root of a number. That is
 

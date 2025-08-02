@@ -2,17 +2,15 @@
 title: "Reference Operators Spread_syntax"
 slug: "reference-operators-spread_syntax"
 path: "reference/operators/spread_syntax/index.md"
-wordCount: 1834
+wordCount: 1833
 readingTime: 10
 codeBlocks: 28
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "arrays", "objects", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.889Z"
+lastModified: "2025-08-02T14:03:23.775Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **spread (`...`)** syntax allows an iterable, such as an array or string, to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected. In an object literal, the spread syntax enumerates the properties of an object and adds the key-value pairs to the object being created.
 
@@ -348,7 +346,7 @@ const obj2 = { foo: "baz", y: 13 };
 const merge = (...objects) =>
   objects.reduce((acc, cur) => ({ ...acc, ...cur }));
 
-const mergedObj1 = merge(obj1, obj2);
+const mergedObj = merge(obj1, obj2);
 // { foo: 'baz', x: 42, y: 13 }
 ```
 

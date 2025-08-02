@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Isarray"
 slug: "reference-global_objects-array-isarray"
 path: "reference/global_objects/array/isarray/index.md"
-wordCount: 381
+wordCount: 380
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.546Z"
+lastModified: "2025-08-02T14:03:23.481Z"
 ---
 
-
-{{JSRef}}
 
 The **`Array.isArray()`** static method determines whether the passed value is an {{jsxref("Array")}}.
 

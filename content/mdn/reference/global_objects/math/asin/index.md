@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Asin"
 slug: "reference-global_objects-math-asin"
 path: "reference/global_objects/math/asin/index.md"
-wordCount: 241
+wordCount: 240
 readingTime: 2
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.658Z"
+lastModified: "2025-08-02T14:03:23.584Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.asin()`** static method returns the inverse sine (in radians) of a number. That is,
 

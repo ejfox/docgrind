@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Expm1"
 slug: "reference-global_objects-math-expm1"
 path: "reference/global_objects/math/expm1/index.md"
-wordCount: 345
+wordCount: 344
 readingTime: 2
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.662Z"
+lastModified: "2025-08-02T14:03:23.588Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.expm1()`** static method returns [e](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/E) raised to the power of a number, subtracted by 1. That is
 

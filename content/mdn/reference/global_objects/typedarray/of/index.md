@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Of"
 slug: "reference-global_objects-typedarray-of"
 path: "reference/global_objects/typedarray/of/index.md"
-wordCount: 247
+wordCount: 246
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.853Z"
+lastModified: "2025-08-02T14:03:23.738Z"
 ---
 
-
-{{JSRef}}
 
 The **`TypedArray.of()`** static method creates a new
 [typed array](/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray#typedarray_objects) from a variable number of arguments. This method is nearly the same as

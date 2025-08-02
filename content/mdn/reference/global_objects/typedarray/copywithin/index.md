@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Copywithin"
 slug: "reference-global_objects-typedarray-copywithin"
 path: "reference/global_objects/typedarray/copywithin/index.md"
-wordCount: 279
+wordCount: 278
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.848Z"
+lastModified: "2025-08-02T14:03:23.733Z"
 ---
 
-
-{{JSRef}}
 
 The **`copyWithin()`** method of {{jsxref("TypedArray")}} instances shallow copies part of this typed array to another location in the same typed array and returns this typed array without modifying its length. This method has the same algorithm as {{jsxref("Array.prototype.copyWithin()")}}.
 

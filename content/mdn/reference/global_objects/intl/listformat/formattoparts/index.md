@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Listformat Formattoparts"
 slug: "reference-global_objects-intl-listformat-formattoparts"
 path: "reference/global_objects/intl/listformat/formattoparts/index.md"
-wordCount: 318
+wordCount: 317
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.618Z"
+lastModified: "2025-08-02T14:03:23.553Z"
 ---
 
-
-{{JSRef}}
 
 The **`formatToParts()`** method of {{jsxref("Intl.ListFormat")}} instances returns an array of objects representing each part of the formatted string that would be returned by {{jsxref("Intl/ListFormat/format", "format()")}}. It is useful for building custom strings from the locale-specific tokens.
 

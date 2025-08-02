@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Getutchours"
 slug: "reference-global_objects-date-getutchours"
 path: "reference/global_objects/date/getutchours/index.md"
-wordCount: 133
+wordCount: 132
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.580Z"
+lastModified: "2025-08-02T14:03:23.515Z"
 ---
 
-
-{{JSRef}}
 
 The **`getUTCHours()`** method of {{jsxref("Date")}} instances returns the hours for this date according to universal time.
 

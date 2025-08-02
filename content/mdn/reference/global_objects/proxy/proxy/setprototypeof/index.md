@@ -2,42 +2,40 @@
 title: "Reference Global_objects Proxy Proxy Setprototypeof"
 slug: "reference-global_objects-proxy-proxy-setprototypeof"
 path: "reference/global_objects/proxy/proxy/setprototypeof/index.md"
-wordCount: 475
+wordCount: 474
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.699Z"
+lastModified: "2025-08-02T14:03:23.625Z"
 ---
 
-
-{{JSRef}}
 
 The **`handler.setPrototypeOf()`** method is a trap for the `[[SetPrototypeOf]]` [object internal method](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#object_internal_methods), which is used by operations such as {{jsxref("Object.setPrototypeOf()")}}.
 
 {{InteractiveExample("JavaScript Demo: handler.setPrototypeOf()", "taller")}}
 
 ```js interactive-example
-const handler1 = {
-  setPrototypeOf(monster1, monsterProto) {
-    monster1.geneticallyModified = true;
+const handler = {
+  setPrototypeOf(monster, monsterProto) {
+    monster.geneticallyModified = true;
     return false;
   },
 };
 
 const monsterProto = {};
-const monster1 = {
+const monster = {
   geneticallyModified: false,
 };
 
-const proxy1 = new Proxy(monster1, handler1);
-// Object.setPrototypeOf(proxy1, monsterProto); // Throws a TypeError
+const proxy = new Proxy(monster, handler);
+// Object.setPrototypeOf(proxy, monsterProto); // Throws a TypeError
 
-console.log(Reflect.setPrototypeOf(proxy1, monsterProto));
+console.log(Reflect.setPrototypeOf(proxy, monsterProto));
 // Expected output: false
 
-console.log(monster1.geneticallyModified);
+console.log(monster.geneticallyModified);
 // Expected output: true
 ```
 

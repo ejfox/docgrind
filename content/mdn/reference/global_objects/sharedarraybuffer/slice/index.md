@@ -2,17 +2,15 @@
 title: "Reference Global_objects Sharedarraybuffer Slice"
 slug: "reference-global_objects-sharedarraybuffer-slice"
 path: "reference/global_objects/sharedarraybuffer/slice/index.md"
-wordCount: 338
+wordCount: 337
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.756Z"
+lastModified: "2025-08-02T14:03:23.646Z"
 ---
 
-
-{{JSRef}}
 
 The **`slice()`** method of {{jsxref("SharedArrayBuffer")}} instances returns a new `SharedArrayBuffer` whose contents are a copy of this `SharedArrayBuffer`'s bytes from `start`, inclusive, up to `end`, exclusive. If either `start` or `end` is negative, it refers to an index from the end of the array, as opposed to from the beginning.
 

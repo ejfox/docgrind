@@ -2,17 +2,15 @@
 title: "Reference Errors Get_set_missing_private"
 slug: "reference-errors-get_set_missing_private"
 path: "reference/errors/get_set_missing_private/index.md"
-wordCount: 942
+wordCount: 941
 readingTime: 5
 codeBlocks: 12
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.511Z"
+lastModified: "2025-08-02T14:03:23.448Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "can't access private field or method: object is not the right class" or "can't set private field: object is not the right class" occurs when a private field or method is get or set on an object that does not have this [private element](/en-US/docs/Web/JavaScript/Reference/Classes/Private_elements) defined.
 

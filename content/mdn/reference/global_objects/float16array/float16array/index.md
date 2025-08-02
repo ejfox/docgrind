@@ -2,17 +2,15 @@
 title: "Reference Global_objects Float16array Float16array"
 slug: "reference-global_objects-float16array-float16array"
 path: "reference/global_objects/float16array/float16array/index.md"
-wordCount: 192
+wordCount: 191
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.598Z"
+lastModified: "2025-08-02T14:03:23.534Z"
 ---
 
-
-{{JSRef}}
 
 The **`Float16Array()`** constructor creates {{jsxref("Float16Array")}} objects. The contents are initialized to `0` unless initialization data is explicitly provided.
 

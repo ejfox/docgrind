@@ -2,17 +2,15 @@
 title: "Reference Global_objects Set Symbol.Iterator"
 slug: "reference-global_objects-set-symbol.iterator"
 path: "reference/global_objects/set/symbol.iterator/index.md"
-wordCount: 262
+wordCount: 261
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "loops", "dom", "spread"]
-lastModified: "2025-07-06T19:32:45.752Z"
+lastModified: "2025-08-02T14:03:23.643Z"
 ---
 
-
-{{JSRef}}
 
 The **`[Symbol.iterator]()`** method of {{jsxref("Set")}} instances implements the [iterable protocol](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols) and allows `Set` objects to be consumed by most syntaxes expecting iterables, such as the [spread syntax](/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) and {{jsxref("Statements/for...of", "for...of")}} loops. It returns a [set iterator object](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator) that yields the values of the set in insertion order.
 
@@ -21,17 +19,17 @@ The initial value of this property is the same function object as the initial va
 {{InteractiveExample("JavaScript Demo: Set.prototype[Symbol.iterator]()")}}
 
 ```js interactive-example
-const set1 = new Set();
+const set = new Set();
 
-set1.add(42);
-set1.add("forty two");
+set.add(42);
+set.add("forty two");
 
-const iterator1 = set1[Symbol.iterator]();
+const iterator = set[Symbol.iterator]();
 
-console.log(iterator1.next().value);
+console.log(iterator.next().value);
 // Expected output: 42
 
-console.log(iterator1.next().value);
+console.log(iterator.next().value);
 // Expected output: "forty two"
 ```
 

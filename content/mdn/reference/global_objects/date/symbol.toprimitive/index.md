@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Symbol.Toprimitive"
 slug: "reference-global_objects-date-symbol.toprimitive"
 path: "reference/global_objects/date/symbol.toprimitive/index.md"
-wordCount: 368
+wordCount: 367
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.587Z"
+lastModified: "2025-08-02T14:03:23.522Z"
 ---
 
-
-{{JSRef}}
 
 The **`[Symbol.toPrimitive]()`** method of {{jsxref("Date")}} instances returns a primitive value representing this date. It may either be a string or a number, depending on the hint given.
 

@@ -2,17 +2,15 @@
 title: "Reference Statements Debugger"
 slug: "reference-statements-debugger"
 path: "reference/statements/debugger/index.md"
-wordCount: 149
+wordCount: 148
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "events"]
-lastModified: "2025-07-06T19:32:45.905Z"
+lastModified: "2025-08-02T14:03:23.792Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 The **`debugger`** statement invokes any available debugging
 functionality, such as setting a breakpoint. If no debugging functionality is available,

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Boolean Valueof"
 slug: "reference-global_objects-boolean-valueof"
 path: "reference/global_objects/boolean/valueof/index.md"
-wordCount: 131
+wordCount: 130
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.570Z"
+lastModified: "2025-08-02T14:03:23.506Z"
 ---
 
-
-{{JSRef}}
 
 The **`valueOf()`** method of {{jsxref("Boolean")}} values returns the primitive value of a
 {{jsxref("Boolean")}} object.

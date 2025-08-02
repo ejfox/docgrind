@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray With"
 slug: "reference-global_objects-typedarray-with"
 path: "reference/global_objects/typedarray/with/index.md"
-wordCount: 203
+wordCount: 202
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.856Z"
+lastModified: "2025-08-02T14:03:23.743Z"
 ---
 
-
-{{JSRef}}
 
 The **`with()`** method of {{jsxref("TypedArray")}} instances is the [copying](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#copying_methods_and_mutating_methods) version of using the [bracket notation](/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors#bracket_notation) to change the value of a given index. It returns a new typed array with the element at the given index replaced with the given value. This method has the same algorithm as {{jsxref("Array.prototype.with()")}}.
 

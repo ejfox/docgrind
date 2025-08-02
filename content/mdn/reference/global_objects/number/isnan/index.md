@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number Isnan"
 slug: "reference-global_objects-number-isnan"
 path: "reference/global_objects/number/isnan/index.md"
-wordCount: 413
+wordCount: 412
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.672Z"
+lastModified: "2025-08-02T14:03:23.598Z"
 ---
 
-
-{{JSRef}}
 
 The **`Number.isNaN()`** static method determines whether the passed value is the number value {{jsxref("NaN")}}, and returns `false` if the input is not of the Number type. It is a more robust version of the original, global {{jsxref("isNaN()")}} function.
 

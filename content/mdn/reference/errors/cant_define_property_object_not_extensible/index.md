@@ -2,17 +2,15 @@
 title: "Reference Errors Cant_define_property_object_not_extensible"
 slug: "reference-errors-cant_define_property_object_not_extensible"
 path: "reference/errors/cant_define_property_object_not_extensible/index.md"
-wordCount: 331
+wordCount: 330
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.506Z"
+lastModified: "2025-08-02T14:03:23.443Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "can't define property "x": "obj" is not extensible" occurs
 when {{jsxref("Object.preventExtensions()")}} marked an object as no longer extensible,

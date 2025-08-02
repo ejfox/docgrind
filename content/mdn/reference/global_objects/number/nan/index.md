@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number Nan"
 slug: "reference-global_objects-number-nan"
 path: "reference/global_objects/number/nan/index.md"
-wordCount: 135
+wordCount: 134
 readingTime: 1
 codeBlocks: 2
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.674Z"
+lastModified: "2025-08-02T14:03:23.599Z"
 ---
 
-
-{{JSRef}}
 
 The **`Number.NaN`** static data property represents Not-A-Number, which is equivalent to {{jsxref("NaN")}}. For more information about the behaviors of `NaN`, see the [description for the global property](/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN).
 

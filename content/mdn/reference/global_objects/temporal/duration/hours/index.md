@@ -8,11 +8,11 @@ codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.782Z"
+lastModified: "2025-08-02T14:03:23.671Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`hours`** accessor property of {{jsxref("Temporal.Duration")}} instances returns an integer representing the number of hours in the duration.
 

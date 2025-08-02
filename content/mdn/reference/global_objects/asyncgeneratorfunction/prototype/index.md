@@ -2,17 +2,15 @@
 title: "Reference Global_objects Asyncgeneratorfunction Prototype"
 slug: "reference-global_objects-asyncgeneratorfunction-prototype"
 path: "reference/global_objects/asyncgeneratorfunction/prototype/index.md"
-wordCount: 318
+wordCount: 317
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "async"]
-lastModified: "2025-07-06T19:32:45.561Z"
+lastModified: "2025-08-02T14:03:23.497Z"
 ---
 
-
-{{JSRef}}
 
 The **`prototype`** property of `AsyncGeneratorFunction.prototype` is shared by all async generator functions. Its value is [`AsyncGenerator.prototype`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/AsyncGenerator). Each async generator function created with the `async function*` syntax or the `AsyncGeneratorFunction()` constructor also has its own `prototype` property, whose prototype is `AsyncGeneratorFunction.prototype.prototype`. When the async generator function is called, its `prototype` property becomes the prototype of the returned async generator object.
 

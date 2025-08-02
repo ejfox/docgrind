@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Pluralrules Select"
 slug: "reference-global_objects-intl-pluralrules-select"
 path: "reference/global_objects/intl/pluralrules/select/index.md"
-wordCount: 235
+wordCount: 234
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.630Z"
+lastModified: "2025-08-02T14:03:23.566Z"
 ---
 
-
-{{JSRef}}
 
 The **`select()`** method of {{jsxref("Intl.PluralRules")}} instances returns a string indicating which plural rule to use for locale-aware formatting of a number.
 

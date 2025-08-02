@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Locale Getcalendars"
 slug: "reference-global_objects-intl-locale-getcalendars"
 path: "reference/global_objects/intl/locale/getcalendars/index.md"
-wordCount: 211
+wordCount: 210
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.620Z"
+lastModified: "2025-08-02T14:03:23.556Z"
 ---
 
-
-{{JSRef}}
 
 The **`getCalendars()`** method of {{jsxref("Intl.Locale")}} instances returns a list of one or more unique calendar identifiers for this locale.
 

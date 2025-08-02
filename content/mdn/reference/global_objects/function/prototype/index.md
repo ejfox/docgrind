@@ -2,17 +2,15 @@
 title: "Reference Global_objects Function Prototype"
 slug: "reference-global_objects-function-prototype"
 path: "reference/global_objects/function/prototype/index.md"
-wordCount: 627
+wordCount: 626
 readingTime: 4
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "async"]
-lastModified: "2025-07-06T19:32:45.603Z"
+lastModified: "2025-08-02T14:03:23.539Z"
 ---
 
-
-{{JSRef}}
 
 The **`prototype`** data property of a {{jsxref("Function")}} instance is used when the function is used as a constructor with the [`new`](/en-US/docs/Web/JavaScript/Reference/Operators/new) operator. It will become the new object's prototype.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Pluralrules Resolvedoptions"
 slug: "reference-global_objects-intl-pluralrules-resolvedoptions"
 path: "reference/global_objects/intl/pluralrules/resolvedoptions/index.md"
-wordCount: 518
+wordCount: 517
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.629Z"
+lastModified: "2025-08-02T14:03:23.566Z"
 ---
 
-
-{{JSRef}}
 
 The **`resolvedOptions()`** method of {{jsxref("Intl.PluralRules")}} instances returns a new object with properties reflecting the options computed during initialization of this `PluralRules` object.
 

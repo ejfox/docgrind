@@ -2,17 +2,15 @@
 title: "Reference Errors Malformed_uri"
 slug: "reference-errors-malformed_uri"
 path: "reference/errors/malformed_uri/index.md"
-wordCount: 223
+wordCount: 222
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.517Z"
+lastModified: "2025-08-02T14:03:23.453Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "malformed URI sequence" occurs when URI encoding or decoding
 wasn't successful.

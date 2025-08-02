@@ -2,17 +2,15 @@
 title: "Reference Global_objects Weakset"
 slug: "reference-global_objects-weakset"
 path: "reference/global_objects/weakset/index.md"
-wordCount: 532
+wordCount: 531
 readingTime: 3
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects"]
-lastModified: "2025-07-06T19:32:45.864Z"
+lastModified: "2025-08-02T14:03:23.752Z"
 ---
 
-
-{{JSRef}}
 
 A **`WeakSet`** is a collection of garbage-collectable values, including objects and [non-registered symbols](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#shared_symbols_in_the_global_symbol_registry). A value in the `WeakSet` may only occur once. It is unique in the `WeakSet`'s collection.
 

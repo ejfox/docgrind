@@ -2,17 +2,17 @@
 title: "Reference Global_objects Object __lookupsetter__"
 slug: "reference-global_objects-object-__lookupsetter__"
 path: "reference/global_objects/object/__lookupsetter__/index.md"
-wordCount: 477
+wordCount: 476
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "api"]
-lastModified: "2025-07-06T19:32:45.678Z"
+lastModified: "2025-08-02T14:03:23.603Z"
 ---
 
 
-{{JSRef}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 > [!NOTE]
 > This feature is deprecated in favor of the {{jsxref("Object.getOwnPropertyDescriptor()")}} API. This method's behavior is only specified for web compatibility, and is not required to be implemented in any platform. It may not work everywhere.

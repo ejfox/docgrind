@@ -2,17 +2,15 @@
 title: "Reference Global_objects Atomics Notify"
 slug: "reference-global_objects-atomics-notify"
 path: "reference/global_objects/atomics/notify/index.md"
-wordCount: 290
+wordCount: 289
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "async"]
-lastModified: "2025-07-06T19:32:45.564Z"
+lastModified: "2025-08-02T14:03:23.500Z"
 ---
 
-
-{{JSRef}}
 
 The **`Atomics.notify()`** static
 method notifies up some agents that are sleeping in the wait queue.

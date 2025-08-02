@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Reverse"
 slug: "reference-global_objects-typedarray-reverse"
 path: "reference/global_objects/typedarray/reverse/index.md"
-wordCount: 200
+wordCount: 199
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays"]
-lastModified: "2025-07-06T19:32:45.854Z"
+lastModified: "2025-08-02T14:03:23.739Z"
 ---
 
-
-{{JSRef}}
 
 The **`reverse()`** method of {{jsxref("TypedArray")}} instances reverses a typed array _[in place](https://en.wikipedia.org/wiki/In-place_algorithm)_ and returns the reference to the same typed array, the first typed array element now becoming the last, and the last typed array element becoming the first. In other words, elements order in the typed array will be turned towards the direction opposite to that previously stated. This method has the same algorithm as {{jsxref("Array.prototype.reverse()")}}.
 

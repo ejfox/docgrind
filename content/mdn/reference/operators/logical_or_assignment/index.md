@@ -2,17 +2,15 @@
 title: "Reference Operators Logical_or_assignment"
 slug: "reference-operators-logical_or_assignment"
 path: "reference/operators/logical_or_assignment/index.md"
-wordCount: 331
+wordCount: 330
 readingTime: 2
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["api"]
-lastModified: "2025-07-06T19:32:45.883Z"
+lastModified: "2025-08-02T14:03:23.770Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **logical OR assignment (`||=`)** operator only evaluates the right operand and assigns to the left if the left operand is {{Glossary("falsy")}}.
 

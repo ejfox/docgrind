@@ -2,17 +2,15 @@
 title: "Reference Statements Let"
 slug: "reference-statements-let"
 path: "reference/statements/let/index.md"
-wordCount: 1751
+wordCount: 1750
 readingTime: 9
 codeBlocks: 18
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "classes", "modules", "es6"]
-lastModified: "2025-07-06T19:32:45.911Z"
+lastModified: "2025-08-02T14:03:23.798Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 The **`let`** declaration declares re-assignable, block-scoped local variables, optionally initializing each to a value.
 

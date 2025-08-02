@@ -2,34 +2,32 @@
 title: "Reference Global_objects Map Keys"
 slug: "reference-global_objects-map-keys"
 path: "reference/global_objects/map/keys/index.md"
-wordCount: 118
+wordCount: 117
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "api"]
-lastModified: "2025-07-06T19:32:45.651Z"
+lastModified: "2025-08-02T14:03:23.582Z"
 ---
 
-
-{{JSRef}}
 
 The **`keys()`** method of {{jsxref("Map")}} instances returns a new _[map iterator](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator)_ object that contains the keys for each element in this map in insertion order.
 
 {{InteractiveExample("JavaScript Demo: Map.prototype.keys()")}}
 
 ```js interactive-example
-const map1 = new Map();
+const map = new Map();
 
-map1.set("0", "foo");
-map1.set(1, "bar");
+map.set("0", "foo");
+map.set(1, "bar");
 
-const iterator1 = map1.keys();
+const iterator = map.keys();
 
-console.log(iterator1.next().value);
+console.log(iterator.next().value);
 // Expected output: "0"
 
-console.log(iterator1.next().value);
+console.log(iterator.next().value);
 // Expected output: 1
 ```
 

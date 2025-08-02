@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Filter"
 slug: "reference-global_objects-typedarray-filter"
 path: "reference/global_objects/typedarray/filter/index.md"
-wordCount: 334
+wordCount: 333
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.849Z"
+lastModified: "2025-08-02T14:03:23.733Z"
 ---
 
-
-{{JSRef}}
 
 The **`filter()`** method of {{jsxref("TypedArray")}} instances creates a copy of a portion of a given typed array, filtered down to just the elements from the given typed array that pass the test implemented by the provided function. This method has the same algorithm as {{jsxref("Array.prototype.filter()")}}.
 

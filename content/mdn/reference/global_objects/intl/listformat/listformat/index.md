@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Listformat Listformat"
 slug: "reference-global_objects-intl-listformat-listformat"
 path: "reference/global_objects/intl/listformat/listformat/index.md"
-wordCount: 833
+wordCount: 832
 readingTime: 5
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom"]
-lastModified: "2025-07-06T19:32:45.618Z"
+lastModified: "2025-08-02T14:03:23.554Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.ListFormat()`** constructor creates {{jsxref("Intl.ListFormat")}} objects.
 

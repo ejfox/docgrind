@@ -2,17 +2,15 @@
 title: "Reference Global_objects Regexp Dotall"
 slug: "reference-global_objects-regexp-dotall"
 path: "reference/global_objects/regexp/dotall/index.md"
-wordCount: 343
+wordCount: 342
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.729Z"
+lastModified: "2025-08-02T14:03:23.631Z"
 ---
 
-
-{{JSRef}}
 
 The **`dotAll`** accessor property of {{jsxref("RegExp")}} instances returns whether or not the `s` flag is used with this regular expression.
 

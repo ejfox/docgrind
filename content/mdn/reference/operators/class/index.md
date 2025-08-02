@@ -2,17 +2,15 @@
 title: "Reference Operators Class"
 slug: "reference-operators-class"
 path: "reference/operators/class/index.md"
-wordCount: 341
+wordCount: 340
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["classes"]
-lastModified: "2025-07-06T19:32:45.871Z"
+lastModified: "2025-08-02T14:03:23.759Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **`class`** keyword can be used to define a class inside an expression.
 

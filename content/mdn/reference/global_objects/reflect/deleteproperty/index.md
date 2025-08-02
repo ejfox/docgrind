@@ -2,36 +2,34 @@
 title: "Reference Global_objects Reflect Deleteproperty"
 slug: "reference-global_objects-reflect-deleteproperty"
 path: "reference/global_objects/reflect/deleteproperty/index.md"
-wordCount: 303
+wordCount: 302
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.723Z"
+lastModified: "2025-08-02T14:03:23.628Z"
 ---
 
-
-{{JSRef}}
 
 The **`Reflect.deleteProperty()`** static method is like the {{jsxref("Operators/delete", "delete")}} operator, but as a function. It deletes a property from an object.
 
 {{InteractiveExample("JavaScript Demo: Reflect.deleteProperty()", "taller")}}
 
 ```js interactive-example
-const object1 = {
-  property1: 42,
+const object = {
+  foo: 42,
 };
 
-Reflect.deleteProperty(object1, "property1");
+Reflect.deleteProperty(object, "foo");
 
-console.log(object1.property1);
+console.log(object.foo);
 // Expected output: undefined
 
-const array1 = [1, 2, 3, 4, 5];
-Reflect.deleteProperty(array1, "3");
+const array = [1, 2, 3, 4, 5];
+Reflect.deleteProperty(array, "3");
 
-console.log(array1);
+console.log(array);
 // Expected output: Array [1, 2, 3, <1 empty slot>, 5]
 ```
 

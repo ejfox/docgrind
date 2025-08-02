@@ -2,17 +2,15 @@
 title: "Reference Statements Function_star_"
 slug: "reference-statements-function_star_"
 path: "reference/statements/function_star_/index.md"
-wordCount: 999
+wordCount: 998
 readingTime: 5
 codeBlocks: 11
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "async", "promises"]
-lastModified: "2025-07-06T19:32:45.908Z"
+lastModified: "2025-08-02T14:03:23.796Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 The **`function*`** declaration creates a {{Glossary("binding")}} of a new generator function to a given name. A generator function can be exited and later re-entered, with its context (variable {{Glossary("binding", "bindings")}}) saved across re-entrances.
 
@@ -78,8 +76,7 @@ function execution, replacing the `yield` expression where an execution was
 paused with the argument from `next()`.
 
 Generators in JavaScript — especially when combined with Promises — are a very
-powerful tool for asynchronous programming as they mitigate — if not entirely eliminate
-\-- the problems with callbacks, such as [Callback Hell](http://callbackhell.com/) and
+powerful tool for asynchronous programming as they mitigate — if not entirely eliminate — the problems with callbacks, such as [Callback Hell](https://medium.com/@raihan_tazdid/callback-hell-in-javascript-all-you-need-to-know-296f7f5d3c1) and
 [Inversion of Control](https://frontendmasters.com/courses/rethinking-async-js/callback-problems-inversion-of-control/).
 However, an even simpler solution to these problems can be achieved
 with {{jsxref("Statements/async_function", "async functions", "", 1)}}.

@@ -2,17 +2,15 @@
 title: "Reference Functions Get"
 slug: "reference-functions-get"
 path: "reference/functions/get/index.md"
-wordCount: 1078
+wordCount: 1077
 readingTime: 6
 codeBlocks: 11
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "rest"]
-lastModified: "2025-07-06T19:32:45.535Z"
+lastModified: "2025-08-02T14:03:23.471Z"
 ---
 
-
-{{jsSidebar("Functions")}}
 
 The **`get`** syntax binds an object property to a function that will be called when that property is looked up. It can also be used in [classes](/en-US/docs/Web/JavaScript/Reference/Classes).
 

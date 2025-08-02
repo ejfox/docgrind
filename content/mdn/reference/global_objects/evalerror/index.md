@@ -2,17 +2,15 @@
 title: "Reference Global_objects Evalerror"
 slug: "reference-global_objects-evalerror"
 path: "reference/global_objects/evalerror/index.md"
-wordCount: 195
+wordCount: 194
 readingTime: 1
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.597Z"
+lastModified: "2025-08-02T14:03:23.533Z"
 ---
 
-
-{{JSRef}}
 
 The **`EvalError`** object indicates an error regarding the global {{jsxref("Global_Objects/eval", "eval()")}} function. This exception is not thrown by JavaScript anymore, however the `EvalError` object remains for compatibility.
 

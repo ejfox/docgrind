@@ -2,17 +2,15 @@
 title: "Reference Operators Inequality"
 slug: "reference-operators-inequality"
 path: "reference/operators/inequality/index.md"
-wordCount: 339
+wordCount: 338
 readingTime: 2
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.879Z"
+lastModified: "2025-08-02T14:03:23.766Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **inequality (`!=`)** operator checks whether its two operands are not
 equal, returning a Boolean result.

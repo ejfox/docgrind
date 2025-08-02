@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Setseconds"
 slug: "reference-global_objects-date-setseconds"
 path: "reference/global_objects/date/setseconds/index.md"
-wordCount: 232
+wordCount: 376
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.584Z"
+lastModified: "2025-08-02T14:03:23.520Z"
 ---
 
-
-{{JSRef}}
 
 The **`setSeconds()`** method of {{jsxref("Date")}} instances changes the seconds and/or milliseconds for this date according to local time.
 
@@ -60,6 +58,10 @@ attempts to update the date information in the {{jsxref("Date")}} object accordi
 For example, if you use 100 for `secondsValue`, the minutes stored
 in the {{jsxref("Date")}} object will be incremented by 1, and 40 will be used for
 seconds.
+
+Because `setSeconds()` operates on the local time, crossing a Daylight Saving Time (DST) boundary may result in a different elapsed time than expected. For example, if setting the seconds crosses a spring-forward transition (losing an hour), the difference in timestamps between the new and old date is one hour less than the nominal time difference. Conversely, crossing a fall-back transition (gaining an hour) result in an extra hour. If you need to adjust the date by a fixed amount of time, consider using {{jsxref("Date/setUTCSeconds", "setUTCSeconds()")}} or {{jsxref("Date/setTime", "setTime()")}}.
+
+If the new local time falls within an offset transition, the exact time is derived using the same behavior as `Temporal`'s [`disambiguation: "compatible"`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime#ambiguity_and_gaps_from_local_time_to_utc_time) option. That is, if the local time corresponds to two instants, the earlier one is chosen; if the local time does not exist (there is a gap), we go forward by the gap duration.
 
 ## Examples
 

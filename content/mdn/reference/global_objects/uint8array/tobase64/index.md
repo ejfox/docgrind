@@ -2,17 +2,15 @@
 title: "Reference Global_objects Uint8array Tobase64"
 slug: "reference-global_objects-uint8array-tobase64"
 path: "reference/global_objects/uint8array/tobase64/index.md"
-wordCount: 534
+wordCount: 533
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["dom", "api"]
-lastModified: "2025-07-06T19:32:45.859Z"
+lastModified: "2025-08-02T14:03:23.746Z"
 ---
 
-
-{{JSRef}}
 
 The **`toBase64()`** method of {{jsxref("Uint8Array")}} instances returns a [base64](/en-US/docs/Glossary/Base64)-encoded string based on the data in this `Uint8Array` object.
 

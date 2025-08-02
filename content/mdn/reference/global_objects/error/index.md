@@ -2,17 +2,15 @@
 title: "Reference Global_objects Error"
 slug: "reference-global_objects-error"
 path: "reference/global_objects/error/index.md"
-wordCount: 1274
+wordCount: 1273
 readingTime: 7
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes", "dom", "api", "es6"]
-lastModified: "2025-07-06T19:32:45.594Z"
+lastModified: "2025-08-02T14:03:23.530Z"
 ---
 
-
-{{JSRef}}
 
 **`Error`** objects are thrown when runtime errors occur. The `Error` object can also be used as a base object for user-defined exceptions. See below for standard built-in error types.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Symbol Search"
 slug: "reference-global_objects-symbol-search"
 path: "reference/global_objects/symbol/search/index.md"
-wordCount: 137
+wordCount: 136
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.777Z"
+lastModified: "2025-08-02T14:03:23.666Z"
 ---
 
-
-{{JSRef}}
 
 The **`Symbol.search`** static data property represents the [well-known symbol](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#well-known_symbols) `Symbol.search`. The {{jsxref("String.prototype.search()")}} method looks up this symbol on its first argument for the method that returns the index within a string that matches the current object.
 

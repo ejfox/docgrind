@@ -2,34 +2,32 @@
 title: "Reference Global_objects Regexp Lastindex"
 slug: "reference-global_objects-regexp-lastindex"
 path: "reference/global_objects/regexp/lastindex/index.md"
-wordCount: 838
+wordCount: 837
 readingTime: 5
 codeBlocks: 11
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "api"]
-lastModified: "2025-07-06T19:32:45.741Z"
+lastModified: "2025-08-02T14:03:23.634Z"
 ---
 
-
-{{JSRef}}
 
 The **`lastIndex`** data property of a {{jsxref("RegExp")}} instance specifies the index at which to start the next match.
 
 {{InteractiveExample("JavaScript Demo: RegExp: lastIndex")}}
 
 ```js interactive-example
-const regex1 = /foo/g;
-const str1 = "table football, foosball";
+const regex = /foo/g;
+const str = "table football, foosball";
 
-regex1.test(str1);
+regex.test(str);
 
-console.log(regex1.lastIndex);
+console.log(regex.lastIndex);
 // Expected output: 9
 
-regex1.test(str1);
+regex.test(str);
 
-console.log(regex1.lastIndex);
+console.log(regex.lastIndex);
 // Expected output: 19
 ```
 

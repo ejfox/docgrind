@@ -2,17 +2,15 @@
 title: "Reference Global_objects Object Setprototypeof"
 slug: "reference-global_objects-object-setprototypeof"
 path: "reference/global_objects/object/setprototypeof/index.md"
-wordCount: 766
+wordCount: 765
 readingTime: 4
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes", "events", "api", "es6"]
-lastModified: "2025-07-06T19:32:45.688Z"
+lastModified: "2025-08-02T14:03:23.614Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object.setPrototypeOf()`** static method sets the prototype (i.e., the internal `[[Prototype]]` property) of a specified object to another object or [`null`](/en-US/docs/Web/JavaScript/Reference/Operators/null).
 

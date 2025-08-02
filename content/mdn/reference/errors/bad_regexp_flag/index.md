@@ -2,17 +2,15 @@
 title: "Reference Errors Bad_regexp_flag"
 slug: "reference-errors-bad_regexp_flag"
 path: "reference/errors/bad_regexp_flag/index.md"
-wordCount: 380
+wordCount: 379
 readingTime: 2
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.502Z"
+lastModified: "2025-08-02T14:03:23.439Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "invalid regular expression flag" occurs when the flags in a regular expression contain any flag that is not one of: `d`, `g`, `i`, `m`, `s`, `u`, `v`, or `y`. It may also be raised if the expression contains more than one instance of a valid flag, or when the [`u`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode) and [`v`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets) flags are used together.
 

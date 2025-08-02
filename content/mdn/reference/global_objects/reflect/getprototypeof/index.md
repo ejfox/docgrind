@@ -2,33 +2,31 @@
 title: "Reference Global_objects Reflect Getprototypeof"
 slug: "reference-global_objects-reflect-getprototypeof"
 path: "reference/global_objects/reflect/getprototypeof/index.md"
-wordCount: 253
+wordCount: 252
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.724Z"
+lastModified: "2025-08-02T14:03:23.628Z"
 ---
 
-
-{{JSRef}}
 
 The **`Reflect.getPrototypeOf()`** static method is like {{jsxref("Object.getPrototypeOf()")}}. It returns the prototype of the specified object.
 
 {{InteractiveExample("JavaScript Demo: Reflect.getPrototypeOf()")}}
 
 ```js interactive-example
-const object1 = {
-  property1: 42,
+const object = {
+  foo: 42,
 };
 
-const proto1 = Reflect.getPrototypeOf(object1);
+const proto = Reflect.getPrototypeOf(object);
 
-console.log(proto1);
+console.log(proto);
 // Expected output: Object {  }
 
-console.log(Reflect.getPrototypeOf(proto1));
+console.log(Reflect.getPrototypeOf(proto));
 // Expected output: null
 ```
 

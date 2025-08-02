@@ -2,17 +2,15 @@
 title: "Reference Functions Arguments Symbol.Iterator"
 slug: "reference-functions-arguments-symbol.iterator"
 path: "reference/functions/arguments/symbol.iterator/index.md"
-wordCount: 255
+wordCount: 254
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "loops", "dom", "spread"]
-lastModified: "2025-07-06T19:32:45.534Z"
+lastModified: "2025-08-02T14:03:23.469Z"
 ---
 
-
-{{jsSidebar("Functions")}}
 
 The **`[Symbol.iterator]()`** method of {{jsxref("Functions/arguments", "arguments")}} objects implements the [iterable protocol](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols) and allows `arguments` objects to be consumed by most syntaxes expecting iterables, such as the [spread syntax](/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) and {{jsxref("Statements/for...of", "for...of")}} loops. It returns an [array iterator object](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator) that yields the value of each index in the `arguments` object.
 

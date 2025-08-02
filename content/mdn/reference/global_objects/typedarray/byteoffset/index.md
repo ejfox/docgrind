@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Byteoffset"
 slug: "reference-global_objects-typedarray-byteoffset"
 path: "reference/global_objects/typedarray/byteoffset/index.md"
-wordCount: 126
+wordCount: 125
 readingTime: 1
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.847Z"
+lastModified: "2025-08-02T14:03:23.732Z"
 ---
 
-
-{{JSRef}}
 
 The **`byteOffset`** accessor property of {{jsxref("TypedArray")}} instances returns the offset (in bytes) of this typed array from the start of its {{jsxref("ArrayBuffer")}} or {{jsxref("SharedArrayBuffer")}}.
 

@@ -2,17 +2,15 @@
 title: "Reference Operators"
 slug: "reference-operators"
 path: "reference/operators/index.md"
-wordCount: 1182
+wordCount: 1181
 readingTime: 6
 codeBlocks: 0
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "objects", "async", "destructuring"]
-lastModified: "2025-07-06T19:32:45.879Z"
+lastModified: "2025-08-02T14:03:23.766Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 This chapter documents all the JavaScript language operators, expressions and keywords.
 

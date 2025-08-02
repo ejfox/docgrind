@@ -8,11 +8,11 @@ codeBlocks: 2
 difficulty: "beginner"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.796Z"
+lastModified: "2025-08-02T14:03:23.683Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`Temporal.Now.plainTimeISO()`** static method returns the current time as a {{jsxref("Temporal.PlainTime")}} object, in the specified time zone.
 

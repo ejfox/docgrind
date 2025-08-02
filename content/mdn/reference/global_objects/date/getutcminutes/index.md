@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Getutcminutes"
 slug: "reference-global_objects-date-getutcminutes"
 path: "reference/global_objects/date/getutcminutes/index.md"
-wordCount: 145
+wordCount: 144
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.580Z"
+lastModified: "2025-08-02T14:03:23.515Z"
 ---
 
-
-{{JSRef}}
 
 The **`getUTCMinutes()`** method of {{jsxref("Date")}} instances returns the minutes for this date according to universal time.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Globalthis"
 slug: "reference-global_objects-globalthis"
 path: "reference/global_objects/globalthis/index.md"
-wordCount: 729
+wordCount: 728
 readingTime: 4
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "objects", "modules", "dom"]
-lastModified: "2025-07-06T19:32:45.606Z"
+lastModified: "2025-08-02T14:03:23.542Z"
 ---
 
-
-{{jsSidebar("Objects")}}
 
 The **`globalThis`** global property contains the [global `this`](/en-US/docs/Web/JavaScript/Reference/Operators/this#global_context) value, which is usually akin to the [global object](/en-US/docs/Glossary/Global_object).
 

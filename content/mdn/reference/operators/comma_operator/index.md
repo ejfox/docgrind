@@ -2,17 +2,15 @@
 title: "Reference Operators Comma_operator"
 slug: "reference-operators-comma_operator"
 path: "reference/operators/comma_operator/index.md"
-wordCount: 974
+wordCount: 973
 readingTime: 5
 codeBlocks: 10
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "objects", "dom", "arrow-functions"]
-lastModified: "2025-07-06T19:32:45.871Z"
+lastModified: "2025-08-02T14:03:23.759Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **comma (`,`)** operator evaluates each of its operands (from left to right) and returns the value of the last operand. This is commonly used to provide multiple updaters to a [`for`](/en-US/docs/Web/JavaScript/Reference/Statements/for) loop's afterthought.
 

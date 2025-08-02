@@ -2,17 +2,15 @@
 title: "Reference Global_objects Promise Any"
 slug: "reference-global_objects-promise-any"
 path: "reference/global_objects/promise/any/index.md"
-wordCount: 645
+wordCount: 644
 readingTime: 4
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "async", "promises"]
-lastModified: "2025-07-06T19:32:45.691Z"
+lastModified: "2025-08-02T14:03:23.617Z"
 ---
 
-
-{{JSRef}}
 
 The **`Promise.any()`** static method takes an iterable of promises as input and returns a single {{jsxref("Promise")}}. This returned promise fulfills when any of the input's promises fulfills, with this first fulfillment value. It rejects when all of the input's promises reject (including when an empty iterable is passed), with an {{jsxref("AggregateError")}} containing an array of rejection reasons.
 

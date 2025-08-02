@@ -2,32 +2,30 @@
 title: "Reference Global_objects Weakmap Delete"
 slug: "reference-global_objects-weakmap-delete"
 path: "reference/global_objects/weakmap/delete/index.md"
-wordCount: 150
+wordCount: 149
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "api"]
-lastModified: "2025-07-06T19:32:45.862Z"
+lastModified: "2025-08-02T14:03:23.748Z"
 ---
 
-
-{{JSRef}}
 
 The **`delete()`** method of {{jsxref("WeakMap")}} instances removes the specified element from this `WeakMap`.
 
 {{InteractiveExample("JavaScript Demo: WeakMap.prototype.delete()")}}
 
 ```js interactive-example
-const weakmap1 = new WeakMap();
-const object1 = {};
+const weakmap = new WeakMap();
+const object = {};
 
-weakmap1.set(object1, 42);
+weakmap.set(object, 42);
 
-console.log(weakmap1.delete(object1));
+console.log(weakmap.delete(object));
 // Expected output: true
 
-console.log(weakmap1.has(object1));
+console.log(weakmap.has(object));
 // Expected output: false
 ```
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Atomics Compareexchange"
 slug: "reference-global_objects-atomics-compareexchange"
 path: "reference/global_objects/atomics/compareexchange/index.md"
-wordCount: 414
+wordCount: 413
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.563Z"
+lastModified: "2025-08-02T14:03:23.499Z"
 ---
 
-
-{{JSRef}}
 
 The **`Atomics.compareExchange()`** static method exchanges a given replacement value at a given position in the array, if a given expected value equals the old value. It returns the old value at that position whether it was equal to the expected value or not. This atomic operation guarantees that no other write happens until the modified value is written back.
 

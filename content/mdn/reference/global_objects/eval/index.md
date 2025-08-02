@@ -2,17 +2,15 @@
 title: "Reference Global_objects Eval"
 slug: "reference-global_objects-eval"
 path: "reference/global_objects/eval/index.md"
-wordCount: 2773
+wordCount: 2772
 readingTime: 14
 codeBlocks: 26
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "objects", "modules", "dom"]
-lastModified: "2025-07-06T19:32:45.596Z"
+lastModified: "2025-08-02T14:03:23.532Z"
 ---
 
-
-{{jsSidebar("Objects")}}
 
 > [!WARNING]
 > Executing JavaScript from a string is an enormous security risk. It is far too easy for a bad actor to run arbitrary code when you use `eval()`. See [Never use direct eval()!](#never_use_direct_eval!), below.

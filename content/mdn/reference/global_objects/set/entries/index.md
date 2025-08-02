@@ -2,30 +2,28 @@
 title: "Reference Global_objects Set Entries"
 slug: "reference-global_objects-set-entries"
 path: "reference/global_objects/set/entries/index.md"
-wordCount: 173
+wordCount: 172
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "api"]
-lastModified: "2025-07-06T19:32:45.748Z"
+lastModified: "2025-08-02T14:03:23.640Z"
 ---
 
-
-{{JSRef}}
 
 The **`entries()`** method of {{jsxref("Set")}} instances returns a new _[set iterator](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator)_ object that contains **an array of `[value, value]`** for each element in this set, in insertion order. For `Set` objects there is no `key` like in `Map` objects. However, to keep the API similar to the `Map` object, each _entry_ has the same value for its _key_ and _value_ here, so that an array `[value, value]` is returned.
 
 {{InteractiveExample("JavaScript Demo: Set.prototype.entries()")}}
 
 ```js interactive-example
-const set1 = new Set();
-set1.add(42);
-set1.add("forty two");
+const set = new Set();
+set.add(42);
+set.add("forty two");
 
-const iterator1 = set1.entries();
+const iterator = set.entries();
 
-for (const entry of iterator1) {
+for (const entry of iterator) {
   console.log(entry);
   // Expected output: Array [42, 42]
   // Expected output: Array ["forty two", "forty two"]

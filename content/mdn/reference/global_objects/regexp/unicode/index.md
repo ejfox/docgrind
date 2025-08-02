@@ -2,17 +2,15 @@
 title: "Reference Global_objects Regexp Unicode"
 slug: "reference-global_objects-regexp-unicode"
 path: "reference/global_objects/regexp/unicode/index.md"
-wordCount: 353
+wordCount: 352
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.747Z"
+lastModified: "2025-08-02T14:03:23.639Z"
 ---
 
-
-{{JSRef}}
 
 The **`unicode`** accessor property of {{jsxref("RegExp")}} instances returns whether or not the `u` flag is used with this regular expression.
 

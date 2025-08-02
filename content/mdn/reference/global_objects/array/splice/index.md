@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Splice"
 slug: "reference-global_objects-array-splice"
 path: "reference/global_objects/array/splice/index.md"
-wordCount: 1048
+wordCount: 1047
 readingTime: 6
 codeBlocks: 14
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.552Z"
+lastModified: "2025-08-02T14:03:23.487Z"
 ---
 
-
-{{JSRef}}
 
 The **`splice()`** method of {{jsxref("Array")}} instances changes the contents of an array by
 removing or replacing existing elements and/or adding new elements [in place](https://en.wikipedia.org/wiki/In-place_algorithm).

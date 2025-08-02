@@ -2,17 +2,15 @@
 title: "Reference Errors Await_yield_in_parameter"
 slug: "reference-errors-await_yield_in_parameter"
 path: "reference/errors/await_yield_in_parameter/index.md"
-wordCount: 324
+wordCount: 323
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "async"]
-lastModified: "2025-07-06T19:32:45.501Z"
+lastModified: "2025-08-02T14:03:23.437Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "await expression can't be used in parameter" or "yield expression can't be used in parameter" occurs when the [default parameter](/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters) expression contains the {{jsxref("Operators/await", "await")}} or {{jsxref("Operators/yield", "yield")}} keyword and has the effect of pausing default parameter evaluation.
 

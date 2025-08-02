@@ -2,17 +2,15 @@
 title: "Reference Global_objects Encodeuri"
 slug: "reference-global_objects-encodeuri"
 path: "reference/global_objects/encodeuri/index.md"
-wordCount: 671
+wordCount: 670
 readingTime: 4
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.592Z"
+lastModified: "2025-08-02T14:03:23.528Z"
 ---
 
-
-{{jsSidebar("Objects")}}
 
 The **`encodeURI()`** function encodes a {{Glossary("URI")}} by replacing each instance of certain characters by one, two, three, or four escape sequences representing the {{Glossary("UTF-8")}} encoding of the character (will only be four escape sequences for characters composed of two surrogate characters). Compared to {{jsxref("encodeURIComponent()")}}, this function encodes fewer characters, preserving those that are part of the URI syntax.
 

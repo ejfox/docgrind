@@ -2,17 +2,15 @@
 title: "Reference Global_objects Syntaxerror"
 slug: "reference-global_objects-syntaxerror"
 path: "reference/global_objects/syntaxerror/index.md"
-wordCount: 233
+wordCount: 232
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["dom", "api"]
-lastModified: "2025-07-06T19:32:45.780Z"
+lastModified: "2025-08-02T14:03:23.669Z"
 ---
 
-
-{{JSRef}}
 
 The **`SyntaxError`** object represents an error when trying to interpret syntactically invalid code. It is thrown when the JavaScript engine encounters tokens or token order that does not conform to the syntax of the language when parsing code.
 

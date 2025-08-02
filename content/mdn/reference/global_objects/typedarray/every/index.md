@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Every"
 slug: "reference-global_objects-typedarray-every"
 path: "reference/global_objects/typedarray/every/index.md"
-wordCount: 302
+wordCount: 301
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.849Z"
+lastModified: "2025-08-02T14:03:23.733Z"
 ---
 
-
-{{JSRef}}
 
 The **`every()`** method of {{jsxref("TypedArray")}} instances tests whether all elements in the typed array pass the test implemented by the provided function. It returns a Boolean value. This method has the same algorithm as {{jsxref("Array.prototype.every()")}}.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number Number"
 slug: "reference-global_objects-number-number"
 path: "reference/global_objects/number/number/index.md"
-wordCount: 313
+wordCount: 312
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.674Z"
+lastModified: "2025-08-02T14:03:23.600Z"
 ---
 
-
-{{JSRef}}
 
 The **`Number()`** constructor creates {{jsxref("Number")}} objects. When called as a function, it returns primitive values of type Number.
 

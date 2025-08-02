@@ -2,17 +2,15 @@
 title: "Reference Global_objects Proxy Proxy Apply"
 slug: "reference-global_objects-proxy-proxy-apply"
 path: "reference/global_objects/proxy/proxy/apply/index.md"
-wordCount: 294
+wordCount: 293
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.696Z"
+lastModified: "2025-08-02T14:03:23.622Z"
 ---
 
-
-{{JSRef}}
 
 The **`handler.apply()`** method is a trap for the `[[Call]]` [object internal method](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#object_internal_methods), which is used by operations such as function calls.
 
@@ -32,11 +30,11 @@ const handler = {
   },
 };
 
-const proxy1 = new Proxy(sum, handler);
+const proxy = new Proxy(sum, handler);
 
 console.log(sum(1, 2));
 // Expected output: 3
-console.log(proxy1(1, 2));
+console.log(proxy(1, 2));
 // Expected output: 30
 ```
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number Max_safe_integer"
 slug: "reference-global_objects-number-max_safe_integer"
 path: "reference/global_objects/number/max_safe_integer/index.md"
-wordCount: 260
+wordCount: 259
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.673Z"
+lastModified: "2025-08-02T14:03:23.598Z"
 ---
 
-
-{{JSRef}}
 
 The **`Number.MAX_SAFE_INTEGER`** static data property represents the maximum safe integer in JavaScript (2<sup>53</sup> – 1).
 

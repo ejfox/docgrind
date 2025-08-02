@@ -2,17 +2,15 @@
 title: "Reference Global_objects Json Parse"
 slug: "reference-global_objects-json-parse"
 path: "reference/global_objects/json/parse/index.md"
-wordCount: 1233
+wordCount: 1232
 readingTime: 7
 codeBlocks: 10
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.647Z"
+lastModified: "2025-08-02T14:03:23.578Z"
 ---
 
-
-{{JSRef}}
 
 The **`JSON.parse()`** static method parses a JSON string, constructing the JavaScript value or object described by the string. An optional _reviver_ function can be provided to perform a transformation on the resulting object before it is returned.
 
@@ -75,11 +73,11 @@ Similar to the `replacer` parameter of {{jsxref("JSON.stringify()")}}, for array
 If you return another value from `reviver`, that value will completely replace the originally parsed value. This even applies to the root value. For example:
 
 ```js
-const transformedObj1 = JSON.parse('[1,5,{"s":1}]', (key, value) =>
+const transformedObj = JSON.parse('[1,5,{"s":1}]', (key, value) =>
   typeof value === "object" ? undefined : value,
 );
 
-console.log(transformedObj1); // undefined
+console.log(transformedObj); // undefined
 ```
 
 There is no way to work around this generically. You cannot specially handle the case where `key` is an empty string, because JSON objects can also contain keys that are empty strings. You need to know very precisely what kind of transformation is needed for each key when implementing the reviver.

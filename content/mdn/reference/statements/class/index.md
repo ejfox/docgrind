@@ -2,17 +2,15 @@
 title: "Reference Statements Class"
 slug: "reference-statements-class"
 path: "reference/statements/class/index.md"
-wordCount: 348
+wordCount: 347
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "classes"]
-lastModified: "2025-07-06T19:32:45.904Z"
+lastModified: "2025-08-02T14:03:23.791Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 The **`class`** declaration creates a {{Glossary("binding")}} of a new [class](/en-US/docs/Web/JavaScript/Reference/Classes) to a given name.
 

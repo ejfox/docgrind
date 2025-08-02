@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Tolocalestring"
 slug: "reference-global_objects-typedarray-tolocalestring"
 path: "reference/global_objects/typedarray/tolocalestring/index.md"
-wordCount: 248
+wordCount: 247
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.856Z"
+lastModified: "2025-08-02T14:03:23.741Z"
 ---
 
-
-{{JSRef}}
 
 The **`toLocaleString()`** method of {{jsxref("TypedArray")}} instances returns a string representing the elements of the typed array. The elements are converted to strings using their `toLocaleString` methods and these strings are separated by a locale-specific string (such as a comma ","). This method has the same algorithm as {{jsxref("Array.prototype.toLocaleString()")}}.
 

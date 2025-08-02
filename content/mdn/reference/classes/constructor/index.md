@@ -2,17 +2,15 @@
 title: "Reference Classes Constructor"
 slug: "reference-classes-constructor"
 path: "reference/classes/constructor/index.md"
-wordCount: 1297
+wordCount: 1296
 readingTime: 7
 codeBlocks: 13
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "async", "es6"]
-lastModified: "2025-07-06T19:32:45.495Z"
+lastModified: "2025-08-02T14:03:23.432Z"
 ---
 
-
-{{jsSidebar("Classes")}}
 
 The **`constructor`** method is a special method of a [class](/en-US/docs/Web/JavaScript/Reference/Classes) for creating and initializing an object instance of that class.
 
@@ -28,9 +26,9 @@ class Polygon {
   }
 }
 
-const poly1 = new Polygon();
+const poly = new Polygon();
 
-console.log(poly1.name);
+console.log(poly.name);
 // Expected output: "Polygon"
 ```
 

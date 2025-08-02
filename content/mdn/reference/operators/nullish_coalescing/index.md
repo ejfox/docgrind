@@ -2,17 +2,15 @@
 title: "Reference Operators Nullish_coalescing"
 slug: "reference-operators-nullish_coalescing"
 path: "reference/operators/nullish_coalescing/index.md"
-wordCount: 750
+wordCount: 749
 readingTime: 4
 codeBlocks: 10
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions"]
-lastModified: "2025-07-06T19:32:45.885Z"
+lastModified: "2025-08-02T14:03:23.772Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **nullish coalescing (`??`)** operator is a logical
 operator that returns its right-hand side operand when its left-hand side operand is

@@ -8,11 +8,11 @@ codeBlocks: 11
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "objects", "destructuring"]
-lastModified: "2025-07-06T19:32:45.914Z"
+lastModified: "2025-08-02T14:03:23.802Z"
 ---
 
 
-{{jsSidebar("Statements")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 > [!NOTE]
 > Use of the `with` statement is not recommended, as it may be the source of confusing bugs and compatibility issues, makes optimization impossible, and is forbidden in [strict mode](/en-US/docs/Web/JavaScript/Reference/Strict_mode). The recommended alternative is to assign the object whose properties you want to access to a temporary variable.

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Map"
 slug: "reference-global_objects-array-map"
 path: "reference/global_objects/array/map/index.md"
-wordCount: 1449
+wordCount: 1448
 readingTime: 8
 codeBlocks: 18
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.548Z"
+lastModified: "2025-08-02T14:03:23.483Z"
 ---
 
-
-{{JSRef}}
 
 The **`map()`** method of {{jsxref("Array")}} instances creates
 a new array populated with the results of calling a provided function on
@@ -21,12 +19,12 @@ every element in the calling array.
 {{InteractiveExample("JavaScript Demo: Array.prototype.map()")}}
 
 ```js interactive-example
-const array1 = [1, 4, 9, 16];
+const array = [1, 4, 9, 16];
 
 // Pass a function to map
-const map1 = array1.map((x) => x * 2);
+const mapped = array.map((x) => x * 2);
 
-console.log(map1);
+console.log(mapped);
 // Expected output: Array [2, 8, 18, 32]
 ```
 

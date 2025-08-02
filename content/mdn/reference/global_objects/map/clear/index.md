@@ -2,34 +2,32 @@
 title: "Reference Global_objects Map Clear"
 slug: "reference-global_objects-map-clear"
 path: "reference/global_objects/map/clear/index.md"
-wordCount: 95
+wordCount: 94
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.649Z"
+lastModified: "2025-08-02T14:03:23.580Z"
 ---
 
-
-{{JSRef}}
 
 The **`clear()`** method of {{jsxref("Map")}} instances removes all elements from this map.
 
 {{InteractiveExample("JavaScript Demo: Map.prototype.clear()")}}
 
 ```js interactive-example
-const map1 = new Map();
+const map = new Map();
 
-map1.set("bar", "baz");
-map1.set(1, "foo");
+map.set("bar", "baz");
+map.set(1, "foo");
 
-console.log(map1.size);
+console.log(map.size);
 // Expected output: 2
 
-map1.clear();
+map.clear();
 
-console.log(map1.size);
+console.log(map.size);
 // Expected output: 0
 ```
 

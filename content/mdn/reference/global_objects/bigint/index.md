@@ -2,17 +2,15 @@
 title: "Reference Global_objects Bigint"
 slug: "reference-global_objects-bigint"
 path: "reference/global_objects/bigint/index.md"
-wordCount: 1860
+wordCount: 1859
 readingTime: 10
 codeBlocks: 14
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "conditionals"]
-lastModified: "2025-07-06T19:32:45.567Z"
+lastModified: "2025-08-02T14:03:23.503Z"
 ---
 
-
-{{JSRef}}
 
 **`BigInt`** values represent integer values which are [too high](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER) or [too low](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MIN_SAFE_INTEGER) to be represented by the `number` {{Glossary("Primitive", "primitive")}}.
 

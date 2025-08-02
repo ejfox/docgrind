@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Tosorted"
 slug: "reference-global_objects-array-tosorted"
 path: "reference/global_objects/array/tosorted/index.md"
-wordCount: 364
+wordCount: 363
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.554Z"
+lastModified: "2025-08-02T14:03:23.489Z"
 ---
 
-
-{{JSRef}}
 
 The **`toSorted()`** method of {{jsxref("Array")}} instances is the [copying](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#copying_methods_and_mutating_methods) version of the {{jsxref("Array/sort", "sort()")}} method. It returns a new array with the elements sorted in ascending order.
 

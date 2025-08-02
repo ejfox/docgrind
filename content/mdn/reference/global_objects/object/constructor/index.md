@@ -2,17 +2,15 @@
 title: "Reference Global_objects Object Constructor"
 slug: "reference-global_objects-object-constructor"
 path: "reference/global_objects/object/constructor/index.md"
-wordCount: 1355
+wordCount: 1354
 readingTime: 7
 codeBlocks: 14
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "loops", "classes"]
-lastModified: "2025-07-06T19:32:45.679Z"
+lastModified: "2025-08-02T14:03:23.604Z"
 ---
 
-
-{{JSRef}}
 
 The **`constructor`** data property of an {{jsxref("Object")}} instance returns a reference to the constructor function that created the instance object. Note that the value of this property is a reference to _the function itself_, not a string containing the function's name.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Locale Minimize"
 slug: "reference-global_objects-intl-locale-minimize"
 path: "reference/global_objects/intl/locale/minimize/index.md"
-wordCount: 279
+wordCount: 278
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.623Z"
+lastModified: "2025-08-02T14:03:23.559Z"
 ---
 
-
-{{JSRef}}
 
 The **`minimize()`** method of {{jsxref("Intl.Locale")}} instances attempts to
 remove information about this locale that would be added by calling

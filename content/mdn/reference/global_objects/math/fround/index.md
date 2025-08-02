@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Fround"
 slug: "reference-global_objects-math-fround"
 path: "reference/global_objects/math/fround/index.md"
-wordCount: 334
+wordCount: 333
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["rest"]
-lastModified: "2025-07-06T19:32:45.663Z"
+lastModified: "2025-08-02T14:03:23.589Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.fround()`** static method returns the nearest [32-bit single precision](https://en.wikipedia.org/wiki/Single-precision_floating-point_format) float representation of a number.
 

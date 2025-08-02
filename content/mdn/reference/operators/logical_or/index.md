@@ -2,17 +2,15 @@
 title: "Reference Operators Logical_or"
 slug: "reference-operators-logical_or"
 path: "reference/operators/logical_or/index.md"
-wordCount: 707
+wordCount: 706
 readingTime: 4
 codeBlocks: 11
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.883Z"
+lastModified: "2025-08-02T14:03:23.769Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **logical OR (`||`)** (logical disjunction) operator for a set of operands
 is true if and only if one or more of its operands is true. It is typically used with

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Sharedarraybuffer Maxbytelength"
 slug: "reference-global_objects-sharedarraybuffer-maxbytelength"
 path: "reference/global_objects/sharedarraybuffer/maxbytelength/index.md"
-wordCount: 147
+wordCount: 146
 readingTime: 1
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.756Z"
+lastModified: "2025-08-02T14:03:23.646Z"
 ---
 
-
-{{JSRef}}
 
 The **`maxByteLength`** accessor property of {{jsxref("SharedArrayBuffer")}} instances returns the maximum length (in bytes) that this `SharedArrayBuffer` can be grown to.
 

@@ -2,17 +2,15 @@
 title: "Reference Statements Do...While"
 slug: "reference-statements-do...while"
 path: "reference/statements/do...while/index.md"
-wordCount: 547
+wordCount: 546
 readingTime: 3
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["rest"]
-lastModified: "2025-07-06T19:32:45.905Z"
+lastModified: "2025-08-02T14:03:23.792Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 The **`do...while`** statement creates a loop that executes a specified statement as long as the test condition evaluates to true. The condition is evaluated after executing the statement, resulting in the specified statement executing at least once.
 

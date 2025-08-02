@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Padend"
 slug: "reference-global_objects-string-padend"
 path: "reference/global_objects/string/padend/index.md"
-wordCount: 206
+wordCount: 205
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.767Z"
+lastModified: "2025-08-02T14:03:23.655Z"
 ---
 
-
-{{JSRef}}
 
 The **`padEnd()`** method of {{jsxref("String")}} values pads this string with a given string (repeated and/or truncated, if needed) so that the resulting string has a given length. The padding is applied from the end of this string.
 

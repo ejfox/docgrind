@@ -2,17 +2,15 @@
 title: "Reference Global_objects Regexp Symbol.Replace"
 slug: "reference-global_objects-regexp-symbol.replace"
 path: "reference/global_objects/regexp/symbol.replace/index.md"
-wordCount: 618
+wordCount: 617
 readingTime: 4
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.745Z"
+lastModified: "2025-08-02T14:03:23.637Z"
 ---
 
-
-{{JSRef}}
 
 The **`[Symbol.replace]()`** method of {{jsxref("RegExp")}} instances specifies how [`String.prototype.replace()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) and [`String.prototype.replaceAll()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll) should behave when the regular expression is passed in as the pattern.
 

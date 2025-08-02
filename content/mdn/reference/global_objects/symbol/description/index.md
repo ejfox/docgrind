@@ -2,17 +2,15 @@
 title: "Reference Global_objects Symbol Description"
 slug: "reference-global_objects-symbol-description"
 path: "reference/global_objects/symbol/description/index.md"
-wordCount: 164
+wordCount: 163
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.774Z"
+lastModified: "2025-08-02T14:03:23.664Z"
 ---
 
-
-{{JSRef}}
 
 The **`description`** accessor property of {{jsxref("Symbol")}} values returns a string containing the description of this symbol, or `undefined` if the symbol has no description.
 

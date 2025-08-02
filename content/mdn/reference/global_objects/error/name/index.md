@@ -2,17 +2,15 @@
 title: "Reference Global_objects Error Name"
 slug: "reference-global_objects-error-name"
 path: "reference/global_objects/error/name/index.md"
-wordCount: 135
+wordCount: 134
 readingTime: 1
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["classes"]
-lastModified: "2025-07-06T19:32:45.595Z"
+lastModified: "2025-08-02T14:03:23.531Z"
 ---
 
-
-{{JSRef}}
 
 The **`name`** data property of `Error.prototype` is shared by all {{jsxref("Error")}} instances. It represents the name for the type of error. For `Error.prototype.name`, the initial value is `"Error"`. Subclasses like {{jsxref("TypeError")}} and {{jsxref("SyntaxError")}} provide their own `name` properties.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Repeat"
 slug: "reference-global_objects-string-repeat"
 path: "reference/global_objects/string/repeat/index.md"
-wordCount: 183
+wordCount: 182
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.767Z"
+lastModified: "2025-08-02T14:03:23.656Z"
 ---
 
-
-{{JSRef}}
 
 The **`repeat()`** method of {{jsxref("String")}} values constructs and returns a new string
 which contains the specified number of copies of this string, concatenated together.

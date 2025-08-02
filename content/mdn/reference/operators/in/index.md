@@ -2,17 +2,15 @@
 title: "Reference Operators In"
 slug: "reference-operators-in"
 path: "reference/operators/in/index.md"
-wordCount: 1281
+wordCount: 1280
 readingTime: 7
 codeBlocks: 18
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "classes"]
-lastModified: "2025-07-06T19:32:45.878Z"
+lastModified: "2025-08-02T14:03:23.766Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **`in`** operator returns `true` if the specified property is in the specified object or its prototype chain.
 

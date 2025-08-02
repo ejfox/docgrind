@@ -2,17 +2,15 @@
 title: "Reference Errors Missing_bracket_after_list"
 slug: "reference-errors-missing_bracket_after_list"
 path: "reference/errors/missing_bracket_after_list/index.md"
-wordCount: 161
+wordCount: 160
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.517Z"
+lastModified: "2025-08-02T14:03:23.453Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "missing ] after element list" occurs when there is an error
 with the array initializer syntax somewhere. Likely there is a closing square bracket

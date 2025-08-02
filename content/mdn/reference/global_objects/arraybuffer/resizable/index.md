@@ -2,17 +2,15 @@
 title: "Reference Global_objects Arraybuffer Resizable"
 slug: "reference-global_objects-arraybuffer-resizable"
 path: "reference/global_objects/arraybuffer/resizable/index.md"
-wordCount: 170
+wordCount: 169
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.557Z"
+lastModified: "2025-08-02T14:03:23.492Z"
 ---
 
-
-{{JSRef}}
 
 The **`resizable`** accessor property of {{jsxref("ArrayBuffer")}} instances returns whether this array buffer can be resized or not.
 

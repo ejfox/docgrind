@@ -2,17 +2,15 @@
 title: "Reference Global_objects Sharedarraybuffer Bytelength"
 slug: "reference-global_objects-sharedarraybuffer-bytelength"
 path: "reference/global_objects/sharedarraybuffer/bytelength/index.md"
-wordCount: 108
+wordCount: 107
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.755Z"
+lastModified: "2025-08-02T14:03:23.644Z"
 ---
 
-
-{{JSRef}}
 
 The **`byteLength`** accessor property of {{jsxref("SharedArrayBuffer")}} instances returns the length (in bytes) of this `SharedArrayBuffer`.
 

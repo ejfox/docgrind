@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Pluralrules Selectrange"
 slug: "reference-global_objects-intl-pluralrules-selectrange"
 path: "reference/global_objects/intl/pluralrules/selectrange/index.md"
-wordCount: 213
+wordCount: 212
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.630Z"
+lastModified: "2025-08-02T14:03:23.566Z"
 ---
 
-
-{{JSRef}}
 
 The **`selectRange()`** method of {{jsxref("Intl.PluralRules")}} instances receives two values and returns a string indicating which plural rule to use for locale-aware formatting of the indicated range.
 

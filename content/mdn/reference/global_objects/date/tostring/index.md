@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Tostring"
 slug: "reference-global_objects-date-tostring"
 path: "reference/global_objects/date/tostring/index.md"
-wordCount: 307
+wordCount: 306
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.590Z"
+lastModified: "2025-08-02T14:03:23.524Z"
 ---
 
-
-{{JSRef}}
 
 The **`toString()`** method of {{jsxref("Date")}} instances returns a string representing this date interpreted in the local timezone.
 

@@ -2,17 +2,15 @@
 title: "Reference Operators Yield"
 slug: "reference-operators-yield"
 path: "reference/operators/yield/index.md"
-wordCount: 725
+wordCount: 724
 readingTime: 4
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions"]
-lastModified: "2025-07-06T19:32:45.893Z"
+lastModified: "2025-08-02T14:03:23.780Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **`yield`** operator is used to pause and resume a [generator function](/en-US/docs/Web/JavaScript/Reference/Statements/function*).
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Slice"
 slug: "reference-global_objects-string-slice"
 path: "reference/global_objects/string/slice/index.md"
-wordCount: 588
+wordCount: 587
 readingTime: 3
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.769Z"
+lastModified: "2025-08-02T14:03:23.657Z"
 ---
 
-
-{{JSRef}}
 
 The **`slice()`** method of {{jsxref("String")}} values extracts a section of this string and
 returns it as a new string, without modifying the original string.

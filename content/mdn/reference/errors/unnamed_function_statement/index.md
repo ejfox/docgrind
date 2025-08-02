@@ -2,17 +2,15 @@
 title: "Reference Errors Unnamed_function_statement"
 slug: "reference-errors-unnamed_function_statement"
 path: "reference/errors/unnamed_function_statement/index.md"
-wordCount: 425
+wordCount: 424
 readingTime: 3
 codeBlocks: 10
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions"]
-lastModified: "2025-07-06T19:32:45.532Z"
+lastModified: "2025-08-02T14:03:23.467Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "function statement requires a name" occurs
 when there is a [function statement](/en-US/docs/Web/JavaScript/Reference/Statements/function)

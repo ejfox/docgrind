@@ -2,17 +2,15 @@
 title: "Reference Operators Right_shift"
 slug: "reference-operators-right_shift"
 path: "reference/operators/right_shift/index.md"
-wordCount: 772
+wordCount: 771
 readingTime: 4
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.888Z"
+lastModified: "2025-08-02T14:03:23.775Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **right shift (`>>`)** operator returns a number or BigInt whose binary representation is the first operand shifted by the specified number of bits to the right. Excess bits shifted off to the right are discarded, and copies of the leftmost bit are shifted in from the left. This operation is also called "sign-propagating right shift" or "arithmetic right shift", because the sign of the resulting number is the same as the sign of the first operand.
 

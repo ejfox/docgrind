@@ -2,17 +2,15 @@
 title: "Reference Operators New"
 slug: "reference-operators-new"
 path: "reference/operators/new/index.md"
-wordCount: 1238
+wordCount: 1237
 readingTime: 7
 codeBlocks: 15
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "es6"]
-lastModified: "2025-07-06T19:32:45.884Z"
+lastModified: "2025-08-02T14:03:23.771Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **`new`** operator lets developers create an instance of a user-defined object type or of one of the built-in object types that has a constructor function.
 

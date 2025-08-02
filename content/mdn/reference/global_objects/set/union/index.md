@@ -2,17 +2,15 @@
 title: "Reference Global_objects Set Union"
 slug: "reference-global_objects-set-union"
 path: "reference/global_objects/set/union/index.md"
-wordCount: 326
+wordCount: 325
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.754Z"
+lastModified: "2025-08-02T14:03:23.644Z"
 ---
 
-
-{{JSRef}}
 
 The **`union()`** method of {{jsxref("Set")}} instances takes a set and returns a new set containing elements which are in either or both of this set and the given set.
 

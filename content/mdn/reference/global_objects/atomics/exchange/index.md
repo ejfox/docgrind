@@ -2,17 +2,15 @@
 title: "Reference Global_objects Atomics Exchange"
 slug: "reference-global_objects-atomics-exchange"
 path: "reference/global_objects/atomics/exchange/index.md"
-wordCount: 230
+wordCount: 229
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.563Z"
+lastModified: "2025-08-02T14:03:23.499Z"
 ---
 
-
-{{JSRef}}
 
 The **`Atomics.exchange()`** static method exchanges a given value at a given position in the array and returns the old value at that position. This atomic operation guarantees that no other write happens between the read of the old value and the write of the new value.
 

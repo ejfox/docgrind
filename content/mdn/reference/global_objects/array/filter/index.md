@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Filter"
 slug: "reference-global_objects-array-filter"
 path: "reference/global_objects/array/filter/index.md"
-wordCount: 978
+wordCount: 977
 readingTime: 5
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.541Z"
+lastModified: "2025-08-02T14:03:23.476Z"
 ---
 
-
-{{JSRef}}
 
 The **`filter()`** method of {{jsxref("Array")}} instances creates a [shallow copy](/en-US/docs/Glossary/Shallow_copy) of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.
 

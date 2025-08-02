@@ -2,17 +2,15 @@
 title: "Reference Global_objects Iterator Every"
 slug: "reference-global_objects-iterator-every"
 path: "reference/global_objects/iterator/every/index.md"
-wordCount: 364
+wordCount: 363
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.638Z"
+lastModified: "2025-08-02T14:03:23.573Z"
 ---
 
-
-{{JSRef}}
 
 The **`every()`** method of {{jsxref("Iterator")}} instances is similar to {{jsxref("Array.prototype.every()")}}: it tests whether all elements produced by the iterator pass the test implemented by the provided function. It returns a boolean value.
 

@@ -8,11 +8,11 @@ codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.837Z"
+lastModified: "2025-08-02T14:03:23.722Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`hour`** accessor property of {{jsxref("Temporal.ZonedDateTime")}} instances returns a integer from 0 to 23 representing the hour component of this time.
 

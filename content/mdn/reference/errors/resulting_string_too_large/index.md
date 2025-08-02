@@ -2,17 +2,15 @@
 title: "Reference Errors Resulting_string_too_large"
 slug: "reference-errors-resulting_string_too_large"
 path: "reference/errors/resulting_string_too_large/index.md"
-wordCount: 210
+wordCount: 209
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.529Z"
+lastModified: "2025-08-02T14:03:23.464Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "repeat count must be less than infinity" occurs when the
 {{jsxref("String.prototype.repeat()")}} method is used with a `count`

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Sharedarraybuffer"
 slug: "reference-global_objects-sharedarraybuffer"
 path: "reference/global_objects/sharedarraybuffer/index.md"
-wordCount: 1058
+wordCount: 1057
 readingTime: 6
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "dom", "api", "rest"]
-lastModified: "2025-07-06T19:32:45.756Z"
+lastModified: "2025-08-02T14:03:23.645Z"
 ---
 
-
-{{JSRef}}
 
 The **`SharedArrayBuffer`** object is used to represent a generic raw binary data buffer, similar to the {{jsxref("ArrayBuffer")}} object, but in a way that they can be used to create views on shared memory. A `SharedArrayBuffer` is not a [Transferable Object](/en-US/docs/Web/API/Web_Workers_API/Transferable_objects), unlike an `ArrayBuffer` which is transferable.
 

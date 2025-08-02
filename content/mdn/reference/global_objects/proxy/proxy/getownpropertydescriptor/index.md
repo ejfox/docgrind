@@ -2,28 +2,26 @@
 title: "Reference Global_objects Proxy Proxy Getownpropertydescriptor"
 slug: "reference-global_objects-proxy-proxy-getownpropertydescriptor"
 path: "reference/global_objects/proxy/proxy/getownpropertydescriptor/index.md"
-wordCount: 634
+wordCount: 633
 readingTime: 4
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.697Z"
+lastModified: "2025-08-02T14:03:23.623Z"
 ---
 
-
-{{JSRef}}
 
 The **`handler.getOwnPropertyDescriptor()`** method is a trap for the `[[GetOwnProperty]]` [object internal method](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#object_internal_methods), which is used by operations such as {{jsxref("Object.getOwnPropertyDescriptor()")}}.
 
 {{InteractiveExample("JavaScript Demo: handler.getOwnPropertyDescriptor()", "taller")}}
 
 ```js interactive-example
-const monster1 = {
+const monster = {
   eyeCount: 4,
 };
 
-const handler1 = {
+const handler = {
   getOwnPropertyDescriptor(target, prop) {
     console.log(`called: ${prop}`);
     // Expected output: "called: eyeCount"
@@ -32,9 +30,9 @@ const handler1 = {
   },
 };
 
-const proxy1 = new Proxy(monster1, handler1);
+const proxy = new Proxy(monster, handler);
 
-console.log(Object.getOwnPropertyDescriptor(proxy1, "eyeCount").value);
+console.log(Object.getOwnPropertyDescriptor(proxy, "eyeCount").value);
 // Expected output: 5
 ```
 

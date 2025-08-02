@@ -2,17 +2,15 @@
 title: "Reference Regular_expressions Backreference"
 slug: "reference-regular_expressions-backreference"
 path: "reference/regular_expressions/backreference/index.md"
-wordCount: 449
+wordCount: 448
 readingTime: 3
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.894Z"
+lastModified: "2025-08-02T14:03:23.781Z"
 ---
 
-
-{{jsSidebar}}
 
 A **backreference** refers to the submatch of a previous [capturing group](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Capturing_group) and matches the same text as that group. For [named capturing groups](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Named_capturing_group), you may prefer to use the [named backreference](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Named_backreference) syntax.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Join"
 slug: "reference-global_objects-array-join"
 path: "reference/global_objects/array/join/index.md"
-wordCount: 532
+wordCount: 531
 readingTime: 3
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.546Z"
+lastModified: "2025-08-02T14:03:23.482Z"
 ---
 
-
-{{JSRef}}
 
 The **`join()`** method of {{jsxref("Array")}} instances creates and
 returns a new string by concatenating all of the elements in this array,

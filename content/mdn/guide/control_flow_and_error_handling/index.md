@@ -2,17 +2,16 @@
 title: "Guide Control_flow_and_error_handling"
 slug: "guide-control_flow_and_error_handling"
 path: "guide/control_flow_and_error_handling/index.md"
-wordCount: 2317
+wordCount: 2315
 readingTime: 12
 codeBlocks: 20
 difficulty: "advanced"
 category: "Guide"
 tags: ["variables", "objects", "loops", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.464Z"
+lastModified: "2025-08-02T14:03:23.403Z"
 ---
 
 
-{{jsSidebar("JavaScript Guide")}}
 {{PreviousNext("Web/JavaScript/Guide/Grammar_and_types", "Web/JavaScript/Guide/Loops_and_iteration")}}
 
 JavaScript supports a compact set of statements, specifically

@@ -2,34 +2,32 @@
 title: "Reference Global_objects Reflect Ownkeys"
 slug: "reference-global_objects-reflect-ownkeys"
 path: "reference/global_objects/reflect/ownkeys/index.md"
-wordCount: 366
+wordCount: 365
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.725Z"
+lastModified: "2025-08-02T14:03:23.630Z"
 ---
 
-
-{{JSRef}}
 
 The **`Reflect.ownKeys()`** static method returns an array of the `target` object's own property keys.
 
 {{InteractiveExample("JavaScript Demo: Reflect.ownKeys()")}}
 
 ```js interactive-example
-const object1 = {
+const object = {
   property1: 42,
   property2: 13,
 };
 
-const array1 = [];
+const array = [];
 
-console.log(Reflect.ownKeys(object1));
+console.log(Reflect.ownKeys(object));
 // Expected output: Array ["property1", "property2"]
 
-console.log(Reflect.ownKeys(array1));
+console.log(Reflect.ownKeys(array));
 // Expected output: Array ["length"]
 ```
 

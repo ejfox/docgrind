@@ -2,17 +2,15 @@
 title: "Reference Classes Private_elements"
 slug: "reference-classes-private_elements"
 path: "reference/classes/private_elements/index.md"
-wordCount: 1916
+wordCount: 1915
 readingTime: 10
 codeBlocks: 15
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "async", "events"]
-lastModified: "2025-07-06T19:32:45.497Z"
+lastModified: "2025-08-02T14:03:23.434Z"
 ---
 
-
-{{jsSidebar("Classes")}}
 
 **Private elements** are counterparts of the regular class elements which are public, including [class fields](/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields), class methods, etc. Private elements get created by using a hash `#` prefix and cannot be legally referenced outside of the class. The privacy encapsulation of these class elements is enforced by JavaScript itself. The only way to access a private element is via [dot notation](/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors#dot_notation), and you can only do so within the class that defines the private element.
 

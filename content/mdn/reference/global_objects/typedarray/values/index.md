@@ -2,30 +2,28 @@
 title: "Reference Global_objects Typedarray Values"
 slug: "reference-global_objects-typedarray-values"
 path: "reference/global_objects/typedarray/values/index.md"
-wordCount: 194
+wordCount: 193
 readingTime: 1
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.856Z"
+lastModified: "2025-08-02T14:03:23.742Z"
 ---
 
-
-{{JSRef}}
 
 The **`values()`** method of {{jsxref("TypedArray")}} instances returns a new _[array iterator](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator)_ object that iterates the value of each item in the typed array. This method has the same algorithm as {{jsxref("Array.prototype.values()")}}.
 
 {{InteractiveExample("JavaScript Demo: TypedArray.prototype.values()")}}
 
 ```js interactive-example
-const uint8 = new Uint8Array([10, 20, 30, 40, 50]);
-const array1 = uint8.values();
+const bytes = new Uint8Array([10, 20, 30, 40, 50]);
+const iterator = bytes.values();
 
-array1.next();
-array1.next();
+iterator.next();
+iterator.next();
 
-console.log(array1.next().value);
+console.log(iterator.next().value);
 // Expected output: 30
 ```
 

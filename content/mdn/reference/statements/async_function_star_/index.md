@@ -2,17 +2,15 @@
 title: "Reference Statements Async_function_star_"
 slug: "reference-statements-async_function_star_"
 path: "reference/statements/async_function_star_/index.md"
-wordCount: 661
+wordCount: 660
 readingTime: 4
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "async", "promises", "api", "rest"]
-lastModified: "2025-07-06T19:32:45.902Z"
+lastModified: "2025-08-02T14:03:23.789Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 The **`async function*`** declaration creates a {{Glossary("binding")}} of a new async generator function to a given name.
 

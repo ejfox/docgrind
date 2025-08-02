@@ -2,17 +2,15 @@
 title: "Reference Statements Import"
 slug: "reference-statements-import"
 path: "reference/statements/import/index.md"
-wordCount: 2119
+wordCount: 2118
 readingTime: 11
 codeBlocks: 20
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "objects", "modules", "async"]
-lastModified: "2025-07-06T19:32:45.909Z"
+lastModified: "2025-08-02T14:03:23.796Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 The static **`import`** declaration is used to import read-only live {{Glossary("binding", "bindings")}} which are [exported](/en-US/docs/Web/JavaScript/Reference/Statements/export) by another module. The imported bindings are called _live bindings_ because they are updated by the module that exported the binding, but cannot be re-assigned by the importing module.
 

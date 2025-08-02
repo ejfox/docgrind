@@ -2,17 +2,17 @@
 title: "Reference Global_objects String Anchor"
 slug: "reference-global_objects-string-anchor"
 path: "reference/global_objects/string/anchor/index.md"
-wordCount: 249
+wordCount: 248
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.757Z"
+lastModified: "2025-08-02T14:03:23.647Z"
 ---
 
 
-{{JSRef}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`anchor()`** method of {{jsxref("String")}} values creates a string that embeds this string in an {{HTMLElement("a")}} element with a name (`<a name="...">str</a>`).
 

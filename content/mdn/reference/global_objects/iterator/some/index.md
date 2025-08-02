@@ -2,17 +2,15 @@
 title: "Reference Global_objects Iterator Some"
 slug: "reference-global_objects-iterator-some"
 path: "reference/global_objects/iterator/some/index.md"
-wordCount: 370
+wordCount: 369
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.643Z"
+lastModified: "2025-08-02T14:03:23.576Z"
 ---
 
-
-{{JSRef}}
 
 The **`some()`** method of {{jsxref("Iterator")}} instances is similar to {{jsxref("Array.prototype.some()")}}: it tests whether at least one element produced by the iterator passes the test implemented by the provided function. It returns a boolean value.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Function Name"
 slug: "reference-global_objects-function-name"
 path: "reference/global_objects/function/name/index.md"
-wordCount: 1236
+wordCount: 1235
 readingTime: 7
 codeBlocks: 24
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "objects", "classes", "destructuring"]
-lastModified: "2025-07-06T19:32:45.603Z"
+lastModified: "2025-08-02T14:03:23.539Z"
 ---
 
-
-{{JSRef}}
 
 The **`name`** data property of a {{jsxref("Function")}} instance indicates the function's name as specified when it was created, or it may be either `anonymous` or `''` (an empty string) for functions created anonymously.
 

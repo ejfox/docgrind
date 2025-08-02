@@ -8,11 +8,11 @@ codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.823Z"
+lastModified: "2025-08-02T14:03:23.709Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`second`** accessor property of {{jsxref("Temporal.PlainTime")}} instances returns a integer from 0 to 59 representing the second component of this time.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Locale Gettextinfo"
 slug: "reference-global_objects-intl-locale-gettextinfo"
 path: "reference/global_objects/intl/locale/gettextinfo/index.md"
-wordCount: 193
+wordCount: 192
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.621Z"
+lastModified: "2025-08-02T14:03:23.556Z"
 ---
 
-
-{{JSRef}}
 
 The **`getTextInfo()`** method of {{jsxref("Intl.Locale")}} instances returns the ordering of characters indicated by either `ltr` (left-to-right) or by `rtl` (right-to-left) for this locale.
 

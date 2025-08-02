@@ -2,17 +2,17 @@
 title: "Reference Global_objects String Small"
 slug: "reference-global_objects-string-small"
 path: "reference/global_objects/string/small/index.md"
-wordCount: 185
+wordCount: 184
 readingTime: 1
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.769Z"
+lastModified: "2025-08-02T14:03:23.658Z"
 ---
 
 
-{{JSRef}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`small()`** method of {{jsxref("String")}} values creates a string that embeds this string in a {{HTMLElement("small")}} element (`<small>str</small>`), which causes this string to be displayed in a small font.
 

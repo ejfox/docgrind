@@ -2,17 +2,17 @@
 title: "Reference Global_objects String Link"
 slug: "reference-global_objects-string-link"
 path: "reference/global_objects/string/link/index.md"
-wordCount: 231
+wordCount: 230
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.765Z"
+lastModified: "2025-08-02T14:03:23.653Z"
 ---
 
 
-{{JSRef}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`link()`** method of {{jsxref("String")}} values creates a string that embeds this string in an {{HTMLElement("a")}} element (`<a href="...">str</a>`), to be used as a hypertext link to another URL.
 

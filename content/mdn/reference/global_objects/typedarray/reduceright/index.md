@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Reduceright"
 slug: "reference-global_objects-typedarray-reduceright"
 path: "reference/global_objects/typedarray/reduceright/index.md"
-wordCount: 382
+wordCount: 381
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays"]
-lastModified: "2025-07-06T19:32:45.854Z"
+lastModified: "2025-08-02T14:03:23.739Z"
 ---
 
-
-{{JSRef}}
 
 The **`reduceRight()`** method of {{jsxref("TypedArray")}} instances applies a function against an accumulator and each value of the typed array (from right-to-left) to reduce it to a single value. This method has the same algorithm as {{jsxref("Array.prototype.reduceRight()")}}.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Finalizationregistry"
 slug: "reference-global_objects-finalizationregistry"
 path: "reference/global_objects/finalizationregistry/index.md"
-wordCount: 1345
+wordCount: 1344
 readingTime: 7
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "api"]
-lastModified: "2025-07-06T19:32:45.597Z"
+lastModified: "2025-08-02T14:03:23.534Z"
 ---
 
-
-{{JSRef}}
 
 A **`FinalizationRegistry`** object lets you request a callback when a value is garbage-collected.
 

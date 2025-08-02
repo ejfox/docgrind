@@ -2,17 +2,15 @@
 title: "Reference Global_objects Symbol Asynciterator"
 slug: "reference-global_objects-symbol-asynciterator"
 path: "reference/global_objects/symbol/asynciterator/index.md"
-wordCount: 280
+wordCount: 279
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "async", "events", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.774Z"
+lastModified: "2025-08-02T14:03:23.663Z"
 ---
 
-
-{{JSRef}}
 
 The **`Symbol.asyncIterator`** static data property represents the [well-known symbol](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#well-known_symbols) `Symbol.asyncIterator`. The [async iterable protocol](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_async_iterator_and_async_iterable_protocols) looks up this symbol for the method that returns the async iterator for an object. In order for an object to be async iterable, it must have an `[Symbol.asyncIterator]` key.
 

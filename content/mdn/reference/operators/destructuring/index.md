@@ -2,17 +2,15 @@
 title: "Reference Operators Destructuring"
 slug: "reference-operators-destructuring"
 path: "reference/operators/destructuring/index.md"
-wordCount: 3263
+wordCount: 3262
 readingTime: 17
 codeBlocks: 45
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "arrays", "objects", "loops"]
-lastModified: "2025-07-06T19:32:45.873Z"
+lastModified: "2025-08-02T14:03:23.761Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **destructuring** syntax is a JavaScript syntax that makes it possible to unpack values from arrays, or properties from objects, into distinct variables. It can be used in locations that receive data (such as the left-hand side of an assignment or anywhere that creates new identifier bindings).
 

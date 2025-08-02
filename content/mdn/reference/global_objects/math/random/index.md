@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Random"
 slug: "reference-global_objects-math-random"
 path: "reference/global_objects/math/random/index.md"
-wordCount: 498
+wordCount: 497
 readingTime: 3
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "dom", "api", "rest"]
-lastModified: "2025-07-06T19:32:45.667Z"
+lastModified: "2025-08-02T14:03:23.593Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.random()`** static method returns a floating-point, pseudo-random number that's greater than or equal to 0 and less than 1, with approximately uniform distribution over that range — which you can then scale to your desired range. The implementation selects the initial seed to the random number generation algorithm; it cannot be chosen or reset by the user.
 

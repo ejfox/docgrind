@@ -2,17 +2,15 @@
 title: "Reference Global_objects Promise Reject"
 slug: "reference-global_objects-promise-reject"
 path: "reference/global_objects/promise/reject/index.md"
-wordCount: 365
+wordCount: 364
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes"]
-lastModified: "2025-07-06T19:32:45.693Z"
+lastModified: "2025-08-02T14:03:23.619Z"
 ---
 
-
-{{JSRef}}
 
 The **`Promise.reject()`** static method returns a `Promise` object that is rejected with a given reason.
 

@@ -2,17 +2,15 @@
 title: "Reference Operators Property_accessors"
 slug: "reference-operators-property_accessors"
 path: "reference/operators/property_accessors/index.md"
-wordCount: 709
+wordCount: 708
 readingTime: 4
 codeBlocks: 15
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.887Z"
+lastModified: "2025-08-02T14:03:23.774Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 **Property accessors** provide access to an object's properties by using the dot notation or the bracket notation.
 

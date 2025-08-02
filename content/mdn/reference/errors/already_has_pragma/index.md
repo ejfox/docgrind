@@ -2,17 +2,15 @@
 title: "Reference Errors Already_has_pragma"
 slug: "reference-errors-already_has_pragma"
 path: "reference/errors/already_has_pragma/index.md"
-wordCount: 192
+wordCount: 191
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.500Z"
+lastModified: "2025-08-02T14:03:23.437Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript warning "-file- is being assigned a //# sourceMappingURL, but already has one." occurs when a source map has been specified more than once for a given JavaScript source.
 

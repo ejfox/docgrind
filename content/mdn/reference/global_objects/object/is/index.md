@@ -2,17 +2,15 @@
 title: "Reference Global_objects Object Is"
 slug: "reference-global_objects-object-is"
 path: "reference/global_objects/object/is/index.md"
-wordCount: 423
+wordCount: 422
 readingTime: 3
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.685Z"
+lastModified: "2025-08-02T14:03:23.610Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object.is()`** static method determines whether two values are [the same value](/en-US/docs/Web/JavaScript/Guide/Equality_comparisons_and_sameness#same-value_equality_using_object.is).
 

@@ -2,17 +2,15 @@
 title: "Reference Errors Is_not_iterable"
 slug: "reference-errors-is_not_iterable"
 path: "reference/errors/is_not_iterable/index.md"
-wordCount: 714
+wordCount: 713
 readingTime: 4
 codeBlocks: 10
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "loops", "async", "api", "destructuring"]
-lastModified: "2025-07-06T19:32:45.516Z"
+lastModified: "2025-08-02T14:03:23.452Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "is not iterable" occurs when the value which is [spread](/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) into an array or function call, given as the
 right-hand side of [`for...of`](/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...of_statement),

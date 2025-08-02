@@ -2,31 +2,29 @@
 title: "Reference Global_objects Date Setutcmilliseconds"
 slug: "reference-global_objects-date-setutcmilliseconds"
 path: "reference/global_objects/date/setutcmilliseconds/index.md"
-wordCount: 180
+wordCount: 179
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.586Z"
+lastModified: "2025-08-02T14:03:23.521Z"
 ---
 
-
-{{JSRef}}
 
 The **`setUTCMilliseconds()`** method of {{jsxref("Date")}} instances changes the milliseconds for this date according to universal time.
 
 {{InteractiveExample("JavaScript Demo: Date.prototype.setUTCMilliseconds()")}}
 
 ```js interactive-example
-const date1 = new Date("2018-01-24T12:38:29.069Z");
+const date = new Date("2018-01-24T12:38:29.069Z");
 
-console.log(date1.getUTCMilliseconds());
+console.log(date.getUTCMilliseconds());
 // Expected output: 69
 
-date1.setUTCMilliseconds(420);
+date.setUTCMilliseconds(420);
 
-console.log(date1.getUTCMilliseconds());
+console.log(date.getUTCMilliseconds());
 // Expected output: 420
 ```
 

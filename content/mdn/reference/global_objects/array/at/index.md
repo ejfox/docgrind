@@ -2,33 +2,31 @@
 title: "Reference Global_objects Array At"
 slug: "reference-global_objects-array-at"
 path: "reference/global_objects/array/at/index.md"
-wordCount: 582
+wordCount: 581
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.538Z"
+lastModified: "2025-08-02T14:03:23.474Z"
 ---
 
-
-{{JSRef}}
 
 The **`at()`** method of {{jsxref("Array")}} instances takes an integer value and returns the item at that index, allowing for positive and negative integers. Negative integers count back from the last item in the array.
 
 {{InteractiveExample("JavaScript Demo: Array.prototype.at()")}}
 
 ```js interactive-example
-const array1 = [5, 12, 8, 130, 44];
+const array = [5, 12, 8, 130, 44];
 
 let index = 2;
 
-console.log(`An index of ${index} returns ${array1.at(index)}`);
+console.log(`An index of ${index} returns ${array.at(index)}`);
 // Expected output: "An index of 2 returns 8"
 
 index = -2;
 
-console.log(`An index of ${index} returns ${array1.at(index)}`);
+console.log(`An index of ${index} returns ${array.at(index)}`);
 // Expected output: "An index of -2 returns 130"
 ```
 

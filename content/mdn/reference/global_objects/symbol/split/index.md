@@ -2,17 +2,15 @@
 title: "Reference Global_objects Symbol Split"
 slug: "reference-global_objects-symbol-split"
 path: "reference/global_objects/symbol/split/index.md"
-wordCount: 156
+wordCount: 155
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.778Z"
+lastModified: "2025-08-02T14:03:23.667Z"
 ---
 
-
-{{JSRef}}
 
 The **`Symbol.split`** static data property represents the [well-known symbol](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#well-known_symbols) `Symbol.split`. The {{jsxref("String.prototype.split()")}} method looks up this symbol on its first argument for the method that splits a string at the indices that match the current object.
 

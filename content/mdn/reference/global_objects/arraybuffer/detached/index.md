@@ -2,17 +2,15 @@
 title: "Reference Global_objects Arraybuffer Detached"
 slug: "reference-global_objects-arraybuffer-detached"
 path: "reference/global_objects/arraybuffer/detached/index.md"
-wordCount: 135
+wordCount: 134
 readingTime: 1
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.557Z"
+lastModified: "2025-08-02T14:03:23.491Z"
 ---
 
-
-{{JSRef}}
 
 The **`detached`** accessor property of {{jsxref("ArrayBuffer")}} instances returns a boolean indicating whether or not this buffer has been detached (transferred).
 

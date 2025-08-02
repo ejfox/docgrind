@@ -2,31 +2,29 @@
 title: "Reference Global_objects Array Entries"
 slug: "reference-global_objects-array-entries"
 path: "reference/global_objects/array/entries/index.md"
-wordCount: 326
+wordCount: 325
 readingTime: 2
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.539Z"
+lastModified: "2025-08-02T14:03:23.475Z"
 ---
 
-
-{{JSRef}}
 
 The **`entries()`** method of {{jsxref("Array")}} instances returns a new _[array iterator](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator)_ object that contains the key/value pairs for each index in the array.
 
 {{InteractiveExample("JavaScript Demo: Array.prototype.entries()")}}
 
 ```js interactive-example
-const array1 = ["a", "b", "c"];
+const array = ["a", "b", "c"];
 
-const iterator1 = array1.entries();
+const iterator = array.entries();
 
-console.log(iterator1.next().value);
+console.log(iterator.next().value);
 // Expected output: Array [0, "a"]
 
-console.log(iterator1.next().value);
+console.log(iterator.next().value);
 // Expected output: Array [1, "b"]
 ```
 

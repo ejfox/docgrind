@@ -2,17 +2,15 @@
 title: "Reference Global_objects Biguint64array Biguint64array"
 slug: "reference-global_objects-biguint64array-biguint64array"
 path: "reference/global_objects/biguint64array/biguint64array/index.md"
-wordCount: 192
+wordCount: 191
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.568Z"
+lastModified: "2025-08-02T14:03:23.505Z"
 ---
 
-
-{{JSRef}}
 
 The **`BigUint64Array()`** constructor creates {{jsxref("BigUint64Array")}} objects. The contents are initialized to `0n` unless initialization data is explicitly provided.
 

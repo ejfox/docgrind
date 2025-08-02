@@ -2,17 +2,15 @@
 title: "Reference Global_objects Parsefloat"
 slug: "reference-global_objects-parsefloat"
 path: "reference/global_objects/parsefloat/index.md"
-wordCount: 678
+wordCount: 677
 readingTime: 4
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.689Z"
+lastModified: "2025-08-02T14:03:23.615Z"
 ---
 
-
-{{jsSidebar("Objects")}}
 
 The **`parseFloat()`** function parses a string argument and returns a floating point number.
 

@@ -2,17 +2,15 @@
 title: "Reference Errors Invalid_derived_return"
 slug: "reference-errors-invalid_derived_return"
 path: "reference/errors/invalid_derived_return/index.md"
-wordCount: 235
+wordCount: 234
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["classes"]
-lastModified: "2025-07-06T19:32:45.515Z"
+lastModified: "2025-08-02T14:03:23.451Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "derived class constructor returned invalid value x" occurs when a derived class constructor returns a value that is not an object or `undefined`.
 

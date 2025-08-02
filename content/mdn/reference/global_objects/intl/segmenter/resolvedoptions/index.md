@@ -2,30 +2,28 @@
 title: "Reference Global_objects Intl Segmenter Resolvedoptions"
 slug: "reference-global_objects-intl-segmenter-resolvedoptions"
 path: "reference/global_objects/intl/segmenter/resolvedoptions/index.md"
-wordCount: 240
+wordCount: 239
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.632Z"
+lastModified: "2025-08-02T14:03:23.569Z"
 ---
 
-
-{{JSRef}}
 
 The **`resolvedOptions()`** method of {{jsxref("Intl.Segmenter")}} instances returns a new object with properties reflecting the options computed during initialization of this `Segmenter` object.
 
 {{InteractiveExample("JavaScript Demo: Intl.Segmenter.prototype.resolvedOptions()")}}
 
 ```js interactive-example
-const segmenter1 = new Intl.Segmenter("fr-FR");
-const options1 = segmenter1.resolvedOptions();
+const segmenter = new Intl.Segmenter("fr-FR");
+const options = segmenter.resolvedOptions();
 
-console.log(options1.locale);
+console.log(options.locale);
 // Expected output: "fr-FR"
 
-console.log(options1.granularity);
+console.log(options.granularity);
 // Expected output: "grapheme"
 ```
 

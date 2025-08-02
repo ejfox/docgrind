@@ -2,17 +2,15 @@
 title: "Reference Global_objects Reflect Setprototypeof"
 slug: "reference-global_objects-reflect-setprototypeof"
 path: "reference/global_objects/reflect/setprototypeof/index.md"
-wordCount: 276
+wordCount: 275
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.726Z"
+lastModified: "2025-08-02T14:03:23.630Z"
 ---
 
-
-{{JSRef}}
 
 The **`Reflect.setPrototypeOf()`** static method is like {{jsxref("Object.setPrototypeOf()")}} but returns a {{jsxref("Boolean")}}. It sets the prototype (i.e., the internal `[[Prototype]]` property) of a specified object.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Findindex"
 slug: "reference-global_objects-array-findindex"
 path: "reference/global_objects/array/findindex/index.md"
-wordCount: 740
+wordCount: 739
 readingTime: 4
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.541Z"
+lastModified: "2025-08-02T14:03:23.476Z"
 ---
 
-
-{{JSRef}}
 
 The **`findIndex()`** method of {{jsxref("Array")}} instances returns the index of the first element in an array that satisfies the provided testing function.
 If no elements satisfy the testing function, -1 is returned.
@@ -22,11 +20,11 @@ See also the {{jsxref("Array/find", "find()")}} method, which returns the first 
 {{InteractiveExample("JavaScript Demo: Array.prototype.findIndex()", "shorter")}}
 
 ```js interactive-example
-const array1 = [5, 12, 8, 130, 44];
+const array = [5, 12, 8, 130, 44];
 
 const isLargeNumber = (element) => element > 13;
 
-console.log(array1.findIndex(isLargeNumber));
+console.log(array.findIndex(isLargeNumber));
 // Expected output: 3
 ```
 

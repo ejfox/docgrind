@@ -2,17 +2,15 @@
 title: "Reference Global_objects Decodeuri"
 slug: "reference-global_objects-decodeuri"
 path: "reference/global_objects/decodeuri/index.md"
-wordCount: 366
+wordCount: 365
 readingTime: 2
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
-tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.591Z"
+tags: []
+lastModified: "2025-08-02T14:03:23.526Z"
 ---
 
-
-{{jsSidebar("Objects")}}
 
 The **`decodeURI()`** function decodes a Uniform Resource Identifier (URI) previously created by {{jsxref("encodeURI()")}} or a similar routine.
 

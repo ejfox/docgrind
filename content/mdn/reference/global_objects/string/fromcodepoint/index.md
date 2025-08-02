@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Fromcodepoint"
 slug: "reference-global_objects-string-fromcodepoint"
 path: "reference/global_objects/string/fromcodepoint/index.md"
-wordCount: 377
+wordCount: 376
 readingTime: 2
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.761Z"
+lastModified: "2025-08-02T14:03:23.650Z"
 ---
 
-
-{{JSRef}}
 
 The **`String.fromCodePoint()`** static method returns a string created from the specified sequence of code points.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Slice"
 slug: "reference-global_objects-array-slice"
 path: "reference/global_objects/array/slice/index.md"
-wordCount: 1109
+wordCount: 1108
 readingTime: 6
 codeBlocks: 13
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.551Z"
+lastModified: "2025-08-02T14:03:23.486Z"
 ---
 
-
-{{JSRef}}
 
 The **`slice()`** method of {{jsxref("Array")}} instances returns a [shallow copy](/en-US/docs/Glossary/Shallow_copy) of a portion of
 an array into a new array object selected from `start` to `end`
@@ -221,7 +219,7 @@ function list() {
   return slice(arguments);
 }
 
-const list1 = list(1, 2, 3); // [1, 2, 3]
+const listResult = list(1, 2, 3); // [1, 2, 3]
 ```
 
 ### Using slice() on sparse arrays

@@ -2,27 +2,25 @@
 title: "Reference Global_objects Intl Relativetimeformat Supportedlocalesof"
 slug: "reference-global_objects-intl-relativetimeformat-supportedlocalesof"
 path: "reference/global_objects/intl/relativetimeformat/supportedlocalesof/index.md"
-wordCount: 320
+wordCount: 319
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.632Z"
+lastModified: "2025-08-02T14:03:23.569Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.RelativeTimeFormat.supportedLocalesOf()`** static method returns an array containing those of the provided locales that are supported in relative time formatting without having to fall back to the runtime's default locale.
 
 {{InteractiveExample("JavaScript Demo: Intl.RelativeTimeFormat.supportedLocalesOf()", "shorter")}}
 
 ```js interactive-example
-const locales1 = ["ban", "id-u-co-pinyin", "de-ID"];
-const options1 = { localeMatcher: "lookup" };
+const locales = ["ban", "id-u-co-pinyin", "de-ID"];
+const options = { localeMatcher: "lookup" };
 
-console.log(Intl.RelativeTimeFormat.supportedLocalesOf(locales1, options1));
+console.log(Intl.RelativeTimeFormat.supportedLocalesOf(locales, options));
 // Expected output: Array ["id-u-co-pinyin", "de-ID"]
 // (Note: the exact output may be browser-dependent)
 ```

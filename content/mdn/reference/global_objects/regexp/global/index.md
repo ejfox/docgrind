@@ -2,17 +2,15 @@
 title: "Reference Global_objects Regexp Global"
 slug: "reference-global_objects-regexp-global"
 path: "reference/global_objects/regexp/global/index.md"
-wordCount: 219
+wordCount: 207
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.738Z"
+lastModified: "2025-08-02T14:03:23.632Z"
 ---
 
-
-{{JSRef}}
 
 The **`global`** accessor property of {{jsxref("RegExp")}} instances returns whether or not the `g` flag is used with this regular expression.
 
@@ -43,16 +41,13 @@ The set accessor of `global` is `undefined`. You cannot change this property dir
 ### Using global
 
 ```js
-const regex = /foo/g;
-console.log(regex.global); // true
+const globalRegex = /foo/g;
 
 const str = "fooexamplefoo";
-const str1 = str.replace(regex, "");
-console.log(str1); // example
+console.log(str.replace(globalRegex, "")); // example
 
-const regex1 = /foo/;
-const str2 = str.replace(regex1, "");
-console.log(str2); // examplefoo
+const nonGlobalRegex = /foo/;
+console.log(str.replace(nonGlobalRegex, "")); // examplefoo
 ```
 
 ## Specifications

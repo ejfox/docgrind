@@ -2,17 +2,15 @@
 title: "Reference Errors Rest_with_default"
 slug: "reference-errors-rest_with_default"
 path: "reference/errors/rest_with_default/index.md"
-wordCount: 172
+wordCount: 171
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "rest"]
-lastModified: "2025-07-06T19:32:45.529Z"
+lastModified: "2025-08-02T14:03:23.464Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "rest parameter may not have a default" occurs when a [rest parameter](/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters) has a [default value](/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters). Because the rest parameter always creates an array, the default value would never apply.
 

@@ -2,17 +2,15 @@
 title: "Reference Classes Public_class_fields"
 slug: "reference-classes-public_class_fields"
 path: "reference/classes/public_class_fields/index.md"
-wordCount: 1100
+wordCount: 1099
 readingTime: 6
 codeBlocks: 13
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "dom", "rest"]
-lastModified: "2025-07-06T19:32:45.498Z"
+lastModified: "2025-08-02T14:03:23.434Z"
 ---
 
-
-{{jsSidebar("Classes")}}
 
 **Public fields** are writable, enumerable, and configurable properties defined on each class instance or class constructor.
 

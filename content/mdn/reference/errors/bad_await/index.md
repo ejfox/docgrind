@@ -2,17 +2,15 @@
 title: "Reference Errors Bad_await"
 slug: "reference-errors-bad_await"
 path: "reference/errors/bad_await/index.md"
-wordCount: 267
+wordCount: 266
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "modules", "async", "promises"]
-lastModified: "2025-07-06T19:32:45.501Z"
+lastModified: "2025-08-02T14:03:23.437Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "await is only valid in async functions, async generators and modules" occurs when an {{jsxref("Operators/await", "await")}} expression is used outside of [async functions](/en-US/docs/Web/JavaScript/Reference/Statements/async_function) or [modules](/en-US/docs/Web/JavaScript/Guide/Modules) or other async contexts.
 

@@ -2,17 +2,15 @@
 title: "Reference Errors Missing_parenthesis_after_condition"
 slug: "reference-errors-missing_parenthesis_after_condition"
 path: "reference/errors/missing_parenthesis_after_condition/index.md"
-wordCount: 295
+wordCount: 294
 readingTime: 2
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["conditionals"]
-lastModified: "2025-07-06T19:32:45.519Z"
+lastModified: "2025-08-02T14:03:23.455Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "missing ) after condition" occurs when there is an error with
 how an

@@ -2,17 +2,15 @@
 title: "Reference Errors No_non Null_object"
 slug: "reference-errors-no_non-null_object"
 path: "reference/errors/no_non-null_object/index.md"
-wordCount: 184
+wordCount: 183
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.520Z"
+lastModified: "2025-08-02T14:03:23.455Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "is not a non-null object" occurs when an object is expected
 somewhere and wasn't provided. [`null`](/en-US/docs/Web/JavaScript/Reference/Operators/null) is not an object and won't work.

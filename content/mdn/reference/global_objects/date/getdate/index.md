@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Getdate"
 slug: "reference-global_objects-date-getdate"
 path: "reference/global_objects/date/getdate/index.md"
-wordCount: 134
+wordCount: 133
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.577Z"
+lastModified: "2025-08-02T14:03:23.512Z"
 ---
 
-
-{{JSRef}}
 
 The **`getDate()`** method of {{jsxref("Date")}} instances returns the day of the month for this date according to local time.
 
@@ -20,9 +18,9 @@ The **`getDate()`** method of {{jsxref("Date")}} instances returns the day of th
 
 ```js interactive-example
 const birthday = new Date("August 19, 1975 23:15:30");
-const date1 = birthday.getDate();
+const date = birthday.getDate();
 
-console.log(date1);
+console.log(date);
 // Expected output: 19
 ```
 

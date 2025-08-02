@@ -2,17 +2,15 @@
 title: "Reference Regular_expressions Quantifier"
 slug: "reference-regular_expressions-quantifier"
 path: "reference/regular_expressions/quantifier/index.md"
-wordCount: 945
+wordCount: 944
 readingTime: 5
 codeBlocks: 13
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "api", "rest"]
-lastModified: "2025-07-06T19:32:45.900Z"
+lastModified: "2025-08-02T14:03:23.787Z"
 ---
 
-
-{{jsSidebar}}
 
 A **quantifier** repeats an [atom](/en-US/docs/Web/JavaScript/Reference/Regular_expressions#atoms) a certain number of times. The quantifier is placed after the atom it applies to.
 

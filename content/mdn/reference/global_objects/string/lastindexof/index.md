@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Lastindexof"
 slug: "reference-global_objects-string-lastindexof"
 path: "reference/global_objects/string/lastindexof/index.md"
-wordCount: 462
+wordCount: 461
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.764Z"
+lastModified: "2025-08-02T14:03:23.653Z"
 ---
 
-
-{{JSRef}}
 
 The **`lastIndexOf()`** method of {{jsxref("String")}} values searches this string and returns the index of the last occurrence of the specified substring. It takes an optional starting position and returns the last occurrence of the specified substring at an index less than or equal to the specified number.
 

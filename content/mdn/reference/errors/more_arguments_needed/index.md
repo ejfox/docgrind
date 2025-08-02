@@ -2,17 +2,15 @@
 title: "Reference Errors More_arguments_needed"
 slug: "reference-errors-more_arguments_needed"
 path: "reference/errors/more_arguments_needed/index.md"
-wordCount: 208
+wordCount: 207
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions"]
-lastModified: "2025-07-06T19:32:45.519Z"
+lastModified: "2025-08-02T14:03:23.455Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "more arguments needed" occurs when there is an error with how
 a function is called. More arguments need to be provided.

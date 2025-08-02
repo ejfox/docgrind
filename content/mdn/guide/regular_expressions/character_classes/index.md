@@ -2,17 +2,15 @@
 title: "Guide Regular_expressions Character_classes"
 slug: "guide-regular_expressions-character_classes"
 path: "guide/regular_expressions/character_classes/index.md"
-wordCount: 1584
+wordCount: 1582
 readingTime: 8
 codeBlocks: 5
 difficulty: "advanced"
 category: "Guide"
 tags: ["objects", "classes", "dom"]
-lastModified: "2025-07-06T19:32:45.487Z"
+lastModified: "2025-08-02T14:03:23.423Z"
 ---
 
-
-{{jsSidebar("JavaScript Guide")}}
 
 Character classes distinguish kinds of characters such as, for example, distinguishing between letters and digits.
 

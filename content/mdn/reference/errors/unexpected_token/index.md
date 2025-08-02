@@ -2,17 +2,15 @@
 title: "Reference Errors Unexpected_token"
 slug: "reference-errors-unexpected_token"
 path: "reference/errors/unexpected_token/index.md"
-wordCount: 467
+wordCount: 466
 readingTime: 3
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["rest"]
-lastModified: "2025-07-06T19:32:45.531Z"
+lastModified: "2025-08-02T14:03:23.467Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exceptions "unexpected token" occur when the parser does not see a token it recognizes at the given position, so it cannot make sense of the structure of the program. This might be a simple typo.
 

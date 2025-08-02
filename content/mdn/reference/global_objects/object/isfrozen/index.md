@@ -2,17 +2,15 @@
 title: "Reference Global_objects Object Isfrozen"
 slug: "reference-global_objects-object-isfrozen"
 path: "reference/global_objects/object/isfrozen/index.md"
-wordCount: 510
+wordCount: 509
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.685Z"
+lastModified: "2025-08-02T14:03:23.611Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object.isFrozen()`** static method determines if an object is
 {{jsxref("Object/freeze", "frozen", "", 1)}}.
@@ -20,16 +18,16 @@ The **`Object.isFrozen()`** static method determines if an object is
 {{InteractiveExample("JavaScript Demo: Object.isFrozen()")}}
 
 ```js interactive-example
-const object1 = {
-  property1: 42,
+const object = {
+  foo: 42,
 };
 
-console.log(Object.isFrozen(object1));
+console.log(Object.isFrozen(object));
 // Expected output: false
 
-Object.freeze(object1);
+Object.freeze(object);
 
-console.log(Object.isFrozen(object1));
+console.log(Object.isFrozen(object));
 // Expected output: true
 ```
 

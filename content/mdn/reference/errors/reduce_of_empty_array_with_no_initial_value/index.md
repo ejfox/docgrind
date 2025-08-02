@@ -2,17 +2,15 @@
 title: "Reference Errors Reduce_of_empty_array_with_no_initial_value"
 slug: "reference-errors-reduce_of_empty_array_with_no_initial_value"
 path: "reference/errors/reduce_of_empty_array_with_no_initial_value/index.md"
-wordCount: 431
+wordCount: 430
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions"]
-lastModified: "2025-07-06T19:32:45.524Z"
+lastModified: "2025-08-02T14:03:23.459Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "reduce of empty array with no initial value" occurs when a
 reduce function is used.

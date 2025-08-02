@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray"
 slug: "reference-global_objects-typedarray"
 path: "reference/global_objects/typedarray/index.md"
-wordCount: 3137
+wordCount: 3136
 readingTime: 16
 codeBlocks: 13
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "classes", "dom", "rest"]
-lastModified: "2025-07-06T19:32:45.852Z"
+lastModified: "2025-08-02T14:03:23.736Z"
 ---
 
-
-{{JSRef}}
 
 A **_TypedArray_** object describes an array-like view of an
 underlying [binary data buffer](/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer).

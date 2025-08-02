@@ -2,17 +2,15 @@
 title: "Reference Regular_expressions Unicode_character_class_escape"
 slug: "reference-regular_expressions-unicode_character_class_escape"
 path: "reference/regular_expressions/unicode_character_class_escape/index.md"
-wordCount: 1246
+wordCount: 1245
 readingTime: 7
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes", "dom"]
-lastModified: "2025-07-06T19:32:45.901Z"
+lastModified: "2025-08-02T14:03:23.788Z"
 ---
 
-
-{{jsSidebar}}
 
 A **unicode character class escape** is a kind of [character class escape](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Character_class_escape) that matches a set of characters specified by a Unicode property. It's only supported in [Unicode-aware mode](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode#unicode-aware_mode). When the [`v`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets) flag is enabled, it can also be used to match finite-length strings.
 

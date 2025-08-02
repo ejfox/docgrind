@@ -2,17 +2,15 @@
 title: "Reference Statements Throw"
 slug: "reference-statements-throw"
 path: "reference/statements/throw/index.md"
-wordCount: 535
+wordCount: 534
 readingTime: 3
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "async", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.912Z"
+lastModified: "2025-08-02T14:03:23.800Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 The **`throw`** statement throws a user-defined exception. Execution of the current function will stop (the statements after `throw` won't be executed), and control will be passed to the first [`catch`](/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) block in the call stack. If no `catch` block exists among caller functions, the program will terminate.
 

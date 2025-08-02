@@ -8,11 +8,11 @@ codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.812Z"
+lastModified: "2025-08-02T14:03:23.698Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`nanosecond`** accessor property of {{jsxref("Temporal.PlainDateTime")}} instances returns a integer from 0 to 999 representing the nanosecond (10<sup>-9</sup> second) component of this time.
 

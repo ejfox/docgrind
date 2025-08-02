@@ -2,17 +2,17 @@
 title: "Guide Numbers_and_strings"
 slug: "guide-numbers_and_strings"
 path: "guide/numbers_and_strings/index.md"
-wordCount: 2223
+wordCount: 2221
 readingTime: 12
 codeBlocks: 23
 difficulty: "advanced"
 category: "Guide"
 tags: ["functions", "objects", "events", "dom"]
-lastModified: "2025-07-06T19:32:45.485Z"
+lastModified: "2025-08-02T14:03:23.422Z"
 ---
 
 
-{{jsSidebar("JavaScript Guide")}} {{PreviousNext("Web/JavaScript/Guide/Expressions_and_operators", "Web/JavaScript/Guide/Representing_dates_times")}}
+{{PreviousNext("Web/JavaScript/Guide/Expressions_and_operators", "Web/JavaScript/Guide/Representing_dates_times")}}
 
 This chapter introduces the two most fundamental data types in JavaScript: numbers and strings. We will introduce their underlying representations, and functions used to work with and perform calculations on them.
 

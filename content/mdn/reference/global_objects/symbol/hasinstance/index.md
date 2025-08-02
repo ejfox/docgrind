@@ -2,17 +2,15 @@
 title: "Reference Global_objects Symbol Hasinstance"
 slug: "reference-global_objects-symbol-hasinstance"
 path: "reference/global_objects/symbol/hasinstance/index.md"
-wordCount: 318
+wordCount: 317
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects"]
-lastModified: "2025-07-06T19:32:45.775Z"
+lastModified: "2025-08-02T14:03:23.664Z"
 ---
 
-
-{{JSRef}}
 
 The **`Symbol.hasInstance`** static data property represents the [well-known symbol](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#well-known_symbols) `Symbol.hasInstance`. The {{jsxref("Operators/instanceof", "instanceof")}} operator looks up this symbol on its right-hand operand for the method used to determine if the constructor object recognizes an object as its instance.
 

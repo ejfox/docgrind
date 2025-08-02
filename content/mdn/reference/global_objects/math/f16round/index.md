@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math F16round"
 slug: "reference-global_objects-math-f16round"
 path: "reference/global_objects/math/f16round/index.md"
-wordCount: 283
+wordCount: 282
 readingTime: 2
 codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
 tags: ["rest"]
-lastModified: "2025-07-06T19:32:45.662Z"
+lastModified: "2025-08-02T14:03:23.588Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.f16round()`** static method returns the nearest [16-bit half precision](https://en.wikipedia.org/wiki/Half-precision_floating-point_format) float representation of a number.
 

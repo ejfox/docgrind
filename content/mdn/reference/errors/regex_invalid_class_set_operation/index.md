@@ -2,17 +2,15 @@
 title: "Reference Errors Regex_invalid_class_set_operation"
 slug: "reference-errors-regex_invalid_class_set_operation"
 path: "reference/errors/regex_invalid_class_set_operation/index.md"
-wordCount: 259
+wordCount: 258
 readingTime: 2
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["classes"]
-lastModified: "2025-07-06T19:32:45.525Z"
+lastModified: "2025-08-02T14:03:23.461Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "invalid class set operation in regular expression" occurs when a double punctuator sequence appears in a [`v`-mode character class](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Character_class#v-mode_character_class) but it is not recognized by the syntax.
 

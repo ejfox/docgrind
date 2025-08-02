@@ -2,17 +2,15 @@
 title: "Reference Global_objects Json Stringify"
 slug: "reference-global_objects-json-stringify"
 path: "reference/global_objects/json/stringify/index.md"
-wordCount: 2229
+wordCount: 2228
 readingTime: 12
 codeBlocks: 13
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "arrays", "objects", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.648Z"
+lastModified: "2025-08-02T14:03:23.579Z"
 ---
 
-
-{{JSRef}}
 
 The **`JSON.stringify()`** static method converts a JavaScript value to a JSON string, optionally replacing values if a replacer function is specified or optionally including only the specified properties if a replacer array is specified.
 

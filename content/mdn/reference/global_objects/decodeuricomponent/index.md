@@ -2,17 +2,15 @@
 title: "Reference Global_objects Decodeuricomponent"
 slug: "reference-global_objects-decodeuricomponent"
 path: "reference/global_objects/decodeuricomponent/index.md"
-wordCount: 249
+wordCount: 248
 readingTime: 2
 codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
-tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.592Z"
+tags: []
+lastModified: "2025-08-02T14:03:23.526Z"
 ---
 
-
-{{jsSidebar("Objects")}}
 
 The **`decodeURIComponent()`** function decodes a Uniform Resource Identifier (URI) component previously created by {{jsxref("encodeURIComponent()")}} or by a similar routine.
 

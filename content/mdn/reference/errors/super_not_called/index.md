@@ -2,17 +2,15 @@
 title: "Reference Errors Super_not_called"
 slug: "reference-errors-super_not_called"
 path: "reference/errors/super_not_called/index.md"
-wordCount: 317
+wordCount: 316
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["classes"]
-lastModified: "2025-07-06T19:32:45.530Z"
+lastModified: "2025-08-02T14:03:23.466Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "must call super constructor before using 'this' in derived class constructor" occurs when the {{jsxref("Operators/super", "super()")}} is not called for a given derived class constructor, and the derived constructor tries to access the value of {{jsxref("Operators/this", "this")}}, or the derived constructor has already returned and the return value is not an object.
 

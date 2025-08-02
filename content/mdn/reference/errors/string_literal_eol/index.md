@@ -2,17 +2,15 @@
 title: "Reference Errors String_literal_eol"
 slug: "reference-errors-string_literal_eol"
 path: "reference/errors/string_literal_eol/index.md"
-wordCount: 368
+wordCount: 367
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.530Z"
+lastModified: "2025-08-02T14:03:23.465Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript error "string literal contains an unescaped line break" occurs when there is an unterminated
 [string literal](/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#string_literals) somewhere. String literals must be enclosed by single

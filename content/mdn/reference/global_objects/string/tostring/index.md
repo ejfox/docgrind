@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Tostring"
 slug: "reference-global_objects-string-tostring"
 path: "reference/global_objects/string/tostring/index.md"
-wordCount: 242
+wordCount: 241
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.773Z"
+lastModified: "2025-08-02T14:03:23.661Z"
 ---
 
-
-{{JSRef}}
 
 The **`toString()`** method of {{jsxref("String")}} values returns this string value.
 

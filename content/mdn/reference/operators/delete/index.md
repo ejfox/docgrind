@@ -2,17 +2,15 @@
 title: "Reference Operators Delete"
 slug: "reference-operators-delete"
 path: "reference/operators/delete/index.md"
-wordCount: 1234
+wordCount: 1227
 readingTime: 7
 codeBlocks: 12
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "arrays", "objects", "classes"]
-lastModified: "2025-07-06T19:32:45.872Z"
+lastModified: "2025-08-02T14:03:23.760Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **`delete`** operator removes a property from an object. If the property's value is an object and there are no more references to the object, the object held by that property is eventually released automatically.
 
@@ -251,6 +249,5 @@ console.log(globalVar); // ReferenceError: globalVar is not defined
 
 ## See also
 
-- [In depth analysis on delete](http://perfectionkills.com/understanding-delete/)
 - {{jsxref("Reflect.deleteProperty()")}}
 - {{jsxref("Map.prototype.delete()")}}

@@ -2,17 +2,15 @@
 title: "Reference Operators Async_function"
 slug: "reference-operators-async_function"
 path: "reference/operators/async_function/index.md"
-wordCount: 479
+wordCount: 478
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "modules", "async", "dom"]
-lastModified: "2025-07-06T19:32:45.868Z"
+lastModified: "2025-08-02T14:03:23.756Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **`async function`** keywords can be used to define an async function inside an expression.
 

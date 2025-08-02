@@ -2,25 +2,25 @@
 title: "Reference Global_objects Intl Locale Numberingsystem"
 slug: "reference-global_objects-intl-locale-numberingsystem"
 path: "reference/global_objects/intl/locale/numberingsystem/index.md"
-wordCount: 315
+wordCount: 312
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.623Z"
+lastModified: "2025-08-02T14:03:23.559Z"
 ---
 
-
-{{JSRef}}
 
 The **`numberingSystem`** accessor property of {{jsxref("Intl.Locale")}} instances returns the [numeral system](https://en.wikipedia.org/wiki/Numeral_system) for this locale.
 
 ## Description
 
-A numeral system is a system for expressing numbers. The `numberingSystem` property's value is set at construction time, either through the `nu` key of the locale identifier or through the `numberingSystem` option of the {{jsxref("Intl/Locale/Locale", "Intl.Locale()")}} constructor. The latter takes priority if they are both present; and if neither is present, the property has value `undefined`.
+A numeral system is a system for expressing numbers. For a list of supported numbering system types, see [`Intl.supportedValuesOf()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf#supported_numbering_system_types).
 
-For a list of supported numbering system types, see [`Intl.supportedValuesOf()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf#supported_numbering_system_types).
+The `numberingSystem` property's value is set at construction time, either through the `nu` key of the locale identifier or through the `numberingSystem` option of the {{jsxref("Intl/Locale/Locale", "Intl.Locale()")}} constructor. The latter takes priority if they are both present; and if neither is present, the property has value `undefined`.
+
+The set accessor of `numberingSystem` is `undefined`. You cannot change this property directly.
 
 ## Examples
 
@@ -28,7 +28,7 @@ Like other locale subtags, the numbering system type can be added to the {{jsxre
 
 ### Adding a numbering system via the locale string
 
-In the [Unicode locale string spec](https://www.unicode.org/reports/tr35/), numbering system types are locale key "extension subtags". These subtags add additional data about the locale, and are added to locale identifiers by using the `-u` extension. Thus, the numbering system type can be added to the initial locale identifier string that is passed into the {{jsxref("Intl/Locale/Locale", "Intl.Locale()")}} constructor. To add the numbering system type, first add the `-u` extension key to the string. Next, add the `-nu` extension to indicate that you are adding a numbering system. Finally, add the numbering system type to the string.
+In the [Unicode locale string spec](https://www.unicode.org/reports/tr35/), `numberingSystem` is an "extension subtag". These subtags add additional data about the locale, and are added to locale identifiers using the `-u` extension key. To add the numbering system type to the initial locale identifier string passed into the {{jsxref("Intl/Locale/Locale", "Intl.Locale()")}} constructor, first add the `-u` extension key if it doesn't exist. Next, add the `-nu` extension to indicate that you are adding a numbering system. Finally, add the numbering system type.
 
 ```js
 const locale = new Intl.Locale("fr-Latn-FR-u-nu-mong");

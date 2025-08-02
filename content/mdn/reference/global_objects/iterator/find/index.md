@@ -2,17 +2,15 @@
 title: "Reference Global_objects Iterator Find"
 slug: "reference-global_objects-iterator-find"
 path: "reference/global_objects/iterator/find/index.md"
-wordCount: 375
+wordCount: 374
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.639Z"
+lastModified: "2025-08-02T14:03:23.574Z"
 ---
 
-
-{{JSRef}}
 
 The **`find()`** method of {{jsxref("Iterator")}} instances is similar to {{jsxref("Array.prototype.find()")}}: it returns the first element produced by the iterator that satisfies the provided testing function. If no values satisfy the testing function, {{jsxref("undefined")}} is returned.
 

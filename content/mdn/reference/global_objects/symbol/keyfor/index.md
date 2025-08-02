@@ -2,17 +2,15 @@
 title: "Reference Global_objects Symbol Keyfor"
 slug: "reference-global_objects-symbol-keyfor"
 path: "reference/global_objects/symbol/keyfor/index.md"
-wordCount: 153
+wordCount: 152
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.776Z"
+lastModified: "2025-08-02T14:03:23.665Z"
 ---
 
-
-{{JSRef}}
 
 The **`Symbol.keyFor()`** static method retrieves a shared symbol
 key from the global symbol registry for the given symbol.

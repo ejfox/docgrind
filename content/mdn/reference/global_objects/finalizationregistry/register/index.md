@@ -2,17 +2,15 @@
 title: "Reference Global_objects Finalizationregistry Register"
 slug: "reference-global_objects-finalizationregistry-register"
 path: "reference/global_objects/finalizationregistry/register/index.md"
-wordCount: 283
+wordCount: 282
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects"]
-lastModified: "2025-07-06T19:32:45.598Z"
+lastModified: "2025-08-02T14:03:23.534Z"
 ---
 
-
-{{JSRef}}
 
 The **`register()`** method of {{jsxref("FinalizationRegistry")}} instances registers an value with this `FinalizationRegistry` so that if the value is garbage-collected, the registry's callback may get called.
 

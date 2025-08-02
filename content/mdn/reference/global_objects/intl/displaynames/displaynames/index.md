@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Displaynames Displaynames"
 slug: "reference-global_objects-intl-displaynames-displaynames"
 path: "reference/global_objects/intl/displaynames/displaynames/index.md"
-wordCount: 564
+wordCount: 563
 readingTime: 3
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom"]
-lastModified: "2025-07-06T19:32:45.613Z"
+lastModified: "2025-08-02T14:03:23.549Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.DisplayNames()`** constructor creates {{jsxref("Intl.DisplayNames")}} objects.
 

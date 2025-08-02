@@ -2,17 +2,17 @@
 title: "Guide Iterators_and_generators"
 slug: "guide-iterators_and_generators"
 path: "guide/iterators_and_generators/index.md"
-wordCount: 1284
+wordCount: 1282
 readingTime: 7
 codeBlocks: 8
 difficulty: "advanced"
 category: "Guide"
 tags: ["functions", "arrays", "objects", "loops", "destructuring"]
-lastModified: "2025-07-06T19:32:45.479Z"
+lastModified: "2025-08-02T14:03:23.416Z"
 ---
 
 
-{{jsSidebar("JavaScript Guide")}} {{PreviousNext("Web/JavaScript/Guide/Typed_arrays", "Web/JavaScript/Guide/Internationalization")}}
+{{PreviousNext("Web/JavaScript/Guide/Typed_arrays", "Web/JavaScript/Guide/Resource_management")}}
 
 Iterators and Generators bring the concept of iteration directly into the core language and provide a mechanism for customizing the behavior of {{jsxref("Statements/for...of", "for...of")}} loops.
 
@@ -242,4 +242,4 @@ If the exception is not caught from within the generator, it will propagate up t
 
 Generators have a {{jsxref("Generator/return", "return()")}} method that returns the given value and finishes the generator itself.
 
-{{PreviousNext("Web/JavaScript/Guide/Typed_arrays", "Web/JavaScript/Guide/Internationalization")}}
+{{PreviousNext("Web/JavaScript/Guide/Typed_arrays", "Web/JavaScript/Guide/Resource_management")}}

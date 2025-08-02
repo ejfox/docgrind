@@ -2,17 +2,15 @@
 title: "Reference Global_objects Promise All"
 slug: "reference-global_objects-promise-all"
 path: "reference/global_objects/promise/all/index.md"
-wordCount: 1285
+wordCount: 1284
 readingTime: 7
 codeBlocks: 13
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "async", "promises"]
-lastModified: "2025-07-06T19:32:45.690Z"
+lastModified: "2025-08-02T14:03:23.616Z"
 ---
 
-
-{{JSRef}}
 
 The **`Promise.all()`** static method takes an iterable of promises as input and returns a single {{jsxref("Promise")}}. This returned promise fulfills when all of the input's promises fulfill (including when an empty iterable is passed), with an array of the fulfillment values. It rejects when any of the input's promises rejects, with this first rejection reason.
 

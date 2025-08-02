@@ -2,17 +2,15 @@
 title: "Reference Global_objects Biguint64array"
 slug: "reference-global_objects-biguint64array"
 path: "reference/global_objects/biguint64array/index.md"
-wordCount: 326
+wordCount: 325
 readingTime: 2
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays"]
-lastModified: "2025-07-06T19:32:45.569Z"
+lastModified: "2025-08-02T14:03:23.505Z"
 ---
 
-
-{{JSRef}}
 
 The **`BigUint64Array`** typed array represents an array of 64-bit unsigned integers in the platform byte order. If control over byte order is needed, use {{jsxref("DataView")}} instead. The contents are initialized to `0n` unless initialization data is explicitly provided. Once established, you can reference elements in the array using the object's methods, or using standard array index syntax (that is, using bracket notation).
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Boolean"
 slug: "reference-global_objects-boolean"
 path: "reference/global_objects/boolean/index.md"
-wordCount: 1041
+wordCount: 1040
 readingTime: 6
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "api"]
-lastModified: "2025-07-06T19:32:45.569Z"
+lastModified: "2025-08-02T14:03:23.505Z"
 ---
 
-
-{{JSRef}}
 
 **`Boolean`** values can be one of two values: `true` or `false`, representing the truth value of a logical proposition.
 

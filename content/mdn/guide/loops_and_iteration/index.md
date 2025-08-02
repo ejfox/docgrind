@@ -2,17 +2,16 @@
 title: "Guide Loops_and_iteration"
 slug: "guide-loops_and_iteration"
 path: "guide/loops_and_iteration/index.md"
-wordCount: 1943
+wordCount: 1941
 readingTime: 10
 codeBlocks: 22
 difficulty: "advanced"
 category: "Guide"
 tags: ["variables", "functions", "arrays", "objects", "loops"]
-lastModified: "2025-07-06T19:32:45.482Z"
+lastModified: "2025-08-02T14:03:23.419Z"
 ---
 
 
-{{jsSidebar("JavaScript Guide")}}
 {{PreviousNext("Web/JavaScript/Guide/Control_flow_and_error_handling", "Web/JavaScript/Guide/Functions")}}
 
 Loops offer a quick and easy way to do something repeatedly. This

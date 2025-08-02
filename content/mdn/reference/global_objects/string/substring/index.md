@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Substring"
 slug: "reference-global_objects-string-substring"
 path: "reference/global_objects/string/substring/index.md"
-wordCount: 838
+wordCount: 837
 readingTime: 5
 codeBlocks: 10
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.771Z"
+lastModified: "2025-08-02T14:03:23.659Z"
 ---
 
-
-{{JSRef}}
 
 The **`substring()`** method of {{jsxref("String")}} values returns the part of this string from the start index up to and excluding the end index, or to the end of the string if no end index is supplied.
 

@@ -2,17 +2,15 @@
 title: "Reference Operators Multiplication"
 slug: "reference-operators-multiplication"
 path: "reference/operators/multiplication/index.md"
-wordCount: 281
+wordCount: 280
 readingTime: 2
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.883Z"
+lastModified: "2025-08-02T14:03:23.770Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **multiplication (`*`)** operator produces the product of the operands.
 

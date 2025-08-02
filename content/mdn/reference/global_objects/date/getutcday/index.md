@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Getutcday"
 slug: "reference-global_objects-date-getutcday"
 path: "reference/global_objects/date/getutcday/index.md"
-wordCount: 158
+wordCount: 157
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.579Z"
+lastModified: "2025-08-02T14:03:23.515Z"
 ---
 
-
-{{JSRef}}
 
 The **`getUTCDay()`** method of {{jsxref("Date")}} instances returns the day of the week for this date according to universal time, where 0 represents Sunday.
 

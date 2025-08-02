@@ -2,26 +2,24 @@
 title: "Reference Global_objects Array Flatmap"
 slug: "reference-global_objects-array-flatmap"
 path: "reference/global_objects/array/flatmap/index.md"
-wordCount: 1172
+wordCount: 1171
 readingTime: 6
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.542Z"
+lastModified: "2025-08-02T14:03:23.478Z"
 ---
 
-
-{{JSRef}}
 
 The **`flatMap()`** method of {{jsxref("Array")}} instances returns a new array formed by applying a given callback function to each element of the array, and then flattening the result by one level. It is identical to a {{jsxref("Array/map", "map()")}} followed by a {{jsxref("Array/flat", "flat()")}} of depth 1 (`arr.map(...args).flat()`), but slightly more efficient than calling those two methods separately.
 
 {{InteractiveExample("JavaScript Demo: Array.prototype.flatMap()", "shorter")}}
 
 ```js interactive-example
-const arr1 = [1, 2, 1];
+const arr = [1, 2, 1];
 
-const result = arr1.flatMap((num) => (num === 2 ? [2, 2] : 1));
+const result = arr.flatMap((num) => (num === 2 ? [2, 2] : 1));
 
 console.log(result);
 // Expected output: Array [1, 2, 2, 1]
@@ -88,16 +86,16 @@ its flexibility and readability are desired.
 ### map() and flatMap()
 
 ```js
-const arr1 = [1, 2, 3, 4];
+const arr = [1, 2, 3, 4];
 
-arr1.map((x) => [x * 2]);
+arr.map((x) => [x * 2]);
 // [[2], [4], [6], [8]]
 
-arr1.flatMap((x) => [x * 2]);
+arr.flatMap((x) => [x * 2]);
 // [2, 4, 6, 8]
 
 // only one level is flattened
-arr1.flatMap((x) => [[x * 2]]);
+arr.flatMap((x) => [[x * 2]]);
 // [[2], [4], [6], [8]]
 ```
 
@@ -107,12 +105,12 @@ better showcases the use of `flatMap()`.
 Let's generate a list of words from a list of sentences.
 
 ```js
-const arr1 = ["it's Sunny in", "", "California"];
+const arr = ["it's Sunny in", "", "California"];
 
-arr1.map((x) => x.split(" "));
+arr.map((x) => x.split(" "));
 // [["it's","Sunny","in"],[""],["California"]]
 
-arr1.flatMap((x) => x.split(" "));
+arr.flatMap((x) => x.split(" "));
 // ["it's","Sunny","in", "", "California"]
 ```
 

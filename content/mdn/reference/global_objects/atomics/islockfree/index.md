@@ -2,17 +2,15 @@
 title: "Reference Global_objects Atomics Islockfree"
 slug: "reference-global_objects-atomics-islockfree"
 path: "reference/global_objects/atomics/islockfree/index.md"
-wordCount: 219
+wordCount: 218
 readingTime: 2
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.563Z"
+lastModified: "2025-08-02T14:03:23.500Z"
 ---
 
-
-{{JSRef}}
 
 The **`Atomics.isLockFree()`** static method is used to determine whether the `Atomics` methods use locks or atomic hardware operations when applied to typed arrays with the given element byte size. It is intended as an optimization primitive, so that high-performance algorithms can determine whether to use locks or atomic operations in critical sections. If an atomic primitive is not lock-free, it is often more efficient for an algorithm to provide its own locking.
 

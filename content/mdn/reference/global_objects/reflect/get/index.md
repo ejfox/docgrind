@@ -2,34 +2,32 @@
 title: "Reference Global_objects Reflect Get"
 slug: "reference-global_objects-reflect-get"
 path: "reference/global_objects/reflect/get/index.md"
-wordCount: 290
+wordCount: 289
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.724Z"
+lastModified: "2025-08-02T14:03:23.628Z"
 ---
 
-
-{{JSRef}}
 
 The **`Reflect.get()`** static method is like the [property accessor](/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors) syntax, but as a function.
 
 {{InteractiveExample("JavaScript Demo: Reflect.get()")}}
 
 ```js interactive-example
-const object1 = {
+const object = {
   x: 1,
   y: 2,
 };
 
-console.log(Reflect.get(object1, "x"));
+console.log(Reflect.get(object, "x"));
 // Expected output: 1
 
-const array1 = ["zero", "one"];
+const array = ["zero", "one"];
 
-console.log(Reflect.get(array1, 1));
+console.log(Reflect.get(array, 1));
 // Expected output: "one"
 ```
 

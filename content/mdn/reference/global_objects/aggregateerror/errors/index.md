@@ -2,17 +2,15 @@
 title: "Reference Global_objects Aggregateerror Errors"
 slug: "reference-global_objects-aggregateerror-errors"
 path: "reference/global_objects/aggregateerror/errors/index.md"
-wordCount: 114
+wordCount: 113
 readingTime: 1
 codeBlocks: 1
 difficulty: "beginner"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.538Z"
+lastModified: "2025-08-02T14:03:23.473Z"
 ---
 
-
-{{JSRef}}
 
 The **`errors`** data property of an {{jsxref("AggregateError")}} instance contains an array representing the errors that were aggregated.
 

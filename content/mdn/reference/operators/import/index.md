@@ -2,17 +2,15 @@
 title: "Reference Operators Import"
 slug: "reference-operators-import"
 path: "reference/operators/import/index.md"
-wordCount: 1561
+wordCount: 1560
 readingTime: 8
 codeBlocks: 11
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "modules", "async", "dom"]
-lastModified: "2025-07-06T19:32:45.877Z"
+lastModified: "2025-08-02T14:03:23.764Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **`import()`** syntax, commonly called _dynamic import_, is a function-like expression that allows loading an ECMAScript module asynchronously and dynamically into a potentially non-module environment.
 

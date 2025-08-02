@@ -2,17 +2,15 @@
 title: "Reference Errors Class_ctor_no_new"
 slug: "reference-errors-class_ctor_no_new"
 path: "reference/errors/class_ctor_no_new/index.md"
-wordCount: 184
+wordCount: 183
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "classes"]
-lastModified: "2025-07-06T19:32:45.508Z"
+lastModified: "2025-08-02T14:03:23.444Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "class constructors must be invoked with 'new'" occurs when a [class constructor](/en-US/docs/Web/JavaScript/Reference/Classes) is called without the {{jsxref("Operators/new", "new")}} keyword. All class constructors must be called with `new`.
 

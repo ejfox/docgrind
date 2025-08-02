@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Durationformat Durationformat"
 slug: "reference-global_objects-intl-durationformat-durationformat"
 path: "reference/global_objects/intl/durationformat/durationformat/index.md"
-wordCount: 1325
+wordCount: 1324
 readingTime: 7
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.615Z"
+lastModified: "2025-08-02T14:03:23.551Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.DurationFormat()`** constructor creates {{jsxref("Intl.DurationFormat")}} objects.
 

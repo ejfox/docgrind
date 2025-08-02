@@ -2,17 +2,15 @@
 title: "Reference Operators Equality"
 slug: "reference-operators-equality"
 path: "reference/operators/equality/index.md"
-wordCount: 871
+wordCount: 870
 readingTime: 5
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "api", "rest"]
-lastModified: "2025-07-06T19:32:45.874Z"
+lastModified: "2025-08-02T14:03:23.762Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **equality (`==`)** operator checks whether its two operands are equal,
 returning a Boolean result.

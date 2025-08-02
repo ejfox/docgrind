@@ -2,17 +2,15 @@
 title: "Reference Errors Cant_delete_private_fields"
 slug: "reference-errors-cant_delete_private_fields"
 path: "reference/errors/cant_delete_private_fields/index.md"
-wordCount: 144
+wordCount: 143
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["classes"]
-lastModified: "2025-07-06T19:32:45.507Z"
+lastModified: "2025-08-02T14:03:23.443Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "SyntaxError: private fields can't be deleted" occurs when [`delete`](/en-US/docs/Web/JavaScript/Reference/Operators/delete) is used on a [private element](/en-US/docs/Web/JavaScript/Reference/Classes/Private_elements) of a class or an object.
 

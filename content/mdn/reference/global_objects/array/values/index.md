@@ -2,25 +2,23 @@
 title: "Reference Global_objects Array Values"
 slug: "reference-global_objects-array-values"
 path: "reference/global_objects/array/values/index.md"
-wordCount: 721
+wordCount: 720
 readingTime: 4
 codeBlocks: 11
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "loops"]
-lastModified: "2025-07-06T19:32:45.555Z"
+lastModified: "2025-08-02T14:03:23.490Z"
 ---
 
-
-{{JSRef}}
 
 The **`values()`** method of {{jsxref("Array")}} instances returns a new _[array iterator](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator)_ object that iterates the value of each item in the array.
 
 {{InteractiveExample("JavaScript Demo: Array.prototype.values()")}}
 
 ```js interactive-example
-const array1 = ["a", "b", "c"];
-const iterator = array1.values();
+const array = ["a", "b", "c"];
+const iterator = array.values();
 
 for (const value of iterator) {
   console.log(value);

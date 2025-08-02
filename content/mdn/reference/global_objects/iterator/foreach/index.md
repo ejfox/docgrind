@@ -2,17 +2,15 @@
 title: "Reference Global_objects Iterator Foreach"
 slug: "reference-global_objects-iterator-foreach"
 path: "reference/global_objects/iterator/foreach/index.md"
-wordCount: 192
+wordCount: 191
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.639Z"
+lastModified: "2025-08-02T14:03:23.574Z"
 ---
 
-
-{{JSRef}}
 
 The **`forEach()`** method of {{jsxref("Iterator")}} instances is similar to {{jsxref("Array.prototype.forEach()")}}: it executes a provided function once for each element produced by the iterator.
 

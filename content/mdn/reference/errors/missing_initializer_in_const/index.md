@@ -2,17 +2,15 @@
 title: "Reference Errors Missing_initializer_in_const"
 slug: "reference-errors-missing_initializer_in_const"
 path: "reference/errors/missing_initializer_in_const/index.md"
-wordCount: 275
+wordCount: 274
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.518Z"
+lastModified: "2025-08-02T14:03:23.454Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "missing = in const declaration" occurs when a const
 declaration was not given a value in the same statement (like

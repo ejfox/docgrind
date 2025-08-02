@@ -2,17 +2,15 @@
 title: "Reference Errors Cant_convert_bigint_to_number"
 slug: "reference-errors-cant_convert_bigint_to_number"
 path: "reference/errors/cant_convert_bigint_to_number/index.md"
-wordCount: 303
+wordCount: 302
 readingTime: 2
 codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.506Z"
+lastModified: "2025-08-02T14:03:23.442Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "can't convert BigInt to number" occurs when an arithmetic operation involves a mix of {{jsxref("BigInt")}} and {{jsxref("Number")}} values.
 

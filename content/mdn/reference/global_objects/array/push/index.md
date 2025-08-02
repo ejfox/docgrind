@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Push"
 slug: "reference-global_objects-array-push"
 path: "reference/global_objects/array/push/index.md"
-wordCount: 692
+wordCount: 691
 readingTime: 4
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "spread"]
-lastModified: "2025-07-06T19:32:45.549Z"
+lastModified: "2025-08-02T14:03:23.484Z"
 ---
 
-
-{{JSRef}}
 
 The **`push()`** method of {{jsxref("Array")}} instances adds the specified elements to the end of
 an array and returns the new length of the array.

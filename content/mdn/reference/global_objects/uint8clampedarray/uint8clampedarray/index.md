@@ -2,17 +2,15 @@
 title: "Reference Global_objects Uint8clampedarray Uint8clampedarray"
 slug: "reference-global_objects-uint8clampedarray-uint8clampedarray"
 path: "reference/global_objects/uint8clampedarray/uint8clampedarray/index.md"
-wordCount: 205
+wordCount: 204
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.860Z"
+lastModified: "2025-08-02T14:03:23.747Z"
 ---
 
-
-{{JSRef}}
 
 The **`Uint8ClampedArray()`** constructor creates {{jsxref("Uint8ClampedArray")}} objects. The contents are initialized to `0` unless initialization data is explicitly provided.
 

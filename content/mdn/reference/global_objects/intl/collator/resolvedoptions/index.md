@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Collator Resolvedoptions"
 slug: "reference-global_objects-intl-collator-resolvedoptions"
 path: "reference/global_objects/intl/collator/resolvedoptions/index.md"
-wordCount: 430
+wordCount: 429
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.609Z"
+lastModified: "2025-08-02T14:03:23.545Z"
 ---
 
-
-{{JSRef}}
 
 The **`resolvedOptions()`** method of {{jsxref("Intl.Collator")}} instances returns a new object with properties reflecting the options computed during initialization of this `Collator` object.
 

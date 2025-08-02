@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Indexof"
 slug: "reference-global_objects-string-indexof"
 path: "reference/global_objects/string/indexof/index.md"
-wordCount: 861
+wordCount: 860
 readingTime: 5
 codeBlocks: 10
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "objects", "dom"]
-lastModified: "2025-07-06T19:32:45.763Z"
+lastModified: "2025-08-02T14:03:23.652Z"
 ---
 
-
-{{JSRef}}
 
 The **`indexOf()`** method of {{jsxref("String")}} values searches this string and returns the index of the first occurrence of the specified substring. It takes an optional starting position and returns the first occurrence of the specified substring at an index greater than or equal to the specified number.
 

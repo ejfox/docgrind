@@ -2,17 +2,15 @@
 title: "Reference Global_objects Urierror"
 slug: "reference-global_objects-urierror"
 path: "reference/global_objects/urierror/index.md"
-wordCount: 224
+wordCount: 223
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["dom", "api"]
-lastModified: "2025-07-06T19:32:45.861Z"
+lastModified: "2025-08-02T14:03:23.748Z"
 ---
 
-
-{{JSRef}}
 
 The **`URIError`** object represents an error when a global URI handling function was used in a wrong way.
 

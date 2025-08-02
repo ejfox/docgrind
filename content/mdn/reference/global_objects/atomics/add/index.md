@@ -2,17 +2,15 @@
 title: "Reference Global_objects Atomics Add"
 slug: "reference-global_objects-atomics-add"
 path: "reference/global_objects/atomics/add/index.md"
-wordCount: 225
+wordCount: 224
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.562Z"
+lastModified: "2025-08-02T14:03:23.498Z"
 ---
 
-
-{{JSRef}}
 
 The **`Atomics.add()`** static
 method adds a given value at a given position in the array and returns the old value at

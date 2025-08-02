@@ -2,17 +2,15 @@
 title: "Reference Global_objects Int16array Int16array"
 slug: "reference-global_objects-int16array-int16array"
 path: "reference/global_objects/int16array/int16array/index.md"
-wordCount: 198
+wordCount: 197
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.607Z"
+lastModified: "2025-08-02T14:03:23.542Z"
 ---
 
-
-{{JSRef}}
 
 The **`Int16Array()`** constructor creates {{jsxref("Int16Array")}} objects. The contents are initialized to `0` unless initialization data is explicitly provided.
 

@@ -2,17 +2,15 @@
 title: "Reference Statements Var"
 slug: "reference-statements-var"
 path: "reference/statements/var/index.md"
-wordCount: 1510
+wordCount: 1509
 readingTime: 8
 codeBlocks: 24
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "classes", "modules", "destructuring"]
-lastModified: "2025-07-06T19:32:45.913Z"
+lastModified: "2025-08-02T14:03:23.801Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 The **`var`** statement declares function-scoped or globally-scoped variables, optionally initializing each to a value.
 

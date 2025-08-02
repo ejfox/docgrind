@@ -2,17 +2,15 @@
 title: "Reference Global_objects Dataview Getfloat64"
 slug: "reference-global_objects-dataview-getfloat64"
 path: "reference/global_objects/dataview/getfloat64/index.md"
-wordCount: 211
+wordCount: 210
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays"]
-lastModified: "2025-07-06T19:32:45.572Z"
+lastModified: "2025-08-02T14:03:23.508Z"
 ---
 
-
-{{JSRef}}
 
 The **`getFloat64()`** method of {{jsxref("DataView")}} instances reads 8 bytes starting at the specified byte offset of this `DataView` and interprets them as a 64-bit floating point number. There is no alignment constraint; multi-byte values may be fetched from any offset within bounds.
 

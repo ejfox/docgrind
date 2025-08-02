@@ -7,12 +7,12 @@ readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
-tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.861Z"
+tags: []
+lastModified: "2025-08-02T14:03:23.748Z"
 ---
 
 
-{{jsSidebar("Objects")}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 > [!NOTE]
 > `unescape()` is a non-standard function implemented by browsers and was only standardized for cross-engine compatibility. It is not required to be implemented by all JavaScript engines and may not work everywhere. Use {{jsxref("decodeURIComponent()")}} or {{jsxref("decodeURI()")}} if possible.

@@ -2,17 +2,15 @@
 title: "Reference Errors Invalid_for Of_initializer"
 slug: "reference-errors-invalid_for-of_initializer"
 path: "reference/errors/invalid_for-of_initializer/index.md"
-wordCount: 261
+wordCount: 260
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["loops"]
-lastModified: "2025-07-06T19:32:45.516Z"
+lastModified: "2025-08-02T14:03:23.451Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "a declaration in the head of a for-of loop can't have an initializer" occurs when the head of a [for...of](/en-US/docs/Web/JavaScript/Reference/Statements/for...of) loop contains an initializer expression such as `for (const i = 0 of iterable)`. This is not allowed in for-of loops.
 

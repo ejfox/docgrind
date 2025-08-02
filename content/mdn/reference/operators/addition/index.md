@@ -2,17 +2,15 @@
 title: "Reference Operators Addition"
 slug: "reference-operators-addition"
 path: "reference/operators/addition/index.md"
-wordCount: 484
+wordCount: 483
 readingTime: 3
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.867Z"
+lastModified: "2025-08-02T14:03:23.755Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **addition (`+`)** operator produces the sum of numeric operands or string concatenation.
 

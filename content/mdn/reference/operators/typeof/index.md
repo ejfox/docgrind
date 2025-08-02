@@ -2,17 +2,15 @@
 title: "Reference Operators Typeof"
 slug: "reference-operators-typeof"
 path: "reference/operators/typeof/index.md"
-wordCount: 1109
+wordCount: 1108
 readingTime: 6
 codeBlocks: 10
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "arrays", "objects", "classes"]
-lastModified: "2025-07-06T19:32:45.891Z"
+lastModified: "2025-08-02T14:03:23.778Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **`typeof`** operator returns a string indicating the type of the operand's value.
 

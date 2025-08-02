@@ -8,11 +8,11 @@ codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.784Z"
+lastModified: "2025-08-02T14:03:23.673Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`sign`** accessor property of {{jsxref("Temporal.Duration")}} instances returns `1` if this duration is positive, `-1` if negative, and `0` if zero. Because [a duration never has mixed signs](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration#duration_sign), the sign of a duration is determined by the sign of any of its non-zero fields.
 

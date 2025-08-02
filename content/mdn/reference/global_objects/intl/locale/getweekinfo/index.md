@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Locale Getweekinfo"
 slug: "reference-global_objects-intl-locale-getweekinfo"
 path: "reference/global_objects/intl/locale/getweekinfo/index.md"
-wordCount: 379
+wordCount: 378
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["dom"]
-lastModified: "2025-07-06T19:32:45.621Z"
+lastModified: "2025-08-02T14:03:23.557Z"
 ---
 
-
-{{JSRef}}
 
 The **`getWeekInfo()`** method of {{jsxref("Intl.Locale")}} instances returns a `weekInfo` object with the properties `firstDay`, `weekend` and `minimalDays` for this locale.
 

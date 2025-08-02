@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Sqrt1_2"
 slug: "reference-global_objects-math-sqrt1_2"
 path: "reference/global_objects/math/sqrt1_2/index.md"
-wordCount: 140
+wordCount: 139
 readingTime: 1
 codeBlocks: 2
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.668Z"
+lastModified: "2025-08-02T14:03:23.594Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.SQRT1_2`** static data property represents the square root of 1/2, which is approximately 0.707.
 

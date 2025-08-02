@@ -2,17 +2,15 @@
 title: "Reference Statements Break"
 slug: "reference-statements-break"
 path: "reference/statements/break/index.md"
-wordCount: 593
+wordCount: 592
 readingTime: 3
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "classes"]
-lastModified: "2025-07-06T19:32:45.903Z"
+lastModified: "2025-08-02T14:03:23.791Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 The **`break`** statement terminates the current loop or {{jsxref("Statements/switch", "switch")}} statement and transfers program control to the statement following the terminated statement. It can also be used to jump past a [labeled statement](/en-US/docs/Web/JavaScript/Reference/Statements/label) when used within that labeled statement.
 

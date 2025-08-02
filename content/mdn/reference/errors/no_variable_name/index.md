@@ -2,17 +2,15 @@
 title: "Reference Errors No_variable_name"
 slug: "reference-errors-no_variable_name"
 path: "reference/errors/no_variable_name/index.md"
-wordCount: 322
+wordCount: 321
 readingTime: 2
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "arrays"]
-lastModified: "2025-07-06T19:32:45.520Z"
+lastModified: "2025-08-02T14:03:23.456Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "missing variable name" is a common error.
 It is usually caused by omitting a variable name or a typographic error.

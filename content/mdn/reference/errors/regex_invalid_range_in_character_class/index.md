@@ -2,17 +2,15 @@
 title: "Reference Errors Regex_invalid_range_in_character_class"
 slug: "reference-errors-regex_invalid_range_in_character_class"
 path: "reference/errors/regex_invalid_range_in_character_class/index.md"
-wordCount: 191
+wordCount: 190
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: ["classes"]
-lastModified: "2025-07-06T19:32:45.527Z"
+lastModified: "2025-08-02T14:03:23.462Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "invalid range in character class" occurs when a [character class](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Character_class) in a regular expression uses a range, but the start of the range is greater than the end.
 

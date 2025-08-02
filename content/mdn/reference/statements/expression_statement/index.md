@@ -2,17 +2,15 @@
 title: "Reference Statements Expression_statement"
 slug: "reference-statements-expression_statement"
 path: "reference/statements/expression_statement/index.md"
-wordCount: 682
+wordCount: 681
 readingTime: 4
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "async", "destructuring"]
-lastModified: "2025-07-06T19:32:45.906Z"
+lastModified: "2025-08-02T14:03:23.793Z"
 ---
 
-
-{{jsSidebar("Statements")}}
 
 An **expression statement** is an expression used in a place where a statement is expected. The expression is evaluated and its result is discarded — therefore, it makes sense only for expressions that have side effects, such as executing a function or updating a variable.
 

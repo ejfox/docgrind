@@ -2,17 +2,15 @@
 title: "Reference Operators Conditional_operator"
 slug: "reference-operators-conditional_operator"
 path: "reference/operators/conditional_operator/index.md"
-wordCount: 404
+wordCount: 403
 readingTime: 3
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["conditionals"]
-lastModified: "2025-07-06T19:32:45.872Z"
+lastModified: "2025-08-02T14:03:23.760Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **conditional (ternary) operator** is the only JavaScript operator that takes three operands:
 a condition followed by a question mark (`?`), then an expression to execute if the condition is {{Glossary("truthy")}} followed by a colon (`:`), and finally the expression to execute if the condition is {{Glossary("falsy")}}.

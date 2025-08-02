@@ -2,17 +2,15 @@
 title: "Reference Global_objects Weakref"
 slug: "reference-global_objects-weakref"
 path: "reference/global_objects/weakref/index.md"
-wordCount: 1000
+wordCount: 999
 readingTime: 5
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "events", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.863Z"
+lastModified: "2025-08-02T14:03:23.751Z"
 ---
 
-
-{{JSRef}}
 
 A **`WeakRef`** object lets you hold a weak reference to another object, without preventing that object from getting garbage-collected.
 

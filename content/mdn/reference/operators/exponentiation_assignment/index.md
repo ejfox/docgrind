@@ -2,17 +2,15 @@
 title: "Reference Operators Exponentiation_assignment"
 slug: "reference-operators-exponentiation_assignment"
 path: "reference/operators/exponentiation_assignment/index.md"
-wordCount: 171
+wordCount: 170
 readingTime: 1
 codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.875Z"
+lastModified: "2025-08-02T14:03:23.762Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **exponentiation assignment (`**=`)** operator performs [exponentiation](/en-US/docs/Web/JavaScript/Reference/Operators/Exponentiation) on the two operands and assigns the result to the left operand.
 

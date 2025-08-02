@@ -2,17 +2,15 @@
 title: "Reference Global_objects Atomics Xor"
 slug: "reference-global_objects-atomics-xor"
 path: "reference/global_objects/atomics/xor/index.md"
-wordCount: 333
+wordCount: 332
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.565Z"
+lastModified: "2025-08-02T14:03:23.502Z"
 ---
 
-
-{{JSRef}}
 
 The **`Atomics.xor()`** static
 method computes a bitwise XOR with a given value at a given position in the array, and

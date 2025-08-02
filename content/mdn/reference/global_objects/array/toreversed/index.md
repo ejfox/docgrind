@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Toreversed"
 slug: "reference-global_objects-array-toreversed"
 path: "reference/global_objects/array/toreversed/index.md"
-wordCount: 323
+wordCount: 322
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.554Z"
+lastModified: "2025-08-02T14:03:23.489Z"
 ---
 
-
-{{JSRef}}
 
 The **`toReversed()`** method of {{jsxref("Array")}} instances is the [copying](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#copying_methods_and_mutating_methods) counterpart of the {{jsxref("Array/reverse", "reverse()")}} method. It returns a new array with the elements in reversed order.
 

@@ -2,17 +2,15 @@
 title: "Reference Errors Cant_set_prototype"
 slug: "reference-errors-cant_set_prototype"
 path: "reference/errors/cant_set_prototype/index.md"
-wordCount: 256
+wordCount: 255
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "events", "dom"]
-lastModified: "2025-07-06T19:32:45.507Z"
+lastModified: "2025-08-02T14:03:23.444Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "can't set prototype of this object" occurs when attempting to set the prototype of an object, but the object's prototype is frozen, either by being a built-in immutable prototype object, or by being [non-extensible](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isExtensible).
 

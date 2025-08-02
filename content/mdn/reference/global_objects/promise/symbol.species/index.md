@@ -2,17 +2,15 @@
 title: "Reference Global_objects Promise Symbol.Species"
 slug: "reference-global_objects-promise-symbol.species"
 path: "reference/global_objects/promise/symbol.species/index.md"
-wordCount: 399
+wordCount: 398
 readingTime: 2
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes", "promises"]
-lastModified: "2025-07-06T19:32:45.694Z"
+lastModified: "2025-08-02T14:03:23.620Z"
 ---
 
-
-{{JSRef}}
 
 The **`Promise[Symbol.species]`** static accessor property returns the constructor used to construct return values from promise methods.
 

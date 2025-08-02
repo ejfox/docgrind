@@ -2,17 +2,15 @@
 title: "Reference Global_objects Asyncgenerator Next"
 slug: "reference-global_objects-asyncgenerator-next"
 path: "reference/global_objects/asyncgenerator/next/index.md"
-wordCount: 380
+wordCount: 379
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["async"]
-lastModified: "2025-07-06T19:32:45.560Z"
+lastModified: "2025-08-02T14:03:23.496Z"
 ---
 
-
-{{JSRef}}
 
 The **`next()`** method of {{jsxref("AsyncGenerator")}} instances returns the next value in the sequence.
 

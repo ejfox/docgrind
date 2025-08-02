@@ -2,17 +2,15 @@
 title: "Reference Operators Optional_chaining"
 slug: "reference-operators-optional_chaining"
 path: "reference/operators/optional_chaining/index.md"
-wordCount: 1288
+wordCount: 1287
 readingTime: 7
 codeBlocks: 22
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "arrays", "objects", "events", "api"]
-lastModified: "2025-07-06T19:32:45.887Z"
+lastModified: "2025-08-02T14:03:23.773Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **optional chaining (`?.`)** operator accesses an object's property or calls a function. If the object accessed or function called using this operator is {{jsxref("undefined")}} or [`null`](/en-US/docs/Web/JavaScript/Reference/Operators/null), the expression short circuits and evaluates to {{jsxref("undefined")}} instead of throwing an error.
 

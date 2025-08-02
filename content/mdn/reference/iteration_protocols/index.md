@@ -2,17 +2,15 @@
 title: "Reference Iteration_protocols"
 slug: "reference-iteration_protocols"
 path: "reference/iteration_protocols/index.md"
-wordCount: 3674
+wordCount: 3673
 readingTime: 19
 codeBlocks: 21
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "loops", "classes", "async"]
-lastModified: "2025-07-06T19:32:45.865Z"
+lastModified: "2025-08-02T14:03:23.753Z"
 ---
 
-
-{{jsSidebar("More")}}
 
 **Iteration protocols** aren't new built-ins or syntax, but _protocols_. These protocols can be implemented by any object by following some conventions.
 

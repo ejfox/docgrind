@@ -2,17 +2,15 @@
 title: "Reference Errors Missing_colon_after_property_id"
 slug: "reference-errors-missing_colon_after_property_id"
 path: "reference/errors/missing_colon_after_property_id/index.md"
-wordCount: 270
+wordCount: 269
 readingTime: 2
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.518Z"
+lastModified: "2025-08-02T14:03:23.453Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "missing : after property id" occurs when objects are created
 using the [object initializer](/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer) syntax.

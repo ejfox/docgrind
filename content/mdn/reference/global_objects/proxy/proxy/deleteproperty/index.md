@@ -2,28 +2,26 @@
 title: "Reference Global_objects Proxy Proxy Deleteproperty"
 slug: "reference-global_objects-proxy-proxy-deleteproperty"
 path: "reference/global_objects/proxy/proxy/deleteproperty/index.md"
-wordCount: 429
+wordCount: 428
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.697Z"
+lastModified: "2025-08-02T14:03:23.623Z"
 ---
 
-
-{{JSRef}}
 
 The **`handler.deleteProperty()`** method is a trap for the `[[Delete]]` [object internal method](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#object_internal_methods), which is used by operations such as the {{jsxref("Operators/delete", "delete")}} operator.
 
 {{InteractiveExample("JavaScript Demo: handler.deleteProperty()", "taller")}}
 
 ```js interactive-example
-const monster1 = {
+const monster = {
   texture: "scaly",
 };
 
-const handler1 = {
+const handler = {
   deleteProperty(target, prop) {
     if (prop in target) {
       delete target[prop];
@@ -33,13 +31,13 @@ const handler1 = {
   },
 };
 
-console.log(monster1.texture);
+console.log(monster.texture);
 // Expected output: "scaly"
 
-const proxy1 = new Proxy(monster1, handler1);
-delete proxy1.texture;
+const proxy = new Proxy(monster, handler);
+delete proxy.texture;
 
-console.log(monster1.texture);
+console.log(monster.texture);
 // Expected output: undefined
 ```
 

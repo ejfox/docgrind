@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number Min_safe_integer"
 slug: "reference-global_objects-number-min_safe_integer"
 path: "reference/global_objects/number/min_safe_integer/index.md"
-wordCount: 210
+wordCount: 209
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.673Z"
+lastModified: "2025-08-02T14:03:23.599Z"
 ---
 
-
-{{JSRef}}
 
 The **`Number.MIN_SAFE_INTEGER`** static data property represents the minimum safe integer in JavaScript, or -(2<sup>53</sup> - 1).
 

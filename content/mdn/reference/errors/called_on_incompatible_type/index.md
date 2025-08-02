@@ -2,17 +2,15 @@
 title: "Reference Errors Called_on_incompatible_type"
 slug: "reference-errors-called_on_incompatible_type"
 path: "reference/errors/called_on_incompatible_type/index.md"
-wordCount: 359
+wordCount: 358
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.504Z"
+lastModified: "2025-08-02T14:03:23.441Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "called on incompatible target (or object)" occurs when a
 function (on a given object), is called with a `this` not corresponding to

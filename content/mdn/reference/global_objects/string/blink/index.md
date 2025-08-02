@@ -2,17 +2,17 @@
 title: "Reference Global_objects String Blink"
 slug: "reference-global_objects-string-blink"
 path: "reference/global_objects/string/blink/index.md"
-wordCount: 194
+wordCount: 193
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.758Z"
+lastModified: "2025-08-02T14:03:23.647Z"
 ---
 
 
-{{JSRef}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`blink()`** method of {{jsxref("String")}} values creates a string that embeds this string in a `<blink>` element (`<blink>str</blink>`), which used to cause a string to blink in old browsers.
 

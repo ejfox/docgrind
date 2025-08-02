@@ -2,17 +2,15 @@
 title: "Reference Global_objects Dataview Setbiguint64"
 slug: "reference-global_objects-dataview-setbiguint64"
 path: "reference/global_objects/dataview/setbiguint64/index.md"
-wordCount: 249
+wordCount: 248
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.574Z"
+lastModified: "2025-08-02T14:03:23.510Z"
 ---
 
-
-{{JSRef}}
 
 The **`setBigUint64()`** method of {{jsxref("DataView")}} instances takes a BigInt and stores it as a 64-bit unsigned integer in the 8 bytes starting at the specified byte offset of this `DataView`. There is no alignment constraint; multi-byte values may be stored at any offset within bounds.
 

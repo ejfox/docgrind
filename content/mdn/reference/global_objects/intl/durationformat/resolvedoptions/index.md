@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Durationformat Resolvedoptions"
 slug: "reference-global_objects-intl-durationformat-resolvedoptions"
 path: "reference/global_objects/intl/durationformat/resolvedoptions/index.md"
-wordCount: 304
+wordCount: 303
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.616Z"
+lastModified: "2025-08-02T14:03:23.552Z"
 ---
 
-
-{{JSRef}}
 
 The **`resolvedOptions()`** method of {{jsxref("Intl.DurationFormat")}} instances returns a new object with properties reflecting the options computed during initialization of this `DurationFormat` object.
 

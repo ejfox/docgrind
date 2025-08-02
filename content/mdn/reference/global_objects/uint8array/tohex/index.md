@@ -2,17 +2,15 @@
 title: "Reference Global_objects Uint8array Tohex"
 slug: "reference-global_objects-uint8array-tohex"
 path: "reference/global_objects/uint8array/tohex/index.md"
-wordCount: 160
+wordCount: 159
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.860Z"
+lastModified: "2025-08-02T14:03:23.747Z"
 ---
 
-
-{{JSRef}}
 
 The **`toHex()`** method of {{jsxref("Uint8Array")}} instances returns a hex-encoded string based on the data in this `Uint8Array` object.
 
@@ -48,7 +46,7 @@ for (let i = 0; i < data.length; i += 3) {
 }
 // "ff0000"
 // "00ff00"
-// "00ff00"
+// "0000ff"
 ```
 
 ## Specifications

@@ -2,17 +2,15 @@
 title: "Reference Regular_expressions Capturing_group"
 slug: "reference-regular_expressions-capturing_group"
 path: "reference/regular_expressions/capturing_group/index.md"
-wordCount: 767
+wordCount: 766
 readingTime: 4
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.894Z"
+lastModified: "2025-08-02T14:03:23.781Z"
 ---
 
-
-{{jsSidebar}}
 
 A **capturing group** groups a subpattern, allowing you to apply a [quantifier](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Quantifier) to the entire group or use [disjunctions](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Disjunction) within it. It memorizes information about the subpattern match, so that you can refer back to it later with a [backreference](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Backreference), or access the information through the [match results](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec#return_value).
 

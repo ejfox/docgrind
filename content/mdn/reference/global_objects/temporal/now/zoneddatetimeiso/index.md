@@ -8,11 +8,11 @@ codeBlocks: 2
 difficulty: "beginner"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.796Z"
+lastModified: "2025-08-02T14:03:23.683Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`Temporal.Now.zonedDateTimeISO()`** static method returns the current date and time as a {{jsxref("Temporal.ZonedDateTime")}} object, in the ISO 8601 calendar and the specified time zone.
 

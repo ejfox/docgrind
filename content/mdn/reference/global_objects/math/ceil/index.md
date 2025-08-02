@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Ceil"
 slug: "reference-global_objects-math-ceil"
 path: "reference/global_objects/math/ceil/index.md"
-wordCount: 169
+wordCount: 168
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.660Z"
+lastModified: "2025-08-02T14:03:23.586Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.ceil()`** static method always rounds up and returns the smallest integer greater than or equal to a given number.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Valueof"
 slug: "reference-global_objects-string-valueof"
 path: "reference/global_objects/string/valueof/index.md"
-wordCount: 129
+wordCount: 128
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.774Z"
+lastModified: "2025-08-02T14:03:23.662Z"
 ---
 
-
-{{JSRef}}
 
 The **`valueOf()`** method of {{jsxref("String")}} values returns this string value.
 

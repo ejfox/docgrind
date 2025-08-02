@@ -2,24 +2,22 @@
 title: "Reference Global_objects Symbol Toprimitive"
 slug: "reference-global_objects-symbol-toprimitive"
 path: "reference/global_objects/symbol/toprimitive/index.md"
-wordCount: 429
+wordCount: 428
 readingTime: 3
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.778Z"
+lastModified: "2025-08-02T14:03:23.667Z"
 ---
 
-
-{{JSRef}}
 
 The **`Symbol.toPrimitive`** static data property represents the [well-known symbol](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#well-known_symbols) `Symbol.toPrimitive`. All [type coercion](/en-US/docs/Web/JavaScript/Guide/Data_structures#type_coercion) algorithms look up this symbol on objects for the method that accepts a preferred type and returns a primitive representation of the object, before falling back to using the object's `valueOf()` and `toString()` methods.
 
 {{InteractiveExample("JavaScript Demo: Symbol.toPrimitive")}}
 
 ```js interactive-example
-const object1 = {
+const object = {
   [Symbol.toPrimitive](hint) {
     if (hint === "number") {
       return 42;
@@ -28,7 +26,7 @@ const object1 = {
   },
 };
 
-console.log(+object1);
+console.log(+object);
 // Expected output: 42
 ```
 

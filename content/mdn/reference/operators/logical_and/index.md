@@ -2,17 +2,15 @@
 title: "Reference Operators Logical_and"
 slug: "reference-operators-logical_and"
 path: "reference/operators/logical_and/index.md"
-wordCount: 746
+wordCount: 745
 readingTime: 4
 codeBlocks: 13
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.882Z"
+lastModified: "2025-08-02T14:03:23.768Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **logical AND (`&&`)** (logical conjunction) operator for a set of boolean operands will be `true` if and only if all the operands are `true`. Otherwise it will be `false`.
 

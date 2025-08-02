@@ -2,17 +2,15 @@
 title: "Reference Global_objects Function Call"
 slug: "reference-global_objects-function-call"
 path: "reference/global_objects/function/call/index.md"
-wordCount: 697
+wordCount: 696
 readingTime: 4
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "arrays", "objects", "classes", "spread"]
-lastModified: "2025-07-06T19:32:45.601Z"
+lastModified: "2025-08-02T14:03:23.537Z"
 ---
 
-
-{{JSRef}}
 
 The **`call()`** method of {{jsxref("Function")}} instances calls this function with a given `this` value and arguments provided individually.
 

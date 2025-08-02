@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Toisostring"
 slug: "reference-global_objects-date-toisostring"
 path: "reference/global_objects/date/toisostring/index.md"
-wordCount: 187
+wordCount: 186
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.588Z"
+lastModified: "2025-08-02T14:03:23.522Z"
 ---
 
-
-{{JSRef}}
 
 The **`toISOString()`** method of {{jsxref("Date")}} instances returns a string representing this date in the [date time string format](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date#date_time_string_format), a _simplified_ format based on [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601), which is always 24 or 27 characters long (`YYYY-MM-DDTHH:mm:ss.sssZ` or `±YYYYYY-MM-DDTHH:mm:ss.sssZ`, respectively). The timezone is always UTC, as denoted by the suffix `Z`.
 

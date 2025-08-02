@@ -2,17 +2,15 @@
 title: "Guide Memory_management"
 slug: "guide-memory_management"
 path: "guide/memory_management/index.md"
-wordCount: 2726
+wordCount: 2725
 readingTime: 14
 codeBlocks: 11
 difficulty: "advanced"
 category: "Guide"
 tags: ["variables", "functions", "objects", "async", "events"]
-lastModified: "2025-07-06T19:32:45.483Z"
+lastModified: "2025-08-02T14:03:23.419Z"
 ---
 
-
-{{jsSidebar("Advanced")}}
 
 Low-level languages like C, have manual memory management primitives such as [`malloc()`](https://pubs.opengroup.org/onlinepubs/009695399/functions/malloc.html) and [`free()`](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation#Overview_of_functions). In contrast, JavaScript automatically allocates memory when objects are created and frees it when they are not used anymore (_garbage collection_). This automaticity is a potential source of confusion: it can give developers the false impression that they don't need to worry about memory management.
 

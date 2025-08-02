@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Displaynames Of"
 slug: "reference-global_objects-intl-displaynames-of"
 path: "reference/global_objects/intl/displaynames/of/index.md"
-wordCount: 503
+wordCount: 502
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.614Z"
+lastModified: "2025-08-02T14:03:23.550Z"
 ---
 
-
-{{JSRef}}
 
 The **`of()`** method of {{jsxref("Intl.DisplayNames")}} instances receives a code and returns a string based on the locale and options provided when instantiating this `Intl.DisplayNames` object.
 

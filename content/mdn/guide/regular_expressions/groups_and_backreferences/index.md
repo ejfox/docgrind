@@ -2,17 +2,15 @@
 title: "Guide Regular_expressions Groups_and_backreferences"
 slug: "guide-regular_expressions-groups_and_backreferences"
 path: "guide/regular_expressions/groups_and_backreferences/index.md"
-wordCount: 933
+wordCount: 931
 readingTime: 5
 codeBlocks: 5
 difficulty: "advanced"
 category: "Guide"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.488Z"
+lastModified: "2025-08-02T14:03:23.425Z"
 ---
 
-
-{{jsSidebar("JavaScript Guide")}}
 
 Groups group multiple patterns as a whole, and capturing groups provide extra submatch information when using a regular expression pattern to match against a string. Backreferences refer to a previously captured group in the same regular expression.
 

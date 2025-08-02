@@ -2,17 +2,15 @@
 title: "Reference Regular_expressions Lookbehind_assertion"
 slug: "reference-regular_expressions-lookbehind_assertion"
 path: "reference/regular_expressions/lookbehind_assertion/index.md"
-wordCount: 479
+wordCount: 478
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["rest"]
-lastModified: "2025-07-06T19:32:45.898Z"
+lastModified: "2025-08-02T14:03:23.785Z"
 ---
 
-
-{{jsSidebar}}
 
 A **lookbehind assertion** "looks behind": it attempts to match the previous input with the given pattern, but it does not consume any of the input — if the match is successful, the current position in the input stays the same. It matches each atom in its pattern in the reverse order.
 

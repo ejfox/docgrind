@@ -2,17 +2,15 @@
 title: "Reference Global_objects Regexp Multiline"
 slug: "reference-global_objects-regexp-multiline"
 path: "reference/global_objects/regexp/multiline/index.md"
-wordCount: 174
+wordCount: 173
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.742Z"
+lastModified: "2025-08-02T14:03:23.635Z"
 ---
 
-
-{{JSRef}}
 
 The **`multiline`** accessor property of {{jsxref("RegExp")}} instances returns whether or not the `m` flag is used with this regular expression.
 

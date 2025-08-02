@@ -8,11 +8,11 @@ codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.783Z"
+lastModified: "2025-08-02T14:03:23.672Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`nanoseconds`** accessor property of {{jsxref("Temporal.Duration")}} instances returns an integer representing the number of nanoseconds in the duration.
 

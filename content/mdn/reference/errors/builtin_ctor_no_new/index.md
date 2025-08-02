@@ -2,17 +2,15 @@
 title: "Reference Errors Builtin_ctor_no_new"
 slug: "reference-errors-builtin_ctor_no_new"
 path: "reference/errors/builtin_ctor_no_new/index.md"
-wordCount: 246
+wordCount: 245
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "classes"]
-lastModified: "2025-07-06T19:32:45.504Z"
+lastModified: "2025-08-02T14:03:23.441Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "calling a builtin X constructor without new is forbidden" occurs when you try to call a builtin constructor without using the {{jsxref("Operators/new", "new")}} keyword. All modern constructors, such as {{jsxref("Promise")}} and {{jsxref("Map")}}, must be called with `new`.
 

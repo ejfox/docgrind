@@ -2,17 +2,17 @@
 title: "Reference Global_objects Date Getyear"
 slug: "reference-global_objects-date-getyear"
 path: "reference/global_objects/date/getyear/index.md"
-wordCount: 336
+wordCount: 335
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.581Z"
+lastModified: "2025-08-02T14:03:23.516Z"
 ---
 
 
-{{JSRef}} {{Deprecated_Header}}
+{{Deprecated_Header}}
 
 The **`getYear()`** method of {{jsxref("Date")}} instances returns the year for this date according to local time. Because `getYear()` does not return full years ("year 2000 problem"), it is deprecated and has been replaced by the {{jsxref("Date/getFullYear", "getFullYear()")}} method.
 

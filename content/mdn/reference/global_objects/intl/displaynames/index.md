@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Displaynames"
 slug: "reference-global_objects-intl-displaynames"
 path: "reference/global_objects/intl/displaynames/index.md"
-wordCount: 572
+wordCount: 571
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.614Z"
+lastModified: "2025-08-02T14:03:23.549Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.DisplayNames`** object enables the consistent translation of language, region and script display names.
 

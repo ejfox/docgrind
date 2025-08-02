@@ -2,17 +2,15 @@
 title: "Reference Global_objects Object Assign"
 slug: "reference-global_objects-object-assign"
 path: "reference/global_objects/object/assign/index.md"
-wordCount: 1198
+wordCount: 1197
 readingTime: 6
 codeBlocks: 11
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "dom", "spread"]
-lastModified: "2025-07-06T19:32:45.679Z"
+lastModified: "2025-08-02T14:03:23.604Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object.assign()`** static method
 copies all {{jsxref("Object/propertyIsEnumerable", "enumerable", "", 1)}}

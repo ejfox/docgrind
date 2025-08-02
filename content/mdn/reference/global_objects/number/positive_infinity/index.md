@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number Positive_infinity"
 slug: "reference-global_objects-number-positive_infinity"
 path: "reference/global_objects/number/positive_infinity/index.md"
-wordCount: 328
+wordCount: 327
 readingTime: 2
 codeBlocks: 2
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.675Z"
+lastModified: "2025-08-02T14:03:23.600Z"
 ---
 
-
-{{JSRef}}
 
 The **`Number.POSITIVE_INFINITY`** static data property represents the positive Infinity value.
 

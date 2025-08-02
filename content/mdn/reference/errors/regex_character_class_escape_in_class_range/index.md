@@ -2,17 +2,15 @@
 title: "Reference Errors Regex_character_class_escape_in_class_range"
 slug: "reference-errors-regex_character_class_escape_in_class_range"
 path: "reference/errors/regex_character_class_escape_in_class_range/index.md"
-wordCount: 346
+wordCount: 345
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "classes"]
-lastModified: "2025-07-06T19:32:45.524Z"
+lastModified: "2025-08-02T14:03:23.459Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "character class escape cannot be used in class range in regular expression" occurs when a [Unicode-aware](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode#unicode-aware_mode) regular expression pattern contains a [character class](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Character_class) where a boundary of a character range is another character class, such as a [character class escape](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Character_class_escape).
 

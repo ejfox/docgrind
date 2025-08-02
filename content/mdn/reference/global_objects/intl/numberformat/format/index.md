@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Numberformat Format"
 slug: "reference-global_objects-intl-numberformat-format"
 path: "reference/global_objects/intl/numberformat/format/index.md"
-wordCount: 600
+wordCount: 599
 readingTime: 3
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.624Z"
+lastModified: "2025-08-02T14:03:23.561Z"
 ---
 
-
-{{JSRef}}
 
 The **`format()`** method of {{jsxref("Intl.NumberFormat")}} instances formats a number according to the [locale and formatting options](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat#parameters) of this `Intl.NumberFormat` object.
 

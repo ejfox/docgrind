@@ -2,17 +2,15 @@
 title: "Reference Global_objects Reflect"
 slug: "reference-global_objects-reflect"
 path: "reference/global_objects/reflect/index.md"
-wordCount: 721
+wordCount: 720
 readingTime: 4
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "api"]
-lastModified: "2025-07-06T19:32:45.725Z"
+lastModified: "2025-08-02T14:03:23.629Z"
 ---
 
-
-{{JSRef}}
 
 The **`Reflect`** namespace object contains static methods for invoking interceptable JavaScript object internal methods. The methods are the same as those of [proxy handlers](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy).
 

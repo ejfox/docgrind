@@ -2,34 +2,32 @@
 title: "Reference Global_objects Intl Listformat Resolvedoptions"
 slug: "reference-global_objects-intl-listformat-resolvedoptions"
 path: "reference/global_objects/intl/listformat/resolvedoptions/index.md"
-wordCount: 254
+wordCount: 253
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.618Z"
+lastModified: "2025-08-02T14:03:23.554Z"
 ---
 
-
-{{JSRef}}
 
 The **`resolvedOptions()`** method of {{jsxref("Intl.ListFormat")}} instances returns a new object with properties reflecting the options computed during initialization of this `ListFormat` object.
 
 {{InteractiveExample("JavaScript Demo: Intl.ListFormat.prototype.resolvedOptions()")}}
 
 ```js interactive-example
-const deListFormatter1 = new Intl.ListFormat("de-DE", { type: "disjunction" });
-const options1 = deListFormatter1.resolvedOptions();
+const deListFormatter = new Intl.ListFormat("de-DE", { type: "disjunction" });
+const options = deListFormatter.resolvedOptions();
 
-console.log(options1.locale);
+console.log(options.locale);
 // Expected output (Firefox / Safari): "de-DE"
 // Expected output (Chrome): "de"
 
-console.log(options1.style);
+console.log(options.style);
 // Expected output: "long"
 
-console.log(options1.type);
+console.log(options.type);
 // Expected output: "disjunction"
 ```
 

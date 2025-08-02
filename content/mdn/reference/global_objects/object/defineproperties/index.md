@@ -2,17 +2,15 @@
 title: "Reference Global_objects Object Defineproperties"
 slug: "reference-global_objects-object-defineproperties"
 path: "reference/global_objects/object/defineproperties/index.md"
-wordCount: 440
+wordCount: 439
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.680Z"
+lastModified: "2025-08-02T14:03:23.605Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object.defineProperties()`** static method defines new or
 modifies existing properties directly on an object, returning the object.
@@ -20,9 +18,9 @@ modifies existing properties directly on an object, returning the object.
 {{InteractiveExample("JavaScript Demo: Object.defineProperties()")}}
 
 ```js interactive-example
-const object1 = {};
+const object = {};
 
-Object.defineProperties(object1, {
+Object.defineProperties(object, {
   property1: {
     value: 42,
     writable: true,
@@ -30,7 +28,7 @@ Object.defineProperties(object1, {
   property2: {},
 });
 
-console.log(object1.property1);
+console.log(object.property1);
 // Expected output: 42
 ```
 

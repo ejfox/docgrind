@@ -2,17 +2,15 @@
 title: "Reference Global_objects String String"
 slug: "reference-global_objects-string-string"
 path: "reference/global_objects/string/string/index.md"
-wordCount: 335
+wordCount: 334
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.770Z"
+lastModified: "2025-08-02T14:03:23.659Z"
 ---
 
-
-{{JSRef}}
 
 The **`String()`** constructor creates {{jsxref("String")}} objects. When called as a function, it returns primitive values of type String.
 

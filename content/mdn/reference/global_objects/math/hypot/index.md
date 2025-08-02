@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Hypot"
 slug: "reference-global_objects-math-hypot"
 path: "reference/global_objects/math/hypot/index.md"
-wordCount: 450
+wordCount: 449
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.663Z"
+lastModified: "2025-08-02T14:03:23.589Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.hypot()`** static method returns the square root of the sum of squares of its arguments. That is,
 

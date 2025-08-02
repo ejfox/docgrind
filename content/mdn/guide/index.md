@@ -2,17 +2,15 @@
 title: "Guide"
 slug: "guide"
 path: "guide/index.md"
-wordCount: 443
+wordCount: 441
 readingTime: 3
 codeBlocks: 0
 difficulty: "advanced"
 category: "Guide"
 tags: ["functions", "arrays", "objects", "loops", "classes"]
-lastModified: "2025-07-06T19:32:45.473Z"
+lastModified: "2025-08-02T14:03:23.411Z"
 ---
 
-
-{{jsSidebar("JavaScript Guide")}}
 
 The JavaScript Guide shows you how to use [JavaScript](/en-US/docs/Web/JavaScript) and gives an overview of the language. If you need exhaustive information about a language feature, have a look at the [JavaScript reference](/en-US/docs/Web/JavaScript/Reference).
 

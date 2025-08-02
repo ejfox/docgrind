@@ -2,17 +2,15 @@
 title: "Reference Global_objects Generatorfunction Generatorfunction"
 slug: "reference-global_objects-generatorfunction-generatorfunction"
 path: "reference/global_objects/generatorfunction/generatorfunction/index.md"
-wordCount: 172
+wordCount: 171
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects"]
-lastModified: "2025-07-06T19:32:45.605Z"
+lastModified: "2025-08-02T14:03:23.541Z"
 ---
 
-
-{{JSRef}}
 
 The **`GeneratorFunction()`** constructor creates {{jsxref("GeneratorFunction")}} objects.
 

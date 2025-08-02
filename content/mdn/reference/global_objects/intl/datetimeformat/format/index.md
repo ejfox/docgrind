@@ -2,41 +2,39 @@
 title: "Reference Global_objects Intl Datetimeformat Format"
 slug: "reference-global_objects-intl-datetimeformat-format"
 path: "reference/global_objects/intl/datetimeformat/format/index.md"
-wordCount: 422
+wordCount: 421
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.611Z"
+lastModified: "2025-08-02T14:03:23.546Z"
 ---
 
-
-{{JSRef}}
 
 The **`format()`** method of {{jsxref("Intl.DateTimeFormat")}} instances formats a date according to the locale and formatting options of this `Intl.DateTimeFormat` object.
 
 {{InteractiveExample("JavaScript Demo: Intl.DateTimeFormat.prototype.format()", "taller")}}
 
 ```js interactive-example
-const options1 = {
+const options = {
   weekday: "long",
   year: "numeric",
   month: "long",
   day: "numeric",
 };
-const date1 = new Date(2012, 5);
+const date = new Date(2012, 5);
 
-const dateTimeFormat1 = new Intl.DateTimeFormat("sr-RS", options1);
-console.log(dateTimeFormat1.format(date1));
+const dateTimeFormat1 = new Intl.DateTimeFormat("sr-RS", options);
+console.log(dateTimeFormat1.format(date));
 // Expected output: "петак, 1. јун 2012."
 
-const dateTimeFormat2 = new Intl.DateTimeFormat("en-GB", options1);
-console.log(dateTimeFormat2.format(date1));
+const dateTimeFormat2 = new Intl.DateTimeFormat("en-GB", options);
+console.log(dateTimeFormat2.format(date));
 // Expected output: "Friday, 1 June 2012"
 
-const dateTimeFormat3 = new Intl.DateTimeFormat("en-US", options1);
-console.log(dateTimeFormat3.format(date1));
+const dateTimeFormat3 = new Intl.DateTimeFormat("en-US", options);
+console.log(dateTimeFormat3.format(date));
 // Expected output: "Friday, June 1, 2012"
 ```
 

@@ -2,17 +2,17 @@
 title: "Guide Working_with_objects"
 slug: "guide-working_with_objects"
 path: "guide/working_with_objects/index.md"
-wordCount: 3290
+wordCount: 3288
 readingTime: 17
 codeBlocks: 34
 difficulty: "advanced"
 category: "Guide"
 tags: ["variables", "functions", "objects", "loops", "classes"]
-lastModified: "2025-07-06T19:32:45.494Z"
+lastModified: "2025-08-02T14:03:23.431Z"
 ---
 
 
-{{jsSidebar("JavaScript Guide")}} {{PreviousNext("Web/JavaScript/Guide/Keyed_collections", "Web/JavaScript/Guide/Using_classes")}}
+{{PreviousNext("Web/JavaScript/Guide/Keyed_collections", "Web/JavaScript/Guide/Using_classes")}}
 
 JavaScript is designed on an object-based paradigm. An object is a collection of [properties](/en-US/docs/Glossary/Property/JavaScript), and a property is an association between a name (or _key_) and a value. A property's value can be a function, in which case the property is known as a [method](/en-US/docs/Glossary/Method).
 
@@ -164,9 +164,9 @@ const Animal = {
   },
 };
 
-// Create new animal type called animal1
-const animal1 = Object.create(Animal);
-animal1.displayType(); // Logs: Invertebrates
+// Create new animal type called `animal`
+const animal = Object.create(Animal);
+animal.displayType(); // Logs: Invertebrates
 
 // Create new animal type called fish
 const fish = Object.create(Animal);

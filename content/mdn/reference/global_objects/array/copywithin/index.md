@@ -2,31 +2,29 @@
 title: "Reference Global_objects Array Copywithin"
 slug: "reference-global_objects-array-copywithin"
 path: "reference/global_objects/array/copywithin/index.md"
-wordCount: 775
+wordCount: 774
 readingTime: 4
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.539Z"
+lastModified: "2025-08-02T14:03:23.474Z"
 ---
 
-
-{{JSRef}}
 
 The **`copyWithin()`** method of {{jsxref("Array")}} instances shallow copies part of this array to another location in the same array and returns this array without modifying its length.
 
 {{InteractiveExample("JavaScript Demo: Array.prototype.copyWithin()")}}
 
 ```js interactive-example
-const array1 = ["a", "b", "c", "d", "e"];
+const array = ["a", "b", "c", "d", "e"];
 
 // Copy to index 0 the element at index 3
-console.log(array1.copyWithin(0, 3, 4));
+console.log(array.copyWithin(0, 3, 4));
 // Expected output: Array ["d", "b", "c", "d", "e"]
 
 // Copy to index 1 all elements from index 3 to the end
-console.log(array1.copyWithin(1, 3));
+console.log(array.copyWithin(1, 3));
 // Expected output: Array ["d", "d", "e", "d", "e"]
 ```
 

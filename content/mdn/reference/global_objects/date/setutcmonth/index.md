@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Setutcmonth"
 slug: "reference-global_objects-date-setutcmonth"
 path: "reference/global_objects/date/setutcmonth/index.md"
-wordCount: 242
+wordCount: 241
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.586Z"
+lastModified: "2025-08-02T14:03:23.521Z"
 ---
 
-
-{{JSRef}}
 
 The **`setUTCMonth()`** method of {{jsxref("Date")}} instances changes the month and/or day of the month for this date according to universal time.
 

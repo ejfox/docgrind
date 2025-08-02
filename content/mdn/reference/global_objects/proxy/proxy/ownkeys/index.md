@@ -2,38 +2,36 @@
 title: "Reference Global_objects Proxy Proxy Ownkeys"
 slug: "reference-global_objects-proxy-proxy-ownkeys"
 path: "reference/global_objects/proxy/proxy/ownkeys/index.md"
-wordCount: 429
+wordCount: 428
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.698Z"
+lastModified: "2025-08-02T14:03:23.625Z"
 ---
 
-
-{{JSRef}}
 
 The **`handler.ownKeys()`** method is a trap for the `[[OwnPropertyKeys]]` [object internal method](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#object_internal_methods), which is used by operations such as {{jsxref("Object.keys()")}}, {{jsxref("Reflect.ownKeys()")}}, etc.
 
 {{InteractiveExample("JavaScript Demo: handler.ownKeys()", "taller")}}
 
 ```js interactive-example
-const monster1 = {
+const monster = {
   _age: 111,
   [Symbol("secret")]: "I am scared!",
   eyeCount: 4,
 };
 
-const handler1 = {
+const handler = {
   ownKeys(target) {
     return Reflect.ownKeys(target);
   },
 };
 
-const proxy1 = new Proxy(monster1, handler1);
+const proxy = new Proxy(monster, handler);
 
-for (const key of Object.keys(proxy1)) {
+for (const key of Object.keys(proxy)) {
   console.log(key);
   // Expected output: "_age"
   // Expected output: "eyeCount"

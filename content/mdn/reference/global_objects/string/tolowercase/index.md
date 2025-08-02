@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Tolowercase"
 slug: "reference-global_objects-string-tolowercase"
 path: "reference/global_objects/string/tolowercase/index.md"
-wordCount: 122
+wordCount: 121
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.772Z"
+lastModified: "2025-08-02T14:03:23.661Z"
 ---
 
-
-{{JSRef}}
 
 The **`toLowerCase()`** method of {{jsxref("String")}} values returns this string converted to lower case.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Function Tostring"
 slug: "reference-global_objects-function-tostring"
 path: "reference/global_objects/function/tostring/index.md"
-wordCount: 672
+wordCount: 671
 readingTime: 4
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects"]
-lastModified: "2025-07-06T19:32:45.604Z"
+lastModified: "2025-08-02T14:03:23.539Z"
 ---
 
-
-{{JSRef}}
 
 The **`toString()`** method of {{jsxref("Function")}} instances returns a string representing the source code of this function.
 

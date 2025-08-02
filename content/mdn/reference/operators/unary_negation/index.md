@@ -2,17 +2,15 @@
 title: "Reference Operators Unary_negation"
 slug: "reference-operators-unary_negation"
 path: "reference/operators/unary_negation/index.md"
-wordCount: 210
+wordCount: 209
 readingTime: 2
 codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.892Z"
+lastModified: "2025-08-02T14:03:23.778Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **unary negation (`-`)** operator precedes its operand and negates it.
 

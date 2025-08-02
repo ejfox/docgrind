@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Gettime"
 slug: "reference-global_objects-date-gettime"
 path: "reference/global_objects/date/gettime/index.md"
-wordCount: 299
+wordCount: 298
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.578Z"
+lastModified: "2025-08-02T14:03:23.514Z"
 ---
 
-
-{{JSRef}}
 
 The **`getTime()`** method of {{jsxref("Date")}} instances returns the number of milliseconds for this date since the [epoch](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date#the_epoch_timestamps_and_invalid_date), which is defined as the midnight at the beginning of January 1, 1970, UTC.
 

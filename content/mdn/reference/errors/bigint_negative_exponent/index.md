@@ -2,17 +2,15 @@
 title: "Reference Errors Bigint_negative_exponent"
 slug: "reference-errors-bigint_negative_exponent"
 path: "reference/errors/bigint_negative_exponent/index.md"
-wordCount: 195
+wordCount: 194
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.504Z"
+lastModified: "2025-08-02T14:03:23.440Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "BigInt negative exponent" occurs when a {{jsxref("BigInt")}} is raised to the power of a negative BigInt value.
 

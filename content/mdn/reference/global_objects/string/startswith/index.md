@@ -2,29 +2,27 @@
 title: "Reference Global_objects String Startswith"
 slug: "reference-global_objects-string-startswith"
 path: "reference/global_objects/string/startswith/index.md"
-wordCount: 255
+wordCount: 254
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.770Z"
+lastModified: "2025-08-02T14:03:23.658Z"
 ---
 
-
-{{JSRef}}
 
 The **`startsWith()`** method of {{jsxref("String")}} values determines whether this string begins with the characters of a specified string, returning `true` or `false` as appropriate.
 
 {{InteractiveExample("JavaScript Demo: String.prototype.startsWith()")}}
 
 ```js interactive-example
-const str1 = "Saturday night plans";
+const str = "Saturday night plans";
 
-console.log(str1.startsWith("Sat"));
+console.log(str.startsWith("Sat"));
 // Expected output: true
 
-console.log(str1.startsWith("Sat", 3));
+console.log(str.startsWith("Sat", 3));
 // Expected output: false
 ```
 

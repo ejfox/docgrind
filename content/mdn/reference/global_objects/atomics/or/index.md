@@ -2,17 +2,15 @@
 title: "Reference Global_objects Atomics Or"
 slug: "reference-global_objects-atomics-or"
 path: "reference/global_objects/atomics/or/index.md"
-wordCount: 334
+wordCount: 333
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.564Z"
+lastModified: "2025-08-02T14:03:23.500Z"
 ---
 
-
-{{JSRef}}
 
 The **`Atomics.or()`** static
 method computes a bitwise OR with a given value at a given position in the array, and

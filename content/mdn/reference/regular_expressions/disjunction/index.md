@@ -2,17 +2,15 @@
 title: "Reference Regular_expressions Disjunction"
 slug: "reference-regular_expressions-disjunction"
 path: "reference/regular_expressions/disjunction/index.md"
-wordCount: 370
+wordCount: 369
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["classes", "rest"]
-lastModified: "2025-07-06T19:32:45.896Z"
+lastModified: "2025-08-02T14:03:23.783Z"
 ---
 
-
-{{jsSidebar}}
 
 A **disjunction** specifies multiple alternatives. Any alternative matching the input causes the entire disjunction to be matched.
 

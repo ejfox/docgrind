@@ -2,17 +2,15 @@
 title: "Reference Global_objects Set Keys"
 slug: "reference-global_objects-set-keys"
 path: "reference/global_objects/set/keys/index.md"
-wordCount: 85
+wordCount: 84
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.751Z"
+lastModified: "2025-08-02T14:03:23.643Z"
 ---
 
-
-{{JSRef}}
 
 The **`keys()`** method of {{jsxref("Set")}} instances is an alias for the [`values()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/values) method.
 

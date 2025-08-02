@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Toutcstring"
 slug: "reference-global_objects-date-toutcstring"
 path: "reference/global_objects/date/toutcstring/index.md"
-wordCount: 345
+wordCount: 344
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "api"]
-lastModified: "2025-07-06T19:32:45.590Z"
+lastModified: "2025-08-02T14:03:23.525Z"
 ---
 
-
-{{JSRef}}
 
 The **`toUTCString()`** method of {{jsxref("Date")}} instances returns a string representing this date in the [RFC 7231](https://datatracker.ietf.org/doc/html/rfc7231#section-7.1.1.1) format, with negative years allowed. The timezone is always UTC. `toGMTString()` is an alias of this method.
 

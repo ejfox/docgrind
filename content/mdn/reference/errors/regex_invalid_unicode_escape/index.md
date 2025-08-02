@@ -2,17 +2,15 @@
 title: "Reference Errors Regex_invalid_unicode_escape"
 slug: "reference-errors-regex_invalid_unicode_escape"
 path: "reference/errors/regex_invalid_unicode_escape/index.md"
-wordCount: 193
+wordCount: 192
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.527Z"
+lastModified: "2025-08-02T14:03:23.462Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "invalid unicode escape in regular expression" occurs when the `\c` and `\u` [character escapes](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Character_escape) are not followed by valid characters.
 

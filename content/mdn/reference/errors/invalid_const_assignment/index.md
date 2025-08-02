@@ -2,17 +2,15 @@
 title: "Reference Errors Invalid_const_assignment"
 slug: "reference-errors-invalid_const_assignment"
 path: "reference/errors/invalid_const_assignment/index.md"
-wordCount: 393
+wordCount: 392
 readingTime: 2
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.515Z"
+lastModified: "2025-08-02T14:03:23.450Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "invalid assignment to const" occurs when it was attempted to
 alter a constant value. JavaScript

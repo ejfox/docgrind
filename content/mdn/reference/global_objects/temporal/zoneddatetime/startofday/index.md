@@ -8,11 +8,11 @@ codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.841Z"
+lastModified: "2025-08-02T14:03:23.726Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`startOfDay()`** method of {{jsxref("Temporal.ZonedDateTime")}} instances returns a {{jsxref("Temporal.ZonedDateTime")}} object representing the first instant of this date in the time zone. It usually has a time of `00:00:00`, but may be different if the midnight doesn't exist due to offset changes, in which case the first time that exists is returned.
 

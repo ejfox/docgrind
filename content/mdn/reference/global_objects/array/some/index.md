@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Some"
 slug: "reference-global_objects-array-some"
 path: "reference/global_objects/array/some/index.md"
-wordCount: 942
+wordCount: 941
 readingTime: 5
 codeBlocks: 9
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "arrays", "objects", "arrow-functions"]
-lastModified: "2025-07-06T19:32:45.551Z"
+lastModified: "2025-08-02T14:03:23.486Z"
 ---
 
-
-{{JSRef}}
 
 The **`some()`** method of {{jsxref("Array")}} instances tests whether
 at least one element in the array passes the test implemented by the provided

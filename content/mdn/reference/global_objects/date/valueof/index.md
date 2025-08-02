@@ -2,17 +2,15 @@
 title: "Reference Global_objects Date Valueof"
 slug: "reference-global_objects-date-valueof"
 path: "reference/global_objects/date/valueof/index.md"
-wordCount: 194
+wordCount: 193
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.591Z"
+lastModified: "2025-08-02T14:03:23.525Z"
 ---
 
-
-{{JSRef}}
 
 The **`valueOf()`** method of {{jsxref("Date")}} instances returns the number of milliseconds for this date since the [epoch](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date#the_epoch_timestamps_and_invalid_date), which is defined as the midnight at the beginning of January 1, 1970, UTC.
 

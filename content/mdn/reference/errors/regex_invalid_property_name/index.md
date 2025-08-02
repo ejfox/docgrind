@@ -2,17 +2,15 @@
 title: "Reference Errors Regex_invalid_property_name"
 slug: "reference-errors-regex_invalid_property_name"
 path: "reference/errors/regex_invalid_property_name/index.md"
-wordCount: 298
+wordCount: 297
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.527Z"
+lastModified: "2025-08-02T14:03:23.462Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "invalid property name in regular expression" or "invalid class property name in regular expression" occurs when the `\p` and `\P` [Unicode character class escapes](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Unicode_character_class_escape) are not followed by a valid Unicode property name and/or value.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Arraybuffer Maxbytelength"
 slug: "reference-global_objects-arraybuffer-maxbytelength"
 path: "reference/global_objects/arraybuffer/maxbytelength/index.md"
-wordCount: 186
+wordCount: 185
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.557Z"
+lastModified: "2025-08-02T14:03:23.492Z"
 ---
 
-
-{{JSRef}}
 
 The **`maxByteLength`** accessor property of {{jsxref("ArrayBuffer")}} instances returns the maximum length (in bytes) that this array buffer can be resized to.
 

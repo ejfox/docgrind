@@ -2,17 +2,15 @@
 title: "Reference Errors Regex_numbers_out_of_order_in_quantifier"
 slug: "reference-errors-regex_numbers_out_of_order_in_quantifier"
 path: "reference/errors/regex_numbers_out_of_order_in_quantifier/index.md"
-wordCount: 168
+wordCount: 167
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.528Z"
+lastModified: "2025-08-02T14:03:23.463Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "numbers out of order in {} quantifier" occurs when a [quantifier](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Quantifier) in a regular expression uses the `{n,m}` syntax but `m` is less than `n`.
 

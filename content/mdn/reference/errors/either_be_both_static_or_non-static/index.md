@@ -2,17 +2,15 @@
 title: "Reference Errors Either_be_both_static_or_non Static"
 slug: "reference-errors-either_be_both_static_or_non-static"
 path: "reference/errors/either_be_both_static_or_non-static/index.md"
-wordCount: 196
+wordCount: 195
 readingTime: 1
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "classes"]
-lastModified: "2025-07-06T19:32:45.510Z"
+lastModified: "2025-08-02T14:03:23.447Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "mismatched placement" occurs when a private [getter](/en-US/docs/Web/JavaScript/Reference/Functions/get) and [setter](/en-US/docs/Web/JavaScript/Reference/Functions/set) are mismatched in whether or not they are {{jsxref("Classes/static", "static")}}.
 

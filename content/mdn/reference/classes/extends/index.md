@@ -2,17 +2,15 @@
 title: "Reference Classes Extends"
 slug: "reference-classes-extends"
 path: "reference/classes/extends/index.md"
-wordCount: 2286
+wordCount: 2285
 readingTime: 12
 codeBlocks: 20
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "dom", "es6"]
-lastModified: "2025-07-06T19:32:45.496Z"
+lastModified: "2025-08-02T14:03:23.433Z"
 ---
 
-
-{{jsSidebar("Classes")}}
 
 The **`extends`** keyword is used in [class declarations](/en-US/docs/Web/JavaScript/Reference/Statements/class) or [class expressions](/en-US/docs/Web/JavaScript/Reference/Operators/class) to create a class that is a child of another class.
 

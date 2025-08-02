@@ -2,17 +2,15 @@
 title: "Reference Errors Arguments_not_allowed"
 slug: "reference-errors-arguments_not_allowed"
 path: "reference/errors/arguments_not_allowed/index.md"
-wordCount: 281
+wordCount: 280
 readingTime: 2
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "classes"]
-lastModified: "2025-07-06T19:32:45.500Z"
+lastModified: "2025-08-02T14:03:23.437Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "SyntaxError: arguments is not valid in fields" occurs when the [`arguments`](/en-US/docs/Web/JavaScript/Reference/Functions/arguments) identifier is read in a class field initializer or in a static initialization block, outside of a non-[arrow function](/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions).
 

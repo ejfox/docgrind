@@ -2,17 +2,15 @@
 title: "Reference Template_literals"
 slug: "reference-template_literals"
 path: "reference/template_literals/index.md"
-wordCount: 2090
+wordCount: 2089
 readingTime: 11
 codeBlocks: 25
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "classes", "api", "es6"]
-lastModified: "2025-07-06T19:32:45.916Z"
+lastModified: "2025-08-02T14:03:23.804Z"
 ---
 
-
-{{jsSidebar("More")}}
 
 **Template literals** are literals delimited with backtick (`` ` ``) characters, allowing for [multi-line strings](#multi-line_strings), [string interpolation](#string_interpolation) with embedded expressions, and special constructs called [tagged templates](#tagged_templates).
 

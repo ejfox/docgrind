@@ -2,17 +2,15 @@
 title: "Reference Global_objects Atomics Sub"
 slug: "reference-global_objects-atomics-sub"
 path: "reference/global_objects/atomics/sub/index.md"
-wordCount: 228
+wordCount: 227
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.565Z"
+lastModified: "2025-08-02T14:03:23.501Z"
 ---
 
-
-{{JSRef}}
 
 The **`Atomics.sub()`** static method subtracts a given value
 at a given position in the array and returns the old value at that position. This atomic

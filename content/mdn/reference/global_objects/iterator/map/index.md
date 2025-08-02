@@ -2,17 +2,15 @@
 title: "Reference Global_objects Iterator Map"
 slug: "reference-global_objects-iterator-map"
 path: "reference/global_objects/iterator/map/index.md"
-wordCount: 400
+wordCount: 399
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.642Z"
+lastModified: "2025-08-02T14:03:23.576Z"
 ---
 
-
-{{JSRef}}
 
 The **`map()`** method of {{jsxref("Iterator")}} instances returns a new [iterator helper object](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator#iterator_helper_objects) that yields elements of the iterator, each transformed by a mapping function.
 

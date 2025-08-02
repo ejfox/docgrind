@@ -2,17 +2,15 @@
 title: "Reference Global_objects Promise Promise"
 slug: "reference-global_objects-promise-promise"
 path: "reference/global_objects/promise/promise/index.md"
-wordCount: 1741
+wordCount: 1740
 readingTime: 9
 codeBlocks: 12
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "async", "promises", "api"]
-lastModified: "2025-07-06T19:32:45.692Z"
+lastModified: "2025-08-02T14:03:23.618Z"
 ---
 
-
-{{JSRef}}
 
 The **`Promise()`** constructor creates {{jsxref("Promise")}} objects. It is primarily used to wrap callback-based APIs that do not already support promises.
 

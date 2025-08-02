@@ -2,17 +2,15 @@
 title: "Reference Global_objects Generatorfunction"
 slug: "reference-global_objects-generatorfunction"
 path: "reference/global_objects/generatorfunction/index.md"
-wordCount: 299
+wordCount: 298
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "async"]
-lastModified: "2025-07-06T19:32:45.605Z"
+lastModified: "2025-08-02T14:03:23.541Z"
 ---
 
-
-{{JSRef}}
 
 The **`GeneratorFunction`** object provides methods for [generator functions](/en-US/docs/Web/JavaScript/Reference/Statements/function*). In JavaScript, every generator function is actually a `GeneratorFunction` object.
 

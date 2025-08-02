@@ -2,17 +2,15 @@
 title: "Reference Operators Remainder_assignment"
 slug: "reference-operators-remainder_assignment"
 path: "reference/operators/remainder_assignment/index.md"
-wordCount: 141
+wordCount: 140
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.888Z"
+lastModified: "2025-08-02T14:03:23.774Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **remainder assignment (`%=`)** operator performs [remainder](/en-US/docs/Web/JavaScript/Reference/Operators/Remainder) on the two operands and assigns the result to the left operand.
 

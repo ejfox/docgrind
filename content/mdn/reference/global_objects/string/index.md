@@ -2,17 +2,15 @@
 title: "Reference Global_objects String"
 slug: "reference-global_objects-string"
 path: "reference/global_objects/string/index.md"
-wordCount: 2875
+wordCount: 2874
 readingTime: 15
 codeBlocks: 15
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "dom", "api", "rest"]
-lastModified: "2025-07-06T19:32:45.763Z"
+lastModified: "2025-08-02T14:03:23.651Z"
 ---
 
-
-{{JSRef}}
 
 The **`String`** object is used to represent and manipulate a
 sequence of characters.

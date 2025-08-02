@@ -2,17 +2,15 @@
 title: "Reference Global_objects Infinity"
 slug: "reference-global_objects-infinity"
 path: "reference/global_objects/infinity/index.md"
-wordCount: 162
+wordCount: 161
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
-tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.606Z"
+tags: []
+lastModified: "2025-08-02T14:03:23.542Z"
 ---
 
-
-{{jsSidebar("Objects")}}
 
 The **`Infinity`** global property is a numeric value representing infinity.
 

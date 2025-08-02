@@ -2,17 +2,15 @@
 title: "Reference Errors Bad_super_call"
 slug: "reference-errors-bad_super_call"
 path: "reference/errors/bad_super_call/index.md"
-wordCount: 316
+wordCount: 315
 readingTime: 2
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["classes"]
-lastModified: "2025-07-06T19:32:45.503Z"
+lastModified: "2025-08-02T14:03:23.440Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "super() is only valid in derived class constructors" occurs when the {{jsxref("Operators/super", "super()")}} call is used somewhere that's not the body of a [constructor](/en-US/docs/Web/JavaScript/Reference/Classes/constructor) in a class with [`extends`](/en-US/docs/Web/JavaScript/Reference/Classes/extends) keyword.
 

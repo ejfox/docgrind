@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Segmenter Segment"
 slug: "reference-global_objects-intl-segmenter-segment"
 path: "reference/global_objects/intl/segmenter/segment/index.md"
-wordCount: 286
+wordCount: 285
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.633Z"
+lastModified: "2025-08-02T14:03:23.570Z"
 ---
 
-
-{{JSRef}}
 
 The **`segment()`** method of {{jsxref("Intl.Segmenter")}} instances segments a string according to the locale and granularity of this `Intl.Segmenter` object.
 

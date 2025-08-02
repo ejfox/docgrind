@@ -2,17 +2,15 @@
 title: "Reference Errors Deprecated_octal_literal"
 slug: "reference-errors-deprecated_octal_literal"
 path: "reference/errors/deprecated_octal_literal/index.md"
-wordCount: 236
+wordCount: 235
 readingTime: 2
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.509Z"
+lastModified: "2025-08-02T14:03:23.446Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript [strict mode](/en-US/docs/Web/JavaScript/Reference/Strict_mode)-only exception "0-prefixed octal literals are deprecated; use the "0o" prefix instead" occurs when deprecated octal literals (`0` followed by digits) are used.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Error Tostring"
 slug: "reference-global_objects-error-tostring"
 path: "reference/global_objects/error/tostring/index.md"
-wordCount: 220
+wordCount: 219
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.595Z"
+lastModified: "2025-08-02T14:03:23.531Z"
 ---
 
-
-{{JSRef}}
 
 The **`toString()`** method of {{jsxref("Error")}} instances returns a string representing this error.
 

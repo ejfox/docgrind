@@ -2,17 +2,15 @@
 title: "Reference Global_objects Object"
 slug: "reference-global_objects-object"
 path: "reference/global_objects/object/index.md"
-wordCount: 2345
+wordCount: 2344
 readingTime: 12
 codeBlocks: 11
 difficulty: "advanced"
 category: "Reference"
 tags: ["variables", "functions", "arrays", "objects", "loops"]
-lastModified: "2025-07-06T19:32:45.684Z"
+lastModified: "2025-08-02T14:03:23.610Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object`** type represents one of [JavaScript's data types](/en-US/docs/Web/JavaScript/Guide/Data_structures). It is used to store various keyed collections and more complex entities. Objects can be created using the {{jsxref("Object/Object", "Object()")}} constructor or the [object initializer / literal syntax](/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer).
 

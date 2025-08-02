@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Localecompare"
 slug: "reference-global_objects-string-localecompare"
 path: "reference/global_objects/string/localecompare/index.md"
-wordCount: 786
+wordCount: 785
 readingTime: 4
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects", "api", "rest"]
-lastModified: "2025-07-06T19:32:45.765Z"
+lastModified: "2025-08-02T14:03:23.653Z"
 ---
 
-
-{{JSRef}}
 
 The **`localeCompare()`** method of {{jsxref("String")}} values returns a number indicating whether this string comes before, or after, or is the same as the given string in sort order. In implementations with [`Intl.Collator` API](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator) support, this method delegates to `Intl.Collator`.
 

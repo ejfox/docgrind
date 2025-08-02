@@ -2,17 +2,15 @@
 title: "Reference Global_objects Isnan"
 slug: "reference-global_objects-isnan"
 path: "reference/global_objects/isnan/index.md"
-wordCount: 665
+wordCount: 664
 readingTime: 4
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.638Z"
+lastModified: "2025-08-02T14:03:23.573Z"
 ---
 
-
-{{jsSidebar("Objects")}}
 
 The **`isNaN()`** function determines whether a value is {{jsxref("NaN")}}, first converting the value to a number if necessary. Because coercion inside the `isNaN()` function can be [surprising](#description), you may prefer to use {{jsxref("Number.isNaN()")}}.
 

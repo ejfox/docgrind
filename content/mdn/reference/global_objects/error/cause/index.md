@@ -2,17 +2,15 @@
 title: "Reference Global_objects Error Cause"
 slug: "reference-global_objects-error-cause"
 path: "reference/global_objects/error/cause/index.md"
-wordCount: 350
+wordCount: 349
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.593Z"
+lastModified: "2025-08-02T14:03:23.529Z"
 ---
 
-
-{{JSRef}}
 
 The **`cause`** data property of an {{jsxref("Error")}} instance indicates the specific original cause of the error.
 

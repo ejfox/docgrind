@@ -2,17 +2,15 @@
 title: "Reference Global_objects Map Get"
 slug: "reference-global_objects-map-get"
 path: "reference/global_objects/map/get/index.md"
-wordCount: 235
+wordCount: 234
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.650Z"
+lastModified: "2025-08-02T14:03:23.580Z"
 ---
 
-
-{{JSRef}}
 
 The **`get()`** method of {{jsxref("Map")}} instances returns a specified element from this map. If the
 value that is associated to the provided key is an object, then you will get a
@@ -22,13 +20,13 @@ modify it inside the `Map` object.
 {{InteractiveExample("JavaScript Demo: Map.prototype.get()")}}
 
 ```js interactive-example
-const map1 = new Map();
-map1.set("bar", "foo");
+const map = new Map();
+map.set("bar", "foo");
 
-console.log(map1.get("bar"));
+console.log(map.get("bar"));
 // Expected output: "foo"
 
-console.log(map1.get("baz"));
+console.log(map.get("baz"));
 // Expected output: undefined
 ```
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Promise Race"
 slug: "reference-global_objects-promise-race"
 path: "reference/global_objects/promise/race/index.md"
-wordCount: 1200
+wordCount: 1199
 readingTime: 6
 codeBlocks: 11
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "async", "promises", "dom", "api"]
-lastModified: "2025-07-06T19:32:45.693Z"
+lastModified: "2025-08-02T14:03:23.619Z"
 ---
 
-
-{{JSRef}}
 
 The **`Promise.race()`** static method takes an iterable of promises as input and returns a single {{jsxref("Promise")}}. This returned promise settles with the eventual state of the first promise that settles.
 

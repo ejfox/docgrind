@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array Of"
 slug: "reference-global_objects-array-of"
 path: "reference/global_objects/array/of/index.md"
-wordCount: 407
+wordCount: 406
 readingTime: 3
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.548Z"
+lastModified: "2025-08-02T14:03:23.483Z"
 ---
 
-
-{{JSRef}}
 
 The **`Array.of()`** static method creates a new `Array`
 instance from a variable number of arguments, regardless of number or type of the

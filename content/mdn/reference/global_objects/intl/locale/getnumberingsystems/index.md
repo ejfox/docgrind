@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Locale Getnumberingsystems"
 slug: "reference-global_objects-intl-locale-getnumberingsystems"
 path: "reference/global_objects/intl/locale/getnumberingsystems/index.md"
-wordCount: 207
+wordCount: 206
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.621Z"
+lastModified: "2025-08-02T14:03:23.556Z"
 ---
 
-
-{{JSRef}}
 
 The **`getNumberingSystems()`** method of {{jsxref("Intl.Locale")}} instances returns a list of one or more unique [numbering system](https://en.wikipedia.org/wiki/Numeral_system) identifiers for this locale.
 

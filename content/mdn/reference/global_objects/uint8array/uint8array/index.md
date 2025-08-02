@@ -2,17 +2,15 @@
 title: "Reference Global_objects Uint8array Uint8array"
 slug: "reference-global_objects-uint8array-uint8array"
 path: "reference/global_objects/uint8array/uint8array/index.md"
-wordCount: 198
+wordCount: 197
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.860Z"
+lastModified: "2025-08-02T14:03:23.747Z"
 ---
 
-
-{{JSRef}}
 
 The **`Uint8Array()`** constructor creates {{jsxref("Uint8Array")}} objects. The contents are initialized to `0` unless initialization data is explicitly provided.
 

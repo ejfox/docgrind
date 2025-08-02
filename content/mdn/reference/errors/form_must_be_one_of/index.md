@@ -2,17 +2,15 @@
 title: "Reference Errors Form_must_be_one_of"
 slug: "reference-errors-form_must_be_one_of"
 path: "reference/errors/form_must_be_one_of/index.md"
-wordCount: 143
+wordCount: 142
 readingTime: 1
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.511Z"
+lastModified: "2025-08-02T14:03:23.447Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "form must be one of 'NFC', 'NFD', 'NFKC', or 'NFKD'" occurs when an unrecognized string is passed to the {{jsxref("String.prototype.normalize()")}} method.
 

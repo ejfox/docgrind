@@ -2,17 +2,15 @@
 title: "Reference Global_objects Regexp Test"
 slug: "reference-global_objects-regexp-test"
 path: "reference/global_objects/regexp/test/index.md"
-wordCount: 536
+wordCount: 535
 readingTime: 3
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.746Z"
+lastModified: "2025-08-02T14:03:23.638Z"
 ---
 
-
-{{JSRef}}
 
 The **`test()`** method of {{jsxref("RegExp")}} instances executes a search with this regular expression for a match between a regular expression and a specified string. Returns `true` if there is a match; `false` otherwise.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number Epsilon"
 slug: "reference-global_objects-number-epsilon"
 path: "reference/global_objects/number/epsilon/index.md"
-wordCount: 614
+wordCount: 613
 readingTime: 4
 codeBlocks: 5
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.671Z"
+lastModified: "2025-08-02T14:03:23.597Z"
 ---
 
-
-{{JSRef}}
 
 The **`Number.EPSILON`** static data property represents the difference between 1 and the smallest floating point number greater than 1.
 

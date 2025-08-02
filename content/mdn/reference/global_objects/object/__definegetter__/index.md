@@ -8,11 +8,11 @@ codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "api"]
-lastModified: "2025-07-06T19:32:45.677Z"
+lastModified: "2025-08-02T14:03:23.602Z"
 ---
 
 
-{{JSRef}}{{Deprecated_Header}}
+{{Deprecated_Header}}
 
 > [!NOTE]
 > This feature is deprecated in favor of defining [getters](/en-US/docs/Web/JavaScript/Reference/Functions/get) using the [object initializer syntax](/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer) or the {{jsxref("Object.defineProperty()")}} API. This method's behavior is only specified for web compatibility, and is not required to be implemented in any platform. It may not work everywhere.

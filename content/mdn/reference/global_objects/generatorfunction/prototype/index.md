@@ -2,17 +2,15 @@
 title: "Reference Global_objects Generatorfunction Prototype"
 slug: "reference-global_objects-generatorfunction-prototype"
 path: "reference/global_objects/generatorfunction/prototype/index.md"
-wordCount: 301
+wordCount: 300
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "async"]
-lastModified: "2025-07-06T19:32:45.605Z"
+lastModified: "2025-08-02T14:03:23.541Z"
 ---
 
-
-{{JSRef}}
 
 The **`prototype`** property of `GeneratorFunction.prototype` is shared by all generator functions. Its value is [`Generator.prototype`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator). Each generator function created with the `function*` syntax or the `GeneratorFunction()` constructor also has its own `prototype` property, whose prototype is `GeneratorFunction.prototype.prototype`. When the generator function is called, its `prototype` property becomes the prototype of the returned generator object.
 

@@ -8,11 +8,11 @@ codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.828Z"
+lastModified: "2025-08-02T14:03:23.714Z"
 ---
 
 
-{{JSRef}}{{SeeCompatTable}}
+{{SeeCompatTable}}
 
 The **`month`** accessor property of {{jsxref("Temporal.PlainYearMonth")}} instances returns a positive integer representing the 1-based month index in the year of this year-month. The first month of this year is `1`, and the last month is the {{jsxref("Temporal/PlainYearMonth/monthsInYear", "monthsInYear")}}. It is [calendar](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal#calendars)-dependent.
 

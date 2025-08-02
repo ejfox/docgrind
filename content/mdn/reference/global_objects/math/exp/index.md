@@ -2,17 +2,15 @@
 title: "Reference Global_objects Math Exp"
 slug: "reference-global_objects-math-exp"
 path: "reference/global_objects/math/exp/index.md"
-wordCount: 216
+wordCount: 215
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.661Z"
+lastModified: "2025-08-02T14:03:23.588Z"
 ---
 
-
-{{JSRef}}
 
 The **`Math.exp()`** static method returns [e](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/E) raised to the power of a number. That is
 

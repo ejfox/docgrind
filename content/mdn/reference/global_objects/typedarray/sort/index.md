@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Sort"
 slug: "reference-global_objects-typedarray-sort"
 path: "reference/global_objects/typedarray/sort/index.md"
-wordCount: 361
+wordCount: 360
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays"]
-lastModified: "2025-07-06T19:32:45.855Z"
+lastModified: "2025-08-02T14:03:23.740Z"
 ---
 
-
-{{JSRef}}
 
 The **`sort()`** method of {{jsxref("TypedArray")}} instances sorts the elements of a typed array _[in place](https://en.wikipedia.org/wiki/In-place_algorithm)_ and returns the reference to the same typed array, now sorted. This method has the same algorithm as {{jsxref("Array.prototype.sort()")}}, except that it sorts the values numerically instead of as strings by default.
 

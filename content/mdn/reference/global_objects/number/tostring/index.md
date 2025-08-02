@@ -2,17 +2,15 @@
 title: "Reference Global_objects Number Tostring"
 slug: "reference-global_objects-number-tostring"
 path: "reference/global_objects/number/tostring/index.md"
-wordCount: 729
+wordCount: 728
 readingTime: 4
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.677Z"
+lastModified: "2025-08-02T14:03:23.602Z"
 ---
 
-
-{{JSRef}}
 
 The **`toString()`** method of {{jsxref("Number")}} values returns a string representing this number value.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Reflect Isextensible"
 slug: "reference-global_objects-reflect-isextensible"
 path: "reference/global_objects/reflect/isextensible/index.md"
-wordCount: 288
+wordCount: 287
 readingTime: 2
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.725Z"
+lastModified: "2025-08-02T14:03:23.629Z"
 ---
 
-
-{{JSRef}}
 
 The **`Reflect.isExtensible()`** static method is like {{jsxref("Object.isExtensible()")}}. It determines if an object is extensible (whether it can have new properties added to it).
 

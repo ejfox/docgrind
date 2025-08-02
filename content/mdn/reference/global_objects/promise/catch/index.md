@@ -2,28 +2,26 @@
 title: "Reference Global_objects Promise Catch"
 slug: "reference-global_objects-promise-catch"
 path: "reference/global_objects/promise/catch/index.md"
-wordCount: 824
+wordCount: 823
 readingTime: 5
 codeBlocks: 8
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "async", "promises", "api"]
-lastModified: "2025-07-06T19:32:45.691Z"
+lastModified: "2025-08-02T14:03:23.617Z"
 ---
 
-
-{{JSRef}}
 
 The **`catch()`** method of {{jsxref("Promise")}} instances schedules a function to be called when the promise is rejected. It immediately returns another {{jsxref("Promise")}} object, allowing you to [chain](/en-US/docs/Web/JavaScript/Guide/Using_promises#chaining) calls to other promise methods. It is a shortcut for {{jsxref("Promise/then", "then(undefined, onRejected)")}}.
 
 {{InteractiveExample("JavaScript Demo: Promise.prototype.catch()")}}
 
 ```js interactive-example
-const promise1 = new Promise((resolve, reject) => {
+const promise = new Promise((resolve, reject) => {
   throw new Error("Uh-oh!");
 });
 
-promise1.catch((error) => {
+promise.catch((error) => {
   console.error(error);
 });
 // Expected output: Error: Uh-oh!

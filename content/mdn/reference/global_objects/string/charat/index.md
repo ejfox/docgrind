@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Charat"
 slug: "reference-global_objects-string-charat"
 path: "reference/global_objects/string/charat/index.md"
-wordCount: 648
+wordCount: 647
 readingTime: 4
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "api", "spread"]
-lastModified: "2025-07-06T19:32:45.758Z"
+lastModified: "2025-08-02T14:03:23.648Z"
 ---
 
-
-{{JSRef}}
 
 The **`charAt()`** method of {{jsxref("String")}} values returns a new string consisting of the single UTF-16 code unit at the given index.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Supportedvaluesof"
 slug: "reference-global_objects-intl-supportedvaluesof"
 path: "reference/global_objects/intl/supportedvaluesof/index.md"
-wordCount: 3117
+wordCount: 3116
 readingTime: 16
 codeBlocks: 6
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects", "api"]
-lastModified: "2025-07-06T19:32:45.637Z"
+lastModified: "2025-08-02T14:03:23.572Z"
 ---
 
-
-{{JSRef}}
 
 The **`Intl.supportedValuesOf()`** static method returns an array containing the supported calendar, collation, currency, numbering systems, or unit values supported by the implementation.
 

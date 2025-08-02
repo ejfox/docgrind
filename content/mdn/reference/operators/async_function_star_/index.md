@@ -2,17 +2,15 @@
 title: "Reference Operators Async_function_star_"
 slug: "reference-operators-async_function_star_"
 path: "reference/operators/async_function_star_/index.md"
-wordCount: 408
+wordCount: 407
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "async"]
-lastModified: "2025-07-06T19:32:45.868Z"
+lastModified: "2025-08-02T14:03:23.757Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **`async function*`** keywords can be used to define an async generator function inside an expression.
 

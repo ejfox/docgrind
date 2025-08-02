@@ -2,17 +2,15 @@
 title: "Reference Global_objects Function Function"
 slug: "reference-global_objects-function-function"
 path: "reference/global_objects/function/function/index.md"
-wordCount: 787
+wordCount: 786
 readingTime: 4
 codeBlocks: 7
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "objects", "events", "destructuring", "rest"]
-lastModified: "2025-07-06T19:32:45.602Z"
+lastModified: "2025-08-02T14:03:23.538Z"
 ---
 
-
-{{JSRef}}
 
 The **`Function()`** constructor creates {{jsxref("Function")}} objects. Calling the constructor directly can create functions dynamically, but suffers from security and similar (but far less significant) performance issues as {{jsxref("Global_Objects/eval", "eval()")}}. However, unlike `eval` (which may have access to the local scope), the `Function` constructor creates functions which execute in the global scope only.
 

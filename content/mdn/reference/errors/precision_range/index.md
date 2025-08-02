@@ -2,17 +2,15 @@
 title: "Reference Errors Precision_range"
 slug: "reference-errors-precision_range"
 path: "reference/errors/precision_range/index.md"
-wordCount: 206
+wordCount: 205
 readingTime: 2
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.522Z"
+lastModified: "2025-08-02T14:03:23.458Z"
 ---
 
-
-{{jsSidebar("Errors")}}
 
 The JavaScript exception "precision is out of range" occurs when a number that's
 outside of the allowed range was passed into `toExponential`, `toFixed`, or `toPrecision`.

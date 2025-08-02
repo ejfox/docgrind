@@ -2,17 +2,15 @@
 title: "Reference Global_objects Array"
 slug: "reference-global_objects-array"
 path: "reference/global_objects/array/index.md"
-wordCount: 6319
+wordCount: 6318
 readingTime: 32
 codeBlocks: 49
 difficulty: "advanced"
 category: "Reference"
 tags: ["functions", "arrays", "objects", "loops", "async"]
-lastModified: "2025-07-06T19:32:45.545Z"
+lastModified: "2025-08-02T14:03:23.481Z"
 ---
 
-
-{{JSRef}}
 
 The **`Array`** object, as with arrays in other programming languages, enables [storing a collection of multiple items under a single variable name](/en-US/docs/Learn_web_development/Core/Scripting/Arrays), and has members for [performing common array operations](#examples).
 

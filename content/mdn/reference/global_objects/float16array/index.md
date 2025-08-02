@@ -2,17 +2,15 @@
 title: "Reference Global_objects Float16array"
 slug: "reference-global_objects-float16array"
 path: "reference/global_objects/float16array/index.md"
-wordCount: 379
+wordCount: 378
 readingTime: 2
 codeBlocks: 1
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "api"]
-lastModified: "2025-07-06T19:32:45.598Z"
+lastModified: "2025-08-02T14:03:23.534Z"
 ---
 
-
-{{JSRef}}
 
 The **`Float16Array`** typed array represents an array of 16-bit floating point numbers in the platform byte order. If control over byte order is needed, use {{jsxref("DataView")}} instead. The contents are initialized to `0` unless initialization data is explicitly provided. Once established, you can reference elements in the array using the object's methods, or using standard array index syntax (that is, using bracket notation).
 

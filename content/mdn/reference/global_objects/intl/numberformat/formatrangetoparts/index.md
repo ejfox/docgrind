@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Numberformat Formatrangetoparts"
 slug: "reference-global_objects-intl-numberformat-formatrangetoparts"
 path: "reference/global_objects/intl/numberformat/formatrangetoparts/index.md"
-wordCount: 544
+wordCount: 543
 readingTime: 3
 codeBlocks: 3
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.625Z"
+lastModified: "2025-08-02T14:03:23.562Z"
 ---
 
-
-{{JSRef}}
 
 The **`formatRangeToParts()`** method of {{jsxref("Intl.NumberFormat")}} instances returns an {{jsxref("Array")}} of objects containing the locale-specific tokens from which it is possible to build custom strings while preserving the locale-specific parts. This makes it possible to provide locale-aware custom formatting ranges of number strings.
 

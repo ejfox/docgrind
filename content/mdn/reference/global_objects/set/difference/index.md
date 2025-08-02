@@ -2,17 +2,15 @@
 title: "Reference Global_objects Set Difference"
 slug: "reference-global_objects-set-difference"
 path: "reference/global_objects/set/difference/index.md"
-wordCount: 349
+wordCount: 348
 readingTime: 2
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.748Z"
+lastModified: "2025-08-02T14:03:23.640Z"
 ---
 
-
-{{JSRef}}
 
 The **`difference()`** method of {{jsxref("Set")}} instances takes a set and returns a new set containing elements in this set but not in the given set.
 

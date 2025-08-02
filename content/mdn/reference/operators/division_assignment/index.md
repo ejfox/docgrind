@@ -2,17 +2,15 @@
 title: "Reference Operators Division_assignment"
 slug: "reference-operators-division_assignment"
 path: "reference/operators/division_assignment/index.md"
-wordCount: 203
+wordCount: 202
 readingTime: 2
 codeBlocks: 5
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.874Z"
+lastModified: "2025-08-02T14:03:23.761Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **division assignment (`/=`)** operator performs [division](/en-US/docs/Web/JavaScript/Reference/Operators/Division) on the two operands and assigns the result to the left operand.
 

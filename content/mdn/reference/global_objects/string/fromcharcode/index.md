@@ -2,17 +2,15 @@
 title: "Reference Global_objects String Fromcharcode"
 slug: "reference-global_objects-string-fromcharcode"
 path: "reference/global_objects/string/fromcharcode/index.md"
-wordCount: 427
+wordCount: 426
 readingTime: 3
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.761Z"
+lastModified: "2025-08-02T14:03:23.650Z"
 ---
 
-
-{{JSRef}}
 
 The **`String.fromCharCode()`** static method returns a string created from the specified sequence of UTF-16 code units.
 

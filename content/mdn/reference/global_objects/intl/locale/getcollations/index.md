@@ -2,17 +2,15 @@
 title: "Reference Global_objects Intl Locale Getcollations"
 slug: "reference-global_objects-intl-locale-getcollations"
 path: "reference/global_objects/intl/locale/getcollations/index.md"
-wordCount: 198
+wordCount: 197
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.620Z"
+lastModified: "2025-08-02T14:03:23.556Z"
 ---
 
-
-{{JSRef}}
 
 The **`getCollations()`** method of {{jsxref("Intl.Locale")}} instances returns a list of one or more [collation types](https://www.unicode.org/reports/tr35/tr35-collation.html#CLDR_collation) for this locale.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Typedarray Length"
 slug: "reference-global_objects-typedarray-length"
 path: "reference/global_objects/typedarray/length/index.md"
-wordCount: 190
+wordCount: 189
 readingTime: 1
 codeBlocks: 2
 difficulty: "advanced"
 category: "Reference"
 tags: ["arrays", "objects"]
-lastModified: "2025-07-06T19:32:45.853Z"
+lastModified: "2025-08-02T14:03:23.738Z"
 ---
 
-
-{{JSRef}}
 
 The **`length`** accessor property of {{jsxref("TypedArray")}} instances returns the length (in elements) of this typed array.
 

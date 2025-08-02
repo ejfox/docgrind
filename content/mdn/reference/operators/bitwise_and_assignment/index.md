@@ -2,17 +2,15 @@
 title: "Reference Operators Bitwise_and_assignment"
 slug: "reference-operators-bitwise_and_assignment"
 path: "reference/operators/bitwise_and_assignment/index.md"
-wordCount: 136
+wordCount: 135
 readingTime: 1
 codeBlocks: 3
 difficulty: "intermediate"
 category: "Reference"
 tags: []
-lastModified: "2025-07-06T19:32:45.869Z"
+lastModified: "2025-08-02T14:03:23.757Z"
 ---
 
-
-{{jsSidebar("Operators")}}
 
 The **bitwise AND assignment (`&=`)** operator performs [bitwise AND](/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_AND) on the two operands and assigns the result to the left operand.
 

@@ -2,17 +2,15 @@
 title: "Reference Global_objects Object Getprototypeof"
 slug: "reference-global_objects-object-getprototypeof"
 path: "reference/global_objects/object/getprototypeof/index.md"
-wordCount: 176
+wordCount: 175
 readingTime: 1
 codeBlocks: 4
 difficulty: "advanced"
 category: "Reference"
 tags: ["objects"]
-lastModified: "2025-07-06T19:32:45.683Z"
+lastModified: "2025-08-02T14:03:23.608Z"
 ---
 
-
-{{JSRef}}
 
 The **`Object.getPrototypeOf()`** static method returns the prototype
 (i.e., the value of the internal `[[Prototype]]` property) of the specified
@@ -21,10 +19,10 @@ object.
 {{InteractiveExample("JavaScript Demo: Object.getPrototypeOf()", "shorter")}}
 
 ```js interactive-example
-const prototype1 = {};
-const object1 = Object.create(prototype1);
+const prototype = {};
+const object = Object.create(prototype);
 
-console.log(Object.getPrototypeOf(object1) === prototype1);
+console.log(Object.getPrototypeOf(object) === prototype);
 // Expected output: true
 ```
 
