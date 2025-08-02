@@ -2,6 +2,16 @@
 
 A gamified reading experience for MDN JavaScript documentation with progress tracking, exercises, and streak management.
 
+## ⚠️ PRODUCTION STATUS: BROKEN
+
+**The content loading is currently broken in production.** The app works in development but fails in production due to Nuxt Content API route issues.
+
+**Error:** `GET /api/_content/query/*.json` returns 404  
+**Symptom:** "Failed to Load Content" on all reading pages  
+**Cause:** Nuxt Content's query API doesn't work properly in production builds  
+
+**Workaround:** Run in development mode (`npm run dev`) until fixed.
+
 ## 🎯 What It Does
 
 DocGrind transforms reading MDN docs into an engaging, trackable learning experience:
